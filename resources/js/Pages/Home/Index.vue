@@ -9,7 +9,7 @@
         </div>
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
-            <div class="-mt-32 md:-mt-56 flex flex-col items-center">
+            <div class="-mt-40 md:-mt-56 flex flex-col items-center">
                 <img :src="banner" class="w-full md:w-1/3" alt="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
@@ -22,7 +22,7 @@
 
         </div>
 
-        <div class="flex justify-center mt-4 mb-8">
+        <div class="flex justify-center my-8">
             <button class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                 CONTACT US
             </button>
@@ -52,7 +52,7 @@
         <!--        </div>-->
 
         <!--    DESKTOP SERVICES    -->
-        <div class="flex flex-wrap justify-center space-x-2 mt-32 hidden md:flex">
+        <div class="flex flex-wrap justify-center space-x-2 mt-8 hidden md:flex">
           <span
               class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
             Web Development
@@ -85,12 +85,15 @@ Product Design
                     <div
                         class="w-48 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://moodle.essex.ac.uk/">
-                            <img :src="web_dev" class="inline-block px-2 py-2 lg:px-4 lg:py-4" alt="plus">
+                            <div class="p-8">
+                                <img :src="web_icon" class="inline-block px-2 py-2 lg:px-4 lg:py-4" alt="plus">
+                            </div>
                         </a>
 
                         <div class="flex justify-center">
-                            <h2 class="flex  text-xl" style="font-family: Poppins,serif">
-                                Web Development
+                            <h2 class="flex text-center text-xl" style="font-family: Poppins,serif">
+                                Web <br>
+                                Development
                             </h2>
                         </div>
                     </div>
@@ -99,14 +102,19 @@ Product Design
                 <!--                MOBILE APP DEV      -->
                 <div class="inline-block px-2">
                     <div
-                        class="w-64 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        class="w-48 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://leap.essex.ac.uk/student" class="">
-                            <img :src="app_dev" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl " alt="plus">
+                            <div class="p-8">
+                                <img :src="app_icon" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="plus">
+                            </div>
                         </a>
 
                         <div class="flex justify-center">
-                            <h2 class="flex  text-xl" style="font-family: Poppins,serif">
-                                App Development
+                            <h2 class="flex text-center  text-xl" style="font-family: Poppins,serif">
+                                App
+                                <br>
+                                Development
                             </h2>
                         </div>
                     </div>
@@ -115,23 +123,33 @@ Product Design
                 <!--                MOBILE PRODUCT DESIGN       -->
                 <div class="inline-block px-2">
                     <div
-                        class="w-64 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        class="w-48 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://faser.essex.ac.uk/">
-                            <img :src="product_design" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                 alt="plus">
+                            <div class="p-8">
+                                <img :src="product_icon" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="plus">
+                            </div>
                         </a>
 
                         <div class="flex justify-center">
-                            <h2 class="flex  text-xl" style="font-family: Poppins,serif">
-                                Product Design
+                            <h2 class="flex text-center text-xl" style="font-family: Poppins,serif">
+                                Product
+                                <br>
+                                Design
                             </h2>
                         </div>
                     </div>
                 </div>
 
+                <div class=" px-2">
+                    <div
+                        class="w-48 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
+                             SEE ALL
+                    </div>
+                </div>
+
             </div>
         </div>
-
 
 
         <!--WEB DEV -->
@@ -274,6 +292,9 @@ import web_dev from "/img/web-dev.webp";
 import app_dev from "/img/app-dev.webp";
 import banner from "/img/banner.webp";
 import product_design from "/img/product-design.webp";
+import app_icon from "/img/mobile/app-icon.png";
+import web_icon from "/img/mobile/web-icon.png";
+import product_icon from "/img/mobile/product-icon.png";
 import 'tw-elements';
 
 export default {
@@ -288,6 +309,10 @@ export default {
             app_dev: app_dev,
             product_design: product_design,
             banner: banner,
+
+            product_icon: product_icon,
+            app_icon: app_icon,
+            web_icon: web_icon,
         }
     }
 }

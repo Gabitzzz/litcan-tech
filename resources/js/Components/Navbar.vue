@@ -4,7 +4,8 @@
            :class="{ 'scrolled shadow-md': !view.atTopOfPage }"
            class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">
 
-           <img :src="logo_bg" alt="" class="w-1/6 md:w-1/12">
+<!--           <img :src="logo_bg" alt="" class="w-1/6 md:w-1/12 hidden md:block">-->
+           <img :src="logo_250" alt="" class="w-1/6 md:w-1/12">
            <div class="hidden md:block">
                <ul class="flex text-sm items-center">
                    <li class="px-4">
@@ -35,13 +36,17 @@
 </template>
 
 <script>
-import logo_bg from "/img/img.png";
+import logo_bg from "/img/logo_bg.png";
+import logo_phone from "/img/logo/logo_phone.png";
+import logo_250 from "/img/logo/logo_250.png";
 
 export default {
     name: "Navbar",
     data () {
         return {
             logo_bg: logo_bg,
+            logo_phone: logo_phone,
+            logo_250: logo_250,
             view: {
                 atTopOfPage: true
             }
