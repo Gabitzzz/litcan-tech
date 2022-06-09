@@ -14,6 +14,7 @@
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
                     The Powerhouse of
+                    <br class="hidden md:block">
                     Innovative Products
                 </h1>
 
@@ -51,29 +52,35 @@
         <!--        </div>-->
 
         <!--    DESKTOP SERVICES    -->
-        <div class="mt-24 md:mx-60  hidden md:block md:flex justify-between text-md md:text-lg"
-             style="font-family: Poppins,serif; font-weight: 500;">
-            <h2 class="mx-4 my-2 shadow-lg rounded-full px-8 py-2">
-                Web Development
-            </h2>
-            <h2 class="mx-4 my-2 shadow-lg rounded-full px-8 py-2">
-                App Development
-            </h2>
-            <h2 class="mx-4 my-2 shadow-lg rounded-full px-8 py-2">
-                Product Design
-            </h2>
+        <div class="flex flex-wrap justify-center space-x-2 mt-32 hidden md:flex">
+          <span
+              class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+            Web Development
+          </span>
 
+
+            <span
+                class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+            App Development
+          </span>
+
+            <span
+                class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+Product Design
+          </span>
         </div>
 
-        <div class="flex justify-center my-8 hidden sm:block">
+        <div class="flex justify-center my-8 hidden sm:flex">
             <hr width="75%">
         </div>
 
-        <!--    MOBILE WEB DEV  -->
+
+        <!--    MOBILE SERVICES     -->
         <div class="sm:hidden">
             <div
                 id="scrollContainer"
                 class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+                <!--    MOBILE WEB DEV  -->
                 <div class="inline-block px-4">
                     <div
                         class="w-48 h-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -124,6 +131,7 @@
 
             </div>
         </div>
+
 
 
         <!--WEB DEV -->
@@ -217,7 +225,7 @@
 
 
         <!--        PRODUCT DESIGN-->
-        <div class="mt-32 md:flex items-center md:mx-48">
+        <div class="mt-32 md:flex items-center md:mx-32">
             <div class="mx-10">
                 <div class="flex justify-center">
                     <img :src="product_design" class="w-full md:hidden" alt="">
@@ -262,10 +270,11 @@
 <script>
 import Navbar from "@/Components/Navbar";
 import logo_bg from "/img/img_3.png";
-import web_dev from "/img/web-dev.svg";
-import app_dev from "/img/app-dev.svg";
-import banner from "/img/banner.svg";
-import product_design from "/img/product-design.svg";
+import web_dev from "/img/web-dev.webp";
+import app_dev from "/img/app-dev.webp";
+import banner from "/img/banner.webp";
+import product_design from "/img/product-design.webp";
+import 'tw-elements';
 
 export default {
     name: "Index",

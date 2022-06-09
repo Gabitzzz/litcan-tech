@@ -5,7 +5,29 @@
            class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">
 
            <img :src="logo_bg" alt="" class="w-1/6 md:w-1/12">
-           <h1>hi</h1>
+           <div class="hidden md:block">
+               <ul class="flex text-sm items-center">
+                   <li class="px-4">
+                       HOME
+                   </li>
+                   <li class="px-4">
+                       SERVICES
+                   </li>
+
+                   <li class="px-4">
+                       PORTFOLIO
+                   </li>
+
+                   <li class="px-4">
+                       BLOG
+                   </li>
+
+                   <li class="mx-4 px-4 py-1 text-white bg-red-600 rounded-full">
+                       CONTACT
+                   </li>
+               </ul>
+           </div>
+
        </nav>
 
 
