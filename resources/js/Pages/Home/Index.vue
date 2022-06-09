@@ -10,7 +10,7 @@
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-32 md:-mt-56 flex flex-col items-center">
-                <img :src="app_dev" class="w-full md:w-1/3" alt="">
+                <img :src="banner" class="w-full md:w-1/3" alt="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
                     The Powerhouse of
@@ -139,7 +139,7 @@ Product Design
             <div class="mx-10">
 
                 <div class="flex justify-center">
-                    <img :src="app_dev" class="md:w-1/3 md:hidden" alt="">
+                    <img :src="web_dev" class="md:w-1/3 md:hidden" alt="">
                 </div>
 
                 <div>
@@ -174,7 +174,7 @@ Product Design
                 </div>
             </div>
 
-            <img :src="app_dev" class="hidden md:block w-1/3" alt="">
+            <img :src="web_dev" class="hidden md:block w-1/3" alt="">
         </div>
 
         <!--        APP DEV -->
@@ -228,7 +228,7 @@ Product Design
         <div class="mt-32 md:flex items-center md:mx-32">
             <div class="mx-10">
                 <div class="flex justify-center">
-                    <img :src="app_dev" class="w-full md:hidden" alt="">
+                    <img :src="product_design" class="w-full md:hidden" alt="">
 
                 </div>
 
@@ -260,7 +260,7 @@ Product Design
                 </div>
             </div>
 
-            <img :src="app_dev" class="hidden md:block w-1/2" alt="">
+            <img :src="product_design" class="hidden md:block w-1/2" alt="">
         </div>
 
 
@@ -271,7 +271,7 @@ Product Design
 import Navbar from "@/Components/Navbar";
 import logo_bg from "/img/img_3.png";
 import web_dev from "/img/web-dev.webp";
-import app_dev from "/img/mobile-app-dev.png";
+import app_dev from "/img/app-dev.webp";
 import banner from "/img/banner.webp";
 import product_design from "/img/product-design.webp";
 import 'tw-elements';
