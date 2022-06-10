@@ -22,6 +22,8 @@
 
         @env ('local')
             <script src="http://localhost:8080/js/bundle.js"></script>
+            <script src="/node_modules/dist/js/index.min.js"></script>
+
         @endenv
     </body>
 </html>
