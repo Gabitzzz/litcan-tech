@@ -13,7 +13,7 @@
         </div>
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
-            <div class="-mt-40 md:-mt-80 flex flex-col items-center">
+            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
                 <img :src="banner" class="w-full md:w-1/3" alt="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
@@ -135,7 +135,7 @@ Product Design
         </div>
 
 
-        <div class="mx-10 md:mx-40">
+        <div class="mx-10 lg:mx-40">
             <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"
                 class="text-center text-2xl my-16">
                 We are here to help you maximize your business
@@ -144,8 +144,8 @@ Product Design
         </div>
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center md:mx-32">
-            <div class="mx-10">
+        <div class="mt-32 md:flex items-center mx-10 lg:mx-32">
+            <div class="">
 
                 <div class="flex justify-center">
                     <img :src="web_dev" class="md:w-1/3 md:hidden" alt="">
@@ -153,9 +153,9 @@ Product Design
 
                 <div>
                     <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
-                        Building
+
                         <span class="text-red-600">Websites</span>
-                        that <br> create more conversions
+                        that create <br> more conversions
 
                         <!--                        Web Development-->
                     </h2>
@@ -191,12 +191,10 @@ Product Design
         </div>
 
 
-        <div class="md:mx-40 mt-16">
-            <div class="mx-10 md:mx-32 md:flex items-center justify-between">
+        <div class="lg:mx-40 mt-16">
+            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
 
-                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
-
-                <div>
+                <div class="md:hidden">
                     <p style="font-family: 'Poppins', sans-serif;"
                        class=" text-4xl mt-16 md:mt-0 font-bold">
                         The <span class="text-red-600">3</span> layers of a great product
@@ -204,6 +202,21 @@ Product Design
 
                     <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
 
+                    </div>
+                </div>
+
+                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+
+                <div>
+                    <div class="hidden md:block">
+                        <p style="font-family: 'Poppins', sans-serif;"
+                           class=" text-4xl mt-16 md:mt-0 font-bold">
+                            The <span class="text-red-600">3</span> layers of a great product
+                        </p>
+
+                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                        </div>
                     </div>
 
 
@@ -223,6 +236,19 @@ Product Design
 
             </div>
 
+
+        </div>
+
+
+        <div class="bg-gray-100 py-10 mt-8">
+            <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
+
+                Our latest
+                <span class="text-red-600">Partners</span>
+
+                <!--                        Web Development-->
+            </h2>
+
             <div class="flex justify-center mt-8 md:mt-16">
                 <button class="text-red-600 text-sm md:text-md border  rounded-full px-24 py-2">
                     SEE OUR PORTFOLIO
@@ -232,11 +258,11 @@ Product Design
 
 
         <!--        APP DEV -->
-        <div class="mt-16 md:mt-32 md:flex items-center md:mx-32">
+        <div class="mt-16 md:mt-32 md:flex items-center lg:mx-32">
             <!--            <img :src="app_dev" class=" md:block w-1/2" alt="">-->
 
 
-            <div class="mx-10 md:flex">
+            <div class="mx-10 md:flex items-center">
 
 
                 <div class="">
@@ -244,14 +270,17 @@ Product Design
 
                     <div class="">
                         <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
-                            Developing
+                            Custom
                             <span class="text-red-600">
-                                Native Apps
+                                Apps
                             </span>
-                            <br> or
-                            <span class="text-red-600">
-                                Web Apps
-                            </span>
+                            <!--                             or-->
+                            <!--                            <span class="text-red-600">-->
+                            <!--                                Web Apps-->
+                            <!--                            </span>-->
+
+                            <!--                            <br>-->
+                            that increase your business' performance.
                         </h2>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
@@ -291,7 +320,7 @@ Product Design
         </div>
 
         <!--        PRODUCT DESIGN-->
-        <div class="mt-32 md:flex items-center md:mx-32">
+        <div class="mt-16 md:flex items-center lg:mx-32">
             <div class="mx-10">
                 <div class="flex justify-center">
                     <img :src="product_design" class="w-full md:hidden" alt="">
@@ -299,7 +328,9 @@ Product Design
                 </div>
 
                 <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
-                    Product Design
+                    Product
+
+                    <span class="text-red-600">Design</span> for multiple industries
                 </h2>
 
                 <div class="md:w-1/3 my-4 bg-red-400" style="height: 6px;">

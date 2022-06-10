@@ -25027,7 +25027,7 @@ var _hoisted_1 = {
 };
 var _hoisted_2 = ["src"];
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hidden md:block\" data-v-4a80dbca><ul class=\"flex text-sm items-center\" data-v-4a80dbca><li class=\"px-4\" data-v-4a80dbca> HOME </li><li class=\"px-4\" data-v-4a80dbca> SERVICES </li><li class=\"px-4\" data-v-4a80dbca> PORTFOLIO </li><li class=\"px-4\" data-v-4a80dbca> BLOG </li><li class=\"mx-4 px-4 py-1 text-white bg-red-600 rounded-full\" data-v-4a80dbca> CONTACT </li></ul></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hidden lg:block\" data-v-4a80dbca><ul class=\"flex text-sm items-center\" data-v-4a80dbca><li class=\"px-4\" data-v-4a80dbca> HOME </li><li class=\"px-4\" data-v-4a80dbca> SERVICES </li><li class=\"px-4\" data-v-4a80dbca> PORTFOLIO </li><li class=\"px-4\" data-v-4a80dbca> BLOG </li><li class=\"mx-4 px-4 py-1 text-white bg-red-600 rounded-full\" data-v-4a80dbca> CONTACT </li></ul></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
@@ -26273,7 +26273,7 @@ var _hoisted_5 = {
   "class": "mx-10 -mt-80 flex justify-center items-center text-3xl md:text-5xl"
 };
 var _hoisted_6 = {
-  "class": "-mt-40 md:-mt-80 flex flex-col items-center"
+  "class": "-mt-40 lg:-mt-80 flex flex-col items-center"
 };
 var _hoisted_7 = ["src"];
 
@@ -26410,7 +26410,7 @@ var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mx-10 md:mx-40"
+  "class": "mx-10 lg:mx-40"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   style: {
     "font-family": "'Poppins', sans-serif",
@@ -26422,67 +26422,80 @@ var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_34 = {
-  "class": "mt-32 md:flex items-center md:mx-32"
+  "class": "mt-32 md:flex items-center mx-10 lg:mx-32"
 };
 var _hoisted_35 = {
-  "class": "mx-10"
+  "class": ""
 };
 var _hoisted_36 = {
   "class": "flex justify-center"
 };
 var _hoisted_37 = ["src"];
 
-var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"> Building <span class=\"text-red-600\">Websites</span> that <br> create more conversions <!--                        Web Development--></h2><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div></div><p class=\"md:pr-32\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 4);
+var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"><span class=\"text-red-600\">Websites</span> that create <br> more conversions <!--                        Web Development--></h2><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div></div><p class=\"md:pr-32\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 4);
 
 var _hoisted_42 = ["src"];
 var _hoisted_43 = {
-  "class": "md:mx-40 mt-16"
+  "class": "lg:mx-40 mt-16"
 };
 var _hoisted_44 = {
-  "class": "mx-10 md:mx-32 md:flex items-center justify-between"
+  "class": "mx-10 lg:mx-32 md:flex items-center justify-between"
 };
-var _hoisted_45 = ["src"];
 
-var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-4xl mt-16 md:mt-0 font-bold\"> The <span class=\"text-red-600\">3</span> layers of a great product </p><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-8\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-2\"> Based on this 3 essential layers, we build websites that focus on User Experience and deliver fast performance. </p></div>", 1);
-
-var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex justify-center mt-8 md:mt-16"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "text-red-600 text-sm md:text-md border rounded-full px-24 py-2"
-}, " SEE OUR PORTFOLIO ")], -1
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "md:hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  style: {
+    "font-family": "'Poppins', sans-serif"
+  },
+  "class": "text-4xl mt-16 md:mt-0 font-bold"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" The "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "text-red-600"
+}, "3"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" layers of a great product ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "md:w-1/2 my-4 bg-red-500 rounded-full",
+  style: {
+    "height": "6px"
+  }
+})], -1
 /* HOISTED */
 );
 
-var _hoisted_48 = {
-  "class": "mt-16 md:mt-32 md:flex items-center md:mx-32"
-};
+var _hoisted_46 = ["src"];
+
+var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"hidden md:block\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-4xl mt-16 md:mt-0 font-bold\"> The <span class=\"text-red-600\">3</span> layers of a great product </p><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-8\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-2\"> Based on this 3 essential layers, we build websites that focus on User Experience and deliver fast performance. </p></div>", 1);
+
+var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 py-10 mt-8\"><h2 class=\"text-4xl font-bold text-center\" style=\"font-family:Poppins,serif;\"> Our latest <span class=\"text-red-600\">Partners</span><!--                        Web Development--></h2><div class=\"flex justify-center mt-8 md:mt-16\"><button class=\"text-red-600 text-sm md:text-md border rounded-full px-24 py-2\"> SEE OUR PORTFOLIO </button></div></div>", 1);
+
 var _hoisted_49 = {
-  "class": "mx-10 md:flex"
+  "class": "mt-16 md:mt-32 md:flex items-center lg:mx-32"
 };
 var _hoisted_50 = {
+  "class": "mx-10 md:flex items-center"
+};
+var _hoisted_51 = {
   "class": ""
 };
-var _hoisted_51 = ["src"];
+var _hoisted_52 = ["src"];
 
-var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"> Developing <span class=\"text-red-600\"> Native Apps </span><br> or <span class=\"text-red-600\"> Web Apps </span></h2><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div></div><p class=\"\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 4);
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"> Custom <span class=\"text-red-600\"> Apps </span><!--                             or--><!--                            &lt;span class=&quot;text-red-600&quot;&gt;--><!--                                Web Apps--><!--                            &lt;/span&gt;--><!--                            &lt;br&gt;--> that increase your business&#39; performance. </h2><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div></div><p class=\"\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 4);
 
-var _hoisted_56 = ["src"];
-var _hoisted_57 = {
-  "class": "mt-32 md:flex items-center md:mx-32"
-};
+var _hoisted_57 = ["src"];
 var _hoisted_58 = {
-  "class": "mx-10"
+  "class": "mt-16 md:flex items-center lg:mx-32"
 };
 var _hoisted_59 = {
+  "class": "mx-10"
+};
+var _hoisted_60 = {
   "class": "flex justify-center"
 };
-var _hoisted_60 = ["src"];
+var _hoisted_61 = ["src"];
 
-var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"> Product Design </h2><div class=\"md:w-1/3 my-4 bg-red-400\" style=\"height:6px;\"></div><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 5);
+var _hoisted_62 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h2 class=\"text-4xl font-bold\" style=\"font-family:Poppins,serif;\"> Product <span class=\"text-red-600\">Design</span> for multiple industries </h2><div class=\"md:w-1/3 my-4 bg-red-400\" style=\"height:6px;\"></div><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit? Modi molestiae nam provident? </p><div class=\"flex\"><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div><div class=\"p-4 bg-black rounded-full mt-5 mr-2\"></div></div><div class=\"flex mt-5\"><button class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </button></div>", 5);
 
-var _hoisted_66 = ["src"];
+var _hoisted_67 = ["src"];
 
-var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mt-32 md:flex items-center mx-10 md:mx-32\"><form class=\"max-w-lg\"><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\"> First Name </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Jane\"><p class=\"text-red-500 text-xs italic\">Please fill out this field.</p></div><div class=\"w-full md:w-1/2 px-3\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\"> Last Name </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"Doe\"></div></div><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full px-3\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-password\"> Password </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-password\" type=\"password\" placeholder=\"******************\"><p class=\"text-gray-600 text-xs italic\">Make it as long and as crazy as you&#39;d like</p></div></div><div class=\"flex flex-wrap -mx-3 mb-2\"><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-city\"> City </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-city\" type=\"text\" placeholder=\"Albuquerque\"></div><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-state\"> State </label><div class=\"relative\"><select class=\"block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-state\"><option>New Mexico</option><option>Missouri</option><option>Texas</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div></div><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-zip\"> Zip </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-zip\" type=\"text\" placeholder=\"90210\"></div></div></form><div><p class=\"text-4xl mx-4 font-bold\"> Let&#39;s get in touch </p></div></div>", 1);
+var _hoisted_68 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mt-32 md:flex items-center mx-10 md:mx-32\"><form class=\"max-w-lg\"><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full md:w-1/2 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-first-name\"> First Name </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white\" id=\"grid-first-name\" type=\"text\" placeholder=\"Jane\"><p class=\"text-red-500 text-xs italic\">Please fill out this field.</p></div><div class=\"w-full md:w-1/2 px-3\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-last-name\"> Last Name </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-last-name\" type=\"text\" placeholder=\"Doe\"></div></div><div class=\"flex flex-wrap -mx-3 mb-6\"><div class=\"w-full px-3\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-password\"> Password </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-password\" type=\"password\" placeholder=\"******************\"><p class=\"text-gray-600 text-xs italic\">Make it as long and as crazy as you&#39;d like</p></div></div><div class=\"flex flex-wrap -mx-3 mb-2\"><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-city\"> City </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-city\" type=\"text\" placeholder=\"Albuquerque\"></div><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-state\"> State </label><div class=\"relative\"><select class=\"block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-state\"><option>New Mexico</option><option>Missouri</option><option>Texas</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div></div><div class=\"w-full md:w-1/3 px-3 mb-6 md:mb-0\"><label class=\"block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2\" for=\"grid-zip\"> Zip </label><input class=\"appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500\" id=\"grid-zip\" type=\"text\" placeholder=\"90210\"></div></div></form><div><p class=\"text-4xl mx-4 font-bold\"> Let&#39;s get in touch </p></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
@@ -26545,37 +26558,37 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_42)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_42)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.steps,
     alt: "",
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_45), _hoisted_46]), _hoisted_47]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            <img :src=\"app_dev\" class=\" md:block w-1/2\" alt=\"\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_46), _hoisted_47])]), _hoisted_48, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            <img :src=\"app_dev\" class=\" md:block w-1/2\" alt=\"\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev,
     "class": "w-full md:w-1/2 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_51), _hoisted_52]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_52), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev,
     "class": "w-full md:w-1/2 hidden md:block",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_56)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_57)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design,
     "class": "w-full md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_60)]), _hoisted_61]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_61)]), _hoisted_62]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design,
     "class": "hidden md:block w-1/2",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_66)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT FORM    "), _hoisted_67]);
+  , _hoisted_67)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT FORM    "), _hoisted_68]);
 }
 
 /***/ }),

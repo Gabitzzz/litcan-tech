@@ -6,7 +6,7 @@
 
 <!--           <img :src="logo_bg" alt="" class="w-1/6 md:w-1/12 hidden md:block">-->
            <img :src="logo_250" alt="" class="w-1/6 md:w-1/12">
-           <div class="hidden md:block">
+           <div class="hidden lg:block">
                <ul class="flex text-sm items-center">
                    <li class="px-4">
                        HOME
