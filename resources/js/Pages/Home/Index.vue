@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full" style="max-width: 100%;">
+    <div>
         <Navbar></Navbar>
 
 
@@ -193,8 +193,8 @@ Product Design
             <img :src="web_dev" class="hidden md:block w-1/3" alt="">
         </div>
 
-
-        <div class="lg:mx-40 mt-16">
+        <!--        3 LAYERS    -->
+        <div class="lg:mx-40 mt-16 mb-32">
             <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
 
                 <div class="md:hidden">
@@ -243,13 +243,12 @@ Product Design
         </div>
 
 
-        <div class="bg-gray-100 py-10 mt-8">
+        <div class="bg-gray-100 py-10">
             <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
 
                 Our latest
                 <span class="text-red-600">Partners</span>
 
-                <!--                        Web Development-->
             </h2>
 
             <div class="flex justify-center mt-8 md:mt-16">
@@ -322,6 +321,56 @@ Product Design
 
         </div>
 
+        <!--        3 LAYERS    -->
+        <div class="lg:mx-40 my-32">
+            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
+
+                <div class="md:hidden">
+                    <p style="font-family: 'Poppins', sans-serif;"
+                       class=" text-4xl mt-16 md:mt-0 font-bold">
+                        The <span class="text-red-600">3</span> layers of a great product
+                    </p>
+
+                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                    </div>
+                </div>
+
+                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+
+                <div>
+                    <div class="hidden md:block">
+                        <p style="font-family: 'Poppins', sans-serif;"
+                           class=" text-4xl mt-16 md:mt-0 font-bold">
+                            The <span class="text-red-600">3</span> layers of a great product
+                        </p>
+
+                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                        </div>
+                    </div>
+
+
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+                       class=" text-2xl mt-8">
+                        Newest Technologies <br>
+                        Creative Storytelling <br>
+                        Bespoke Design
+                    </p>
+
+                    <p class="mt-2">
+                        Based on this 3 essential layers, we build websites that focus on User Experience and deliver
+                        fast performance.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
         <!--        PRODUCT DESIGN-->
         <div class="mt-16 md:flex items-center lg:mx-32">
             <div class="mx-10">
@@ -363,6 +412,54 @@ Product Design
             <img :src="product_design" class="hidden md:block w-1/2" alt="">
         </div>
 
+        <!--        3 LAYERS    -->
+        <div class="lg:mx-40 my-32">
+            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
+
+                <div class="md:hidden">
+                    <p style="font-family: 'Poppins', sans-serif;"
+                       class=" text-4xl mt-16 md:mt-0 font-bold">
+                        The <span class="text-red-600">3</span> layers of a great product
+                    </p>
+
+                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                    </div>
+                </div>
+
+                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+
+                <div>
+                    <div class="hidden md:block">
+                        <p style="font-family: 'Poppins', sans-serif;"
+                           class=" text-4xl mt-16 md:mt-0 font-bold">
+                            The <span class="text-red-600">3</span> layers of a great product
+                        </p>
+
+                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                        </div>
+                    </div>
+
+
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+                       class=" text-2xl mt-8">
+                        Newest Technologies <br>
+                        Creative Storytelling <br>
+                        Bespoke Design
+                    </p>
+
+                    <p class="mt-2">
+                        Based on this 3 essential layers, we build websites that focus on User Experience and deliver
+                        fast performance.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
 
         <!--        CONTACT FORM    -->
         <div class="mt-32 md:flex items-center  mx-10 md:mx-32">
@@ -413,7 +510,7 @@ Product Design
                     </div>
                     <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-state">
+                              >
                             State
                         </label>
                         <div class="relative">
@@ -454,13 +551,16 @@ Product Design
             </div>
         </div>
 
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
 import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
+
 import web_dev from "/img/web-dev.webp";
 import app_dev from "/img/app-dev.webp";
 import app_dev_mobile from "/img/mobile/app-dev-mobile.webp";
@@ -479,6 +579,7 @@ export default {
     name: "Index",
     components: {
         Navbar,
+        Footer,
     },
     data() {
         return {
