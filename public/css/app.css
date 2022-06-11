@@ -2142,36 +2142,6 @@ textarea.form-control.is-invalid {
 .stepper:not(.stepper-vertical) .stepper-head-icon {
   margin: 1.5rem 0.5rem 1.5rem 0;
 }
-.stepper-vertical .stepper-step {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  position: relative;
-}
-.stepper-vertical .stepper-step:not(:last-child):after {
-  position: absolute;
-  left: 2.25rem;
-  height: calc(100% - 2.45rem);
-  top: 3rem;
-  width: 1px;
-  margin-top: 0.5rem;
-  content: "";
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.stepper-vertical .stepper-content {
-  overflow: hidden;
-  padding: 1rem 1.5rem 1.5rem 3.75rem;
-  transition: height 0.3s ease-in-out, margin-top 0.3s ease-in-out, margin-bottom 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
-}
-.stepper-vertical .stepper-head {
-  padding: 1.5rem;
-}
-.stepper-vertical .stepper-head-icon {
-  margin-right: 0.75rem;
-}
-.stepper-vertical .stepper-head-text:after {
-  position: absolute;
-}
 .stepper.stepper-mobile {
   justify-content: center;
   align-items: flex-end;
@@ -2208,62 +2178,6 @@ textarea.form-control.is-invalid {
 }
 .stepper.stepper-mobile .stepper-content {
   top: 2.56rem;
-}
-.stepper-content {
-  left: 0;
-}
-.stepper-head {
-  display: flex;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: unset;
-  line-height: 1.3;
-  cursor: pointer;
-}
-.stepper-head:hover {
-  background-color: #dbdbdb;
-}
-.stepper-head:focus {
-  outline: none;
-}
-.stepper-head-text:after {
-  display: flex;
-  font-size: 0.8rem;
-  content: attr(data-content);
-}
-.stepper-head-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: gray;
-  border-radius: 100%;
-  font-size: 0.875rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-.stepper-completed .stepper-head-icon {
-  background-color: #198754;
-}
-.stepper-active .stepper-head-text {
-  font-weight: 500;
-}
-.stepper-active .stepper-content {
-  display: block;
-}
-.stepper-active .stepper-head-icon {
-  background-color: #0d6efd;
-}
-.stepper-invalid .stepper-head-icon {
-  background-color: #dc3545;
-}
-.stepper-disabled .stepper-head {
-  color: #858585;
-  cursor: default;
-}
-.stepper-disabled .stepper-head-icon {
-  background-color: #858585;
 }
 @media (prefers-reduced-motion: reduce) {
 
@@ -3751,29 +3665,13 @@ textarea.form-control.is-invalid {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-.mx-48 {
-  margin-left: 12rem;
-  margin-right: 12rem;
-}
-.mx-40 {
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .-mx-3 {
   margin-left: -0.75rem;
@@ -3850,12 +3748,6 @@ textarea.form-control.is-invalid {
 }
 .mt-16 {
   margin-top: 4rem;
-}
-.mr-10 {
-  margin-right: 2.5rem;
-}
-.mt-10 {
-  margin-top: 2.5rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -4093,9 +3985,6 @@ textarea.form-control.is-invalid {
 .rounded-3xl {
   border-radius: 1.5rem;
 }
-.rounded-lg {
-  border-radius: 0.5rem;
-}
 .rounded-l-md {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
@@ -4173,10 +4062,6 @@ textarea.form-control.is-invalid {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -4185,9 +4070,9 @@ textarea.form-control.is-invalid {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
-.bg-gray-50 {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .fill-current {
   fill: currentColor;
@@ -4203,9 +4088,6 @@ textarea.form-control.is-invalid {
 }
 .p-4 {
   padding: 1rem;
-}
-.p-10 {
-  padding: 2.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -4251,9 +4133,9 @@ textarea.form-control.is-invalid {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .px-24 {
   padding-left: 6rem;
@@ -4262,10 +4144,6 @@ textarea.form-control.is-invalid {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -4296,12 +4174,6 @@ textarea.form-control.is-invalid {
 }
 .pb-8 {
   padding-bottom: 2rem;
-}
-.pr-32 {
-  padding-right: 8rem;
-}
-.pr-24 {
-  padding-right: 6rem;
 }
 .pr-8 {
   padding-right: 2rem;
@@ -4339,17 +4211,13 @@ textarea.form-control.is-invalid {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-medium {
   font-weight: 500;
@@ -4840,41 +4708,20 @@ textarea.form-control.is-invalid {
     margin-right: 8rem;
   }
 
-  .md\:mx-40 {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
   .md\:mt-32 {
     margin-top: 8rem;
-  }
-
-  .md\:-mt-56 {
-    margin-top: -14rem;
-  }
-
-  .md\:-mt-64 {
-    margin-top: -16rem;
-  }
-
-  .md\:-mt-80 {
-    margin-top: -20rem;
-  }
-
-  .md\:mt-8 {
-    margin-top: 2rem;
   }
 
   .md\:mt-0 {
     margin-top: 0px;
   }
 
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:mt-16 {
     margin-top: 4rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:block {
@@ -4952,10 +4799,6 @@ textarea.form-control.is-invalid {
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -4974,13 +4817,6 @@ textarea.form-control.is-invalid {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-}
-
-@media (min-width: 1280px) {
-
-  .xl\:mt-48 {
-    margin-top: 12rem;
   }
 }
 

@@ -14,7 +14,10 @@
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
-                <img :src="banner" class="w-full md:w-1/3" alt="">
+                <img :src="banner_mobile" class="w-full md:hidden" alt="">
+
+                <img :src="banner" class="w-full md:w-1/3 hidden md:block" alt="">
+
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
                     The Powerhouse of
@@ -148,7 +151,7 @@ Product Design
             <div class="">
 
                 <div class="flex justify-center">
-                    <img :src="web_dev" class="md:w-1/3 md:hidden" alt="">
+                    <img :src="web_dev_mobile" class="md:w-1/3 md:hidden" alt="">
                 </div>
 
                 <div>
@@ -266,7 +269,7 @@ Product Design
 
 
                 <div class="">
-                    <img :src="app_dev" class="w-full md:w-1/2 md:hidden" alt="">
+                    <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
                     <div class="">
                         <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
@@ -323,7 +326,7 @@ Product Design
         <div class="mt-16 md:flex items-center lg:mx-32">
             <div class="mx-10">
                 <div class="flex justify-center">
-                    <img :src="product_design" class="w-full md:hidden" alt="">
+                    <img :src="product_design_mobile" class="w-full md:hidden" alt="">
 
                 </div>
 
@@ -460,11 +463,15 @@ import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 import web_dev from "/img/web-dev.webp";
 import app_dev from "/img/app-dev.webp";
+import app_dev_mobile from "/img/mobile/app-dev-mobile.webp";
+import web_dev_mobile from "/img/mobile/web-dev-mobile.webp";
+import product_design_mobile from "/img/mobile/product-design-mobile.webp";
 import banner from "/img/banner.webp";
 import product_design from "/img/product-design.webp";
 import app_icon from "/img/mobile/app-icon.png";
 import web_icon from "/img/mobile/web-icon.png";
 import product_icon from "/img/mobile/product-icon.png";
+import banner_mobile from "/img/mobile/banner-mobile.webp";
 import steps from "/img/desktop/3steps.png";
 import 'tw-elements';
 
@@ -476,10 +483,17 @@ export default {
     data() {
         return {
             logo_bg: logo_bg,
-            web_dev: web_dev,
-            app_dev: app_dev,
-            product_design: product_design,
             banner: banner,
+            banner_mobile: banner_mobile,
+
+            web_dev: web_dev,
+            web_dev_mobile: web_dev_mobile,
+
+            app_dev: app_dev,
+            app_dev_mobile: app_dev_mobile,
+
+            product_design: product_design,
+            product_design_mobile: product_design_mobile,
             logo_bg_mobile: logo_bg_mobile,
 
             product_icon: product_icon,
