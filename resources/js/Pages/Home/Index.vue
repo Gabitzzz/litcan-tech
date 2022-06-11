@@ -1,5 +1,5 @@
 <template>
-    <div class="" style="max-width: 100%;">
+    <div class="w-full" style="max-width: 100%;">
         <Navbar></Navbar>
 
 
