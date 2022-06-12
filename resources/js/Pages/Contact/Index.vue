@@ -2,50 +2,30 @@
     <div>
         <Navbar></Navbar>
 
-        <div class="md:mx-10 mt-80 md:mt-32 2xl:mt-48 flex justify-center">
+
+        <div class="md:mx-10 -mt-24 md:mt-32 2xl:mt-48 flex justify-center">
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
 
 
-            <img :src="logo_bg" alt="" class="z-40 object-fit hidden sm:flex"
+            <img :src="logo_bg" alt="" class="object-fit hidden sm:flex"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
         </div>
 
+        <div class="mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl">
 
-        <!--        <div class="mx-10 -mt-64  flex justify-center items-center text-3xl md:text-5xl">-->
-        <!--            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">-->
-
-        <!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
-        <!--                    class="tracking-wider text-center ">-->
-        <!--                    Contact <span class="text-red-500">us</span>-->
-        <!--                </h1>-->
-        <!--                <div class="md:mx-32">-->
-
-        <!--                    <p class="my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">-->
-        <!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi-->
-        <!--                        illum-->
-        <!--                        iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae-->
-        <!--                        optio porro quo similique vero.-->
-        <!--                    </p>-->
-        <!--                </div>-->
-
-        <!--            </div>-->
-
-        <!--        </div>-->
-
-        <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
-
-            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
+            <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
-                    Contact us
+                    Contact <span class="text-red-600">us</span> <br class="hidden md:block">
+
                 </h1>
             </div>
 
         </div>
 
-        <div class="mx-10 -mt-8 mb-8 flex flex-col items-center">
-            <p class="md:my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
+        <div class="mx-10 mb-8 flex flex-col items-center">
+            <p class="-mt-8 md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
                 illum
                 iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae

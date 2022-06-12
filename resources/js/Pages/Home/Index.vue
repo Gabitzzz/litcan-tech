@@ -245,7 +245,7 @@ Product Design
 
         </div>
 
-
+        <!--    PARTNERS    -->
         <div class="bg-gray-100 py-10">
             <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
 
@@ -255,7 +255,7 @@ Product Design
             </h2>
 
             <div class="flex justify-center mt-8 md:mt-16">
-                <button class="text-red-600 text-sm md:text-md border  rounded-full px-24 py-2">
+                <button class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
                     SEE OUR PORTFOLIO
                 </button>
             </div>
@@ -373,6 +373,22 @@ Product Design
 
         </div>
 
+
+
+        <div class="bg-gray-100 py-10">
+            <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
+
+                Our latest
+                <span class="text-red-600">Partners</span>
+
+            </h2>
+
+            <div class="flex justify-center mt-8 md:mt-16">
+                <button class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
+                    SEE OUR PORTFOLIO
+                </button>
+            </div>
+        </div>
 
         <!--        PRODUCT DESIGN-->
         <div class="mt-16 md:flex items-center lg:mx-32">
