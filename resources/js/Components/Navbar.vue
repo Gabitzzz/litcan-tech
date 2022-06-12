@@ -1,222 +1,207 @@
-<script setup>
-import {ref} from "vue";
-
-import BreezeApplicationLogo from '@/Components/ApplicationLogo.vue';
-import BreezeDropdown from '@/Components/Dropdown.vue';
-import BreezeDropdownLink from '@/Components/DropdownLink.vue';
-import BreezeNavLink from '@/Components/NavLink.vue';
-import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
-import {Link} from '@inertiajs/inertia-vue3';
-import {InertiaLink} from "@inertiajs/inertia-vue3";
-const showingNavigationDropdown = ref(false);
-</script>
-
 <template>
-    <div class="bg-red-400">
-        <!--       <nav-->
-        <!--           :class="{ 'scrolled shadow-md': !view.atTopOfPage }"-->
-        <!--           class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">-->
-
-        <!--&lt;!&ndash;           <img :src="logo_bg" alt="" class="w-1/6 md:w-1/12 hidden md:block">&ndash;&gt;-->
-        <!--           <img :src="logo_250" alt="" class="w-1/6 md:w-1/12">-->
-        <!--           <div class="hidden lg:block">-->
-        <!--               <ul class="flex text-sm items-center">-->
-        <!--                   <li class="px-4">-->
-        <!--                       HOME-->
-        <!--                   </li>-->
-        <!--                   <li class="px-4">-->
-        <!--                       SERVICES-->
-        <!--                   </li>-->
-
-        <!--                   <li class="px-4">-->
-        <!--                       PORTFOLIO-->
-        <!--                   </li>-->
-
-        <!--                   <li class="px-4">-->
-        <!--                       BLOG-->
-        <!--                   </li>-->
-
-        <!--                   <li class="mx-4 px-4 py-1 text-white bg-red-600 rounded-full">-->
-        <!--                       CONTACT-->
-        <!--                   </li>-->
-        <!--               </ul>-->
-        <!--           </div>-->
-        <!--           -->
-        <!--           -->
-
-        <!--       </nav>-->
-
-        <!--              <nav-->
-        <!--                  :class="{ 'scrolled shadow-md': !view.atTopOfPage }"-->
-        <!--                  class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">-->
 
 
-        <nav class="fixed bg-white w-full top-0 animated"
-             :class="{ 'scrolled shadow-lg': !view.atTopOfPage }">
+    <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
+        <div class="w-full p-2   sm:px-8 md:px-16 lg:px-24 xl:px-40">
 
-            <!--                      class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">-->
 
-            <!-- Primary Navigation Menu -->
-            <div class="max-w-7xl mx-10 md:mx-32 px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-16">
-                    <div class="flex">
-                        <!-- Logo -->
-                        <div class="shrink-0 flex items-center">
-                            <Link :href="route('dashboard')">
-                                <BreezeApplicationLogo class="block h-9 w-auto"/>
-                            </Link>
+            <div class="flex-1">
+
+                <img :src="logo"
+                     class="w-16 md:w-24 "
+                     style=" filter:  brightness(0) invert(1);"
+                     alt="logo">
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+
+
+                <div class="text-red-500 menu-horizontal text-black flex items-center "
+                    style="font-family: 'Nunito', sans-serif; font-weight: 300;">
+
+
+                    <InertiaLink :href="route('home')"  class=" px-6 text-sm rounded-full underline-opening">
+                        HOME
+                    </InertiaLink>
+
+                    <InertiaLink :href="route('services')"  class="px-6 text-sm rounded-full underline-opening">
+                        SERVICES
+                    </InertiaLink>
+
+                    <InertiaLink :href="route('portfolio')"  class="px-6 text-sm rounded-full underline-opening">
+                        PORTFOLIO
+                    </InertiaLink>
+
+                    <InertiaLink :href="route('blog')"  class="px-6 text-sm rounded-full underline-opening">
+                        BLOG
+                    </InertiaLink>
+
+                    <InertiaLink :href="route('contact')"  class="text-red-500 px-6  text-sm border border-red-500 rounded full px-4 py-1 text-sm rounded-full underline-opening">
+                        CONTACT
+                    </InertiaLink>
+
+
+
+
+
+                </div>
+            </div>
+            <div class="flex-none">
+                <div class="dropdown dropdown-end ">
+                    <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
+                        <div class="indicator">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 class="h-5 w-5 hamburger"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M4 6h16M4 12h16M4 18h7"/>
+                            </svg>
+
                         </div>
+                    </label>
 
-                        <!-- Navigation Links -->
-<!--                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">-->
-<!--                            <BreezeNavLink :href="route('dashboard')" :active="route().current('dashboard')">-->
-<!--                                Dashboard-->
-<!--                            </BreezeNavLink>-->
-<!--                        </div>-->
-                    </div>
+                    <!--                    PHONE   MENU    -->
+                    <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
+                        <div class="card-body ">
+                            <div class="menu menu-vertical lg:menu-horizontal bg-base-100 rounded-box">
+                                <InertiaLink :href="route('home')"  class=" px-6 py-2 text-sm rounded-full underline-opening">
+                                    HOME
+                                </InertiaLink>
 
-                    <div class="hidden sm:flex sm:items-center sm:ml-6 ">
-                        <!-- Settings Dropdown -->
-
-
-                        <div class="hidden lg:block">
-                            <ul class="flex text-sm items-center">
-                                    <InertiaLink :href="route('home')" class="px-6">
-                                        HOME
-                                    </InertiaLink>
-
-
-                                <InertiaLink :href="route('services')" class="px-6">
+                                <InertiaLink :href="route('services')"  class="px-6 py-2 text-sm rounded-full underline-opening">
                                     SERVICES
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('portfolio')" class="px-6">
+                                <InertiaLink :href="route('portfolio')"  class="px-6 py-2 text-sm rounded-full underline-opening">
                                     PORTFOLIO
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('blog')" class="px-6">
+                                <InertiaLink :href="route('blog')"  class="px-6 py-2 text-sm rounded-full underline-opening">
                                     BLOG
                                 </InertiaLink>
 
-<!--                                <li class="mx-4 px-6 py-1 text-white bg-red-600 rounded-full">-->
-<!--                                    CONTACT-->
-<!--                                </li>-->
-
-                                <InertiaLink :href="route('contact')" class="px-6 border border-red-500 mx-4 px-6 py-1 rounded-full font-bold text-red-500">
+                                <InertiaLink :href="route('contact')"  class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
                                     CONTACT
                                 </InertiaLink>
-
-<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
-<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
-<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
-
-                            </ul>
-
-
+                            </div>
                         </div>
-
-
                     </div>
 
-                    <!-- Hamburger -->
-                    <div class="-mr-2 flex items-center sm:hidden">
-                        <button @click="showingNavigationDropdown = ! showingNavigationDropdown"
-                                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path
-                                    :class="{'hidden': showingNavigationDropdown, 'inline-flex': ! showingNavigationDropdown }"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16M4 18h16"/>
-                                <path
-                                    :class="{'hidden': ! showingNavigationDropdown, 'inline-flex': showingNavigationDropdown }"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M6 18L18 6M6 6l12 12"/>
-                            </svg>
-                        </button>
-                    </div>
+
                 </div>
+
+
             </div>
 
-            <!-- Responsive Navigation Menu -->
-            <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="sm:hidden">
-                <div class="pt-2 pb-3 space-y-1">
-                    <BreezeResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                        Dashboard
-                    </BreezeResponsiveNavLink>
-                </div>
 
-                <!-- Responsive Settings Options -->
-                <div class="pt-4 pb-1 border-t border-gray-200">
-                    <div class="px-4">
-                    </div>
-
-                    <div class="mt-3 space-y-1">
-                        <BreezeResponsiveNavLink :href="route('logout')" method="post" as="button">
-                            Log Out
-                        </BreezeResponsiveNavLink>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        </div>
 
 
     </div>
 </template>
 
 <script>
-
-
-import logo_bg from "/img/logo_bg.png";
-import logo_phone from "/img/logo/logo_phone.png";
-import logo_250 from "/img/logo/logo_250.png";
-
-
-const showingNavigationDropdown = ref(false);
+import {InertiaLink} from "@inertiajs/inertia-vue3";
 
 export default {
     name: "Navbar",
-
-    components: {
-    },
     data() {
-        return {
-            logo_bg: logo_bg,
-            logo_phone: logo_phone,
-            logo_250: logo_250,
-            view: {
-                atTopOfPage: true
-            }
-        }
+        return {}
     },
-
-// a beforeMount call to add a listener to the window
-    beforeMount() {
-        window.addEventListener('scroll', this.handleScroll);
+    components:{
+        InertiaLink,
     },
-
     methods: {
-        // the function to call when the user scrolls, added as a method
-        handleScroll() {
-            // when the user scrolls, check the pageYOffset
-            if (window.pageYOffset > 0) {
-                // user is scrolled
-                if (this.view.atTopOfPage) this.view.atTopOfPage = false
-            } else {
-                // user is at top of page
-                if (!this.view.atTopOfPage) this.view.atTopOfPage = true
-            }
+        topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     }
 }
 </script>
 
 <style scoped>
-nav {
-    z-index: 10
+
+.indicator {
+    animation: crescendo 2s alternate infinite ease-in;
 }
 
-nav.scrolled {
-    @apply shadow-2xl;
-    border-bottom: 0px;
+@keyframes crescendo {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.8);
+    }
 }
+
+body, html {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-horizontal li {
+    display: table-cell;
+    position: relative;
+}
+
+.menu-horizontal a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    position: relative;
+}
+
+.menu-horizontal a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -10px;
+    content: "";
+    display: block;
+
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: red;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menu-horizontal a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+@keyframes rotateOnY {
+    5% {
+        -webkit-transform: rotateY(90deg);
+        transform: rotateY(90deg);
+    }
+    10% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
+/*#axesY:checked ~ .grid > .skill > .grid > .logo {*/
+/*    -webkit-animation: rotateOnY 20s infinite linear;*/
+/*    animation: rotateOnY 20s infinite linear;*/
+/*    animation-delay: 4s;*/
+/*}*/
+
 </style>

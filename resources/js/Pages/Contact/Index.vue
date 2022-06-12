@@ -112,6 +112,7 @@ import Footer from "@/Components/Footer";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
+
 export default {
     name: "Index",
     components: {
