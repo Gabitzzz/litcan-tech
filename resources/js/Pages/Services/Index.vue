@@ -16,7 +16,7 @@
 
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center">
+                    class="tracking-wider text-center leading-snug">
                     Find the right <span class="text-red-600">service</span> <br class="hidden md:block">
                     for your business
                 </h1>
@@ -42,7 +42,7 @@
                 <!--    WEB DEV     -->
                 <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
-                        <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                        <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
 
                     </div>
 
@@ -77,7 +77,8 @@
                 <!--   APP DEV     -->
                 <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
-                        <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                            <img :src="app_dev_services" alt="" class="mt-8 w-24 h-24">
+
 
                     </div>
 
@@ -112,7 +113,7 @@
                 <!-- PRODUCT DESIGN     -->
                 <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
-                        <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                        <img :src="product_design_services" alt="" class="mt-8 w-24 h-24">
 
                     </div>
 
@@ -167,8 +168,7 @@
                     <!--    FINTECH      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
-
+                            <img :src="fintech" alt="" class="mt-8 w-24 h-24">
                         </div>
 
                         <div class="flex justify-center mt-8">
@@ -197,8 +197,7 @@
                     <!--    ECOMMERCE      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
-
+                            <img :src="ecommerce" alt="" class="mt-8 w-24 h-24">
                         </div>
 
                         <div class="flex justify-center mt-8">
@@ -224,7 +223,7 @@
                     <!--    MEDTECH      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                            <img :src="ecommerce" alt="" class="mt-8 w-24 h-24">
 
                         </div>
 
@@ -254,7 +253,7 @@
                     <!--    EDTECH      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                            <img :src="edtech" alt="" class="mt-8 w-24 h-24">
 
                         </div>
 
@@ -281,7 +280,7 @@
                     <!--    IoT       -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                            <img :src="iot" alt="" class="mt-8 w-24 h-24">
 
                         </div>
 
@@ -308,7 +307,7 @@
                     <!--    Agritech      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
+                            <img :src="agritech" alt="" class="mt-8 w-24 h-24">
 
                         </div>
 
@@ -318,6 +317,7 @@
                                 Agritech <br> Development
                             </p>
                         </div>
+
 
                         <div class="flex justify-center">
                             <div class="flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full" style="height: 2px;">
@@ -344,8 +344,8 @@
                         <div
                             class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="fintech" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -369,8 +369,8 @@
                         <div
                             class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="ecommerce" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -394,8 +394,8 @@
                         <div
                             class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="medtech" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -418,8 +418,8 @@
                         <div
                             class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="edtech" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -442,8 +442,8 @@
                         <div
                             class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="iot_dev" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -464,10 +464,10 @@
 
                     <div class="inline-block px-2">
                         <div
-                            class="w-48  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="p-8">
-                                    <img src="#" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="agritech" class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
@@ -486,18 +486,13 @@
                         </div>
                     </div>
 
-                    <div class=" px-2">
-                        <div
-                            class="w-48  max-w-xs font-bold overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
-                            SEE ALL
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
 
         </div>
+
+        <BlogComponent></BlogComponent>
 
         <Footer></Footer>
     </div>
@@ -506,20 +501,43 @@
 <script>
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import BlogComponent from "@/Components/BlogComponent";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
+
+import app_dev_services from "/img/services/app-dev-services.png";
+import web_dev_services from "/img/services/web-dev-services.png";
+import product_design_services from "/img/services/product-design-services.png";
+import fintech from "/img/services/fintech.png";
+import medtech from "/img/services/medtech.png";
+import edtech from "/img/services/edtech.png";
+import iot_dev from "/img/services/iot.png";
+import ecommerce from "/img/services/ecommerce.png";
+import agritech from "/img/services/agritech.png";
 
 export default {
     name: "Index",
     components: {
         Navbar,
         Footer,
+        BlogComponent,
     },
     data() {
         return {
-            logo_bg_mobile,
-            logo_bg,
+            logo_bg_mobile: logo_bg_mobile,
+            logo_bg: logo_bg,
+
+            app_dev_services: app_dev_services,
+            web_dev_services: web_dev_services,
+            product_design_services: product_design_services,
+
+            fintech: fintech,
+            ecommerce: ecommerce,
+            medtech: medtech,
+            agritech: agritech,
+            edtech: edtech,
+            iot_dev: iot_dev,
         }
     }
 }

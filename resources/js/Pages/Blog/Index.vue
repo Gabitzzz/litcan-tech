@@ -34,7 +34,7 @@
         </div>
 
 
-
+        <BlogComponent></BlogComponent>
 
         <Footer></Footer>
     </div>
@@ -43,7 +43,7 @@
 <script>
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
-
+import BlogComponent from "@/Components/BlogComponent";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
@@ -53,6 +53,7 @@ export default {
     components: {
         Navbar,
         Footer,
+        BlogComponent,
     },
     data() {
         return {
