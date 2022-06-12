@@ -280,7 +280,7 @@
                     <!--    IoT       -->
                     <div class="w-72 shadow-lg bg-white mx-8">
                         <div class="flex justify-center">
-                            <img :src="iot" alt="" class="mt-8 w-24 h-24">
+                            <img :src="iot_dev" alt="" class="mt-8 w-24 h-24">
 
                         </div>
 
