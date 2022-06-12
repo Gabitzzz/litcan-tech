@@ -2,14 +2,13 @@
 
 
     <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
-        <div class="w-full p-2   sm:px-8 md:px-16 lg:px-24 xl:px-40">
+        <div class="w-full px-2   sm:px-8 md:px-16 lg:px-24 xl:px-40">
 
 
             <div class="flex-1">
 
                 <img :src="logo"
                      class="w-16 md:w-24 "
-                     style=" filter:  brightness(0) invert(1);"
                      alt="logo">
             </div>
 
@@ -88,27 +87,22 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
-
             </div>
-
-
         </div>
-
-
     </div>
 </template>
 
 <script>
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 
+import logo from "/img/logo/logo_250.png";
 export default {
     name: "Navbar",
     data() {
-        return {}
+        return {
+            logo:logo,
+        }
     },
     components:{
         InertiaLink,

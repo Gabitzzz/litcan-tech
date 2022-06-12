@@ -13,11 +13,13 @@
         </div>
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
-            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
-                <img :src="banner_mobile" class="w-full md:hidden" alt="">
+            <div class="-mt-56 lg:-mt-80 flex flex-col items-center">
+                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
-                <img :src="banner" class="w-full md:w-1/3 hidden md:block" alt="">
+                <div class="-mt-16 flex justify-center hidden md:flex">
+                    <img :src="banner" class="w-full md:w-1/3 " alt="">
 
+                </div>
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
                     The Powerhouse of
@@ -29,10 +31,11 @@
 
         </div>
 
-        <div class="flex justify-center my-8">
-            <button class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+        <div class="flex justify-center my-6">
+            <InertiaLink :href="route('contact')"
+                         class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                 CONTACT US
-            </button>
+            </InertiaLink>
         </div>
 
 
@@ -558,6 +561,7 @@ Product Design
 <script>
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import {InertiaLink} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -583,6 +587,7 @@ export default {
     components: {
         Navbar,
         Footer,
+        InertiaLink,
     },
     data() {
         return {
