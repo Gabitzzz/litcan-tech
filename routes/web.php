@@ -33,4 +33,17 @@ Route::get('/services', function () {
     return Inertia::render('Services/Index');
 })->name('services');
 
+Route::get('/portfolio', function () {
+    return Inertia::render('Portfolio/Index');
+})->name('portfolio');
+
+Route::get('/blog', function () {
+    return Inertia::render('Blog/Index');
+})->name('blog');
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact/Index');
+})->name('contact');
+
+
 require __DIR__.'/auth.php';

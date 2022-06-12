@@ -12,18 +12,18 @@
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
         </div>
 
-        <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
+        <div class="mx-10 -mt-48 md:-mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
-                    Find the right <span class="text-red-600">service</span> <br>
+                    Find the right <span class="text-red-600">service</span> <br class="hidden md:block">
                     for your business
                 </h1>
             </div>
         </div>
 
         <!--        BANNER SERVICES     -->
-        <div class=" md:flex justify-center items-center mx-10 lg:mx-32 -mt-8">
+        <div class=" flex flex-col justify-center items-center mx-10 lg:mx-32 mt-16 md:-mt-8">
 
             <div class="md:flex">
                 <!--    WEB DEV     -->

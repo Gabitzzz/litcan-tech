@@ -57,7 +57,7 @@ const showingNavigationDropdown = ref(false);
             <!--                      class="fixed flex w-full bg-white items-center justify-between flex-wrap px-5 py-2 md:px-48 m-auto top-0 animated">-->
 
             <!-- Primary Navigation Menu -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-10 md:mx-32 px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
                     <div class="flex">
                         <!-- Logo -->
@@ -81,29 +81,38 @@ const showingNavigationDropdown = ref(false);
 
                         <div class="hidden lg:block">
                             <ul class="flex text-sm items-center">
-                                <li class="px-6">
-                                    <InertiaLink :href="route('home')">
+                                    <InertiaLink :href="route('home')" class="px-6">
                                         HOME
                                     </InertiaLink>
-                                </li>
 
 
-                                <InertiaLink :href="route('services')">
+                                <InertiaLink :href="route('services')" class="px-6">
                                     SERVICES
                                 </InertiaLink>
 
-                                <li class="px-6">
+                                <InertiaLink :href="route('portfolio')" class="px-6">
                                     PORTFOLIO
-                                </li>
+                                </InertiaLink>
 
-                                <li class="px-6">
+                                <InertiaLink :href="route('blog')" class="px-6">
                                     BLOG
-                                </li>
+                                </InertiaLink>
 
-                                <li class="mx-4 px-6 py-1 text-white bg-red-600 rounded-full">
+<!--                                <li class="mx-4 px-6 py-1 text-white bg-red-600 rounded-full">-->
+<!--                                    CONTACT-->
+<!--                                </li>-->
+
+                                <InertiaLink :href="route('contact')" class="px-6 border border-red-500 mx-4 px-6 py-1 rounded-full font-bold text-red-500">
                                     CONTACT
-                                </li>
+                                </InertiaLink>
+
+<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
+<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
+<!--                                <li class="p-4 bg-red-500 rounded-full mx-1"></li>-->
+
                             </ul>
+
+
                         </div>
 
 

@@ -208,13 +208,13 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="audit_mobile" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div class="hidden md:block">
                         <p style="font-family: 'Poppins', sans-serif;"
                            class=" text-4xl mt-16 md:mt-0 font-bold">
-                            The <span class="text-red-600">3</span> layers of a great product
+                            Request a free <span class="text-red-600">audit</span> for your
                         </p>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
@@ -413,8 +413,8 @@ Product Design
         </div>
 
         <!--        3 LAYERS    -->
-        <div class="lg:mx-40 my-32">
-            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
+        <div class="lg:mx-32 my-32">
+            <div class="mx-10 md:flex items-center justify-between">
 
                 <div class="md:hidden">
                     <p style="font-family: 'Poppins', sans-serif;"
@@ -427,7 +427,7 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="product_design_2" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div class="hidden md:block">
@@ -510,7 +510,7 @@ Product Design
                     </div>
                     <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                              >
+                        >
                             State
                         </label>
                         <div class="relative">
@@ -558,6 +558,7 @@ Product Design
 <script>
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
@@ -566,8 +567,10 @@ import app_dev from "/img/app-dev.webp";
 import app_dev_mobile from "/img/mobile/app-dev-mobile.webp";
 import web_dev_mobile from "/img/mobile/web-dev-mobile.webp";
 import product_design_mobile from "/img/mobile/product-design-mobile.webp";
+import audit_mobile from "/img/mobile/audit-mobile.webp";
 import banner from "/img/banner.webp";
 import product_design from "/img/product-design.webp";
+import product_design_2 from "/img/desktop/product-design-2.webp";
 import app_icon from "/img/mobile/app-icon.png";
 import web_icon from "/img/mobile/web-icon.png";
 import product_icon from "/img/mobile/product-icon.png";
@@ -587,13 +590,16 @@ export default {
             banner: banner,
             banner_mobile: banner_mobile,
 
+
             web_dev: web_dev,
             web_dev_mobile: web_dev_mobile,
+            audit_mobile: audit_mobile,
 
             app_dev: app_dev,
             app_dev_mobile: app_dev_mobile,
 
             product_design: product_design,
+            product_design_2: product_design_2,
             product_design_mobile: product_design_mobile,
             logo_bg_mobile: logo_bg_mobile,
 
