@@ -12,44 +12,47 @@
         </div>
 
 
-<!--        <div class="mx-10 -mt-64  flex justify-center items-center text-3xl md:text-5xl">-->
-<!--            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">-->
+        <!--        <div class="mx-10 -mt-64  flex justify-center items-center text-3xl md:text-5xl">-->
+        <!--            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">-->
 
-<!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
-<!--                    class="tracking-wider text-center ">-->
-<!--                    Contact <span class="text-red-500">us</span>-->
-<!--                </h1>-->
-<!--                <div class="md:mx-32">-->
+        <!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
+        <!--                    class="tracking-wider text-center ">-->
+        <!--                    Contact <span class="text-red-500">us</span>-->
+        <!--                </h1>-->
+        <!--                <div class="md:mx-32">-->
 
-<!--                    <p class="my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">-->
-<!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi-->
-<!--                        illum-->
-<!--                        iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae-->
-<!--                        optio porro quo similique vero.-->
-<!--                    </p>-->
-<!--                </div>-->
+        <!--                    <p class="my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">-->
+        <!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi-->
+        <!--                        illum-->
+        <!--                        iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae-->
+        <!--                        optio porro quo similique vero.-->
+        <!--                    </p>-->
+        <!--                </div>-->
 
-<!--            </div>-->
+        <!--            </div>-->
 
-<!--        </div>-->
+        <!--        </div>-->
 
-        <div class="mx-10 -mt-48 md:-mt-80  flex justify-center items-center text-3xl md:text-5xl">
-            <div class="-mt-32 lg:-mt-80 flex flex-col items-center">
+        <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
+
+            <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
                     Contact us
                 </h1>
-
-
-                <p class="md:my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
-                    illum
-                    iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
-                    optio porro quo similique vero.
-                </p>
             </div>
 
         </div>
+
+        <div class="mx-10 -mt-8 mb-8 flex flex-col items-center">
+            <p class="md:my-8 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
+                illum
+                iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
+                optio porro quo similique vero.
+            </p>
+        </div>
+
 
         <!--    CONTACT FORM    -->
         <div
@@ -93,12 +96,13 @@
             </div>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11391.300825427885!2d26.3411004!3d44.4572553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c5ecee7bb7b6d43!2sLi%C8%9Bcan%20Nicolae-Gabriel%20PFA!5e0!3m2!1sro!2suk!4v1654993977515!5m2!1sro!2suk"
-                class="w-full"
-                style="border:0; min-height: 500px;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11391.300825427885!2d26.3411004!3d44.4572553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c5ecee7bb7b6d43!2sLi%C8%9Bcan%20Nicolae-Gabriel%20PFA!5e0!3m2!1sro!2suk!4v1654993977515!5m2!1sro!2suk"
+            class="w-full"
+            style="border:0; min-height: 500px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
         </iframe>
 
         <Footer></Footer>

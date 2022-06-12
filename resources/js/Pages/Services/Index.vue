@@ -12,7 +12,8 @@
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
         </div>
 
-        <div class="mx-10 -mt-48 md:-mt-80  flex justify-center items-center text-3xl md:text-5xl">
+        <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
+
             <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center">
@@ -20,10 +21,22 @@
                     for your business
                 </h1>
             </div>
+
         </div>
 
+        <div class="mx-10 mb-8 flex flex-col items-center">
+            <p class="md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
+                illum
+                iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
+                optio porro quo similique vero.
+            </p>
+        </div>
+
+
+
         <!--        BANNER SERVICES     -->
-        <div class=" flex flex-col justify-center items-center mx-10 lg:mx-32 mt-16 md:-mt-8">
+        <div class=" flex flex-col justify-center items-center mx-10 lg:mx-32 mt-8 md:-mt-8">
 
             <div class="md:flex">
                 <!--    WEB DEV     -->
@@ -53,7 +66,7 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class=" font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </button>
                     </div>
@@ -62,7 +75,7 @@
                 </div>
 
                 <!--   APP DEV     -->
-                <div class="w-72 shadow-lg bg-white mx-8">
+                <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
                         <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
 
@@ -88,7 +101,7 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class=" font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </button>
                     </div>
@@ -97,7 +110,7 @@
                 </div>
 
                 <!-- PRODUCT DESIGN     -->
-                <div class="w-72 shadow-lg bg-white mx-8">
+                <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
                         <div class="mt-8 w-24 h-24 rounded-full bg-red-600 flex justify-center"></div>
 
@@ -123,7 +136,7 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class=" font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </button>
                     </div>

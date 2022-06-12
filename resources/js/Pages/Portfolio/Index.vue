@@ -14,9 +14,6 @@
 
     <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
         <div class="-mt-40 lg:-mt-80 flex flex-col items-center">
-            <img :src="banner_mobile" class="w-full md:hidden" alt="">
-
-            <img :src="banner" class="w-full md:w-1/3 hidden md:block" alt="">
 
             <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                 class="tracking-wider text-center">
