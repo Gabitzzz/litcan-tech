@@ -24880,12 +24880,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../img/services/app-dev-services.png */ "./public/img/services/app-dev-services.png");
 /* harmony import */ var _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../img/services/web-dev-services.png */ "./public/img/services/web-dev-services.png");
 /* harmony import */ var _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../img/services/product-design-services.png */ "./public/img/services/product-design-services.png");
-/* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
-/* harmony import */ var _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../img/services/medtech.png */ "./public/img/services/medtech.png");
-/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
-/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
-/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
-/* harmony import */ var _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/services/agritech.png */ "./public/img/services/agritech.png");
+/* harmony import */ var _img_services_ai_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/services/ai.png */ "./public/img/services/ai.png");
+/* harmony import */ var _img_services_digital_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../img/services/digital.png */ "./public/img/services/digital.png");
+/* harmony import */ var _img_services_custom_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../img/services/custom.png */ "./public/img/services/custom.png");
+/* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
+/* harmony import */ var _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../img/services/medtech.png */ "./public/img/services/medtech.png");
+/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
+/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
+/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
+/* harmony import */ var _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/services/agritech.png */ "./public/img/services/agritech.png");
+
+
+
 
 
 
@@ -24914,12 +24920,15 @@ __webpack_require__.r(__webpack_exports__);
       app_dev_services: _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_5__["default"],
       web_dev_services: _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_6__["default"],
       product_design_services: _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-      fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_8__["default"],
-      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_12__["default"],
-      medtech: _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_9__["default"],
-      agritech: _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_13__["default"],
-      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_10__["default"],
-      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_11__["default"]
+      ml_services: _img_services_ai_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+      digital_services: _img_services_digital_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+      custom_services: _img_services_custom_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+      fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+      medtech: _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+      agritech: _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_13__["default"],
+      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_14__["default"]
     };
   }
 });
@@ -25179,7 +25188,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 pt-5\"><div class=\"max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto\"><div class=\"p-5\"><h3 class=\"font-bold text-xl text-indigo-600\">Litcan Technologies</h3></div><div class=\"p-5\"><div class=\"text-sm uppercase text-indigo-600 font-bold\">Resources</div><a class=\"my-3 block\" href=\"/#\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Tutorials <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Support <span class=\"text-teal-600 text-xs p-1\">New</span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-indigo-600 font-bold\">Services</div><a class=\"my-3 block\" href=\"/#\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-indigo-600 font-bold\">Contact us</div><a class=\"my-3 block\" href=\"/#\">XXX XXXX, Floor 4 San Francisco, CA <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">contact@company.com <span class=\"text-teal-600 text-xs p-1\"></span></a></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 pt-5\"><div class=\"max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto\"><div class=\"p-5\"><h3 class=\"font-bold text-xl text-red-600\">LITCAN TECHNOLOGIES</h3></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Resources</div><a class=\"my-3 block\" href=\"/#\">Home <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Blog <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Services</div><a class=\"my-3 block\" href=\"/#\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Contact us</div><a class=\"my-3 block\" href=\"/#\"> +40 773 800 815 <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">contact@litcan-tech.com <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Brănești, Ilfov, Romania <span class=\"text-teal-600 text-xs p-1\"></span></a></div></div></div>", 1);
 
 var _hoisted_2 = {
   "class": "bg-gray-100 pt-2"
@@ -25478,7 +25487,7 @@ var _hoisted_1 = {
   }
 };
 var _hoisted_2 = {
-  "class": "w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40"
+  "class": "w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80 2xl:mx-56"
 };
 var _hoisted_3 = {
   "class": "flex-1"
@@ -27168,10 +27177,10 @@ var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_36 = {
-  "class": "mt-32 md:flex items-center mx-10 lg:mx-32"
+  "class": "mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72"
 };
 var _hoisted_37 = {
-  "class": ""
+  "class": "2xl:mx-56"
 };
 var _hoisted_38 = {
   "class": "flex justify-center"
@@ -27213,10 +27222,10 @@ var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticV
 var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 py-10\"><h2 class=\"text-4xl font-bold text-center\" style=\"font-family:Poppins,serif;\"> Our latest <span class=\"text-red-600\">Partners</span></h2><div class=\"flex justify-center mt-8 md:mt-16\"><button class=\"text-red-600 border border-red-500 text-sm md:text-md border rounded-full px-24 py-2\"> SEE OUR PORTFOLIO </button></div></div>", 1);
 
 var _hoisted_51 = {
-  "class": "mt-16 md:mt-32 md:flex items-center lg:mx-32"
+  "class": "mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72"
 };
 var _hoisted_52 = {
-  "class": "mx-10 md:flex items-center"
+  "class": "2xl:ml-56 md:flex items-center"
 };
 var _hoisted_53 = {
   "class": ""
@@ -27258,10 +27267,10 @@ var _hoisted_64 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticV
 var _hoisted_65 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-100 py-10\"><h2 class=\"text-4xl font-bold text-center\" style=\"font-family:Poppins,serif;\"> Our latest <span class=\"text-red-600\">Partners</span></h2><div class=\"flex justify-center mt-8 md:mt-16\"><button class=\"text-red-600 border border-red-500 text-sm md:text-md border rounded-full px-24 py-2\"> SEE OUR PORTFOLIO </button></div></div>", 1);
 
 var _hoisted_66 = {
-  "class": "mt-16 md:flex items-center lg:mx-32"
+  "class": "mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72"
 };
 var _hoisted_67 = {
-  "class": "mx-10"
+  "class": "2xl:mx-56"
 };
 var _hoisted_68 = {
   "class": "flex justify-center"
@@ -27341,7 +27350,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.banner,
-    "class": "w-full md:w-1/3",
+    "class": "w-full md:w-1/3 2xl:w-1/2",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -27393,7 +27402,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_48), _hoisted_49])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), _hoisted_50, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            <img :src=\"app_dev\" class=\" md:block w-1/2\" alt=\"\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_48), _hoisted_49])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), _hoisted_50, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev_mobile,
     "class": "w-full md:w-1/2 md:hidden",
     alt: ""
@@ -27401,7 +27410,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_54), _hoisted_55]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev,
-    "class": "w-full md:w-1/2 hidden md:block",
+    "class": "w-full md:w-1/2 2xl:w-2/3 hidden md:block",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -27411,7 +27420,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_63), _hoisted_64])]), _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_63), _hoisted_64])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_mobile,
     "class": "w-full md:hidden",
     alt: ""
@@ -27508,13 +27517,13 @@ var _hoisted_1 = {
 var _hoisted_2 = ["src"];
 var _hoisted_3 = ["src"];
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl\"><div class=\"-mt-48 lg:-mt-80 flex flex-col items-center\"><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider text-center leading-snug\"> Find the right <span class=\"text-red-600\">service</span> <br class=\"hidden md:block\"> for your business </h1></div></div><div class=\"mx-10 mb-8 flex flex-col items-center\"><p class=\"-mt-8 md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi illum iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae optio porro quo similique vero. </p></div>", 2);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl\"><div class=\"-mt-48 lg:-mt-80 flex flex-col items-center\"><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider text-center leading-snug\"> Find the right <span class=\"text-red-600\">service</span> <br class=\"hidden md:block\"> for your business </h1></div></div><div class=\"mx-10 mb-8 flex flex-col items-center 2xl:mx-80\"><p class=\"-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-lg md:px-24 lg:px-32 xl:mx-24 2xl:mx-80\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi illum iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae optio porro quo similique vero. </p></div>", 2);
 
 var _hoisted_6 = {
-  "class": "flex flex-col justify-center items-center mx-10 lg:mx-32 mt-8 md:-mt-8"
+  "class": "flex justify-center lg:mx-48 -mt-16 md:-mt-16"
 };
 var _hoisted_7 = {
-  "class": "md:flex"
+  "class": "grid max-w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 content-center mt-16"
 };
 var _hoisted_8 = {
   "class": "w-72 shadow-lg bg-white mx-8 z-10"
@@ -27547,10 +27556,40 @@ var _hoisted_24 = ["src"];
 var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Product <br> Design </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><button class=\"mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </button></div>", 4);
 
 var _hoisted_29 = {
-  "class": "my-32 bg-red-600 py-16 md:py-32"
+  "class": "w-72 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_30 = {
+  "class": "flex justify-center"
+};
+var _hoisted_31 = ["src"];
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Digital <br> Marketing </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><button class=\"mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </button></div>", 4);
+
+var _hoisted_36 = {
+  "class": "w-72 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_37 = {
+  "class": "flex justify-center"
+};
+var _hoisted_38 = ["src"];
+
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Machine <br> Learning </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><button class=\"mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </button></div>", 4);
+
+var _hoisted_43 = {
+  "class": "w-72 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_44 = {
+  "class": "flex justify-center"
+};
+var _hoisted_45 = ["src"];
+
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Custom <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><button class=\"mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </button></div>", 4);
+
+var _hoisted_50 = {
+  "class": "mt-32 my-16 bg-red-600 py-16 md:py-16 lg:py-32"
 };
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mx-10 lg:mx-48 items-center text-3xl md:text-5xl"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": ""
@@ -27566,98 +27605,95 @@ var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_31 = {
-  "class": "hidden md:block"
-};
-var _hoisted_32 = {
-  "class": "md:flex justify-center mt-16"
-};
-var _hoisted_33 = {
-  "class": "w-72 shadow-lg bg-white mx-8"
-};
-var _hoisted_34 = {
-  "class": "flex justify-center"
-};
-var _hoisted_35 = ["src"];
-
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Fintech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
-
-var _hoisted_39 = {
-  "class": "w-72 shadow-lg bg-white mx-8"
-};
-var _hoisted_40 = {
-  "class": "flex justify-center"
-};
-var _hoisted_41 = ["src"];
-
-var _hoisted_42 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Ecommerce <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
-
-var _hoisted_45 = {
-  "class": "w-72 shadow-lg bg-white mx-8"
-};
-var _hoisted_46 = {
-  "class": "flex justify-center"
-};
-var _hoisted_47 = ["src"];
-
-var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Medtech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
-
-var _hoisted_51 = {
-  "class": "md:flex justify-center mt-16"
-};
 var _hoisted_52 = {
-  "class": "w-72 shadow-lg bg-white mx-8"
+  "class": "hidden sm:flex justify-center lg:mx-48"
 };
 var _hoisted_53 = {
-  "class": "flex justify-center"
+  "class": "grid max-w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 content-center mt-16"
 };
-var _hoisted_54 = ["src"];
-
-var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Edtech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
-
-var _hoisted_58 = {
+var _hoisted_54 = {
   "class": "w-72 shadow-lg bg-white mx-8"
 };
-var _hoisted_59 = {
+var _hoisted_55 = {
   "class": "flex justify-center"
 };
-var _hoisted_60 = ["src"];
+var _hoisted_56 = ["src"];
 
-var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> IoT <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Fintech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
 
-var _hoisted_64 = {
+var _hoisted_60 = {
   "class": "w-72 shadow-lg bg-white mx-8"
 };
-var _hoisted_65 = {
+var _hoisted_61 = {
   "class": "flex justify-center"
 };
-var _hoisted_66 = ["src"];
+var _hoisted_62 = ["src"];
 
-var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Agritech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Ecommerce <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
 
-var _hoisted_70 = {
+var _hoisted_66 = {
+  "class": "w-72 shadow-lg bg-white mx-8"
+};
+var _hoisted_67 = {
+  "class": "flex justify-center"
+};
+var _hoisted_68 = ["src"];
+
+var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Medtech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+
+var _hoisted_72 = {
+  "class": "w-72 shadow-lg bg-white mx-8"
+};
+var _hoisted_73 = {
+  "class": "flex justify-center"
+};
+var _hoisted_74 = ["src"];
+
+var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Edtech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+
+var _hoisted_78 = {
+  "class": "w-72 shadow-lg bg-white mx-8"
+};
+var _hoisted_79 = {
+  "class": "flex justify-center"
+};
+var _hoisted_80 = ["src"];
+
+var _hoisted_81 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> IoT <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+
+var _hoisted_84 = {
+  "class": "w-72 shadow-lg bg-white mx-8"
+};
+var _hoisted_85 = {
+  "class": "flex justify-center"
+};
+var _hoisted_86 = ["src"];
+
+var _hoisted_87 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Agritech <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p>", 3);
+
+var _hoisted_90 = {
   "class": "sm:hidden mt-8"
 };
-var _hoisted_71 = {
+var _hoisted_91 = {
   id: "scrollContainer",
   "class": "flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 hide-scroll-bar"
 };
-var _hoisted_72 = {
+var _hoisted_92 = {
   "class": "inline-block px-2"
 };
-var _hoisted_73 = {
+var _hoisted_93 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_74 = {
+var _hoisted_94 = {
   href: "https://leap.essex.ac.uk/student",
   "class": ""
 };
-var _hoisted_75 = {
+var _hoisted_95 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_76 = ["src"];
+var _hoisted_96 = ["src"];
 
-var _hoisted_77 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_97 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27668,28 +27704,28 @@ var _hoisted_77 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
 /* HOISTED */
 );
 
-var _hoisted_79 = {
+var _hoisted_99 = {
   "class": "inline-block px-2"
 };
-var _hoisted_80 = {
+var _hoisted_100 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_81 = {
+var _hoisted_101 = {
   href: "https://leap.essex.ac.uk/student",
   "class": ""
 };
-var _hoisted_82 = {
+var _hoisted_102 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_83 = ["src"];
+var _hoisted_103 = ["src"];
 
-var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27700,27 +27736,27 @@ var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_85 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_105 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
 /* HOISTED */
 );
 
-var _hoisted_86 = {
+var _hoisted_106 = {
   "class": "inline-block px-2"
 };
-var _hoisted_87 = {
+var _hoisted_107 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_88 = {
+var _hoisted_108 = {
   href: "https://faser.essex.ac.uk/"
 };
-var _hoisted_89 = {
+var _hoisted_109 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_90 = ["src"];
+var _hoisted_110 = ["src"];
 
-var _hoisted_91 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_111 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27731,27 +27767,27 @@ var _hoisted_91 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_92 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_112 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
 /* HOISTED */
 );
 
-var _hoisted_93 = {
+var _hoisted_113 = {
   "class": "inline-block px-2"
 };
-var _hoisted_94 = {
+var _hoisted_114 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_95 = {
+var _hoisted_115 = {
   href: "https://faser.essex.ac.uk/"
 };
-var _hoisted_96 = {
+var _hoisted_116 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_97 = ["src"];
+var _hoisted_117 = ["src"];
 
-var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27762,27 +27798,27 @@ var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_99 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_119 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
 /* HOISTED */
 );
 
-var _hoisted_100 = {
+var _hoisted_120 = {
   "class": "inline-block px-2"
 };
-var _hoisted_101 = {
+var _hoisted_121 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_102 = {
+var _hoisted_122 = {
   href: "https://faser.essex.ac.uk/"
 };
-var _hoisted_103 = {
+var _hoisted_123 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_104 = ["src"];
+var _hoisted_124 = ["src"];
 
-var _hoisted_105 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_125 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27793,27 +27829,27 @@ var _hoisted_105 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_106 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_126 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
 /* HOISTED */
 );
 
-var _hoisted_107 = {
+var _hoisted_127 = {
   "class": "inline-block px-2"
 };
-var _hoisted_108 = {
+var _hoisted_128 = {
   "class": "w-64 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_109 = {
+var _hoisted_129 = {
   href: "https://faser.essex.ac.uk/"
 };
-var _hoisted_110 = {
+var _hoisted_130 = {
   "class": "pt-8 px-8 flex justify-center"
 };
-var _hoisted_111 = ["src"];
+var _hoisted_131 = ["src"];
 
-var _hoisted_112 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_132 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27824,9 +27860,111 @@ var _hoisted_112 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_113 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center mb-4"
 }, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut consequatur dolore eligendi, est eveniet exercitationem ", -1
+/* HOISTED */
+);
+
+var _hoisted_134 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mx-10 lg:mx-48 items-center text-3xl md:text-5xl"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": ""
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  },
+  "class": "tracking-wider text-red-600"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Tech "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "text-black"
+}, "Stalk"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br")])])], -1
+/* HOISTED */
+);
+
+var _hoisted_135 = {
+  "class": "hidden sm:flex justify-center"
+};
+var _hoisted_136 = {
+  "class": "grid max-w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center"
+};
+var _hoisted_137 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_138 = {
+  "class": "flex justify-center"
+};
+var _hoisted_139 = ["src"];
+
+var _hoisted_140 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Laravel "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_141 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_142 = {
+  "class": "flex justify-center"
+};
+var _hoisted_143 = ["src"];
+
+var _hoisted_144 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Laravel "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_145 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_146 = {
+  "class": "flex justify-center"
+};
+var _hoisted_147 = ["src"];
+
+var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Laravel "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_149 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_150 = {
+  "class": "flex justify-center"
+};
+var _hoisted_151 = ["src"];
+
+var _hoisted_152 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Laravel "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
 /* HOISTED */
 );
 
@@ -27859,7 +27997,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, null, 8
   /* PROPS */
-  , _hoisted_3)]), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BANNER SERVICES     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    WEB DEV     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_3)]), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BANNER SERVICES     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <div class=\"lg:flex\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    WEB DEV     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_dev_services,
     alt: "",
     "class": "mt-8 w-24 h-24"
@@ -27877,79 +28015,121 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_24)]), _hoisted_25])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [_hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            DESKTOP INDUSTRY SPECIFIC SERVICES  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            INDUSTRY SPECIFIC SERVICES ROW 1"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_24)]), _hoisted_25]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DIGITAL MARKETING     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.digital_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_31)]), _hoisted_32]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" MACHINE LEARNING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.ml_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_38)]), _hoisted_39]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("   CUSTOM DEV     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.custom_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_45)]), _hoisted_46])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        INDUSTRY SPECIFIC SERVICES  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [_hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            DESKTOP INDUSTRY SPECIFIC SERVICES  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            INDUSTRY SPECIFIC SERVICES ROW 1"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_55, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.fintech,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_35)]), _hoisted_36]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ECOMMERCE      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_56)]), _hoisted_57]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ECOMMERCE      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.ecommerce,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_41)]), _hoisted_42]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MEDTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_62)]), _hoisted_63]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MEDTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.ecommerce,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_47)]), _hoisted_48])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            INDUSTRY SPECIFIC SERVICES ROW 2"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    EDTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_68)]), _hoisted_69]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            INDUSTRY SPECIFIC SERVICES ROW 2"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    EDTECH      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.edtech,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_54)]), _hoisted_55]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    IoT       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: _ctx.iot,
+  , _hoisted_74)]), _hoisted_75]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    IoT       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_78, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_79, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.iot_dev,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_60)]), _hoisted_61]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Agritech      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_80)]), _hoisted_81]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Agritech      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_84, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_85, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.agritech,
     alt: "",
     "class": "mt-8 w-24 h-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_66)]), _hoisted_67])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            MOBILE INDUSTRY SPECIFIC SERVICES  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_75, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_86)]), _hoisted_87])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            MOBILE INDUSTRY SPECIFIC SERVICES  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_90, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_91, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_92, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_95, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.fintech,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_76)])]), _hoisted_77, _hoisted_78])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ECOMMERCE DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_79, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_80, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_81, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_96)])]), _hoisted_97, _hoisted_98])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ECOMMERCE DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_99, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_101, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.ecommerce,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_83)])]), _hoisted_84, _hoisted_85])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                Medtech Development       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_89, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_103)])]), _hoisted_104, _hoisted_105])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                Medtech Development       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_108, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.medtech,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_90)])]), _hoisted_91, _hoisted_92])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_95, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_96, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_110)])]), _hoisted_111, _hoisted_112])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_113, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_114, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_115, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.edtech,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_97)])]), _hoisted_98, _hoisted_99])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_101, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_117)])]), _hoisted_118, _hoisted_119])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_120, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.iot_dev,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_104)])]), _hoisted_105, _hoisted_106])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_108, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_110, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_124)])]), _hoisted_125, _hoisted_126])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_128, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_129, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_130, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.agritech,
     "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
-  , _hoisted_111)])]), _hoisted_112, _hoisted_113])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
+  , _hoisted_131)])]), _hoisted_132, _hoisted_133])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    TECH STALK ROW 1  "), _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_135, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("LARAVEL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_138, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.web_dev_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_139)]), _hoisted_140]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("LARAVEL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_142, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.web_dev_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_143)]), _hoisted_144]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("LARAVEL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.web_dev_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_147)]), _hoisted_148]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("LARAVEL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_150, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.web_dev_services,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_151)]), _hoisted_152])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
 }
 
 /***/ }),
@@ -28753,6 +28933,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/img/services/ai.png":
+/*!************************************!*\
+  !*** ./public/img/services/ai.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ai.png?bc220ec6a3b9237ffa4aae0942e19365");
+
+/***/ }),
+
 /***/ "./public/img/services/app-dev-services.png":
 /*!**************************************************!*\
   !*** ./public/img/services/app-dev-services.png ***!
@@ -28765,6 +28960,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/app-dev-services.png?38781e27b033bd3a145867b369adf7fb");
+
+/***/ }),
+
+/***/ "./public/img/services/custom.png":
+/*!****************************************!*\
+  !*** ./public/img/services/custom.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/custom.png?f249f91572f5147999f4430dea8f7e7e");
+
+/***/ }),
+
+/***/ "./public/img/services/digital.png":
+/*!*****************************************!*\
+  !*** ./public/img/services/digital.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/digital.png?7904d11af4f3ac00f8f66476225f93d6");
 
 /***/ }),
 

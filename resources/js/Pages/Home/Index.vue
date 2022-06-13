@@ -17,7 +17,7 @@
                 <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
                 <div class="-mt-16 flex justify-center hidden md:flex">
-                    <img :src="banner" class="w-full md:w-1/3 " alt="">
+                    <img :src="banner" class="w-full md:w-1/3 2xl:w-1/2 " alt="">
 
                 </div>
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -150,8 +150,8 @@ Product Design
         </div>
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center mx-10 lg:mx-32">
-            <div class="">
+        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class="2xl:mx-56">
 
                 <div class="flex justify-center">
                     <img :src="web_dev_mobile" class="md:w-1/3 md:hidden" alt="">
@@ -263,11 +263,8 @@ Product Design
 
 
         <!--        APP DEV -->
-        <div class="mt-16 md:mt-32 md:flex items-center lg:mx-32">
-            <!--            <img :src="app_dev" class=" md:block w-1/2" alt="">-->
-
-
-            <div class="mx-10 md:flex items-center">
+        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class="2xl:ml-56 md:flex items-center">
 
 
                 <div class="">
@@ -317,7 +314,7 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="app_dev" class="w-full md:w-1/2 hidden md:block" alt="">
+                <img :src="app_dev" class="w-full md:w-1/2 2xl:w-2/3 hidden md:block" alt="">
 
             </div>
 
@@ -373,8 +370,7 @@ Product Design
 
         </div>
 
-
-
+        <!--    PARTNERS    -->
         <div class="bg-gray-100 py-10">
             <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
 
@@ -391,8 +387,8 @@ Product Design
         </div>
 
         <!--        PRODUCT DESIGN-->
-        <div class="mt-16 md:flex items-center lg:mx-32">
-            <div class="mx-10">
+        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class="2xl:mx-56">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
 

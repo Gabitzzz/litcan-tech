@@ -2,7 +2,7 @@
 
 
     <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
-        <div class="w-full px-2   sm:px-8 md:px-16 lg:px-24 xl:px-40">
+        <div class="w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80 2xl:mx-56">
 
 
             <div class="flex-1">
