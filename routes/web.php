@@ -33,6 +33,10 @@ Route::get('/services', function () {
     return Inertia::render('Services/Index');
 })->name('services');
 
+Route::get('/tech-stack', function () {
+    return Inertia::render('Services/TechStalk');
+})->name('tech-stack');
+
 Route::get('/portfolio', function () {
     return Inertia::render('Portfolio/Index');
 })->name('portfolio');

@@ -130,12 +130,14 @@ Product Design
                     </div>
                 </div>
 
-                <div class=" px-2">
-                    <div
-                        class="w-48 h-56 max-w-xs font-bold overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
-                        SEE ALL
+                <InertiaLink :href="route('services')">
+                    <div class=" px-2">
+                        <div
+                            class="w-48 h-56 max-w-xs font-bold overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
+                            SEE ALL
+                        </div>
                     </div>
-                </div>
+                </InertiaLink>
 
             </div>
         </div>
@@ -246,21 +248,7 @@ Product Design
         </div>
 
         <!--    PARTNERS    -->
-        <div class="bg-gray-100 py-10">
-            <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
-
-                Our latest
-                <span class="text-red-600">Partners</span>
-
-            </h2>
-
-            <div class="flex justify-center mt-8 md:mt-16">
-                <button class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
-                    SEE OUR PORTFOLIO
-                </button>
-            </div>
-        </div>
-
+        <LatestPartners></LatestPartners>
 
         <!--        APP DEV -->
         <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
@@ -371,21 +359,7 @@ Product Design
         </div>
 
         <!--    PARTNERS    -->
-        <div class="bg-gray-100 py-10">
-            <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
-
-                Our latest
-                <span class="text-red-600">Partners</span>
-
-            </h2>
-
-            <div class="flex justify-center mt-8 md:mt-16">
-                <button class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
-                    SEE OUR PORTFOLIO
-                </button>
-            </div>
-        </div>
-
+        <LatestPartners></LatestPartners>
         <!--        PRODUCT DESIGN-->
         <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
             <div class="2xl:mx-56">
@@ -575,6 +549,7 @@ Product Design
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
+import LatestPartners from "@/Components/LatestPartners";
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
@@ -603,6 +578,7 @@ export default {
         Footer,
         BlogComponent,
         InertiaLink,
+        LatestPartners,
     },
     data() {
         return {

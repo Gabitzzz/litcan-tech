@@ -36,7 +36,7 @@
 
         <!--        BANNER SERVICES     -->
 
-        <div class="flex justify-center lg:mx-48 -mt-16 md:-mt-16">
+        <div class="flex justify-center lg:mx-48 -mt-16 md:-mt-16 md:mb-32">
             <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 content-center mt-16">
 
 
@@ -45,7 +45,6 @@
                 <div class="w-72 shadow-lg bg-white mx-8 z-10">
                     <div class="flex justify-center">
                         <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
-
                     </div>
 
                     <div class="flex justify-center mt-8">
@@ -259,7 +258,7 @@
 
 
         <!--        INDUSTRY SPECIFIC SERVICES  -->
-        <div class="mt-32 my-16 bg-red-600 py-16 md:py-16 lg:py-32">
+        <div class="my-16 bg-red-600 py-16 md:py-16">
             <div class="mx-10 lg:mx-48 items-center text-3xl md:text-5xl">
                 <div class="">
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -452,7 +451,7 @@
                     <!--    FINTECH     -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="fintech"
@@ -479,7 +478,7 @@
                     <!--                ECOMMERCE DEVELOPMENT      -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="ecommerce"
@@ -506,7 +505,7 @@
                     <!--                Medtech Development       -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="medtech"
@@ -532,7 +531,7 @@
 
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="edtech"
@@ -558,7 +557,7 @@
 
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="iot_dev"
@@ -584,7 +583,7 @@
 
                     <div class="inline-block px-2">
                         <div
-                            class="w-64  max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="agritech"
@@ -612,9 +611,8 @@
             </div>
         </div>
 
-        <!--    TECH STALK ROW 1  -->
 
-        <div class="mx-10 lg:mx-48 items-center text-3xl md:text-5xl">
+        <div class="md:mt-16 mx-10 lg:mx-48 items-center text-3xl md:text-5xl">
             <div class="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-red-600">
@@ -623,68 +621,197 @@
             </div>
         </div>
 
-        <div class="hidden sm:flex justify-center ">
-            <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
-                <!--LARAVEL -->
-                <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                    <div class="flex justify-center">
-                        <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
 
+        <div>
+            <!--        DESKTOP TECH STALK  -->
+            <div class="hidden sm:flex justify-center md:mt-16 ">
+                <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+                    <!--LARAVEL -->
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                        <div class="flex justify-center">
+                            <img :src="laravel" alt="" class="mt-8 w-24 h-24">
+
+                        </div>
+
+                        <div class="flex justify-center my-8">
+                            <p class="text-xl text-center"
+                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                Laravel <br> Development
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="flex justify-center my-8">
-                        <p class="text-xl text-center"
-                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                            Laravel <br> Development
-                        </p>
+                    <!--LARAVEL -->
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                        <div class="flex justify-center">
+                            <img :src="vue" alt="" class="mt-8 w-24 h-24">
+
+                        </div>
+
+                        <div class="flex justify-center my-8">
+                            <p class="text-xl text-center"
+                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                Vue.js <br> Development
+                            </p>
+                        </div>
                     </div>
+
+                    <!--LARAVEL -->
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                        <div class="flex justify-center">
+                            <img :src="flutter" alt="" class="mt-8 w-24 h-24">
+
+                        </div>
+
+                        <div class="flex justify-center my-8">
+                            <p class="text-xl text-center"
+                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                Flutter <br> Development
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--LARAVEL -->
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                        <div class="flex justify-center">
+                            <img :src="python" alt="" class="mt-8 w-24 h-24">
+
+                        </div>
+
+                        <div class="flex justify-center my-8">
+                            <p class="text-xl text-center"
+                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                Python <br> Development
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!--LARAVEL -->
-                <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                    <div class="flex justify-center">
-                        <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
 
+            </div>
+
+            <div class="hidden sm:flex justify-center mt-8 md:mt-16">
+                <InertiaLink :href="route('tech-stack')"
+                             class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
+                    SEE OUR FULL TECH STACK
+                </InertiaLink>
+            </div>
+        </div>
+
+        <div class=" md:py-16">
+            <!--            MOBILE TECH STALK  -->
+            <div class="sm:hidden mt-4">
+                <div
+                    id="scrollContainer2"
+                    class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+                    <!--    LARAVEL DEVELOPMENT     -->
+                    <div class="inline-block px-2">
+                        <div
+                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            <a href="https://leap.essex.ac.uk/student" class="">
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="laravel"
+                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         alt="plus">
+                                </div>
+                            </a>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                    Laravel
+                                    <br>
+                                    Development
+                                </h2>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="flex justify-center my-8">
-                        <p class="text-xl text-center"
-                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                            Laravel <br> Development
-                        </p>
+                    <!--                VUE.JS DEVELOPMENT      -->
+                    <div class="inline-block px-2">
+                        <div
+                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            <a href="https://leap.essex.ac.uk/student" class="">
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="vue"
+                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         alt="plus">
+                                </div>
+                            </a>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                    Vue.js
+                                    <br>
+                                    Development
+                                </h2>
+                            </div>
+                        </div>
                     </div>
+
+                    <!--                FLUTTER Development       -->
+                    <div class="inline-block px-2">
+                        <div
+                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            <a href="https://faser.essex.ac.uk/">
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="flutter"
+                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         alt="plus">
+                                </div>
+                            </a>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                    Flutter
+                                    <br>
+                                    Development
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--                    PYTHON DEV      -->
+                    <div class="inline-block px-2">
+                        <div
+                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            <a href="https://faser.essex.ac.uk/">
+                                <div class="pt-8 px-8 flex justify-center">
+                                    <img :src="python"
+                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         alt="plus">
+                                </div>
+                            </a>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                    Python
+                                    <br>
+                                    Development
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="inline-block px-2">
+                        <div
+                            class="w-64 h-64 flex justify-center items-center max-w-xs overflow-hidden
+                                    shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out
+                                    font-bold text-xl"
+
+                            style="font-family: Poppins,serif"
+                        >
+
+                            <InertiaLink :href="route('tech-stack')">
+                                SEE ALL
+                            </InertiaLink>
+
+                        </div>
+                    </div>
+
+
                 </div>
-
-                <!--LARAVEL -->
-                <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                    <div class="flex justify-center">
-                        <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
-
-                    </div>
-
-                    <div class="flex justify-center my-8">
-                        <p class="text-xl text-center"
-                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                            Laravel <br> Development
-                        </p>
-                    </div>
-                </div>
-
-                <!--LARAVEL -->
-                <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                    <div class="flex justify-center">
-                        <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
-
-                    </div>
-
-                    <div class="flex justify-center my-8">
-                        <p class="text-xl text-center"
-                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                            Laravel <br> Development
-                        </p>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -699,6 +826,8 @@
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
+
+import {InertiaLink} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -717,12 +846,18 @@ import iot_dev from "/img/services/iot.png";
 import ecommerce from "/img/services/ecommerce.png";
 import agritech from "/img/services/agritech.png";
 
+import vue from "/img/services/vue.png";
+import laravel from "/img/services/laravel.png";
+import python from "/img/services/python.png";
+import flutter from "/img/services/flutter.png";
+
 export default {
     name: "Index",
     components: {
         Navbar,
         Footer,
         BlogComponent,
+        InertiaLink,
     },
     data() {
         return {
@@ -735,6 +870,11 @@ export default {
             ml_services: ml_services,
             digital_services: digital_services,
             custom_services: custom_services,
+
+            vue: vue,
+            laravel: laravel,
+            python: python,
+            flutter: flutter,
 
             fintech: fintech,
             ecommerce: ecommerce,
