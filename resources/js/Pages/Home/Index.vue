@@ -17,7 +17,7 @@
                 <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
                 <div class="-mt-16 flex justify-center hidden md:flex">
-                    <img :src="banner" class="w-full md:w-1/3 2xl:w-1/2 " alt="">
+                    <img :src="banner" class="w-full md:w-1/3 4xl:w-1/2 " alt="">
 
                 </div>
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -28,7 +28,6 @@
                 </h1>
 
             </div>
-
         </div>
 
         <div class="flex justify-center my-6">
@@ -68,14 +67,14 @@ Product Design
         <div class="sm:hidden">
             <div
                 id="scrollContainer"
-                class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+                class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
                 <!--    MOBILE WEB DEV  -->
                 <div class="inline-block px-4">
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://moodle.essex.ac.uk/">
-                            <div class="pt-8 px-8 ">
-                                <img :src="web_icon" class="inline-block px-2 py-2 lg:px-4 lg:py-4" alt="plus">
+                            <div class="pt-12 px-12 ">
+                                <img :src="web_dev_services" class="inline-block px-2 py-2 lg:px-4 lg:py-4" alt="plus">
                             </div>
                         </a>
 
@@ -93,8 +92,8 @@ Product Design
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://leap.essex.ac.uk/student" class="">
-                            <div class="pt-8 px-8">
-                                <img :src="app_icon" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                            <div class="pt-12 px-12 ">
+                                <img :src="app_dev_services" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                      alt="plus">
                             </div>
                         </a>
@@ -114,8 +113,9 @@ Product Design
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://faser.essex.ac.uk/">
-                            <div class="p-8">
-                                <img :src="product_icon" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                            <div class="pt-12 px-12 ">
+                                <img :src="product_design_services"
+                                     class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                      alt="plus">
                             </div>
                         </a>
@@ -152,8 +152,8 @@ Product Design
         </div>
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
-            <div class="2xl:mx-56">
+        <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-32 2xl:mx-72">
+            <div class="">
 
                 <div class="flex justify-center">
                     <img :src="web_dev_mobile" class="md:w-1/3 md:hidden" alt="">
@@ -189,36 +189,24 @@ Product Design
                 </div>
 
                 <div class="flex  mt-5">
-                    <button class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                    <InertiaLink :href="route('web-dev')" class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
-                    </button>
+                    </InertiaLink>
                 </div>
             </div>
 
             <img :src="web_dev" class="hidden md:block w-1/3" alt="">
         </div>
 
-        <!--        3 LAYERS    -->
-        <div class="lg:mx-40 mt-16 mb-32">
-            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
-
-                <div class="md:hidden">
-                    <p style="font-family: 'Poppins', sans-serif;"
-                       class=" text-4xl mt-16 md:mt-0 font-bold">
-                        The <span class="text-red-600">3</span> layers of a great product
-                    </p>
-
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
-
-                    </div>
-                </div>
-
+        <!--        AUDIT    -->
+        <div class="mt-8 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class=" md:flex items-center">
                 <img :src="audit_mobile" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
-                    <div class="hidden md:block">
+                    <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class=" text-4xl mt-16 md:mt-0 font-bold">
+                           class=" text-4xl md:mt-0 font-bold">
                             Request a free <span class="text-red-600">audit</span> for your
                         </p>
 
@@ -248,11 +236,13 @@ Product Design
         </div>
 
         <!--    PARTNERS    -->
-        <LatestPartners></LatestPartners>
+        <div class="mt-8">
+            <LatestPartners></LatestPartners>
 
+        </div>
         <!--        APP DEV -->
-        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
-            <div class="2xl:ml-56 md:flex items-center">
+        <div class="mt-16 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class=" md:flex items-center">
 
 
                 <div class="">
@@ -310,8 +300,8 @@ Product Design
         </div>
 
         <!--        3 LAYERS    -->
-        <div class="lg:mx-40 my-32">
-            <div class="mx-10 lg:mx-32 md:flex items-center justify-between">
+        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+            <div class=" md:flex items-center">
 
                 <div class="md:hidden">
                     <p style="font-family: 'Poppins', sans-serif;"
@@ -324,13 +314,19 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="steps" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div class="hidden md:block">
                         <p style="font-family: 'Poppins', sans-serif;"
                            class=" text-4xl mt-16 md:mt-0 font-bold">
-                            The <span class="text-red-600">3</span> layers of a great product
+                            Grow your brand with our Digital
+                            <span class="text-red-600">
+                                Marketing
+                            </span>
+
+                            services
+
                         </p>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
@@ -362,7 +358,7 @@ Product Design
         <LatestPartners></LatestPartners>
         <!--        PRODUCT DESIGN-->
         <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
-            <div class="2xl:mx-56">
+            <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
 
@@ -555,19 +551,29 @@ import {InertiaLink} from "@inertiajs/inertia-vue3";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
+import banner from "/img/banner.webp";
+import banner_mobile from "/img/mobile/banner-mobile.webp";
+
+import app_dev_services from "/img/services/app-dev-services.png";
+import web_dev_services from "/img/services/web-dev-services.png";
+import product_design_services from "/img/services/product-design-services.png";
+
 import web_dev from "/img/web-dev.webp";
+import web_dev_mobile from "/img/mobile/web-dev-mobile.webp";
+
 import app_dev from "/img/app-dev.webp";
 import app_dev_mobile from "/img/mobile/app-dev-mobile.webp";
-import web_dev_mobile from "/img/mobile/web-dev-mobile.webp";
-import product_design_mobile from "/img/mobile/product-design-mobile.webp";
-import audit_mobile from "/img/mobile/audit-mobile.webp";
-import banner from "/img/banner.webp";
+
 import product_design from "/img/product-design.webp";
+import product_design_mobile from "/img/mobile/product-design-mobile.webp";
 import product_design_2 from "/img/desktop/product-design-2.webp";
+
+import digital_marketing from "/img/services/digital-marketing.svg";
+
+import audit_mobile from "/img/mobile/audit-mobile.webp";
 import app_icon from "/img/mobile/app-icon.png";
 import web_icon from "/img/mobile/web-icon.png";
 import product_icon from "/img/mobile/product-icon.png";
-import banner_mobile from "/img/mobile/banner-mobile.webp";
 import steps from "/img/desktop/3steps.png";
 import 'tw-elements';
 
@@ -603,7 +609,12 @@ export default {
             app_icon: app_icon,
             web_icon: web_icon,
 
+            app_dev_services: app_dev_services,
+            web_dev_services: web_dev_services,
+            product_design_services: product_design_services,
+
             steps: steps,
+            digital_marketing: digital_marketing,
         }
     }
 }

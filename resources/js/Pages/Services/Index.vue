@@ -42,7 +42,7 @@
 
                 <!--                <div class="lg:flex">-->
                 <!--    WEB DEV     -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
                     <div class="flex justify-center">
                         <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
                     </div>
@@ -67,16 +67,18 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <InertiaLink :href="route('web-dev')"
+                                     class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
-                        </button>
+                        </InertiaLink>
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
                 <!--   APP DEV     -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('app-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+
                     <div class="flex justify-center">
                         <img :src="app_dev_services" alt="" class="mt-8 w-24 h-24">
 
@@ -109,10 +111,12 @@
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
                 <!-- PRODUCT DESIGN     -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('product-design')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+
+
                     <div class="flex justify-center">
                         <img :src="product_design_services" alt="" class="mt-8 w-24 h-24">
 
@@ -144,11 +148,12 @@
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
 
                 <!--    DIGITAL MARKETING     -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+
                     <div class="flex justify-center">
                         <img :src="digital_services" alt="" class="mt-8 w-24 h-24">
 
@@ -180,10 +185,11 @@
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
                 <!-- MACHINE LEARNING    -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+
                     <div class="flex justify-center">
                         <img :src="ml_services" alt="" class="mt-8 w-24 h-24">
 
@@ -215,10 +221,11 @@
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
                 <!--   CUSTOM DEV     -->
-                <div class="w-72 shadow-lg bg-white mx-8 z-10">
+                <InertiaLink :href="route('contact')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+
                     <div class="flex justify-center">
                         <img :src="custom_services" alt="" class="mt-8 w-24 h-24">
 
@@ -246,12 +253,12 @@
                     <div class="flex justify-center mb-8">
 
                         <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
-                            SEE MORE
+                            CONTACT
                         </button>
                     </div>
 
 
-                </div>
+                </InertiaLink>
 
             </div>
         </div>

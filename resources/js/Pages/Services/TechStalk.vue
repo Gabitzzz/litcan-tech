@@ -40,7 +40,12 @@
                 Web <span class="text-black">Development</span> <br>
             </p>
         </div>
+
+        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+
     </div>
+
+
 
     <div class="hidden sm:flex justify-center md:mt-8 ">
         <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
@@ -114,7 +119,7 @@
     <div class="sm:hidden mt-4">
         <div
             id="scrollContainer2"
-            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
             <!--    LARAVEL DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
@@ -211,7 +216,7 @@
 
 
     <!--    DESTKOP FRONT END FRAMEWORKS-->
-    <div class="mt-8 md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -287,10 +292,10 @@
     <!--   END OF DESKTOP FRONT END FRAMEWORKS-->
 
     <!--        MOBILE FRONT END FRAMEWORKS  -->
-    <div class="sm:hidden mt-4">
+    <div class="sm:hidden ">
         <div
             id="scrollContainer3"
-            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
             <!--    VUE DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
@@ -386,8 +391,8 @@
     <!--        END OF FRONT END FRAMEWORKS  -->
 
 
-    <!--    DESTOP OTHER TECHNOLOGIES-->
-    <div class="mt-8 md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <!--    DESTKOP OTHER TECHNOLOGIES-->
+    <div class=" md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -398,17 +403,17 @@
 
     <div class="hidden sm:flex justify-center md:mt-8 ">
         <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
-            <!--    MYSQL -->
+            <!--    Digital Ocean -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
-                    <img :src="laravel" alt="" class="mt-8 w-24 h-24">
+                    <img :src="digital_ocean" alt="" class="mt-8 w-24 h-24">
 
                 </div>
 
                 <div class="flex justify-center my-8">
                     <p class="text-xl text-center"
                        style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                        MySql<br> Database
+                        Digital Ocean<br> Droplets
                     </p>
                 </div>
             </div>
@@ -443,6 +448,21 @@
                 </div>
             </div>
 
+            <!--    Inertia.js -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <div class="flex justify-center">
+                    <img :src="inertia" alt="" class="mt-8 w-24 h-24">
+
+                </div>
+
+                <div class="flex justify-center my-8">
+                    <p class="text-xl text-center"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                        Inertia.js <br> Development
+                    </p>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -452,7 +472,7 @@
     <div class="sm:hidden mt-4">
         <div
             id="scrollContainer4"
-            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
             <!--    LARAVEL DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
@@ -545,13 +565,13 @@
 
         </div>
     </div>
-    <!--        END OF OTHER TECHNOLOGIES  -->
+    <!--        END OF MOBILE OTHER TECHNOLOGIES  -->
 
 
     <hr class=" mx-10 lg:mx-48 my-8">
 
 
-    <!--    DESTOP APP DEVELOPMENT     -->
+    <!--    DESkTOP APP DEVELOPMENT     -->
     <div class="md:mt-8 mx-10 lg:mx-48 text-4xl md:text-5xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -559,8 +579,13 @@
                 App <span class="text-black">Development</span>
             </p>
         </div>
+        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+
+
+
     </div>
 
+    <!--    DESKTOP APP DEVELOPMENT  -->
     <div class="hidden sm:flex justify-center md:mt-8 ">
         <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Flutter -->
@@ -608,6 +633,21 @@
                 </div>
             </div>
 
+            <!--    Inertia.js -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <div class="flex justify-center">
+                    <img :src="inertia" alt="" class="mt-8 w-24 h-24">
+
+                </div>
+
+                <div class="flex justify-center my-8">
+                    <p class="text-xl text-center"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                        Inertia.js <br> Development
+                    </p>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -617,7 +657,7 @@
     <div class="sm:hidden mt-4">
         <div
             id="scrollContainer5"
-            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
             <!--    FLUTTER DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
@@ -683,6 +723,28 @@
                     </div>
                 </div>
             </div>
+
+            <!--                INERTIA.JS DEVELOPMENT       -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://faser.essex.ac.uk/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="inertia"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Inertia.js
+                            <br>
+                            Development
+                        </h2>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--    END OF MOBILE APP DEVELOPMENT  -->
@@ -698,8 +760,12 @@
                 <span class="text-black">Product</span> Design
             </p>
         </div>
+
+        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+
     </div>
 
+    <!--    DESKTOP PRODUCT DESIGN-->
     <div class="hidden sm:flex justify-center md:mt-8 mb-16 ">
         <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Sketch -->
@@ -713,6 +779,21 @@
                     <p class="text-xl text-center"
                        style="font-family: 'Poppins', sans-serif; font-weight: 400;">
                         Sketch<br> Prototyping
+                    </p>
+                </div>
+            </div>
+
+            <!--    ADOBE XD     -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <div class="flex justify-center">
+                    <img :src="adobe_xd" alt="" class="mt-8 w-24 h-24">
+
+                </div>
+
+                <div class="flex justify-center my-8">
+                    <p class="text-xl text-center"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                        Adobe XD <br> Prototyping
                     </p>
                 </div>
             </div>
@@ -732,17 +813,17 @@
                 </div>
             </div>
 
-            <!--    Adobe XD -->
+            <!--    CANVA   -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
-                    <img :src="firebase" alt="" class="mt-8 w-24 h-24">
+                    <img :src="canva" alt="" class="mt-8 w-24 h-24">
 
                 </div>
 
                 <div class="flex justify-center my-8">
                     <p class="text-xl text-center"
                        style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                        Adobe XD <br> Design
+                        Canva <br> Design
                     </p>
                 </div>
             </div>
@@ -750,7 +831,104 @@
 
         </div>
     </div>
-    <!--    END OF PRODUCT DESIGN  -->
+    <!--    END OF DESKTOP PRODUCT DESIGN  -->
+
+    <!--    MOBILE PRODUCT DESIGN   -->
+    <div class="sm:hidden mt-4">
+        <div
+            id="scrollContainer6"
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
+            <!--    SKETCH     -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="sketch"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Sketch
+                            <br>
+                            Prototyping
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--    ADOBE XD    -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="adobe_xd"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Adobe XD
+                            <br>
+                            Prototyping
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--    FIGMA   -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://faser.essex.ac.uk/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="figma"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Figma
+                            <br>
+                            Graphics Edit
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--                CANVA       -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://faser.essex.ac.uk/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="canva"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Canva
+                            <br>
+                            Design
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    END OF MOBILE PRODUCT DESIGN   -->
+
 
     <hr class=" mx-10 lg:mx-48 my-8">
 
@@ -782,6 +960,10 @@ import forge from "/img/services/forge.svg";
 import inertia from "/img/services/inertia.png";
 import sketch from "/img/services/sketch.png";
 import firebase from "/img/services/firebase.svg";
+import digital_ocean from "/img/services/digital-ocean.png";
+import canva from "/img/services/canva.png";
+import figma from "/img/services/figma.svg";
+import adobe_xd from "/img/services/xd.png";
 
 export default {
     name: "TechStalk",
@@ -809,6 +991,10 @@ export default {
             python: python,
             flutter: flutter,
             firebase: firebase,
+            digital_ocean: digital_ocean,
+            figma: figma,
+            adobe_xd: adobe_xd,
+            canva: canva,
         }
     }
 }

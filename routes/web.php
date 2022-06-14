@@ -37,6 +37,19 @@ Route::get('/tech-stack', function () {
     return Inertia::render('Services/TechStalk');
 })->name('tech-stack');
 
+Route::get('/services/web-development', function () {
+    return Inertia::render('Services/WebDev');
+})->name('web-dev');
+
+Route::get('/services/app-development', function () {
+    return Inertia::render('Services/AppDev');
+})->name('app-dev');
+
+Route::get('/services/product-design', function () {
+    return Inertia::render('Services/ProductDesign');
+})->name('product-design');
+
+
 Route::get('/portfolio', function () {
     return Inertia::render('Portfolio/Index');
 })->name('portfolio');

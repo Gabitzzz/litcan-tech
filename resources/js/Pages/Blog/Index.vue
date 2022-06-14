@@ -33,6 +33,13 @@
             </p>
         </div>
 
+        <div class="mx-10 md:mx-64 mb-8 flex flex-col items-center">
+            <div class="z-10 w-full bg-red-400 text-center text-lg md:px-24 lg:mx-32 py-32 ">
+                sa
+            </div>
+
+        </div>
+
 
         <BlogComponent></BlogComponent>
 
