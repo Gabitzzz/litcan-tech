@@ -708,17 +708,17 @@
                     <!--    LARAVEL DEVELOPMENT     -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
-                                <div class="pt-8 px-8 flex justify-center">
+                                <div class="pt-2 px-2 flex justify-center">
                                     <img :src="laravel"
-                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
 
-                            <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                            <div class="flex justify-center mb-4">
+                                <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
                                     Laravel
                                     <br>
                                     Development
@@ -730,17 +730,17 @@
                     <!--                VUE.JS DEVELOPMENT      -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://leap.essex.ac.uk/student" class="">
-                                <div class="pt-8 px-8 flex justify-center">
+                                <div class="pt-2 px-2 flex justify-center">
                                     <img :src="vue"
-                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
 
-                            <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                            <div class="flex justify-center mb-2">
+                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                                     Vue.js
                                     <br>
                                     Development
@@ -752,17 +752,17 @@
                     <!--                FLUTTER Development       -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="pt-8 px-8 flex justify-center">
+                                <div class="pt-2 px-2 flex justify-center">
                                     <img :src="flutter"
-                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
 
                             <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
                                     Flutter
                                     <br>
                                     Development
@@ -774,17 +774,17 @@
                     <!--                    PYTHON DEV      -->
                     <div class="inline-block px-2">
                         <div
-                            class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                            class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                             <a href="https://faser.essex.ac.uk/">
-                                <div class="pt-8 px-8 flex justify-center">
+                                <div class="pt-2 px-2 flex justify-center">
                                     <img :src="python"
-                                         class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                         class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
                             </a>
 
                             <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                                     Python
                                     <br>
                                     Development
@@ -796,7 +796,7 @@
 
                     <div class="inline-block px-2">
                         <div
-                            class="w-64 h-64 flex justify-center items-center max-w-xs overflow-hidden
+                            class="w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden
                                     shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out
                                     font-bold text-xl"
 

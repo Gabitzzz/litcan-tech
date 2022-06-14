@@ -28152,21 +28152,21 @@ var _hoisted_158 = {
   "class": "inline-block px-2"
 };
 var _hoisted_159 = {
-  "class": "w-64 h-64 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_160 = {
   href: "https://leap.essex.ac.uk/student",
   "class": ""
 };
 var _hoisted_161 = {
-  "class": "pt-8 px-8 flex justify-center"
+  "class": "pt-2 px-2 flex justify-center"
 };
 var _hoisted_162 = ["src"];
 
 var _hoisted_163 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex justify-center mb-8"
+  "class": "flex justify-center mb-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "flex text-center font-bold text-xl",
+  "class": "flex text-center text-md",
   style: {
     "font-family": "Poppins,serif"
   }
@@ -28178,21 +28178,21 @@ var _hoisted_164 = {
   "class": "inline-block px-2"
 };
 var _hoisted_165 = {
-  "class": "w-64 h-64 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_166 = {
   href: "https://leap.essex.ac.uk/student",
   "class": ""
 };
 var _hoisted_167 = {
-  "class": "pt-8 px-8 flex justify-center"
+  "class": "pt-2 px-2 flex justify-center"
 };
 var _hoisted_168 = ["src"];
 
 var _hoisted_169 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex justify-center mb-8"
+  "class": "flex justify-center mb-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "flex text-center font-bold text-xl",
+  "class": "flex text-center text-md",
   style: {
     "font-family": "Poppins,serif"
   }
@@ -28204,20 +28204,20 @@ var _hoisted_170 = {
   "class": "inline-block px-2"
 };
 var _hoisted_171 = {
-  "class": "w-64 h-64 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_172 = {
   href: "https://faser.essex.ac.uk/"
 };
 var _hoisted_173 = {
-  "class": "pt-8 px-8 flex justify-center"
+  "class": "pt-2 px-2 flex justify-center"
 };
 var _hoisted_174 = ["src"];
 
 var _hoisted_175 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center mb-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "flex text-center font-bold text-xl",
+  "class": "flex text-center text-md",
   style: {
     "font-family": "Poppins,serif"
   }
@@ -28229,20 +28229,20 @@ var _hoisted_176 = {
   "class": "inline-block px-2"
 };
 var _hoisted_177 = {
-  "class": "w-64 h-64 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_178 = {
   href: "https://faser.essex.ac.uk/"
 };
 var _hoisted_179 = {
-  "class": "pt-8 px-8 flex justify-center"
+  "class": "pt-2 px-2 flex justify-center"
 };
 var _hoisted_180 = ["src"];
 
 var _hoisted_181 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center mb-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "flex text-center font-bold text-xl",
+  "class": "flex text-center text-md",
   style: {
     "font-family": "Poppins,serif"
   }
@@ -28254,7 +28254,7 @@ var _hoisted_182 = {
   "class": "inline-block px-2"
 };
 var _hoisted_183 = {
-  "class": "w-64 h-64 flex justify-center items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out font-bold text-xl",
+  "class": "w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out font-bold text-xl",
   style: {
     "font-family": "Poppins,serif"
   }
@@ -28439,25 +28439,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , ["href"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_155, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            MOBILE TECH STALK  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_156, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_157, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    LARAVEL DEVELOPMENT     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_158, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_159, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_161, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.laravel,
-    "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
   , _hoisted_162)])]), _hoisted_163])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                VUE.JS DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_164, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_165, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_166, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_167, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.vue,
-    "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
   , _hoisted_168)])]), _hoisted_169])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                FLUTTER Development       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_170, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_171, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_172, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_173, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.flutter,
-    "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
   , _hoisted_174)])]), _hoisted_175])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    PYTHON DEV      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_176, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_177, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_178, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_179, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.python,
-    "class": "w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "plus"
   }, null, 8
   /* PROPS */
