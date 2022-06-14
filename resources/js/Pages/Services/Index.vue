@@ -794,6 +794,7 @@
                         </div>
                     </div>
 
+                    <!--                    SEE ALL     -->
                     <div class="inline-block px-2">
                         <div
                             class="w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden

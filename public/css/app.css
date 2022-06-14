@@ -7906,6 +7906,10 @@ body[dir="rtl"] .checkbox:checked,
     display: flex;
   }
 
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:hidden {
     display: none;
   }

@@ -33,7 +33,7 @@
 
 
     <!--        DESKTOP WEB DEV  -->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-5xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -118,17 +118,17 @@
             <!--    LARAVEL DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="laravel"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             Laravel
                             <br>
                             Development
@@ -140,17 +140,17 @@
             <!--                HTML DEVELOPMENT      -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="html"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             HTML
                             <br>
                             Development
@@ -162,17 +162,17 @@
             <!--                CSS STYLING       -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="css"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             CSS
                             <br>
                             Styling
@@ -184,17 +184,17 @@
             <!--                    JS DEV      -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="javascript"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             Javascript
                             <br>
                             Development
@@ -211,8 +211,8 @@
     <!--        END OF MOBILE WEB DEV  -->
 
 
-    <!--    DESTOP FRONT END FRAMEWORKS-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <!--    DESTKOP FRONT END FRAMEWORKS-->
+    <div class="mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -292,20 +292,20 @@
         <div
             id="scrollContainer3"
             class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
-            <!--    LARAVEL DEVELOPMENT     -->
+            <!--    VUE DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="vue"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             Vue.js
                             <br>
                             Development
@@ -314,20 +314,20 @@
                 </div>
             </div>
 
-            <!--                HTML DEVELOPMENT      -->
+            <!--                REACT DEVELOPMENT      -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="react"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             React.js
                             <br>
                             Development
@@ -336,21 +336,21 @@
                 </div>
             </div>
 
-            <!--                CSS STYLING       -->
+            <!--                Tailwind STYLING       -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
-                            <img :src="css"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="tailwind"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
-                            Tailwind.CSS Styling
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Tailwind.CSS
                             <br>
                             Styling
                         </h2>
@@ -361,17 +361,17 @@
             <!--                    JS DEV      -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="bootstrap"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
                             Bootstrap
                             <br>
                             Development
@@ -389,7 +389,7 @@
 
 
     <!--    DESTOP OTHER TECHNOLOGIES-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -458,17 +458,17 @@
             <!--    LARAVEL DEVELOPMENT     -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
+                        <div class="pt-2 px-2 flex justify-center">
                             <img :src="vue"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
                     <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
+                        <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
                             Vue.js
                             <br>
                             Development
