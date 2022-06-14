@@ -205,14 +205,13 @@
             </div>
 
 
-
         </div>
     </div>
     <!--        END OF MOBILE WEB DEV  -->
 
 
     <!--    DESTKOP FRONT END FRAMEWORKS-->
-    <div class="mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="mt-8 md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -382,14 +381,13 @@
             </div>
 
 
-
         </div>
     </div>
     <!--        END OF FRONT END FRAMEWORKS  -->
 
 
     <!--    DESTOP OTHER TECHNOLOGIES-->
-    <div class="mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="mt-8 md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -545,13 +543,16 @@
             </div>
 
 
-
         </div>
     </div>
     <!--        END OF OTHER TECHNOLOGIES  -->
 
-    <!--    APP DEVELOPMENT     -->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-5xl">
+
+    <hr class=" mx-10 lg:mx-48 my-8">
+
+
+    <!--    DESTOP APP DEVELOPMENT     -->
+    <div class="md:mt-8 mx-10 lg:mx-48 text-4xl md:text-5xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -580,7 +581,7 @@
             <!--    REACT NATIVE     -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
-                    <img :src="react_native" alt="" class="mt-8 w-24 h-24">
+                    <img :src="react" alt="" class="mt-8 w-24 h-24">
 
                 </div>
 
@@ -610,10 +611,87 @@
 
         </div>
     </div>
-    <!--    END OF APP DEVELOPMENT  -->
+    <!--    END OF DESKTOP APP DEVELOPMENT  -->
+
+    <!--    MOBILE APP DEVELOPMENT      -->
+    <div class="sm:hidden mt-4">
+        <div
+            id="scrollContainer5"
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+            <!--    FLUTTER DEVELOPMENT     -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="flutter"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Flutter
+                            <br>
+                            Development
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--                REACT NATIVE DEVELOPMENT      -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="react"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            React Native
+                            <br>
+                            Development
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--                FIREBASE DEVELOPMENT       -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://faser.essex.ac.uk/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="firebase"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-4">
+                        <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                            Firebase
+                            <br>
+                            Development
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    END OF MOBILE APP DEVELOPMENT  -->
+
+
+    <hr class=" mx-10 lg:mx-48 my-8">
 
     <!--    PRODUCT DESIGN-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-5xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -674,6 +752,9 @@
     </div>
     <!--    END OF PRODUCT DESIGN  -->
 
+    <hr class=" mx-10 lg:mx-48 my-8">
+
+
     <Footer></Footer>
 
 </template>
@@ -700,6 +781,7 @@ import tailwind from "/img/services/tailwind.png";
 import forge from "/img/services/forge.svg";
 import inertia from "/img/services/inertia.png";
 import sketch from "/img/services/sketch.png";
+import firebase from "/img/services/firebase.svg";
 
 export default {
     name: "TechStalk",
@@ -726,6 +808,7 @@ export default {
             laravel: laravel,
             python: python,
             flutter: flutter,
+            firebase: firebase,
         }
     }
 }

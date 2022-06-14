@@ -447,7 +447,7 @@
             <div class="sm:hidden mt-8">
                 <div
                     id="scrollContainer"
-                    class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+                    class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
                     <!--    FINTECH     -->
                     <div class="inline-block px-2">
                         <div
@@ -704,7 +704,7 @@
             <div class="sm:hidden mt-4">
                 <div
                     id="scrollContainer2"
-                    class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
+                    class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
                     <!--    LARAVEL DEVELOPMENT     -->
                     <div class="inline-block px-2">
                         <div
