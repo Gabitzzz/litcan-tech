@@ -13,15 +13,17 @@
         </div>
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
-            <div class="-mt-56 lg:-mt-80 flex flex-col items-center">
-                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
+            <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
+<!--                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">-->
 
-                <div class="-mt-16 flex justify-center hidden md:flex">
-                    <img :src="banner" class="w-full md:w-1/3 4xl:w-1/2 " alt="">
+                <div class=" flex justify-center ">
+                    <img :src="banner" class="w-full  " alt="">
 
                 </div>
+
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center">
+                    class="tracking-wider text-center animate__animated animate__pulse animate__infinite
+">
                     The Powerhouse of
                     <br class="hidden md:block">
                     Innovative Products
@@ -143,13 +145,15 @@ Product Design
         </div>
 
 
-        <div class="mx-10 lg:mx-40">
+        <div class="mx-10 lg:mx-40 animate__animated animate__backInDown">
             <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"
                 class="text-center text-2xl my-16">
                 We are here to help you maximize your business
             </h1>
 
         </div>
+
+
 
         <!--WEB DEV -->
         <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-32 2xl:mx-72">
@@ -300,40 +304,23 @@ Product Design
         </div>
 
         <!--        3 LAYERS    -->
-        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="mt-16 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
-
-                <div class="md:hidden">
-                    <p style="font-family: 'Poppins', sans-serif;"
-                       class=" text-4xl mt-16 md:mt-0 font-bold">
-                        The <span class="text-red-600">3</span> layers of a great product
-                    </p>
-
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
-
-                    </div>
-                </div>
-
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
-                    <div class="hidden md:block">
+                    <div>
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class=" text-4xl mt-16 md:mt-0 font-bold">
+                           class=" text-4xl md:mt-0 font-bold">
                             Grow your brand with our Digital
                             <span class="text-red-600">
                                 Marketing
                             </span>
-
                             services
-
                         </p>
 
-                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
-
-                        </div>
+                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
                     </div>
-
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
                        class=" text-2xl mt-8">
@@ -346,7 +333,6 @@ Product Design
                         Based on this 3 essential layers, we build websites that focus on User Experience and deliver
                         fast performance.
                     </p>
-
                 </div>
 
             </div>
@@ -551,7 +537,7 @@ import {InertiaLink} from "@inertiajs/inertia-vue3";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
-import banner from "/img/banner.webp";
+import banner from "/img/banner.svg";
 import banner_mobile from "/img/mobile/banner-mobile.webp";
 
 import app_dev_services from "/img/services/app-dev-services.png";

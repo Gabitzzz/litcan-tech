@@ -2,7 +2,7 @@
 
 
     <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
-        <div class="w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80 2xl:mx-56">
+        <div class="w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80">
 
 
             <div class="flex-1">
@@ -16,31 +16,30 @@
 
 
                 <div class="text-red-500 menu-horizontal text-black flex items-center "
-                    style="font-family: 'Nunito', sans-serif; font-weight: 300;">
+                     style="font-family: 'Nunito', sans-serif; font-weight: 300;">
 
 
-                    <InertiaLink :href="route('home')"  class=" px-6 text-sm rounded-full underline-opening">
+                    <InertiaLink :href="route('home')" class=" px-6 text-sm rounded-full underline-opening"
+                    >
                         HOME
                     </InertiaLink>
 
-                    <InertiaLink :href="route('services')"  class="px-6 text-sm rounded-full underline-opening">
+                    <InertiaLink :href="route('services')" class="px-6 text-sm rounded-full underline-opening">
                         SERVICES
                     </InertiaLink>
 
-                    <InertiaLink :href="route('portfolio')"  class="px-6 text-sm rounded-full underline-opening">
+                    <InertiaLink :href="route('portfolio')" class="px-6 text-sm rounded-full underline-opening">
                         PORTFOLIO
                     </InertiaLink>
 
-                    <InertiaLink :href="route('blog')"  class="px-6 text-sm rounded-full underline-opening">
+                    <InertiaLink :href="route('blog')" class="px-6 text-sm rounded-full underline-opening">
                         BLOG
                     </InertiaLink>
 
-                    <InertiaLink :href="route('contact')"  class="text-red-500 px-6  text-sm border border-red-500 rounded full px-4 py-1 text-sm rounded-full underline-opening">
+                    <InertiaLink :href="route('contact')"
+                                 class="text-red-500 px-6  text-sm border border-red-500 rounded full px-4 py-1 text-sm rounded-full underline-opening">
                         CONTACT
                     </InertiaLink>
-
-
-
 
 
                 </div>
@@ -65,23 +64,29 @@
                     <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
                         <div class="card-body ">
                             <div class="menu menu-vertical lg:menu-horizontal bg-base-100 rounded-box">
-                                <InertiaLink :href="route('home')"  class=" px-6 py-2 text-sm rounded-full underline-opening">
+                                <InertiaLink :href="route('home')"
+                                             class=" px-6 py-2 text-sm rounded-full underline-opening
+scroll-region">
                                     HOME
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('services')"  class="px-6 py-2 text-sm rounded-full underline-opening">
+                                <InertiaLink :href="route('services')"
+                                             class="px-6 py-2 text-sm rounded-full underline-opening">
                                     SERVICES
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('portfolio')"  class="px-6 py-2 text-sm rounded-full underline-opening">
+                                <InertiaLink :href="route('portfolio')"
+                                             class="px-6 py-2 text-sm rounded-full underline-opening">
                                     PORTFOLIO
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('blog')"  class="px-6 py-2 text-sm rounded-full underline-opening">
+                                <InertiaLink :href="route('blog')"
+                                             class="px-6 py-2 text-sm rounded-full underline-opening">
                                     BLOG
                                 </InertiaLink>
 
-                                <InertiaLink :href="route('contact')"  class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
+                                <InertiaLink :href="route('contact')"
+                                             class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
                                     CONTACT
                                 </InertiaLink>
                             </div>
@@ -97,22 +102,18 @@
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 
 import logo from "/img/logo/logo_250.png";
+
 export default {
     name: "Navbar",
     data() {
         return {
-            logo:logo,
+            logo: logo,
         }
     },
-    components:{
+    components: {
         InertiaLink,
     },
-    methods: {
-        topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    }
+
 }
 </script>
 
@@ -157,7 +158,6 @@ ul {
 }
 
 .menu-horizontal a:after {
-    background: none repeat scroll 0 0 transparent;
     bottom: -10px;
     content: "";
     display: block;

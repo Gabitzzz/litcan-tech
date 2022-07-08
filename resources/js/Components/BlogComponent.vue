@@ -7,7 +7,7 @@
             articles
             <!--                        Web Development-->
         </h2>
-        <div class="hidden md:grid grid-cols-1 md:grid-cols-4 mx-24 md:mx-48">
+        <div class="hidden lg:grid grid-cols-1 md:grid-cols-4 mx-24 md:mx-48">
 
             <div class="w-full grid   md:w-56 h-40 bg-white shadow-md my-4">
                 hi
@@ -29,9 +29,9 @@
 
         </div>
 
-        <div class="md:hidden md:py-16">
+        <div class="lg:hidden md:py-16">
             <!--            MOBILE BLOG   -->
-            <div class="sm:hidden mt-4">
+            <div class="mt-4">
                 <div
                     id="scrollContainer2"
                     class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  hide-scroll-bar">
