@@ -5,8 +5,13 @@ import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import 'tw-elements';
 import 'animate.css';
-
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
+
+
+import VueSocialChat from 'vue-social-chat'
+import 'vue-social-chat/dist/style.css'
+
+
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
@@ -19,5 +24,4 @@ createInertiaApp({
     },
 });
 
-InertiaProgress.init({ color: '#4B5563' });
 

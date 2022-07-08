@@ -27,8 +27,11 @@
     },
     "dependencies": {
         "animate.css": "^4.1.1",
+        "aos": "^3.0.0-beta.6",
         "daisyui": "^2.15.3",
         "tailwind-scrollbar-hide": "^1.1.7",
-        "tw-elements": "^1.0.0-alpha12"
+        "tw-elements": "^1.0.0-alpha12",
+        "vue-animate-onscroll": "^1.0.8",
+        "vue-social-chat": "^1.0.0"
     }
 }

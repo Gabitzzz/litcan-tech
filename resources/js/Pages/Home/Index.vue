@@ -14,15 +14,15 @@
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
-<!--                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">-->
+                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
                 <div class=" flex justify-center ">
-                    <img :src="banner" class="w-full  " alt="">
+                    <img :src="banner" class="w-1/3 hidden md:flex " alt="">
 
                 </div>
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center animate__animated animate__pulse animate__infinite
+                    class="tracking-wider text-center
 ">
                     The Powerhouse of
                     <br class="hidden md:block">
@@ -31,6 +31,7 @@
 
             </div>
         </div>
+
 
         <div class="flex justify-center my-6">
             <InertiaLink :href="route('contact')"
@@ -145,14 +146,13 @@ Product Design
         </div>
 
 
-        <div class="mx-10 lg:mx-40 animate__animated animate__backInDown">
+        <div class="mx-10 lg:mx-40">
             <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"
                 class="text-center text-2xl my-16">
                 We are here to help you maximize your business
             </h1>
 
         </div>
-
 
 
         <!--WEB DEV -->
@@ -164,36 +164,36 @@ Product Design
                 </div>
 
                 <div>
-                    <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
+                    <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold"
+                        style="font-family: Poppins,serif;">
 
                         <span class="text-red-600">Websites</span>
-                        that create <br> more conversions
+                        that create <br class="hidden md:block"> more conversions
 
                         <!--                        Web Development-->
                     </h2>
 
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 4px;">
 
                     </div>
 
 
                 </div>
 
-                <p class="md:pr-32">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius
-                    fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?
-                    Modi molestiae nam provident?
+                <p class="text-center md:text-left">
+                    <span class="font-bold italic text-lg  md:text-2xl md:text-left">"Every Website needs a solid foundation"</span>
+
+                </p>
+                <p class="mt-4 md:pr-32 text-md text-center md:text-xl md:text-left"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    If you want to show potential customers that you’re serious about your business, you need to present
+                    a professional face to the internet. This means having your website professionally designed.
                 </p>
 
-                <div class="flex">
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                </div>
 
-                <div class="flex  mt-5">
-                    <InertiaLink :href="route('web-dev')" class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                <div class="flex justify-center md:justify-start  mt-5">
+                    <InertiaLink :href="route('web-dev')"
+                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
                     </InertiaLink>
                 </div>
@@ -203,15 +203,16 @@ Product Design
         </div>
 
         <!--        AUDIT    -->
-        <div class="mt-8 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="my-8 md:my-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="audit_mobile" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class=" text-4xl md:mt-0 font-bold">
-                            Request a free <span class="text-red-600">audit</span> for your
+                           class="text-2xl md:text-5xl md:mt-0 font-bold text-center md:text-left">
+                            Request a free <span class="text-red-600">audit</span> of <br class="hidden md:block">your
+                            website
                         </p>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
@@ -221,13 +222,13 @@ Product Design
 
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-8">
-                        Newest Technologies <br>
-                        Creative Storytelling <br>
-                        Bespoke Design
+                       class="text-lg md:text-2xl mt-8">
+                        Website Performance Optimization<br>
+                        Website Redesign <br>
+                        Conversion Rate Optimization
                     </p>
 
-                    <p class="mt-2">
+                    <p class="mt-2 text-md md:text-xl">
                         Based on this 3 essential layers, we build websites that focus on User Experience and deliver
                         fast performance.
                     </p>
@@ -245,7 +246,7 @@ Product Design
 
         </div>
         <!--        APP DEV -->
-        <div class="mt-16 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="mt-16 md:flex items-center mx-10 md:mt-32 lg:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
 
 
@@ -253,7 +254,7 @@ Product Design
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
                     <div class="">
-                        <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
+                        <h2 class="text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
                             Custom
                             <span class="text-red-600">
                                 Apps
@@ -275,12 +276,14 @@ Product Design
                     </div>
 
 
-                    <p class="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt
-                        eius
-                        fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?
-                        Modi molestiae nam provident?
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+                       class="text-lg md:text-2xl mt-8">
+                        Web Apps<br>
+                        Native Apps <br>
+                        Hybrid Apps
                     </p>
+
+                    <p>Let us create you an effective Business Performance Management Software.</p>
 
                     <div class="flex">
                         <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
@@ -296,22 +299,22 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="app_dev" class="w-full md:w-1/2 2xl:w-2/3 hidden md:block" alt="">
+                <img :src="app_dev" class="w-full md:w-1/2  hidden md:block" alt="">
 
             </div>
 
 
         </div>
 
-        <!--        3 LAYERS    -->
-        <div class="mt-16 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <!--       DIGITAL MARKETING    -->
+        <div class="mt-16 md:flex items-center md:my-32 mx-10 lg:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div>
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class=" text-4xl md:mt-0 font-bold">
+                           class="text-2xl md:text-5xl md:mt-0 font-bold">
                             Grow your brand with our Digital
                             <span class="text-red-600">
                                 Marketing
@@ -350,7 +353,7 @@ Product Design
 
                 </div>
 
-                <h2 class="text-4xl font-bold" style="font-family: Poppins,serif;">
+                <h2 class="text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
                     Product
 
                     <span class="text-red-600">Design</span> for multiple industries
@@ -389,7 +392,7 @@ Product Design
 
                 <div class="md:hidden">
                     <p style="font-family: 'Poppins', sans-serif;"
-                       class=" text-4xl mt-16 md:mt-0 font-bold">
+                       class=" md:text-6xl mt-16 md:mt-0 font-bold">
                         The <span class="text-red-600">3</span> layers of a great product
                     </p>
 
@@ -522,6 +525,8 @@ Product Design
             </div>
         </div>
 
+
+        <MyWhatsAppIcon></MyWhatsAppIcon>
         <BlogComponent></BlogComponent>
         <Footer></Footer>
     </div>
@@ -537,7 +542,7 @@ import {InertiaLink} from "@inertiajs/inertia-vue3";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
-import banner from "/img/banner.svg";
+import banner from "/img/banner.webp";
 import banner_mobile from "/img/mobile/banner-mobile.webp";
 
 import app_dev_services from "/img/services/app-dev-services.png";
@@ -562,6 +567,8 @@ import web_icon from "/img/mobile/web-icon.png";
 import product_icon from "/img/mobile/product-icon.png";
 import steps from "/img/desktop/3steps.png";
 import 'tw-elements';
+
+
 
 export default {
     name: "Index",
@@ -602,6 +609,24 @@ export default {
             steps: steps,
             digital_marketing: digital_marketing,
         }
+    },
+
+    setup() {
+        const attendants = [
+            {
+                app: 'whatsapp',
+                label: 'CEO',
+                name: 'Gabi Lițcan',
+                number: '40773800815',
+                avatar: {
+                    src: 'https://avatars0.githubusercontent.com/u/8084606?s=460&u=20b6499a416cf7129a18e5c168cf387e159edb1a&v=4',
+                    alt: 'Alan Ktquez avatar'
+                }
+            },
+            // ...
+        ]
+
+        return {attendants}
     }
 }
 </script>
