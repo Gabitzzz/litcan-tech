@@ -526,7 +526,6 @@ Product Design
         </div>
 
 
-        <MyWhatsAppIcon></MyWhatsAppIcon>
         <BlogComponent></BlogComponent>
         <Footer></Footer>
     </div>

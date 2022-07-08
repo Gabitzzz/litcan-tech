@@ -42,7 +42,7 @@
 
                 <!--                <div class="lg:flex">-->
                 <!--    WEB DEV     -->
-                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/web-development" class="z-10 w-72 shadow-lg bg-white mx-8 ">
                     <div class="flex justify-center">
                         <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
                     </div>
@@ -67,14 +67,14 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <InertiaLink :href="route('web-dev')"
+                        <a href="/services/web-development"
                                      class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
-                        </InertiaLink>
+                        </a>
                     </div>
 
 
-                </InertiaLink>
+                </a>
 
                 <!--   APP DEV     -->
                 <InertiaLink :href="route('app-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
