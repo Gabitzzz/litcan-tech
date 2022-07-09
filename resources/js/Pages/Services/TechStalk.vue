@@ -46,7 +46,6 @@
     </div>
 
 
-
     <div class="hidden sm:flex justify-center md:mt-8 ">
         <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
             <!--LARAVEL -->
@@ -473,13 +472,13 @@
         <div
             id="scrollContainer4"
             class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
-            <!--    LARAVEL DEVELOPMENT     -->
+            <!--    DIGITAL OCEAN DROPLETS  -->
             <div class="inline-block px-2">
                 <div
                     class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
                         <div class="pt-2 px-2 flex justify-center">
-                            <img :src="vue"
+                            <img :src="digital_ocean"
                                  class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
@@ -487,81 +486,57 @@
 
                     <div class="flex justify-center mb-8">
                         <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
-                            Vue.js
+                            Digital Ocean
                             <br>
-                            Development
+                            Droplets
                         </h2>
                     </div>
                 </div>
             </div>
 
-            <!--                HTML DEVELOPMENT      -->
+            <!--            FORGE       -->
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
-                        <div class="pt-8 px-8 flex justify-center">
-                            <img :src="react"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="forge"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
                     <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
-                            React.js
+                        <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                            Forge
                             <br>
-                            Development
+                            Deployment
                         </h2>
                     </div>
                 </div>
             </div>
 
-            <!--                CSS STYLING       -->
+
             <div class="inline-block px-2">
                 <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                    <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
-                            <img :src="css"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="digital_ocean"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
                     </a>
 
                     <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
-                            Tailwind.CSS Styling
+                        <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                            Digital Ocean
                             <br>
-                            Styling
+                            Droplets
                         </h2>
                     </div>
                 </div>
             </div>
-
-            <!--                    JS DEV      -->
-            <div class="inline-block px-2">
-                <div
-                    class="w-64 h-64 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                    <a href="https://faser.essex.ac.uk/">
-                        <div class="pt-8 px-8 flex justify-center">
-                            <img :src="bootstrap"
-                                 class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                 alt="plus">
-                        </div>
-                    </a>
-
-                    <div class="flex justify-center mb-8">
-                        <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
-                            Bootstrap
-                            <br>
-                            Development
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
-
 
         </div>
     </div>
@@ -580,7 +555,6 @@
             </p>
         </div>
         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
-
 
 
     </div>
@@ -849,7 +823,6 @@
                                  alt="plus">
                         </div>
                     </a>
-
 
 
                     <div class="flex justify-center mb-4">

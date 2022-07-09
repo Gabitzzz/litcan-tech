@@ -25,7 +25,7 @@
         </div>
 
         <div class="mx-10 mb-8 flex flex-col items-center">
-            <p class="-mt-8 md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
+            <p class="-mt-8 mb-16 md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
                 illum
                 iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
@@ -36,15 +36,34 @@
 
         <!--    CONTACT FORM    -->
         <div
-            class=" md:-mt-16  px-8 py-16 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-24 lg:px-32 xl:px-48  mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+            class="px-8 py-16 grid gap-8 grid-cols-1 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg
+                    md:grid-cols-2 md:px-24 md:-mt-16 lg:px-32 xl:px-64">
             <div class="flex flex-col justify-between">
                 <div>
                     <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
                         Let's Get in Touch
                     </h2>
 
-                    <div class="text-gray-700 mt-8">
+                    <div class="text-gray-700 my-4">
                         Hate forms? Send us an <span class="underline">email</span> instead.
+                    </div>
+
+                    <div class="flex items-center text-gray-700 text-2xl font-bold">
+                        <img :src="mail" class="w-6 h-6 mr-2" alt="">
+                        contact@litcan.tech
+                    </div>
+
+                    <div class="flex items-center text-gray-700 text-2xl font-bold">
+                        <img :src="telephone" class="w-6 h-6 mr-2" alt="">
+                        +40 773 800 815
+                    </div>
+                    <div class="flex items-center text-gray-700 text-2xl font-bold">
+                        <img :src="wapp" class="w-6 h-6 mr-2" alt="">
+                        +44 7873 93 6443
+                    </div>
+                    <div class="flex items-center text-gray-700 text-2xl font-bold">
+                        <img :src="website" class="w-6 h-6 mr-2" alt="">
+                        www.litcan.tech
                     </div>
                 </div>
 
@@ -99,6 +118,11 @@ import BlogComponent from "@/Components/BlogComponent";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
+import mail from "/img/contact/mail.png";
+import telephone from "/img/contact/telephone.png";
+import website from "/img/contact/website.png";
+import wapp from "/img/contact/wapp.png";
+
 
 export default {
     name: "Index",
@@ -111,6 +135,10 @@ export default {
         return {
             logo_bg_mobile: logo_bg_mobile,
             logo_bg: logo_bg,
+            mail: mail,
+            telephone: telephone,
+            website: website,
+            wapp: wapp,
         }
     }
 }

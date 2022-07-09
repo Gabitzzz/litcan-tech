@@ -3,12 +3,10 @@
 
     <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
         <div class="w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80">
-
-
             <div class="flex-1">
 
-                <img :src="logo"
-                     class="w-16 md:w-24 "
+                <img :src="logo_text"
+                     class="w-24 md:w-36 "
                      alt="logo">
             </div>
 
@@ -61,9 +59,9 @@
                     </label>
 
                     <!--                    PHONE   MENU    -->
-                    <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
+                    <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-white shadow">
                         <div class="card-body ">
-                            <div class="menu menu-vertical lg:menu-horizontal bg-base-100 rounded-box">
+                            <div class="menu menu-vertical lg:menu-horizontal bg-white rounded-box">
                                 <a href="/"
                                              class=" px-6 py-2 text-sm rounded-full underline-opening">
                                     HOME
@@ -101,12 +99,14 @@
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 import {Link} from "@inertiajs/inertia-vue3";
 import logo from "/img/logo/logo_250.png";
+import logo_text from "/img/logo/logo+text.png";
 
 export default {
     name: "Navbar",
     data() {
         return {
             logo: logo,
+            logo_text: logo_text,
         }
     },
     components: {

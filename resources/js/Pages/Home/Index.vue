@@ -184,7 +184,7 @@ Product Design
                     <span class="font-bold italic text-lg  md:text-2xl md:text-left">"Every Website needs a solid foundation"</span>
 
                 </p>
-                <p class="mt-4 md:pr-32 text-md text-center md:text-xl md:text-left"
+                <p class="mt-4 md:pr-32 text-md md:text-xl md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     If you want to show potential customers that you’re serious about your business, you need to present
                     a professional face to the internet. This means having your website professionally designed.
@@ -254,7 +254,7 @@ Product Design
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
                     <div class="">
-                        <h2 class="text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
+                        <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
                             Custom
                             <span class="text-red-600">
                                 Apps
@@ -314,7 +314,7 @@ Product Design
                 <div>
                     <div>
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-5xl md:mt-0 font-bold">
+                           class="text-center md:text-left text-2xl md:text-5xl md:mt-0 font-bold">
                             Grow your brand with our Digital
                             <span class="text-red-600">
                                 Marketing
@@ -436,7 +436,14 @@ Product Design
         </div>
 
         <!--        CONTACT FORM    -->
-        <div class="mt-32 md:flex items-center  mx-10 md:mx-32">
+        <div class="mt-32 md:flex justify-between items-center  mx-10 md:mx-64">
+
+            <div>
+                <p class="text-4xl  font-bold">
+                    Let's get in touch
+
+                </p>
+            </div>
 
             <form class=" max-w-lg">
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -517,13 +524,9 @@ Product Design
                 </div>
             </form>
 
-            <div>
-                <p class="text-4xl mx-4 font-bold">
-                    Let's get in touch
 
-                </p>
-            </div>
         </div>
+
 
 
         <BlogComponent></BlogComponent>
