@@ -14,10 +14,10 @@
 
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
-                <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
+                <img :src="banner_mobile" class="mt-4 w-full md:hidden" alt="">
 
-                <div class=" flex justify-center -mt-16">
-                    <img :src="banner" class="w-1/3 hidden md:flex " alt="">
+                <div class=" hidden md:flex justify-center -mt-16">
+                    <img :src="banner" class="w-1/3  " alt="">
 
                 </div>
 
@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="flex justify-center my-6">
+        <div class="flex justify-center my-4">
             <InertiaLink :href="route('contact')"
                          class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                 CONTACT US

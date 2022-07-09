@@ -27441,7 +27441,7 @@ var _hoisted_5 = {
 };
 var _hoisted_6 = ["src"];
 var _hoisted_7 = {
-  "class": "flex justify-center -mt-16"
+  "class": "hidden md:flex justify-center -mt-16"
 };
 var _hoisted_8 = ["src"];
 
@@ -27458,7 +27458,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_10 = {
-  "class": "flex justify-center my-6"
+  "class": "flex justify-center my-4"
 };
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACT US ");
@@ -27724,13 +27724,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_3)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.banner_mobile,
-    "class": "mt-6 w-full md:hidden",
+    "class": "mt-4 w-full md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
   , _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.banner,
-    "class": "w-1/3 hidden md:flex",
+    "class": "w-1/3",
     alt: ""
   }, null, 8
   /* PROPS */
