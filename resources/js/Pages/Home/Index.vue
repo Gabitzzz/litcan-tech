@@ -16,7 +16,7 @@
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
-                <div class=" flex justify-center ">
+                <div class=" flex justify-center -mt-16">
                     <img :src="banner" class="w-1/3 hidden md:flex " alt="">
 
                 </div>

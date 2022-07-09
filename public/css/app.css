@@ -6925,6 +6925,9 @@ body[dir="rtl"] .checkbox:checked,
 .w-72 {
   width: 18rem;
 }
+.w-36 {
+  width: 9rem;
+}
 .max-w-xl {
   max-width: 36rem;
 }
@@ -7989,6 +7992,10 @@ body[dir="rtl"] .checkbox:checked,
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
   }
 
   .md\:flex-auto {

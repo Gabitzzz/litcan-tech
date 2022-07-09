@@ -699,10 +699,10 @@
             </div>
 
             <div class="hidden sm:flex justify-center mt-8 md:mt-16">
-                <InertiaLink :href="route('tech-stack')"
+                <a href="/tech-stack"
                              class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
                     SEE OUR FULL TECH STACK
-                </InertiaLink>
+                </a>
             </div>
         </div>
 

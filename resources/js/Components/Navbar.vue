@@ -6,7 +6,7 @@
             <div class="flex-1">
 
                 <img :src="logo_text"
-                     class="w-24 md:w-36 "
+                     class="w-36 md:w-40 "
                      alt="logo">
             </div>
 
@@ -99,7 +99,7 @@
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 import {Link} from "@inertiajs/inertia-vue3";
 import logo from "/img/logo/logo_250.png";
-import logo_text from "/img/logo/logo+text.png";
+import logo_text from "/img/logo/logo_text.png";
 
 export default {
     name: "Navbar",
