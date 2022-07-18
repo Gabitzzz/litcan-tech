@@ -208,7 +208,7 @@ Product Design
                 </div>
             </div>
 
-            <img :src="web_dev" class="hidden md:block w-1/3" alt="">
+            <img :src="web_dev" class="hidden md:block md:w-1/2 lg:w-1/3" alt="">
         </div>
 
         <!--        AUDIT    -->
