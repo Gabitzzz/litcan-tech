@@ -49,6 +49,19 @@ Route::get('/services/product-design', function () {
     return Inertia::render('Services/ProductDesign');
 })->name('product-design');
 
+Route::get('/services/digital-marketing', function () {
+    return Inertia::render('Services/DigitalMarketing');
+})->name('digital-marketing');
+
+Route::get('/services/machine-learning', function () {
+    return Inertia::render('Services/MachineLearning');
+})->name('machine-learning');
+
+Route::get('/services/custom-development', function () {
+    return Inertia::render('Services/CustomDevelopment');
+})->name('custom-development');
+
+
 
 Route::get('/portfolio', function () {
     return Inertia::render('Portfolio/Index');

@@ -16,17 +16,26 @@
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <img :src="banner_mobile" class=" w-full md:hidden" alt="">
 
-                <div class=" hidden md:flex justify-center -mt-16">
+                <div class=" hidden md:flex justify-center lg:-mt-8 xl:-mt-16">
                     <img :src="banner" class="w-1/3  " alt="">
 
                 </div>
 
+<!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
+<!--                    class="tracking-wider text-center-->
+<!--">-->
+<!--                    The Powerhouse of-->
+<!--                    <br class="hidden md:block">-->
+<!--                    Innovative Products-->
+<!--                </h1>-->
+
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-center
 ">
-                    The Powerhouse of
-                    <br class="hidden md:block">
-                    Innovative Products
+                   Empowering
+                    <br class="sm:hidden">
+                    the future with
+                     Innovative Products
                 </h1>
 
             </div>

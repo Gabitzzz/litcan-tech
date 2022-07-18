@@ -37,7 +37,7 @@
         <!--        BANNER SERVICES     -->
 
         <div class="flex justify-center lg:mx-48 -mt-16 md:-mt-16 md:mb-32">
-            <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 content-center mt-16">
+            <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-8 content-center mt-16">
 
 
                 <!--                <div class="lg:flex">-->
@@ -77,7 +77,7 @@
                 </a>
 
                 <!--   APP DEV     -->
-                <InertiaLink :href="route('app-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/app-development" class="z-10 w-72 shadow-lg bg-white mx-8 ">
 
                     <div class="flex justify-center">
                         <img :src="app_dev_services" alt="" class="mt-8 w-24 h-24">
@@ -105,17 +105,16 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/app-development" class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
-                        </button>
+                        </a>
                     </div>
 
 
-                </InertiaLink>
+                </a>
 
                 <!-- PRODUCT DESIGN     -->
-                <InertiaLink :href="route('product-design')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
-
+                <a href="/services/product-design" class="z-10 w-72 shadow-lg bg-white mx-8 ">
 
                     <div class="flex justify-center">
                         <img :src="product_design_services" alt="" class="mt-8 w-24 h-24">
@@ -142,14 +141,11 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/product-design" class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
-                        </button>
+                        </a>
                     </div>
-
-
-                </InertiaLink>
-
+                </a>
 
                 <!--    DIGITAL MARKETING     -->
                 <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
@@ -192,7 +188,6 @@
 
                     <div class="flex justify-center">
                         <img :src="ml_services" alt="" class="mt-8 w-24 h-24">
-
                     </div>
 
                     <div class="flex justify-center mt-8">
@@ -277,7 +272,7 @@
 
             <!--            DESKTOP INDUSTRY SPECIFIC SERVICES  -->
             <div class="hidden sm:flex justify-center lg:mx-48 ">
-                <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 content-center mt-16">
+                <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-8 content-center mt-16">
                     <!--            INDUSTRY SPECIFIC SERVICES ROW 1-->
                     <!--    FINTECH      -->
                     <div class="w-72 shadow-lg bg-white mx-8">
@@ -631,8 +626,8 @@
 
         <div>
             <!--        DESKTOP TECH STALK  -->
-            <div class="hidden sm:flex justify-center md:mt-16 ">
-                <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+            <div class="hidden sm:flex justify-center md:mt-16 mx-10 lg:mx-48 ">
+                <div class="grid max-w-full  grid-cols-2  lg:grid-cols-4 gap-y-8 content-center">
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
