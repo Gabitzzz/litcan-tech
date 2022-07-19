@@ -1,5 +1,5 @@
 <template>
-    <div>
+        <div class="bg-white">
         <Navbar></Navbar>
 
 
@@ -29,8 +29,6 @@
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                 Browse through our services and find the one that is suited for your business.
-                <br>
-                Can't find what you are looking for? We can help you with our Custom Development Services.
             </p>
         </div>
 
@@ -262,7 +260,7 @@
 
         <!--        INDUSTRY SPECIFIC SERVICES  -->
         <div class="my-16 bg-red-600 py-16 md:py-16">
-            <div class="mx-10 lg:mx-48 items-center text-3xl md:text-5xl">
+            <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
                 <div class="">
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                         class="tracking-wider  text-white">
@@ -615,7 +613,8 @@
         </div>
 
 
-        <div class="md:mt-16 mx-10 lg:mx-48 items-center text-3xl md:text-5xl">
+            <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
+
             <div class="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-red-600">

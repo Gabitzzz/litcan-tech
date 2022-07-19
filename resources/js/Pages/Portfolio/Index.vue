@@ -1,5 +1,6 @@
 <template>
-<div>
+    <div class="bg-white">
+
     <Navbar></Navbar>
 
 

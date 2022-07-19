@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-white">
         <Navbar></Navbar>
 
 
@@ -26,7 +26,7 @@
 
         <div class="mx-10  flex flex-col items-center 2xl:mx-24">
             <p class="-mt-8 mb-16 md:-mt-24 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
-                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
                 illum

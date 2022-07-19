@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-white">
         <Navbar></Navbar>
 
 
@@ -159,17 +159,17 @@ Product Design
         </div>
 
 
-        <div class="mx-10 lg:mx-40">
-            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"
-                class="text-center text-2xl my-16">
-                We are here to help you maximize your business
-            </h1>
+        <!--        <div class="mx-10 lg:mx-40">-->
+        <!--            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"-->
+        <!--                class="text-center text-2xl my-16">-->
+        <!--                We are here to help you maximize your business-->
+        <!--            </h1>-->
 
-        </div>
+        <!--        </div>-->
 
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-32 2xl:mx-72">
+        <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
 
                 <div class="flex justify-center">
@@ -203,7 +203,7 @@ Product Design
 
                 <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    Based on this 3 essential layers, we build websites that focus on <br class="hidden lg:block">User
+                    Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
                     Experience and deliver
                     fast performance.
                 </p>
@@ -217,13 +217,13 @@ Product Design
                 </div>
             </div>
 
-            <img :src="web_dev" class="hidden md:block md:w-1/2 lg:w-1/3" alt="">
+            <img :src="web_dev" class="hidden md:block md:w-1/2 2xl:w-1/3" alt="">
         </div>
 
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="my-8 md:my-32 md:flex items-center mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
-                <img :src="audit_mobile" alt="" class="w-full md:w-1/2 lg:w-2/3 md:pr-12">
+                <img :src="audit_mobile" alt="" class="w-full lg:w-2/3 md:pr-16">
 
                 <div>
                     <div class="">
@@ -239,7 +239,7 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-4">
+                       class=" text-2xl lg:text-md mt-4">
                         Website Performance Optimization<br>
                         Website Redesign <br>
                         Conversion Rate Optimization
@@ -272,7 +272,7 @@ Product Design
 
         </div>
         <!--        APP DEV -->
-        <div class="mt-16 md:flex items-center mx-10 md:mt-32 lg:mx-32 2xl:mx-72">
+        <div class="mt-16 md:flex items-center mx-10 md:mt-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
 
 
@@ -280,20 +280,15 @@ Product Design
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
                     <div class="">
-                        <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold"
-                            style="font-family: Poppins,serif;">
+                        <p style="font-family: 'Poppins', sans-serif;"
+                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+
                             Custom
                             <span class="text-red-600">
                                 Apps
                             </span>
-                            <!--                             or-->
-                            <!--                            <span class="text-red-600">-->
-                            <!--                                Web Apps-->
-                            <!--                            </span>-->
-
-                            <!--                            <br>-->
                             that increase your business' performance.
-                        </h2>
+                        </p>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
 
@@ -314,13 +309,6 @@ Product Design
                         Let us create you an effective Business Performance Management Software.
                     </p>
 
-                    <div class="flex">
-                        <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                        <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                        <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                        <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    </div>
-
                     <div class="flex  mt-5">
                         <button class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                             CONTACT US
@@ -336,29 +324,29 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="mt-16 md:flex items-center md:my-32 mx-10 lg:mx-32 2xl:mx-72">
+        <div class="mt-16 md:flex items-center md:my-32 mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div>
+
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-center md:text-left text-2xl md:text-5xl md:mt-0 font-bold">
+                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+
                             Grow your brand with our Digital
                             <span class="text-red-600">
                                 Marketing
                             </span>
                             services
                         </p>
-
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
                        class=" text-2xl mt-4">
-                        Newest Technologies <br>
-                        Creative Storytelling <br>
-                        Bespoke Design
+                        Improve Online Rankings <br>
+                        Internet Marketing <br>
                     </p>
 
                     <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
@@ -383,11 +371,13 @@ Product Design
 
                 </div>
 
-                <h2 class="text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
+                <p style="font-family: 'Poppins', sans-serif;"
+                   class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+
                     Product
 
-                    <span class="text-red-600">Design</span> for <br class="hidden lg:block"> multiple industries
-                </h2>
+                    <span class="text-red-600">Design</span> for <br class="hidden xl:block"> multiple industries
+                </p>
 
                 <div class="md:w-1/3 my-4 bg-red-600" style="height: 6px;">
 
@@ -422,40 +412,37 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-            <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-32 2xl:mx-72">
+        <div class="mt-32 md:flex items-center justify-between mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+            <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
+            <div>
+                <div class="">
 
-                <img :src="product_design_2" alt="" class="w-full md:w-1/2">
-
-                <div>
-                    <div class="">
-
-                        <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+                    <p style="font-family: 'Poppins', sans-serif;"
+                       class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
                             <span class="text-red-600">
                                 Custom
                             </span>
-                            Development
-                            <br class="hidden lg:block">
-                            suited to your needs
-                        </p>
-
-                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
-
-                        </div>
-                    </div>
-
-
-                    <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
-                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                        Can't find what you're looking for? <br>
-                        Tell us about your idea and we will develop it.
+                        Development
+                        <br class="hidden xl:block">
+                        suited to your needs
                     </p>
 
+                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+
+                    </div>
                 </div>
+
+
+                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Can't find what you're looking for? <br>
+                    Tell us about your idea and we will develop it.
+                </p>
 
             </div>
 
+        </div>
 
 
         <!--        CONTACT FORM    -->

@@ -23,11 +23,9 @@
     </div>
 
     <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
-        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-lg md:px-24 lg:px-32 xl:mx-24 2xl:mx-24">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
-            illum
-            iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
-            optio porro quo similique vero.
+        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 2xl:mx-24">
+            Newest and most popular programming languages, frameworks, prototyping and development tools that
+            we use for our projects.
         </p>
     </div>
 
@@ -47,7 +45,7 @@
 
 
     <div class="hidden sm:flex justify-center md:mt-8 ">
-        <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+        <div class="grid max-w-full  grid-cols-2  lg:grid-cols-4 gap-y-8 content-center">
             <!--LARAVEL -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
@@ -226,7 +224,7 @@
     </div>
 
     <div class="hidden sm:flex justify-center md:mt-8 ">
-        <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+        <div class="grid max-w-full  grid-cols-2 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Vue.js  -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
@@ -403,7 +401,7 @@
     </div>
 
     <div class="hidden sm:flex justify-center md:mt-8 ">
-        <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+        <div class="grid max-w-full  grid-cols-2 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Digital Ocean -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
@@ -434,7 +432,7 @@
                 </div>
             </div>
 
-            <!--    Inertia.js -->
+            <!--    PYTHON DEVELOPMENT -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
                     <img :src="python" alt="" class="mt-8 w-24 h-24">
@@ -449,17 +447,17 @@
                 </div>
             </div>
 
-            <!--    Inertia.js -->
+            <!--    WORDPRESS DEVELOPMENT   -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
-                    <img :src="inertia" alt="" class="mt-8 w-24 h-24">
+                    <img :src="wordpress" alt="" class="mt-8 w-24 h-24">
 
                 </div>
 
                 <div class="flex justify-center my-8">
                     <p class="text-xl text-center"
                        style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                        Inertia.js <br> Development
+                        Wordpress <br> Development
                     </p>
                 </div>
             </div>
@@ -518,13 +516,13 @@
                 </div>
             </div>
 
-
+            <!--    PYTHON DEVELOPMENT  -->
             <div class="inline-block px-2">
                 <div
                     class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                     <a href="https://leap.essex.ac.uk/student" class="">
                         <div class="pt-2 px-2 flex justify-center">
-                            <img :src="digital_ocean"
+                            <img :src="python"
                                  class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                  alt="plus">
                         </div>
@@ -532,9 +530,31 @@
 
                     <div class="flex justify-center mb-8">
                         <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
-                            Digital Ocean
+                            Python
                             <br>
-                            Droplets
+                            Development
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--    PYTHON DEVELOPMENT  -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://leap.essex.ac.uk/student" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="wordpress"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+                    </a>
+
+                    <div class="flex justify-center mb-8">
+                        <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                            Wordpress
+                            <br>
+                            Development
                         </h2>
                     </div>
                 </div>
@@ -563,7 +583,7 @@
 
     <!--    DESKTOP APP DEVELOPMENT  -->
     <div class="hidden sm:flex justify-center md:mt-8 ">
-        <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+        <div class="grid max-w-full  grid-cols-2 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Flutter -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
@@ -744,7 +764,7 @@
 
     <!--    DESKTOP PRODUCT DESIGN-->
     <div class="hidden sm:flex justify-center md:mt-8 mb-16 ">
-        <div class="grid max-w-full  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 content-center">
+        <div class="grid max-w-full  grid-cols-2 lg:grid-cols-4 gap-y-8 content-center">
             <!--    Sketch -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
@@ -942,6 +962,7 @@ import digital_ocean from "/img/services/digital-ocean.png";
 import canva from "/img/services/canva.png";
 import figma from "/img/services/figma.svg";
 import adobe_xd from "/img/services/xd.png";
+import wordpress from "/img/services/wordpress.png";
 
 export default {
     name: "TechStalk",
@@ -973,6 +994,8 @@ export default {
             figma: figma,
             adobe_xd: adobe_xd,
             canva: canva,
+            wordpress: wordpress,
+
         }
     }
 }

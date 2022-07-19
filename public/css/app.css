@@ -6681,10 +6681,6 @@ body[dir="rtl"] .checkbox:checked,
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-.my-32 {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
 .-mx-3 {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -6696,10 +6692,6 @@ body[dir="rtl"] .checkbox:checked,
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-.mx-80 {
-  margin-left: 20rem;
-  margin-right: 20rem;
 }
 .ml-3 {
   margin-left: 0.75rem;
@@ -6782,14 +6774,14 @@ body[dir="rtl"] .checkbox:checked,
 .mb-16 {
   margin-bottom: 4rem;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
 .mt-80 {
   margin-top: 20rem;
 }
 .-mt-80 {
   margin-top: -20rem;
-}
-.-mt-16 {
-  margin-top: -4rem;
 }
 .mt-32 {
   margin-top: 8rem;
@@ -6806,8 +6798,8 @@ body[dir="rtl"] .checkbox:checked,
 .-mt-56 {
   margin-top: -14rem;
 }
-.mb-1 {
-  margin-bottom: 0.25rem;
+.-mt-16 {
+  margin-top: -4rem;
 }
 .block {
   display: block;
@@ -6917,13 +6909,13 @@ body[dir="rtl"] .checkbox:checked,
 .w-52 {
   width: 13rem;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-max {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .w-32 {
   width: 8rem;
@@ -7178,10 +7170,6 @@ body[dir="rtl"] .checkbox:checked,
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
-.bg-indigo-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
-}
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -7292,10 +7280,6 @@ body[dir="rtl"] .checkbox:checked,
 .px-24 {
   padding-left: 6rem;
   padding-right: 6rem;
-}
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -7409,21 +7393,6 @@ body[dir="rtl"] .checkbox:checked,
 }
 .leading-snug {
   line-height: 1.375;
-}
-.leading-8 {
-  line-height: 2rem;
-}
-.leading-relaxed {
-  line-height: 1.625;
-}
-.leading-normal {
-  line-height: 1.5;
-}
-.leading-none {
-  line-height: 1;
-}
-.leading-loose {
-  line-height: 2;
 }
 .tracking-wider {
   letter-spacing: 0.05em;
@@ -7939,11 +7908,6 @@ body[dir="rtl"] .checkbox:checked,
     margin-bottom: 8rem;
   }
 
-  .md\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .md\:mt-16 {
     margin-top: 4rem;
   }
@@ -7996,20 +7960,12 @@ body[dir="rtl"] .checkbox:checked,
     display: none;
   }
 
-  .md\:h-64 {
-    height: 16rem;
-  }
-
   .md\:w-56 {
     width: 14rem;
   }
 
   .md\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .md\:w-64 {
-    width: 16rem;
   }
 
   .md\:w-40 {
@@ -8034,10 +7990,6 @@ body[dir="rtl"] .checkbox:checked,
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row-reverse {
@@ -8079,16 +8031,16 @@ body[dir="rtl"] .checkbox:checked,
     padding-right: 6rem;
   }
 
-  .md\:pr-32 {
-    padding-right: 8rem;
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
   }
 
   .md\:pr-24 {
     padding-right: 6rem;
-  }
-
-  .md\:pr-12 {
-    padding-right: 3rem;
   }
 
   .md\:text-left {
@@ -8100,19 +8052,9 @@ body[dir="rtl"] .checkbox:checked,
     line-height: 1;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
+  .md\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .md\:text-4xl {
@@ -8120,14 +8062,14 @@ body[dir="rtl"] .checkbox:checked,
     line-height: 2.5rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -8190,6 +8132,11 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 10rem;
   }
 
+  .lg\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .lg\:mx-48 {
     margin-left: 12rem;
     margin-right: 12rem;
@@ -8199,16 +8146,24 @@ body[dir="rtl"] .checkbox:checked,
     margin-top: -20rem;
   }
 
-  .lg\:-mt-24 {
-    margin-top: -6rem;
-  }
-
   .lg\:-mt-8 {
     margin-top: -2rem;
   }
 
-  .lg\:-mt-32 {
-    margin-top: -8rem;
+  .lg\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .lg\:mr-24 {
+    margin-right: 6rem;
+  }
+
+  .lg\:ml-32 {
+    margin-left: 8rem;
+  }
+
+  .lg\:-mt-24 {
+    margin-top: -6rem;
   }
 
   .lg\:block {
@@ -8233,10 +8188,6 @@ body[dir="rtl"] .checkbox:checked,
 
   .lg\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4 {
@@ -8273,36 +8224,35 @@ body[dir="rtl"] .checkbox:checked,
     padding-bottom: 1rem;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1280px) {
+
+  .xl\:mx-32 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
 
   .xl\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
   }
 
-  .xl\:mx-80 {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-
   .xl\:-mt-16 {
     margin-top: -4rem;
+  }
+
+  .xl\:block {
+    display: block;
   }
 
   .xl\:grid-cols-3 {
@@ -8323,18 +8273,13 @@ body[dir="rtl"] .checkbox:checked,
     padding-left: 16rem;
     padding-right: 16rem;
   }
-
-  .xl\:px-80 {
-    padding-left: 20rem;
-    padding-right: 20rem;
-  }
 }
 
 @media (min-width: 1536px) {
 
-  .\32xl\:mx-72 {
-    margin-left: 18rem;
-    margin-right: 18rem;
+  .\32xl\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .\32xl\:mx-80 {
@@ -8342,13 +8287,17 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 20rem;
   }
 
-  .\32xl\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+  .\32xl\:mx-72 {
+    margin-left: 18rem;
+    margin-right: 18rem;
   }
 
   .\32xl\:mt-48 {
     margin-top: 12rem;
+  }
+
+  .\32xl\:block {
+    display: block;
   }
 
   .\32xl\:w-1\/3 {
@@ -8358,16 +8307,6 @@ body[dir="rtl"] .checkbox:checked,
   .\32xl\:px-80 {
     padding-left: 20rem;
     padding-right: 20rem;
-  }
-
-  .\32xl\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .\32xl\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .\32xl\:px-8 {
