@@ -17,25 +17,29 @@
                 <img :src="banner_mobile" class=" w-full md:hidden" alt="">
 
                 <div class=" hidden md:flex justify-center lg:-mt-8 xl:-mt-16">
-                    <img :src="banner" class="w-1/3  " alt="">
+                    <img :src="banner" class="w-1/2 lg:w-1/3  " alt="">
 
                 </div>
 
-<!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
-<!--                    class="tracking-wider text-center-->
-<!--">-->
-<!--                    The Powerhouse of-->
-<!--                    <br class="hidden md:block">-->
-<!--                    Innovative Products-->
-<!--                </h1>-->
+                <!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
+                <!--                    class="tracking-wider text-center-->
+                <!--">-->
+                <!--                    The Powerhouse of-->
+                <!--                    <br class="hidden md:block">-->
+                <!--                    Innovative Products-->
+                <!--                </h1>-->
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center
+                    class="tracking-wider text-center leading-tight
 ">
-                   Empowering
+                    Empowering
                     <br class="sm:hidden">
-                    the future with
-                     Innovative Products
+                    the future
+                    <br class="hidden lg:block">
+                    with
+
+
+                    Innovative Products
                 </h1>
 
             </div>
@@ -173,30 +177,35 @@ Product Design
                 </div>
 
                 <div>
-                    <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold"
+                    <h2 class="text-center md:text-left text-4xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
                         <span class="text-red-600">Websites</span>
-                        that create <br class="hidden md:block"> more conversions
+                        that create <br class="hidden lg:block"> more conversions
 
                         <!--                        Web Development-->
                     </h2>
 
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 4px;">
+                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
 
                     </div>
 
 
                 </div>
 
-                <p class="text-center md:text-left">
-                    <span class="font-bold italic text-lg  md:text-2xl md:text-left">"Every Website needs a solid foundation"</span>
 
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+                   class=" text-2xl mt-4">
+                    Newest Technologies <br>
+                    Creative Storytelling <br>
+                    Bespoke Design
                 </p>
-                <p class="mt-4 md:pr-32 text-md md:text-xl md:text-left"
+
+                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    If you want to show potential customers that you’re serious about your business, you need to present
-                    a professional face to the internet. This means having your website professionally designed.
+                    Based on this 3 essential layers, we build websites that focus on <br class="hidden lg:block">User
+                    Experience and deliver
+                    fast performance.
                 </p>
 
 
@@ -214,13 +223,13 @@ Product Design
         <!--        AUDIT    -->
         <div class="my-8 md:my-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
-                <img :src="audit_mobile" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="audit_mobile" alt="" class="w-full md:w-1/2 lg:w-2/3 md:pr-12">
 
                 <div>
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            Request a free <span class="text-red-600">audit</span> of <br class="hidden md:block">your
+                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+                            Request a free <span class="text-red-600">audit</span> of your
                             website
                         </p>
 
@@ -229,20 +238,28 @@ Product Design
                         </div>
                     </div>
 
-
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class="text-lg md:text-2xl mt-8">
+                       class=" text-2xl mt-4">
                         Website Performance Optimization<br>
                         Website Redesign <br>
                         Conversion Rate Optimization
                     </p>
 
-                    <p class="mt-2 text-md md:text-xl">
-                        Based on this 3 essential layers, we build websites that focus on User Experience and deliver
-                        fast performance.
+                    <p class="mt-4 text-md md:text-xl"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                        See how we can improve your website and reach maximum potential.
                     </p>
 
+                    <div class="flex justify-center md:justify-start  mt-5">
+                        <InertiaLink :href="route('web-dev')"
+                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                            CONTACT US
+                        </InertiaLink>
+                    </div>
+
+
                 </div>
+
 
             </div>
 
@@ -263,7 +280,8 @@ Product Design
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
                     <div class="">
-                        <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
+                        <h2 class="text-center md:text-left text-2xl md:text-5xl font-bold"
+                            style="font-family: Poppins,serif;">
                             Custom
                             <span class="text-red-600">
                                 Apps
@@ -284,15 +302,17 @@ Product Design
 
                     </div>
 
-
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class="text-lg md:text-2xl mt-8">
+                       class=" text-2xl mt-4">
                         Web Apps<br>
                         Native Apps <br>
                         Hybrid Apps
                     </p>
 
-                    <p>Let us create you an effective Business Performance Management Software.</p>
+                    <p class="text-md md:text-xl mt-4"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                        Let us create you an effective Business Performance Management Software.
+                    </p>
 
                     <div class="flex">
                         <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
@@ -335,13 +355,14 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-8">
+                       class=" text-2xl mt-4">
                         Newest Technologies <br>
                         Creative Storytelling <br>
                         Bespoke Design
                     </p>
 
-                    <p class="mt-2">
+                    <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                         Based on this 3 essential layers, we build websites that focus on User Experience and deliver
                         fast performance.
                     </p>
@@ -365,17 +386,22 @@ Product Design
                 <h2 class="text-2xl md:text-5xl font-bold" style="font-family: Poppins,serif;">
                     Product
 
-                    <span class="text-red-600">Design</span> for multiple industries
+                    <span class="text-red-600">Design</span> for <br class="hidden lg:block"> multiple industries
                 </h2>
 
-                <div class="md:w-1/3 my-4 bg-red-400" style="height: 6px;">
+                <div class="md:w-1/3 my-4 bg-red-600" style="height: 6px;">
 
                 </div>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius
-                    fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?
-                    Modi molestiae nam provident?
+
+                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    <!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius-->
+                    <!--                    fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?-->
+                    <!--                    Modi molestiae nam provident?-->
+
+                    Let's collaborate to design a staggering product that will remain in people's minds for a loooong
+                    time.
                 </p>
 
                 <div class="flex">
@@ -395,28 +421,23 @@ Product Design
             <img :src="product_design" class="hidden md:block w-1/2" alt="">
         </div>
 
-        <!--        3 LAYERS    -->
-        <div class="lg:mx-32 my-32">
-            <div class="mx-10 md:flex items-center justify-between">
+        <!--    CUSTOM DEVELOPMENT  -->
+            <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-32 2xl:mx-72">
 
-                <div class="md:hidden">
-                    <p style="font-family: 'Poppins', sans-serif;"
-                       class=" md:text-6xl mt-16 md:mt-0 font-bold">
-                        The <span class="text-red-600">3</span> layers of a great product
-                    </p>
 
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
-
-                    </div>
-                </div>
-
-                <img :src="product_design_2" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
                 <div>
-                    <div class="hidden md:block">
+                    <div class="">
+
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class=" text-4xl mt-16 md:mt-0 font-bold">
-                            The <span class="text-red-600">3</span> layers of a great product
+                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+                            <span class="text-red-600">
+                                Custom
+                            </span>
+                            Development
+                            <br class="hidden lg:block">
+                            suited to your needs
                         </p>
 
                         <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
@@ -425,16 +446,10 @@ Product Design
                     </div>
 
 
-                    <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-8">
-                        Newest Technologies <br>
-                        Creative Storytelling <br>
-                        Bespoke Design
-                    </p>
-
-                    <p class="mt-2">
-                        Based on this 3 essential layers, we build websites that focus on User Experience and deliver
-                        fast performance.
+                    <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                        Can't find what you're looking for? <br>
+                        Tell us about your idea and we will develop it.
                     </p>
 
                 </div>
@@ -442,7 +457,6 @@ Product Design
             </div>
 
 
-        </div>
 
         <!--        CONTACT FORM    -->
         <div class="mt-32 md:flex justify-between items-center  mx-10 md:mx-64">
@@ -537,7 +551,6 @@ Product Design
         </div>
 
 
-
         <BlogComponent></BlogComponent>
         <Footer></Footer>
     </div>
@@ -578,7 +591,6 @@ import web_icon from "/img/mobile/web-icon.png";
 import product_icon from "/img/mobile/product-icon.png";
 import steps from "/img/desktop/3steps.png";
 import 'tw-elements';
-
 
 
 export default {

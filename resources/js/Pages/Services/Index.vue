@@ -16,7 +16,7 @@
 
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center leading-snug">
+                    class="tracking-wider text-center leading-tight">
                     Find the right <span class="text-red-600">service</span> <br class="hidden md:block">
                     for your business
                 </h1>
@@ -25,11 +25,12 @@
         </div>
 
         <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
-            <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-lg md:px-24 lg:px-32 xl:mx-24 2xl:mx-80">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
-                illum
-                iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
-                optio porro quo similique vero.
+            <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 "
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+
+                Browse through our services and find the one that is suited for your business.
+                <br>
+                Can't find what you are looking for? We can help you with our Custom Development Services.
             </p>
         </div>
 
@@ -631,7 +632,7 @@
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
-                            <img :src="laravel" alt="" class="mt-8 w-24 h-24">
+                            <img :src="laravel" alt="" class="mt-8 w-16 h-16">
 
                         </div>
 
@@ -646,7 +647,7 @@
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
-                            <img :src="vue" alt="" class="mt-8 w-24 h-24">
+                            <img :src="vue" alt="" class="mt-8 w-16 h-16">
 
                         </div>
 
@@ -661,7 +662,7 @@
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
-                            <img :src="flutter" alt="" class="mt-8 w-24 h-24">
+                            <img :src="flutter" alt="" class="mt-8 w-16 h-16">
 
                         </div>
 
@@ -676,7 +677,7 @@
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
-                            <img :src="python" alt="" class="mt-8 w-24 h-24">
+                            <img :src="python" alt="" class="mt-8 w-16 h-16">
 
                         </div>
 

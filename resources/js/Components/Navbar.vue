@@ -35,7 +35,7 @@
                     </a>
 
                     <a href="/contact"
-                       class="px-6  bg-red-500 rounded full py-1 text-sm rounded-full underline-opening"
+                       class="px-6  bg-red-600 rounded full py-1 text-sm rounded-full underline-opening"
                        style="color: white !important;">
                         CONTACT
                     </a>

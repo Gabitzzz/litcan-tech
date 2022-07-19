@@ -23,7 +23,7 @@
     </div>
 
     <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
-        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-lg md:px-24 lg:px-32 xl:mx-24 2xl:mx-80">
+        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-lg md:px-24 lg:px-32 xl:mx-24 2xl:mx-24">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
             illum
             iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
@@ -33,7 +33,7 @@
 
 
     <!--        DESKTOP WEB DEV  -->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -41,7 +41,7 @@
             </p>
         </div>
 
-        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+        <div class="md:w-1/2 2xl:w-1/3 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
 
     </div>
 
@@ -215,7 +215,8 @@
 
 
     <!--    DESTKOP FRONT END FRAMEWORKS-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-2xl 2xl:mx-80">
+
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -391,7 +392,8 @@
 
 
     <!--    DESTKOP OTHER TECHNOLOGIES-->
-    <div class=" md:mt-16 mx-10 lg:mx-48 text-xl md:text-2xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-2xl 2xl:mx-80">
+
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -435,14 +437,14 @@
             <!--    Inertia.js -->
             <div class="w-48 shadow-lg bg-white mx-8 z-10">
                 <div class="flex justify-center">
-                    <img :src="inertia" alt="" class="mt-8 w-24 h-24">
+                    <img :src="python" alt="" class="mt-8 w-24 h-24">
 
                 </div>
 
                 <div class="flex justify-center my-8">
                     <p class="text-xl text-center"
                        style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                        Inertia.js <br> Development
+                        Python <br> Development
                     </p>
                 </div>
             </div>
@@ -547,14 +549,14 @@
 
 
     <!--    DESkTOP APP DEVELOPMENT     -->
-    <div class="md:mt-8 mx-10 lg:mx-48 text-4xl md:text-5xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
                 App <span class="text-black">Development</span>
             </p>
         </div>
-        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+        <div class="md:w-1/2 2xl:w-1/3 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
 
 
     </div>
@@ -727,7 +729,7 @@
     <hr class=" mx-10 lg:mx-48 my-8">
 
     <!--    PRODUCT DESIGN-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -735,7 +737,8 @@
             </p>
         </div>
 
-        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+        <div class="md:w-1/2 2xl:w-1/3 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+
 
     </div>
 
