@@ -21,16 +21,8 @@
 
                 </div>
 
-                <!--                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"-->
-                <!--                    class="tracking-wider text-center-->
-                <!--">-->
-                <!--                    The Powerhouse of-->
-                <!--                    <br class="hidden md:block">-->
-                <!--                    Innovative Products-->
-                <!--                </h1>-->
-
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center leading-tight
+                    class="tracking-wider  text-center leading-tight
 ">
                     Empowering
                     <br class="sm:hidden">
@@ -177,7 +169,7 @@ Product Design
                 </div>
 
                 <div>
-                    <h2 class="text-center md:text-left text-4xl lg:text-5xl font-bold"
+                    <h2 class="text-center md:text-left text-2xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
                         <span class="text-red-600">Websites</span>
@@ -272,7 +264,7 @@ Product Design
 
         </div>
         <!--        APP DEV -->
-        <div class="mt-16 md:flex items-center mx-10 md:mt-32 lg:ml-32 2xl:mx-72">
+        <div class="my-16 md:flex items-center mx-10 md:my-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
 
 
@@ -309,10 +301,11 @@ Product Design
                         Let us create you an effective Business Performance Management Software.
                     </p>
 
-                    <div class="flex  mt-5">
-                        <button class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                    <div class="flex justify-center md:justify-start  mt-5">
+                        <a href="/services/web-development"
+                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                             CONTACT US
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -324,7 +317,7 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="mt-16 md:flex items-center md:my-32 mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-16 md:flex items-center md:my-32 mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
@@ -362,9 +355,11 @@ Product Design
         </div>
 
         <!--    PARTNERS    -->
-        <LatestPartners></LatestPartners>
+        <div class="md:my-32">
+            <LatestPartners></LatestPartners>
+        </div>
         <!--        PRODUCT DESIGN-->
-        <div class="mt-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="my-16 md:my-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
@@ -394,17 +389,11 @@ Product Design
                     time.
                 </p>
 
-                <div class="flex">
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                    <div class="p-4 bg-black rounded-full mt-5 mr-2"></div>
-                </div>
-
-                <div class="flex  mt-5">
-                    <button class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                <div class="flex justify-center md:justify-start  mt-5">
+                    <a href="/services/product-design"
+                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -412,7 +401,7 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="mt-32 md:flex items-center justify-between mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-16 md:my-32 md:flex items-center justify-between mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
             <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
             <div>
@@ -445,97 +434,7 @@ Product Design
         </div>
 
 
-        <!--        CONTACT FORM    -->
-        <div class="mt-32 md:flex justify-between items-center  mx-10 md:mx-64">
-
-            <div>
-                <p class="text-4xl  font-bold">
-                    Let's get in touch
-
-                </p>
-            </div>
-
-            <form class=" max-w-lg">
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-first-name">
-                            First Name
-                        </label>
-                        <input
-                            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                            id="grid-first-name" type="text" placeholder="Jane">
-                        <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-                    </div>
-                    <div class="w-full md:w-1/2 px-3">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-last-name">
-                            Last Name
-                        </label>
-                        <input
-                            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            id="grid-last-name" type="text" placeholder="Doe">
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-password">
-                            Password
-                        </label>
-                        <input
-                            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            id="grid-password" type="password" placeholder="******************">
-                        <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb-2">
-                    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-city">
-                            City
-                        </label>
-                        <input
-                            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            id="grid-city" type="text" placeholder="Albuquerque">
-                    </div>
-                    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >
-                            State
-                        </label>
-                        <div class="relative">
-                            <select
-                                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                id="grid-state">
-                                <option>New Mexico</option>
-                                <option>Missouri</option>
-                                <option>Texas</option>
-                            </select>
-                            <div
-                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 20 20">
-                                    <path
-                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                               for="grid-zip">
-                            Zip
-                        </label>
-                        <input
-                            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            id="grid-zip" type="text" placeholder="90210">
-                    </div>
-                </div>
-            </form>
-
-
-        </div>
+        <ContactComponent></ContactComponent>
 
 
         <BlogComponent></BlogComponent>
@@ -549,6 +448,7 @@ import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
 import LatestPartners from "@/Components/LatestPartners";
 import {InertiaLink} from "@inertiajs/inertia-vue3";
+import ContactComponent from "@/Components/ContactComponent";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -588,6 +488,7 @@ export default {
         BlogComponent,
         InertiaLink,
         LatestPartners,
+        ContactComponent,
     },
     data() {
         return {

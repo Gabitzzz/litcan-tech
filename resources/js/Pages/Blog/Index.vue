@@ -24,20 +24,20 @@
 
         </div>
 
-        <div class="mx-10 mb-8 flex flex-col items-center">
-            <p class="-mt-8 md:-mt-24 text-center text-lg md:px-24 lg:px-32 xl:px-48 ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
-                illum
-                iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
-                optio porro quo similique vero.
+        <div class="mx-10  flex flex-col items-center 2xl:mx-24">
+            <p class="-mt-8 mb-16 md:mb-32 md:-mt-16 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Are you a tech enthusiast? Keep up with the latest articles.
             </p>
         </div>
 
         <div class="mx-10 md:mx-64 mb-8 flex flex-col items-center">
-            <div class="z-10 w-full bg-red-400 text-center text-lg md:px-24 lg:mx-32 py-32 ">
-                sa
+            <div class="z-10 w-full bg-red-400 text-center text-lg md:px-24 lg:mx-48 py-32 ">
+                <p class="text-white font-bold"
+                   style="font-family: 'Poppins', sans-serif;">
+                    NO ARTICLES YET :( <br>
+                </p>
             </div>
-
         </div>
 
 

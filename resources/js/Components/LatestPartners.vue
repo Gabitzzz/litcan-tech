@@ -15,7 +15,8 @@
             <div
                 id="scrollContainer2"
                 class="flex md:justify-center flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
-                <!--    LARAVEL DEVELOPMENT     -->
+
+                <!--    ADOPET     -->
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -29,7 +30,7 @@
                     </div>
                 </div>
 
-                <!--                VUE.JS DEVELOPMENT      -->
+                <!--                ESSEX SOCIAL     -->
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40  flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -43,7 +44,7 @@
                     </div>
                 </div>
 
-                <!--                FLUTTER Development       -->
+                <!--                TED       -->
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -57,14 +58,41 @@
                     </div>
                 </div>
 
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://faser.essex.ac.uk/">
+                            <div class="pt-2 px-2  justify-center">
+                                <img :src="dws"
+                                     class=" inline-block p-6 md:p-4 rounded-3xl "
+                                     alt="dws">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://faser.essex.ac.uk/">
+                            <div class="pt-2 px-2  justify-center">
+                                <img :src="arhique"
+                                     class=" inline-block p-6 md:p-4 rounded-3xl "
+                                     alt="arhique">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
 
             <div class="flex justify-center">
-              <button
+              <a href="/portfolio"
                   class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                   SEE OUR PORTFOLIO
-              </button>
+              </a>
           </div>
         </div>
     </div>
@@ -76,7 +104,8 @@
 
 <script>
 import adopet from "/img/partners/adopet.png";
-import arhique from "/img/partners/arhique.png";
+import arhique from "/img/partners/arhique2.png";
+import dws from "/img/partners/dws.webp";
 import ted from "/img/partners/ted.png";
 import esn from "/img/partners/esn.png";
 
@@ -88,6 +117,7 @@ export default {
             ted:ted,
             arhique: arhique,
             esn: esn,
+            dws: dws,
         }
     }
 }

@@ -31,7 +31,7 @@
 
 
     <!--        DESKTOP WEB DEV  -->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-3xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -213,7 +213,7 @@
 
 
     <!--    DESTKOP FRONT END FRAMEWORKS-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-2xl 2xl:mx-80">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-2xl md:text-2xl 2xl:mx-80">
 
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -390,7 +390,7 @@
 
 
     <!--    DESTKOP OTHER TECHNOLOGIES-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-2xl 2xl:mx-80">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-2xl md:text-2xl 2xl:mx-80">
 
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -569,7 +569,7 @@
 
 
     <!--    DESkTOP APP DEVELOPMENT     -->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-3xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">
@@ -749,7 +749,7 @@
     <hr class=" mx-10 lg:mx-48 my-8">
 
     <!--    PRODUCT DESIGN-->
-    <div class="md:mt-16 mx-10 lg:mx-48 text-4xl md:text-5xl 2xl:mx-80">
+    <div class="md:mt-16 mx-10 lg:mx-48 text-3xl md:text-5xl 2xl:mx-80">
         <div class="">
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                class="tracking-wider text-red-600">

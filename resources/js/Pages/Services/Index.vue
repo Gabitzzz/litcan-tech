@@ -37,9 +37,6 @@
 
         <div class="flex justify-center lg:mx-48 -mt-16 md:-mt-16 md:mb-32">
             <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-8 content-center mt-16">
-
-
-                <!--                <div class="lg:flex">-->
                 <!--    WEB DEV     -->
                 <a href="/services/web-development" class="z-10 w-72 shadow-lg bg-white mx-8 ">
                     <div class="flex justify-center">
@@ -67,7 +64,7 @@
                     <div class="flex justify-center mb-8">
 
                         <a href="/services/web-development"
-                                     class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                                     class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
@@ -104,7 +101,7 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <a href="/services/app-development" class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/app-development" class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
@@ -140,14 +137,14 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <a href="/services/product-design" class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/product-design" class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
                 </a>
 
                 <!--    DIGITAL MARKETING     -->
-                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/digital-marketing" class="z-10 w-72 shadow-lg bg-white mx-8 ">
 
                     <div class="flex justify-center">
                         <img :src="digital_services" alt="" class="mt-8 w-24 h-24">
@@ -174,16 +171,16 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class=" mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </button>
                     </div>
 
 
-                </InertiaLink>
+                </a>
 
                 <!-- MACHINE LEARNING    -->
-                <InertiaLink :href="route('web-dev')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/machine-learning" class="z-10 w-72 shadow-lg bg-white mx-8 ">
 
                     <div class="flex justify-center">
                         <img :src="ml_services" alt="" class="mt-8 w-24 h-24">
@@ -209,16 +206,16 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </button>
                     </div>
 
 
-                </InertiaLink>
+                </a>
 
                 <!--   CUSTOM DEV     -->
-                <InertiaLink :href="route('contact')" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/contact" class="z-10 w-72 shadow-lg bg-white mx-8 ">
 
                     <div class="flex justify-center">
                         <img :src="custom_services" alt="" class="mt-8 w-24 h-24">
@@ -246,14 +243,13 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="mb-8 font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             CONTACT
                         </button>
                     </div>
 
 
-                </InertiaLink>
-
+                </a>
             </div>
         </div>
 

@@ -25,13 +25,9 @@
         </div>
 
         <div class="mx-10  flex flex-col items-center 2xl:mx-24">
-            <p class="-mt-8 mb-16 md:-mt-24 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
+            <p class="-mt-8 mb-16 md:mb-32 md:-mt-16 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dignissimos excepturi
-                illum
-                iusto maxime, neque officia possimus vero voluptates. Ad blanditiis facere laboriosam molestiae
-                optio porro quo similique vero.
+                Let's collaborate
             </p>
         </div>
 
@@ -42,7 +38,7 @@
                     md:grid-cols-2 md:px-24 md:-mt-16 lg:px-32 xl:px-64 2xl:px-80">
             <div class="flex flex-col justify-between 2xl:px-8">
                 <div>
-                    <h2 class="text-4xl lg:text-4xl font-bold leading-tight"
+                    <h2 class="text-2xl font-bold leading-tight"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                         Let's Get in Touch
@@ -72,7 +68,7 @@
                         www.litcan.tech
                     </div>
 
-                    <h2 class="text-4xl lg:text-4xl font-bold leading-tight mt-8"
+                    <h2 class="text-2xl font-bold leading-tight mt-8"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                         Follow us on Social Media
@@ -109,13 +105,15 @@
         </div>
 
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11391.300825427885!2d26.3411004!3d44.4572553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c5ecee7bb7b6d43!2sLi%C8%9Bcan%20Nicolae-Gabriel%20PFA!5e0!3m2!1sro!2suk!4v1654993977515!5m2!1sro!2suk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.8251181747883!2d26.338854615434343!3d44.45725710808286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fb6d2f1a9997%3A0x397891e3790e69c2!2sLi%C8%9Bcan%20Technologies!5e0!3m2!1sro!2sro!4v1658283630241!5m2!1sro!2sro"
             class="w-full"
             style="border:0; min-height: 500px;"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+
+
 
         <BlogComponent></BlogComponent>
 
