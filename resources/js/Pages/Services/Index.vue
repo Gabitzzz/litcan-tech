@@ -1,5 +1,5 @@
 <template>
-        <div class="bg-white">
+    <div class="bg-white">
         <Navbar></Navbar>
 
 
@@ -64,7 +64,7 @@
                     <div class="flex justify-center mb-8">
 
                         <a href="/services/web-development"
-                                     class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
@@ -101,7 +101,8 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <a href="/services/app-development" class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/app-development"
+                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
@@ -137,7 +138,8 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <a href="/services/product-design" class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <a href="/services/product-design"
+                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
                             SEE MORE
                         </a>
                     </div>
@@ -255,8 +257,8 @@
 
 
         <!--        INDUSTRY SPECIFIC SERVICES  -->
-        <div class="my-16 bg-red-600 py-16 md:py-16">
-            <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
+        <div class="my-32 bg-red-600 py-24">
+            <div class="mx-10 mb-8 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
                 <div class="">
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                         class="tracking-wider  text-white">
@@ -609,7 +611,8 @@
         </div>
 
 
-            <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
+        <!--        TECH STALK      -->
+        <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
 
             <div class="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -689,17 +692,18 @@
 
             </div>
 
+            <!--            FULL STACK BUTTON       -->
             <div class="hidden sm:flex justify-center mt-8 md:mt-16">
                 <a href="/tech-stack"
-                             class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
+                   class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
                     SEE OUR FULL TECH STACK
                 </a>
             </div>
         </div>
 
-        <div class=" md:py-16">
+        <div class="md:py-16">
             <!--            MOBILE TECH STALK  -->
-            <div class="sm:hidden mt-4">
+            <div class="sm:hidden mt-4 mb-24">
                 <div
                     id="scrollContainer2"
                     class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">

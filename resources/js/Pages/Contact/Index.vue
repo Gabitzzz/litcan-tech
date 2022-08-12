@@ -2,7 +2,6 @@
     <div class="bg-white">
         <Navbar></Navbar>
 
-
         <div class="md:mx-10 -mt-24 md:mt-32 2xl:mt-48 flex justify-center">
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
@@ -34,7 +33,7 @@
 
         <!--    CONTACT FORM    -->
         <div
-            class="px-8 py-16 grid gap-8 grid-cols-1 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg
+            class="px-8 pt-16 pb-64 grid gap-8 grid-cols-1 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg
                     md:grid-cols-2 md:px-24 md:-mt-16 lg:px-32 xl:px-64 2xl:px-80">
             <div class="flex flex-col justify-between 2xl:px-8">
                 <div>
@@ -73,11 +72,25 @@
 
                         Follow us on Social Media
                     </h2>
+
+
+                    <div class="sm:flex mt-4">
+                        <a href="https://www.facebook.com/litcan.tech" class="flex items-center">
+                            <img :src="facebook" class="w-8 h-8 mr-2" alt="">
+                            <p class="sm:hidden text-lg font-bold italic">Facebook</p>
+                        </a>
+
+                        <a href="https://www.instagram.com/litcan.tech/" class="flex items-center mt-4 sm:mt-0">
+                            <img :src="instagram" class="w-8 h-8 mr-2 sm:ml-2" alt="">
+                            <p class="sm:hidden text-lg font-bold italic">Instagram</p>
+                        </a>
+                    </div>
                 </div>
+
 
             </div>
 
-            <div class="2xl:px-8">
+            <div class="2xl:px-8 pt-16 sm:pt-0">
                 <div>
                     <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
                     <input
@@ -107,12 +120,11 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.8251181747883!2d26.338854615434343!3d44.45725710808286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fb6d2f1a9997%3A0x397891e3790e69c2!2sLi%C8%9Bcan%20Technologies!5e0!3m2!1sro!2sro!4v1658283630241!5m2!1sro!2sro"
             class="w-full"
-            style="border:0; min-height: 500px;"
+            style="border:0; min-height: 800px;"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-
 
 
         <BlogComponent></BlogComponent>
@@ -133,6 +145,8 @@ import mail from "/img/contact/mail.png";
 import telephone from "/img/contact/telephone.png";
 import website from "/img/contact/website.png";
 import wapp from "/img/contact/wapp.png";
+import facebook from "/img/contact/facebook.png";
+import instagram from "/img/contact/instagram.png";
 
 
 export default {
@@ -150,6 +164,8 @@ export default {
             telephone: telephone,
             website: website,
             wapp: wapp,
+            facebook: facebook,
+            instagram: instagram,
         }
     }
 }

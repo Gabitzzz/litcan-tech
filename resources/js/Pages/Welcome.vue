@@ -152,7 +152,7 @@ defineProps({
     .text-gray-700 {
         color: #4a5568;
         color: rgba(74, 85, 104, var(--tw-text-opacity));
-    }
+    }ț
 
     .text-gray-900 {
         color: #1a202c;

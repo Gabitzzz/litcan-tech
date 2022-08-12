@@ -2,7 +2,7 @@
     <div class="bg-white">
         <Navbar></Navbar>
 
-
+        <!--        BANNER      -->
         <div class="md:mx-10 mt-80 md:mt-32 2xl:mt-48 flex justify-center">
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
@@ -12,6 +12,7 @@
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
         </div>
 
+        <!--        BANNER      -->
         <div class="mx-10 -mt-80  flex justify-center items-center text-3xl md:text-5xl">
             <div class="-mt-48 lg:-mt-80 flex flex-col items-center">
                 <img :src="banner_mobile" class=" w-full md:hidden" alt="">
@@ -161,7 +162,7 @@ Product Design
 
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center justify-between mx-10 lg:mx-16 xl:mx-32  2xl:mx-72">
+        <div class="mt-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
 
                 <div class="flex justify-center">
@@ -213,7 +214,7 @@ Product Design
         </div>
 
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32 md:flex items-center mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-8 md:my-32 md:flex items-center mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="audit_mobile" alt="" class="w-full lg:w-2/3 md:pr-16">
 
@@ -264,7 +265,7 @@ Product Design
 
         </div>
         <!--        APP DEV -->
-        <div class="my-16 md:flex items-center mx-10 md:my-32 lg:ml-32 2xl:mx-72">
+        <div class="my-16 md:flex items-center mx-8 md:my-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
 
 
@@ -303,7 +304,7 @@ Product Design
 
                     <div class="flex justify-center md:justify-start  mt-5">
                         <a href="/services/web-development"
-                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                           class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                             CONTACT US
                         </a>
                     </div>
@@ -317,7 +318,7 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="my-16 md:flex items-center md:my-32 mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-16 md:flex items-center md:my-32 mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
@@ -359,7 +360,7 @@ Product Design
             <LatestPartners></LatestPartners>
         </div>
         <!--        PRODUCT DESIGN-->
-        <div class="my-16 md:my-32 md:flex items-center mx-10 lg:mx-32 2xl:mx-72">
+        <div class="my-16 md:my-32 md:flex items-center mx-8 lg:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
@@ -381,9 +382,9 @@ Product Design
 
                 <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    <!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius-->
-                    <!--                    fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?-->
-                    <!--                    Modi molestiae nam provident?-->
+                    <!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius-->
+                    <!--                                        fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?-->
+                    <!--                                        Modi molestiae nam provident?-->
 
                     Let's collaborate to design a staggering product that will remain in people's minds for a loooong
                     time.
@@ -391,7 +392,7 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <a href="/services/product-design"
-                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                       class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
                     </a>
                 </div>
@@ -401,7 +402,7 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="my-16 md:my-32 md:flex items-center justify-between mx-10 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-16 md:my-32 md:flex items-center justify-between mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
             <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
             <div>

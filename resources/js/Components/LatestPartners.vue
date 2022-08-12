@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 py-10">
+    <div class="bg-gray-100 py-24 sm:py-10 my-24">
         <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
 
             Our latest

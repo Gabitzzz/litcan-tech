@@ -928,7 +928,6 @@
     <!--    END OF MOBILE PRODUCT DESIGN   -->
 
 
-    <hr class=" mx-10 lg:mx-48 my-8">
 
 
     <Footer></Footer>
