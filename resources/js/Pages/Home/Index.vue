@@ -162,7 +162,7 @@ Product Design
 
 
         <!--WEB DEV -->
-        <div class="mt-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32  2xl:mx-72">
+        <div class="my-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
 
                 <div class="flex justify-center">
@@ -173,13 +173,13 @@ Product Design
                     <h2 class="text-center md:text-left text-2xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
-                        <span class="text-red-600">Websites</span>
+                        <span class="text-gray-400">Websites</span>
                         that create <br class="hidden lg:block"> more conversions
 
                         <!--                        Web Development-->
                     </h2>
 
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+                    <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
 
                     </div>
 
@@ -204,7 +204,7 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <InertiaLink :href="route('web-dev')"
-                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                                 class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
                         CONTACT US
                     </InertiaLink>
                 </div>
@@ -222,11 +222,11 @@ Product Design
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            Request a free <span class="text-red-600">audit</span> of your
+                            Request a free <span class="text-gray-400">audit</span> of your
                             website
                         </p>
 
-                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
 
                         </div>
                     </div>
@@ -245,7 +245,7 @@ Product Design
 
                     <div class="flex justify-center md:justify-start  mt-5">
                         <InertiaLink :href="route('web-dev')"
-                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                                     class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
                             CONTACT US
                         </InertiaLink>
                     </div>
@@ -264,11 +264,10 @@ Product Design
             <LatestPartners></LatestPartners>
 
         </div>
+
         <!--        APP DEV -->
-        <div class="my-16 md:flex items-center mx-8 md:my-32 lg:ml-32 2xl:mx-72">
+        <div class="md:flex items-center mx-8 my-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
-
-
                 <div class="">
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
 
@@ -277,13 +276,13 @@ Product Design
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
 
                             Custom
-                            <span class="text-red-600">
+                            <span class="text-gray-400">
                                 Apps
                             </span>
                             that increase your business' performance.
                         </p>
 
-                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
 
                         </div>
 
@@ -304,7 +303,7 @@ Product Design
 
                     <div class="flex justify-center md:justify-start  mt-5">
                         <a href="/services/web-development"
-                           class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                           class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
                             CONTACT US
                         </a>
                     </div>
@@ -318,7 +317,7 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="my-16 md:flex items-center md:my-32 mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="md:flex items-center my-32 mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
@@ -329,12 +328,12 @@ Product Design
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
 
                             Grow your brand with our Digital
-                            <span class="text-red-600">
+                            <span class="text-gray-400">
                                 Marketing
                             </span>
                             services
                         </p>
-                        <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;"></div>
+                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;"></div>
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
@@ -360,7 +359,7 @@ Product Design
             <LatestPartners></LatestPartners>
         </div>
         <!--        PRODUCT DESIGN-->
-        <div class="my-16 md:my-32 md:flex items-center mx-8 lg:mx-32 2xl:mx-72">
+        <div class="my-32 md:flex items-center mx-8 lg:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
@@ -372,10 +371,10 @@ Product Design
 
                     Product
 
-                    <span class="text-red-600">Design</span> for <br class="hidden xl:block"> multiple industries
+                    <span class="text-gray-400">Design</span> for <br class="hidden xl:block"> multiple industries
                 </p>
 
-                <div class="md:w-1/3 my-4 bg-red-600" style="height: 6px;">
+                <div class="md:w-1/3 my-4 bg-gray-400 rounded-full" style="height: 6px;">
 
                 </div>
 
@@ -392,7 +391,7 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <a href="/services/product-design"
-                       class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                       class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
                         CONTACT US
                     </a>
                 </div>
@@ -402,7 +401,7 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="my-16 md:my-32 md:flex items-center justify-between mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-32 md:flex items-center justify-between mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
             <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
             <div>
@@ -410,7 +409,7 @@ Product Design
 
                     <p style="font-family: 'Poppins', sans-serif;"
                        class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            <span class="text-red-600">
+                            <span class="text-gray-400">
                                 Custom
                             </span>
                         Development
@@ -418,7 +417,7 @@ Product Design
                         suited to your needs
                     </p>
 
-                    <div class="md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 6px;">
+                    <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
 
                     </div>
                 </div>
