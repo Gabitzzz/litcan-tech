@@ -612,7 +612,7 @@
 
 
         <!--        TECH STALK      -->
-        <div class="mx-10 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
+        <div class="mx-6 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
 
             <div class="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -620,8 +620,12 @@
                     Tech <span class="text-black">Stalk</span> <br>
                 </h1>
             </div>
+
         </div>
 
+        <p class="text-md mx-6 lg:mx-48 2xl:mx-80">
+            Here is my favourite Tech Stack, languages and frameworks that I use every day in most of my projects.
+        </p>
 
         <div>
             <!--        DESKTOP TECH STALK  -->

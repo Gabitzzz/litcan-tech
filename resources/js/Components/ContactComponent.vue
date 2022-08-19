@@ -1,11 +1,11 @@
 <template>
     <div
         class=" grid gap-8 grid-cols-1 md:grid-cols-2
-                md:px-12 lg:px-32 xl:px-64 py-32
-                mx-auto mt-24 px-8
+                md:px-12 lg:px-32 xl:px-80 py-32
+                mx-auto px-8
                 bg-gray-100 text-gray-900 rounded-lg shadow-lg">
 
-        <div class="flex flex-col justify-between 2xl:px-8">
+        <div class="flex flex-col justify-between 2xl:px-32">
             <div>
                 <h2 class="text-2xl font-bold leading-tight"
                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
@@ -18,23 +18,25 @@
                 </div>
 
                 <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                    <img :src="mail" class="w-6 h-6 mr-2" alt="">
-                    contact@litcan.tech
+                    <a href="mailto:contact@litcan.tech" class="flex items-center">
+                        <img :src="mail" class="w-6 h-6 mr-2" alt="">
+                        contact@litcan.tech
+                    </a>
                 </div>
 
                 <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                    <img :src="telephone" class="w-6 h-6 mr-2" alt="">
-                    +40 773 800 815
+
+                    <a href="tel:+40773800815" class="flex items-center">
+                        <img :src="telephone" class="w-6 h-6 mr-2" alt="">
+                        +40 773 800 815
+                    </a>
                 </div>
 
                 <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                    <img :src="wapp" class="w-6 h-6 mr-2" alt="">
-                    +44 7873 93 6443
-                </div>
-
-                <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                    <img :src="website" class="w-6 h-6 mr-2" alt="">
-                    www.litcan.tech
+                    <a href="https://litcan.tech/" class="flex items-center">
+                        <img :src="website" class="w-6 h-6 mr-2" alt="">
+                        www.litcan.tech
+                    </a>
                 </div>
 
                 <h2 class="text-2xl font-bold leading-tight mt-8"
@@ -44,13 +46,17 @@
                 </h2>
 
 
-                <div class="flex mt-4">
-                    <a href="https://www.facebook.com/litcan.tech">
+                <div class="font-bold mt-4">
+                    <a href="https://www.facebook.com/litcan.tech"
+                       class="flex items-center">
                         <img :src="facebook" class="w-8 h-8 mr-2" alt="">
+                        Lițcan Technologies
                     </a>
 
-                    <a href="https://www.instagram.com/litcan.tech/">
-                        <img :src="instagram" class="w-8 h-8 ml-2" alt="">
+                    <a href="https://www.instagram.com/litcan.tech/"
+                       class="flex items-center mt-4">
+                        <img :src="instagram" class="w-8 h-8  mr-2" alt="">
+                        litcan.tech
                     </a>
                 </div>
             </div>
@@ -62,13 +68,15 @@
         <div class="">
             <div>
                 <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                       type="text" placeholder="">
+                <input
+                    class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="">
             </div>
             <div class="mt-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                       type="text">
+                <input
+                    class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text">
             </div>
             <div class="mt-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
@@ -87,8 +95,24 @@
 </template>
 
 <script>
+import mail from "/img/contact/mail.png";
+import telephone from "/img/contact/telephone.png";
+import website from "/img/contact/website.png";
+import facebook from "/img/contact/facebook.png";
+import instagram from "/img/contact/instagram.png";
+
 export default {
-    name: "ContactComponent"
+    name: "ContactComponent",
+
+    data() {
+        return {
+            mail: mail,
+            telephone: telephone,
+            website: website,
+            facebook: facebook,
+            instagram: instagram,
+        }
+    }
 }
 </script>
 

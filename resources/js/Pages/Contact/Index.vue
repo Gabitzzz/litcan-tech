@@ -24,98 +24,14 @@
         </div>
 
         <div class="mx-10  flex flex-col items-center 2xl:mx-24">
-            <p class="-mt-8 mb-16 md:mb-32 md:-mt-16 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
+            <p class="-mt-8 mb-16 md:mb-16 md:-mt-16 text-center text-xl md:px-24 lg:px-32 2xl:mx-80 "
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                 Let's collaborate
             </p>
         </div>
 
+        <ContactComponent></ContactComponent>
 
-        <!--    CONTACT FORM    -->
-        <div
-            class="px-8 pt-16 pb-64 grid gap-8 grid-cols-1 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg
-                    md:grid-cols-2 md:px-24 md:-mt-16 lg:px-32 xl:px-64 2xl:px-80">
-            <div class="flex flex-col justify-between 2xl:px-8">
-                <div>
-                    <h2 class="text-2xl font-bold leading-tight"
-                        style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-
-                        Let's Get in Touch
-                    </h2>
-
-                    <div class="text-gray-700 my-4">
-                        Hate forms? Send us an <span class="underline">email</span> instead.
-                    </div>
-
-                    <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                        <img :src="mail" class="w-6 h-6 mr-2" alt="">
-                        contact@litcan.tech
-                    </div>
-
-                    <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                        <img :src="telephone" class="w-6 h-6 mr-2" alt="">
-                        +40 773 800 815
-                    </div>
-
-                    <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                        <img :src="wapp" class="w-6 h-6 mr-2" alt="">
-                        +44 7873 93 6443
-                    </div>
-
-                    <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-                        <img :src="website" class="w-6 h-6 mr-2" alt="">
-                        www.litcan.tech
-                    </div>
-
-                    <h2 class="text-2xl font-bold leading-tight mt-8"
-                        style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-
-                        Follow us on Social Media
-                    </h2>
-
-
-                    <div class="sm:flex mt-4">
-                        <a href="https://www.facebook.com/litcan.tech" class="flex items-center">
-                            <img :src="facebook" class="w-8 h-8 mr-2" alt="">
-                            <p class="sm:hidden text-lg font-bold italic">Facebook</p>
-                        </a>
-
-                        <a href="https://www.instagram.com/litcan.tech/" class="flex items-center mt-4 sm:mt-0">
-                            <img :src="instagram" class="w-8 h-8 mr-2 sm:ml-2" alt="">
-                            <p class="sm:hidden text-lg font-bold italic">Instagram</p>
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="2xl:px-8 pt-16 sm:pt-0">
-                <div>
-                    <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                    <input
-                        class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text" placeholder="">
-                </div>
-                <div class="mt-8">
-                    <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-                    <input
-                        class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text">
-                </div>
-                <div class="mt-8">
-                    <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-                    <textarea
-                        class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
-                </div>
-                <div class="mt-8">
-                    <button
-                        class="uppercase text-sm font-bold tracking-wide bg-red-600 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                        Send Message
-                    </button>
-                </div>
-            </div>
-        </div>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.8251181747883!2d26.338854615434343!3d44.45725710808286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fb6d2f1a9997%3A0x397891e3790e69c2!2sLi%C8%9Bcan%20Technologies!5e0!3m2!1sro!2sro!4v1658283630241!5m2!1sro!2sro"
@@ -137,6 +53,7 @@
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
+import ContactComponent from "@/Components/ContactComponent";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -155,6 +72,7 @@ export default {
         Navbar,
         Footer,
         BlogComponent,
+        ContactComponent,
     },
     data() {
         return {

@@ -162,7 +162,7 @@ Product Design
 
                 <div>
                     <p
-                        class="text-center md:text-left text-2xl lg:text-5xl font-bold"
+                        class="text-center md:text-left text-2xl md:text-4xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
                         <span class="text-red-600">Websites</span>
@@ -179,13 +179,13 @@ Product Design
 
 
                 <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                   class=" text-xl mt-4">
+                   class=" text-xl xl:text-2xl mt-4">
                     Newest Technologies <br>
                     Creative Storytelling <br>
                     Bespoke Design
                 </p>
 
-                <p class="mt-4 md:pr-12 text-lg md:text-left"
+                <p class="mt-4 md:pr-12 text-md md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
                     Experience and deliver
@@ -224,7 +224,7 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl lg:text-md mt-4">
+                       class="text-xl xl:text-2xl mt-4">
                         Website Performance Optimization<br>
                         Website Redesign <br>
                         Conversion Rate Optimization
@@ -283,7 +283,7 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-4">
+                       class=" text-xl mt-4">
                         Web Apps<br>
                         Native Apps <br>
                         Hybrid Apps
@@ -334,7 +334,7 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-2xl mt-4">
+                       class=" text-xl mt-4">
                         Improve Online Rankings <br>
                         Internet Marketing <br>
                     </p>
@@ -379,10 +379,6 @@ Product Design
 
                 <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    <!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius-->
-                    <!--                                        fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?-->
-                    <!--                                        Modi molestiae nam provident?-->
-
                     Let's collaborate to design a staggering product that will remain in people's minds for a loooong
                     time.
                 </p>
