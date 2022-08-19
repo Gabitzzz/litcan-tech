@@ -23,7 +23,7 @@
                 </div>
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider  text-center leading-tight
+                    class="tracking-wider text-center leading-tight
 ">
                     Empowering
                     <br class="sm:hidden">
@@ -153,7 +153,7 @@ Product Design
 
 
         <!--WEB DEV -->
-        <div class="my-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32  2xl:mx-72">
+        <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
 
                 <div class="flex justify-center">
@@ -161,24 +161,25 @@ Product Design
                 </div>
 
                 <div>
-                    <h2 class="text-center md:text-left text-2xl lg:text-5xl font-bold"
+                    <p
+                        class="text-center md:text-left text-2xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
                         <span class="text-red-600">Websites</span>
                         that create <br class="hidden lg:block"> more conversions
 
                         <!--                        Web Development-->
-                    </h2>
+                    </p>
 
                     <div class="flex sm:block justify-center">
-                        <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                        <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                         </div>
                     </div>
                 </div>
 
 
                 <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                   class=" text-2xl mt-4">
+                   class=" text-xl mt-4">
                     Newest Technologies <br>
                     Creative Storytelling <br>
                     Bespoke Design
@@ -204,7 +205,7 @@ Product Design
         </div>
 
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32 md:flex items-center mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="audit_mobile" alt="" class="w-full lg:w-2/3 md:pr-16">
 
@@ -217,7 +218,7 @@ Product Design
                         </p>
 
                         <div class="flex sm:block justify-center">
-                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                             </div>
                         </div>
                     </div>
@@ -257,7 +258,7 @@ Product Design
         </div>
 
         <!--        APP DEV -->
-        <div class="md:flex items-center mx-8 my-32 lg:ml-32 2xl:mx-72">
+        <div class="md:flex items-center mx-6 my-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <div class="">
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
@@ -270,11 +271,11 @@ Product Design
                             <span class="text-red-600">
                                 Apps
                             </span>
-                            that increase your business' performance.
+                            that increase business' performance.
                         </p>
 
                         <div class="flex sm:block justify-center">
-                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                             </div>
                         </div>
 
@@ -309,7 +310,7 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="md:flex items-center my-32 mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
 
@@ -327,7 +328,7 @@ Product Design
                         </p>
 
                         <div class="flex sm:block justify-center">
-                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                             </div>
                         </div>
                     </div>
@@ -355,7 +356,7 @@ Product Design
             <LatestPartners></LatestPartners>
         </div>
         <!--        PRODUCT DESIGN-->
-        <div class="my-32 md:flex items-center mx-8 lg:mx-32 2xl:mx-72">
+        <div class="my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden" alt="">
@@ -371,7 +372,7 @@ Product Design
                 </p>
 
                 <div class="flex sm:block justify-center">
-                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                     </div>
                 </div>
 
@@ -398,7 +399,7 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="my-32 md:flex items-center justify-between mx-8 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <img :src="product_design_2" alt="" class="w-full md:w-1/2">
 
             <div>
@@ -415,7 +416,7 @@ Product Design
                     </p>
 
                     <div class="flex sm:block justify-center">
-                        <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                        <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                         </div>
                     </div>
                 </div>

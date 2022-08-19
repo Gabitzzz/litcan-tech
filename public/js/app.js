@@ -25938,82 +25938,90 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-1/2 md:w-1/6 mt-2 mb-4 bg-red-600 rounded-full h-1"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
   "class": "justify-center mt-8 md:mt-16"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   id: "scrollContainer2",
   "class": "flex md:justify-center flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 scrollbar-hide"
 };
-var _hoisted_5 = {
-  "class": "inline-block px-2"
-};
 var _hoisted_6 = {
-  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "inline-block px-2"
 };
 var _hoisted_7 = {
-  href: "https://leap.essex.ac.uk/student",
-  "class": ""
+  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_8 = {
-  "class": "pt-2 px-2 flex justify-center"
-};
-var _hoisted_9 = ["src"];
-var _hoisted_10 = {
-  "class": "inline-block px-2"
-};
-var _hoisted_11 = {
-  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-};
-var _hoisted_12 = {
   href: "https://leap.essex.ac.uk/student",
   "class": ""
 };
-var _hoisted_13 = {
+var _hoisted_9 = {
   "class": "pt-2 px-2 flex justify-center"
 };
-var _hoisted_14 = ["src"];
-var _hoisted_15 = {
+var _hoisted_10 = ["src"];
+var _hoisted_11 = {
   "class": "inline-block px-2"
 };
-var _hoisted_16 = {
+var _hoisted_12 = {
   "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_13 = {
+  href: "https://leap.essex.ac.uk/student",
+  "class": ""
+};
+var _hoisted_14 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_15 = ["src"];
+var _hoisted_16 = {
+  "class": "inline-block px-2"
 };
 var _hoisted_17 = {
-  href: "https://faser.essex.ac.uk/"
+  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_18 = {
+  href: "https://faser.essex.ac.uk/"
+};
+var _hoisted_19 = {
   "class": "pt-2 px-2 justify-center"
 };
-var _hoisted_19 = ["src"];
-var _hoisted_20 = {
-  "class": "inline-block px-2"
-};
+var _hoisted_20 = ["src"];
 var _hoisted_21 = {
-  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+  "class": "inline-block px-2"
 };
 var _hoisted_22 = {
-  href: "https://faser.essex.ac.uk/"
-};
-var _hoisted_23 = {
-  "class": "pt-2 px-2 justify-center"
-};
-var _hoisted_24 = ["src"];
-var _hoisted_25 = {
-  "class": "inline-block px-2"
-};
-var _hoisted_26 = {
   "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_27 = {
+var _hoisted_23 = {
   href: "https://faser.essex.ac.uk/"
 };
-var _hoisted_28 = {
+var _hoisted_24 = {
   "class": "pt-2 px-2 justify-center"
 };
-var _hoisted_29 = ["src"];
+var _hoisted_25 = ["src"];
+var _hoisted_26 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_27 = {
+  "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_28 = {
+  href: "https://faser.essex.ac.uk/"
+};
+var _hoisted_29 = {
+  "class": "pt-2 px-2 justify-center"
+};
+var _hoisted_30 = ["src"];
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "/portfolio",
@@ -26023,37 +26031,37 @@ var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ADOPET     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ADOPET     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.adopet,
     "class": "inline-block p-6 md:p-6rounded-3xl",
     alt: "adopet"
   }, null, 8
   /* PROPS */
-  , _hoisted_9)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ESSEX SOCIAL     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_10)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ESSEX SOCIAL     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.esn,
     "class": "inline-block p-6 md:p-4 rounded-3xl",
     alt: "esn"
   }, null, 8
   /* PROPS */
-  , _hoisted_14)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                TED       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_15)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                TED       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.ted,
     "class": "inline-block p-6 md:p-4 rounded-3xl",
     alt: "ted"
   }, null, 8
   /* PROPS */
-  , _hoisted_19)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_20)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.dws,
     "class": "inline-block p-6 md:p-4 rounded-3xl",
     alt: "dws"
   }, null, 8
   /* PROPS */
-  , _hoisted_24)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_25)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.arhique,
     "class": "inline-block p-6 md:p-4 rounded-3xl",
     alt: "arhique"
   }, null, 8
   /* PROPS */
-  , _hoisted_29)])])])])]), _hoisted_30])]);
+  , _hoisted_30)])])])])]), _hoisted_31])]);
 }
 
 /***/ }),
@@ -27739,7 +27747,7 @@ var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_36 = {
-  "class": "my-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32 2xl:mx-72"
+  "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
 };
 var _hoisted_37 = {
   "class": ""
@@ -27749,7 +27757,7 @@ var _hoisted_38 = {
 };
 var _hoisted_39 = ["src"];
 
-var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h2 class=\"text-center md:text-left text-2xl lg:text-5xl font-bold\" style=\"font-family:Poppins,serif;\"><span class=\"text-red-600\">Websites</span> that create <br class=\"hidden lg:block\"> more conversions <!--                        Web Development--></h2><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-4\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-4 md:pr-12 text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on <br class=\"hidden 2xl:block\">User Experience and deliver fast performance. </p>", 3);
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center md:text-left text-2xl lg:text-5xl font-bold\" style=\"font-family:Poppins,serif;\"><span class=\"text-red-600\">Websites</span> that create <br class=\"hidden lg:block\"> more conversions <!--                        Web Development--></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-4 md:pr-12 text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on <br class=\"hidden 2xl:block\">User Experience and deliver fast performance. </p>", 3);
 
 var _hoisted_43 = {
   "class": "flex justify-center md:justify-start mt-5"
@@ -27759,14 +27767,14 @@ var _hoisted_44 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 
 var _hoisted_45 = ["src"];
 var _hoisted_46 = {
-  "class": "my-8 md:my-32 md:flex items-center mx-8 lg:ml-8 lg:mr-24 2xl:mx-72"
+  "class": "my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
 var _hoisted_47 = {
   "class": "md:flex items-center"
 };
 var _hoisted_48 = ["src"];
 
-var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Request a free <span class=\"text-red-600\">audit</span> of your website </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl lg:text-md mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p>", 3);
+var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Request a free <span class=\"text-red-600\">audit</span> of your website </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl lg:text-md mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p>", 3);
 
 var _hoisted_52 = {
   "class": "flex justify-center md:justify-start mt-5"
@@ -27778,7 +27786,7 @@ var _hoisted_54 = {
   "class": "mt-8"
 };
 var _hoisted_55 = {
-  "class": "md:flex items-center mx-8 my-32 lg:ml-32 2xl:mx-72"
+  "class": "md:flex items-center mx-6 my-32 lg:ml-32 2xl:mx-72"
 };
 var _hoisted_56 = {
   "class": "md:flex items-center"
@@ -27788,24 +27796,24 @@ var _hoisted_57 = {
 };
 var _hoisted_58 = ["src"];
 
-var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Custom <span class=\"text-red-600\"> Apps </span> that increase your business&#39; performance. </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/web-development\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
+var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Custom <span class=\"text-red-600\"> Apps </span> that increase business&#39; performance. </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/web-development\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
 
 var _hoisted_63 = ["src"];
 var _hoisted_64 = {
-  "class": "md:flex items-center my-32 mx-8 lg:ml-8 lg:mr-24 2xl:mx-72"
+  "class": "md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
 var _hoisted_65 = {
   "class": "md:flex items-center"
 };
 var _hoisted_66 = ["src"];
 
-var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-4\"> Improve Online Rankings <br> Internet Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on User Experience and deliver fast performance. </p></div>", 1);
+var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-2xl mt-4\"> Improve Online Rankings <br> Internet Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on User Experience and deliver fast performance. </p></div>", 1);
 
 var _hoisted_68 = {
   "class": "md:my-32"
 };
 var _hoisted_69 = {
-  "class": "my-32 md:flex items-center mx-8 lg:mx-32 2xl:mx-72"
+  "class": "my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72"
 };
 var _hoisted_70 = {
   "class": ""
@@ -27815,15 +27823,15 @@ var _hoisted_71 = {
 };
 var _hoisted_72 = ["src"];
 
-var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Product <span class=\"text-red-600\">Design</span> for <br class=\"hidden xl:block\"> multiple industries </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius--><!--                                        fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?--><!--                                        Modi molestiae nam provident?--> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"> Product <span class=\"text-red-600\">Design</span> for <br class=\"hidden xl:block\"> multiple industries </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur corporis, deserunt eius--><!--                                        fuga fugiat ipsa ipsam iste minus mollitia natus nesciunt possimus recusandae sapiente suscipit?--><!--                                        Modi molestiae nam provident?--> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
 
 var _hoisted_77 = ["src"];
 var _hoisted_78 = {
-  "class": "my-32 md:flex items-center justify-between mx-8 lg:ml-8 lg:mr-24 2xl:mx-72"
+  "class": "my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
 var _hoisted_79 = ["src"];
 
-var _hoisted_80 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p></div>", 1);
+var _hoisted_80 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-lg md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
