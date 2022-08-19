@@ -27913,7 +27913,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <div class=\"mx-10 lg:mx-40\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            <h1 style=\"font-family: 'Poppins', sans-serif; font-weight: 500;\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                class=\"text-center text-2xl my-16\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                We are here to help you maximize your business"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            </h1>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("WEB DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , ["href"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("WEB DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_dev_mobile,
     "class": "md:w-1/3 md:hidden",
     alt: ""

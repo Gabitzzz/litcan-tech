@@ -152,15 +152,6 @@ Product Design
         </div>
 
 
-        <!--        <div class="mx-10 lg:mx-40">-->
-        <!--            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 500;"-->
-        <!--                class="text-center text-2xl my-16">-->
-        <!--                We are here to help you maximize your business-->
-        <!--            </h1>-->
-
-        <!--        </div>-->
-
-
         <!--WEB DEV -->
         <div class="my-32 md:flex items-center justify-between mx-8 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
@@ -183,8 +174,6 @@ Product Design
                         <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
                         </div>
                     </div>
-
-
                 </div>
 
 
