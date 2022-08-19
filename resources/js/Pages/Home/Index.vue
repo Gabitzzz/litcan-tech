@@ -173,14 +173,15 @@ Product Design
                     <h2 class="text-center md:text-left text-2xl lg:text-5xl font-bold"
                         style="font-family: Poppins,serif;">
 
-                        <span class="text-gray-400">Websites</span>
+                        <span class="text-red-600">Websites</span>
                         that create <br class="hidden lg:block"> more conversions
 
                         <!--                        Web Development-->
                     </h2>
 
-                    <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
-
+                    <div class="flex sm:block justify-center">
+                        <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                        </div>
                     </div>
 
 
@@ -194,7 +195,7 @@ Product Design
                     Bespoke Design
                 </p>
 
-                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                <p class="mt-4 md:pr-12 text-lg md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
                     Experience and deliver
@@ -204,7 +205,7 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <InertiaLink :href="route('web-dev')"
-                                 class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
+                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
                     </InertiaLink>
                 </div>
@@ -222,12 +223,13 @@ Product Design
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            Request a free <span class="text-gray-400">audit</span> of your
+                            Request a free <span class="text-red-600">audit</span> of your
                             website
                         </p>
 
-                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
-
+                        <div class="flex sm:block justify-center">
+                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            </div>
                         </div>
                     </div>
 
@@ -245,7 +247,7 @@ Product Design
 
                     <div class="flex justify-center md:justify-start  mt-5">
                         <InertiaLink :href="route('web-dev')"
-                                     class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
+                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                             CONTACT US
                         </InertiaLink>
                     </div>
@@ -276,14 +278,15 @@ Product Design
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
 
                             Custom
-                            <span class="text-gray-400">
+                            <span class="text-red-600">
                                 Apps
                             </span>
                             that increase your business' performance.
                         </p>
 
-                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
-
+                        <div class="flex sm:block justify-center">
+                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            </div>
                         </div>
 
 
@@ -303,7 +306,7 @@ Product Design
 
                     <div class="flex justify-center md:justify-start  mt-5">
                         <a href="/services/web-development"
-                           class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
+                           class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                             CONTACT US
                         </a>
                     </div>
@@ -328,12 +331,16 @@ Product Design
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
 
                             Grow your brand with our Digital
-                            <span class="text-gray-400">
+                            <span class="text-red-600">
                                 Marketing
                             </span>
                             services
                         </p>
-                        <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;"></div>
+
+                        <div class="flex sm:block justify-center">
+                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            </div>
+                        </div>
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
@@ -371,11 +378,12 @@ Product Design
 
                     Product
 
-                    <span class="text-gray-400">Design</span> for <br class="hidden xl:block"> multiple industries
+                    <span class="text-red-600">Design</span> for <br class="hidden xl:block"> multiple industries
                 </p>
 
-                <div class="md:w-1/3 my-4 bg-gray-400 rounded-full" style="height: 6px;">
-
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
                 </div>
 
 
@@ -391,7 +399,7 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <a href="/services/product-design"
-                       class="text-white text-sm md:text-md bg-gray-400 rounded-full px-6 py-2">
+                       class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
                         CONTACT US
                     </a>
                 </div>
@@ -409,7 +417,7 @@ Product Design
 
                     <p style="font-family: 'Poppins', sans-serif;"
                        class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            <span class="text-gray-400">
+                            <span class="text-red-600">
                                 Custom
                             </span>
                         Development
@@ -417,8 +425,9 @@ Product Design
                         suited to your needs
                     </p>
 
-                    <div class="md:w-1/2 my-4 bg-gray-400 rounded-full" style="height: 6px;">
-
+                    <div class="flex sm:block justify-center">
+                        <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                        </div>
                     </div>
                 </div>
 
