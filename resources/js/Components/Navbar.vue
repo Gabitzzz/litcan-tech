@@ -34,15 +34,26 @@
                         BLOG
                     </a>
 
-                    <a href="/contact"
-                       class="ml-4 px-6  bg-red-600 rounded full py-1 text-sm rounded-full underline-opening"
-                       style="color: white !important;">
-                        CONTACT
-                    </a>
+<!--                    <a href="/contact"-->
+<!--                       class="ml-4 px-6 border border-red-500 rounded full py-1 text-sm rounded-full "-->
+<!--                    >-->
+<!--                        CONTACT-->
+<!--                    </a>-->
 
 
                 </div>
+
+                <div
+                    style="font-family: 'Nunito', sans-serif; font-weight: 300;">
+                    <a href="/contact"
+                       class="ml-4 px-6 rounded-full py-1 text-sm
+                                border border-red-500 hover:text-white
+                                hover:bg-red-500 ease-in duration-150">
+                        CONTACT US
+                    </a>
+                </div>
             </div>
+
             <div class="flex-none">
                 <div class="dropdown dropdown-end ">
                     <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
@@ -64,27 +75,27 @@
                         <div class="card-body ">
                             <div class="menu menu-vertical lg:menu-horizontal bg-white rounded-box">
                                 <a href="/"
-                                             class=" px-6 py-2 text-sm rounded-full underline-opening">
+                                   class=" px-6 py-2 text-sm rounded-full underline-opening">
                                     HOME
                                 </a>
 
                                 <a href="/services"
-                                             class="px-6 py-2 text-sm rounded-full underline-opening">
+                                   class="px-6 py-2 text-sm rounded-full underline-opening">
                                     SERVICES
                                 </a>
 
                                 <a href="/portfolio"
-                                             class="px-6 py-2 text-sm rounded-full underline-opening">
+                                   class="px-6 py-2 text-sm rounded-full underline-opening">
                                     PORTFOLIO
                                 </a>
 
                                 <a href="/blog"
-                                             class="px-6 py-2 text-sm rounded-full underline-opening">
+                                   class="px-6 py-2 text-sm rounded-full underline-opening">
                                     BLOG
                                 </a>
 
                                 <a href="/contact"
-                                             class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
+                                   class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
                                     CONTACT
                                 </a>
                             </div>
