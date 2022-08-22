@@ -12,7 +12,6 @@
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
 
-
             <img :src="logo_bg" alt="" class="object-fit hidden sm:flex z-0"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
         </div>
@@ -24,19 +23,16 @@
 
                 <div class=" hidden md:flex justify-center lg:-mt-8 xl:-mt-16">
                     <img :src="banner" class="w-1/2 lg:w-1/3  " alt="">
-
                 </div>
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center leading-tight
-">
+                    class="tracking-wider text-center leading-tight"
+                >
                     Empowering
                     <br class="sm:hidden">
                     the future
                     <br class="hidden lg:block">
                     with
-
-
                     Innovative Products
                 </h1>
 
@@ -173,13 +169,15 @@ Product Design
 
                 <div>
                     <p
-                        class="text-center md:text-left text-2xl md:text-4xl lg:text-5xl font-bold"
+                        class="text-center text-2xl font-bold
+                                md:text-left md:text-4xl
+                                lg:text-5xl  "
                         style="font-family: Poppins,serif;">
 
-                        <span class="text-red-600">Websites</span>
-                        that create <br class="hidden lg:block"> more conversions
-
-                        <!--                        Web Development-->
+                        <strong>
+                            <span class="text-red-600">Websites</span>
+                            that create <br class="hidden lg:block"> more conversions
+                        </strong>
                     </p>
 
                     <div class="flex sm:block justify-center">
@@ -229,8 +227,10 @@ Product Design
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            Request a free <span class="text-red-600">audit</span> of your
-                            website
+                            <strong>
+                                Request a free <span class="text-red-600">audit</span> of your
+                                website
+                            </strong>
                         </p>
 
                         <div class="flex sm:block justify-center">
@@ -277,27 +277,26 @@ Product Design
 
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-
-
-                            <span class="text-red-600">
+                           class="text-2xl font-bold text-center
+                                    md:text-4xl md:mt-0 md:text-left
+                                    lg:text-5xl"
+                        >
+                            <strong>
+                                <span class="text-red-600">
                                 Apps
                             </span>
-                            that increase business' performance.
+                                that increase business' performance.
+                            </strong>
                         </p>
 
                         <div class="flex sm:block justify-center">
                             <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                             </div>
                         </div>
-
-
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
                        class="text-xl xl:text-2xl mt-4">
-
-
                         Web Apps<br>
                         Native Apps <br>
                         Hybrid Apps
@@ -333,15 +332,17 @@ Product Design
                      class="w-full md:w-1/2 md:pr-24">
                 <div>
                     <div>
-
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-
-                            Grow your brand with our Digital
-                            <span class="text-red-600">
+                           class="text-2xl font-bold text-center
+                                    md:text-4xl md:mt-0  md:text-left
+                                    lg:text-5xl">
+                            <strong>
+                                Grow your brand with our Digital
+                                <span class="text-red-600">
                                 Marketing
                             </span>
-                            services
+                                services
+                            </strong>
                         </p>
 
                         <div class="flex sm:block justify-center">
@@ -382,14 +383,20 @@ Product Design
                          title="Product Design">
                 </div>
 
+
                 <p style="font-family: 'Poppins', sans-serif;"
-                   class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                    Product
-                    <span class="text-red-600">
+                   class="text-2xl font-bold text-center
+                                md:text-4xl md:mt-0 md:text-left
+                                lg:text-5xl">
+                    <strong>
+                        Product
+                        <span class="text-red-600">
                         Design
                     </span> for
-                    <br class="hidden xl:block">
-                    multiple industries
+                        <br class="hidden xl:block">
+                        multiple industries
+                    </strong>
+
                 </p>
 
                 <div class="flex sm:block justify-center">
@@ -427,12 +434,14 @@ Product Design
                 <div class="">
                     <p style="font-family: 'Poppins', sans-serif;"
                        class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-                            <span class="text-red-600">
+                        <strong>
+                                <span class="text-red-600">
                                 Custom
                             </span>
-                        Development
-                        <br class="hidden xl:block">
-                        suited to your needs
+                            Development
+                            <br class="hidden xl:block">
+                            suited to your needs
+                        </strong>
                     </p>
 
                     <div class="flex sm:block justify-center">
@@ -441,20 +450,21 @@ Product Design
                     </div>
                 </div>
 
-
                 <p class="mt-4 md:pr-12 text-md md:text-xl md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Can't find what you're looking for? <br>
                     Tell us about your idea and we will develop it.
                 </p>
             </div>
-
         </div>
 
+        <!--        CONTACT COMPONENT   -->
         <ContactComponent></ContactComponent>
 
-
+        <!--        BLOG COMPONENT      -->
         <BlogComponent></BlogComponent>
+
+        <!--        FOOTER      -->
         <Footer></Footer>
     </div>
 </template>
