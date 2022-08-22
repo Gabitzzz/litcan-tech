@@ -272,7 +272,7 @@ Product Design
                         <p style="font-family: 'Poppins', sans-serif;"
                            class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
 
-                            Custom
+
                             <span class="text-red-600">
                                 Apps
                             </span>
@@ -342,14 +342,15 @@ Product Design
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
                        class=" text-xl mt-4 xl:text-2xl">
-                        Improve Online Rankings <br>
-                        Internet Marketing <br>
+                        Search Engine Optimization<br>
+                        Social Media Marketing <br>
                     </p>
 
                     <p class="mt-4 md:pr-12 text-md md:text-xl  md:text-left"
                        style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                        Based on this 3 essential layers, we build websites that focus on User Experience and deliver
-                        fast performance.
+                        <!--                        Any growing and upcoming business can benefit from a strong online presence. -->
+                        An online presence
+                        offers businesses a better opportunity to sustain, compete, and grow.
                     </p>
                 </div>
 
@@ -432,11 +433,9 @@ Product Design
                     Can't find what you're looking for? <br>
                     Tell us about your idea and we will develop it.
                 </p>
-
             </div>
 
         </div>
-
 
         <ContactComponent></ContactComponent>
 
@@ -454,6 +453,8 @@ import LatestPartners from "@/Components/LatestPartners";
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 import ContactComponent from "@/Components/ContactComponent";
 import {Head} from "@inertiajs/inertia-vue3";
+import CookieConsent from "vue-cookieconsent";
+
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -495,6 +496,8 @@ export default {
         LatestPartners,
         ContactComponent,
         Head,
+        CookieConsent,
+
     },
     data() {
         return {

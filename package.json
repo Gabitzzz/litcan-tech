@@ -31,6 +31,8 @@
         "tailwind-scrollbar-hide": "^1.1.7",
         "tw-elements": "^1.0.0-alpha12",
         "vue-animate-onscroll": "^1.0.8",
+        "vue-cookieconsent": "^0.0.11",
+        "vue-cookies": "^1.8.1",
         "vue-social-chat": "^1.0.0"
     }
 }
