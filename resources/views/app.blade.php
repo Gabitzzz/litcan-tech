@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta title="Lițcan Technologies">
 
-    <meta name="description" content="B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
+    <meta name="description" content="Lițcan Technologies is a B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
     {{--    <title inertia>{{ config('app.name', 'Lițcan Technologies') }}</title>--}}
 
     <title>Lițcan Technologies </title>

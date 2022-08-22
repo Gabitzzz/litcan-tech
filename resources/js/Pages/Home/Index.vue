@@ -88,7 +88,10 @@ Product Design
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://moodle.essex.ac.uk/">
                             <div class="pt-12 px-12 ">
-                                <img :src="web_dev_services" class="inline-block px-2 py-2 lg:px-4 lg:py-4" alt="plus">
+                                <img :src="web_dev_services"
+                                     class="inline-block px-2 py-2 lg:px-4 lg:py-4"
+                                     alt="Web Development"
+                                     title="Web Development">
                             </div>
                         </a>
 
@@ -107,8 +110,10 @@ Product Design
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <a href="https://leap.essex.ac.uk/student" class="">
                             <div class="pt-12 px-12 ">
-                                <img :src="app_dev_services" class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                     alt="plus">
+                                <img :src="app_dev_services"
+                                     class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="Application Development"
+                                     title="App Development">
                             </div>
                         </a>
 
@@ -130,7 +135,8 @@ Product Design
                             <div class="pt-12 px-12 ">
                                 <img :src="product_design_services"
                                      class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                     alt="plus">
+                                     alt="Product Design"
+                                     title="Product Design">
                             </div>
                         </a>
 
@@ -144,14 +150,14 @@ Product Design
                     </div>
                 </div>
 
-                <InertiaLink :href="route('services')">
+                <a href="/services">
                     <div class=" px-2">
                         <div
                             class="w-48 h-56 max-w-xs font-bold overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
                             SEE ALL
                         </div>
                     </div>
-                </InertiaLink>
+                </a>
 
             </div>
         </div>
@@ -159,9 +165,10 @@ Product Design
         <!--WEB DEV -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
-
                 <div class="flex justify-center">
-                    <img :src="web_dev_mobile" class="md:w-1/3 md:hidden" alt="">
+                    <img :src="web_dev_mobile" class="md:w-1/3 md:hidden"
+                         alt="Web Development"
+                         title="Web Development">
                 </div>
 
                 <div>
@@ -205,14 +212,18 @@ Product Design
                 </div>
             </div>
 
-            <img :src="web_dev" class="hidden md:block md:w-1/2 2xl:w-1/3" alt="">
+            <img :src="web_dev" class="hidden md:block md:w-1/2 2xl:w-1/3"
+                 alt="Web Development"
+                 title="Web Development">
         </div>
-
 
         <!--        AUDIT    -->
         <div class="my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
-                <img :src="audit_mobile" alt="" class="w-full lg:w-2/3 md:pr-16">
+                <img :src="audit_mobile"
+                     alt="Website Audit"
+                     title="Website Audit"
+                     class="w-full lg:w-2/3 md:pr-16">
 
                 <div>
                     <div class="">
@@ -246,14 +257,8 @@ Product Design
                             CONTACT US
                         </InertiaLink>
                     </div>
-
-
                 </div>
-
-
             </div>
-
-
         </div>
 
         <!--    PARTNERS    -->
@@ -266,7 +271,9 @@ Product Design
         <div class="md:flex items-center mx-6 my-32 lg:ml-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <div class="">
-                    <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden" alt="">
+                    <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden"
+                         alt="Application Development"
+                         title="App Development">
 
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
@@ -309,8 +316,9 @@ Product Design
                     </div>
                 </div>
 
-                <img :src="app_dev" class="w-full md:w-1/2  hidden md:block" alt="">
-
+                <img :src="app_dev" class="w-full md:w-1/2  hidden md:block"
+                     alt="Application Development"
+                     title="App Development">>
             </div>
 
 
@@ -319,8 +327,10 @@ Product Design
         <!--       DIGITAL MARKETING    -->
         <div class="md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
-                <img :src="digital_marketing" alt="Digital Marketing" class="w-full md:w-1/2 md:pr-24">
-
+                <img :src="digital_marketing"
+                     alt="Digital Marketing"
+                     title="Digital Marketing"
+                     class="w-full md:w-1/2 md:pr-24">
                 <div>
                     <div>
 
@@ -367,8 +377,9 @@ Product Design
         <div class="my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
-                    <img :src="product_design_mobile" class="w-full md:hidden" alt="">
-
+                    <img :src="product_design_mobile" class="w-full md:hidden"
+                         alt="Product Design"
+                         title="Product Design">
                 </div>
 
                 <p style="font-family: 'Poppins', sans-serif;"
@@ -401,16 +412,19 @@ Product Design
                 </div>
             </div>
 
-            <img :src="product_design" class="hidden md:block w-1/2" alt="">
+            <img :src="product_design" class="hidden md:block w-1/2"
+                 alt="Product Design"
+                 title="Product Design">
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
-            <img :src="product_design_2" alt="" class="w-full md:w-1/2">
-
+            <img :src="product_design_2"
+                 alt="Custom Development"
+                 title="Custom Development"
+                 class="w-full md:w-1/2">
             <div>
                 <div class="">
-
                     <p style="font-family: 'Poppins', sans-serif;"
                        class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
                             <span class="text-red-600">
