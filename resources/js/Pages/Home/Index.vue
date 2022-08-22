@@ -189,7 +189,7 @@ Product Design
                     Bespoke Design
                 </p>
 
-                <p class="mt-4 md:pr-12 text-md md:text-left"
+                <p class="mt-4 md:pr-12 text-md md:text-left md:text-xl"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
                     Experience and deliver
@@ -288,7 +288,9 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-xl mt-4">
+                       class="text-xl xl:text-2xl mt-4">
+
+
                         Web Apps<br>
                         Native Apps <br>
                         Hybrid Apps
@@ -339,12 +341,12 @@ Product Design
                     </div>
 
                     <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-xl mt-4">
+                       class=" text-xl mt-4 xl:text-2xl">
                         Improve Online Rankings <br>
                         Internet Marketing <br>
                     </p>
 
-                    <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                    <p class="mt-4 md:pr-12 text-md md:text-xl  md:text-left"
                        style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                         Based on this 3 essential layers, we build websites that focus on User Experience and deliver
                         fast performance.
@@ -370,10 +372,12 @@ Product Design
 
                 <p style="font-family: 'Poppins', sans-serif;"
                    class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
-
                     Product
-
-                    <span class="text-red-600">Design</span> for <br class="hidden xl:block"> multiple industries
+                    <span class="text-red-600">
+                        Design
+                    </span> for
+                    <br class="hidden xl:block">
+                    multiple industries
                 </p>
 
                 <div class="flex sm:block justify-center">
@@ -382,7 +386,7 @@ Product Design
                 </div>
 
 
-                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                <p class="mt-4 md:pr-12 text-md md:text-xl md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Let's collaborate to design a staggering product that will remain in people's minds for a loooong
                     time.
@@ -423,7 +427,7 @@ Product Design
                 </div>
 
 
-                <p class="mt-4 md:pr-12 text-md md:text-lg md:text-left"
+                <p class="mt-4 md:pr-12 text-md md:text-xl md:text-left"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Can't find what you're looking for? <br>
                     Tell us about your idea and we will develop it.

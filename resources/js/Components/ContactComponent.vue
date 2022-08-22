@@ -5,7 +5,7 @@
                 mx-auto px-8
                 bg-gray-100 text-gray-900 rounded-lg shadow-lg">
 
-        <div class="flex flex-col justify-between 2xl:px-32">
+        <div class="flex flex-col justify-between 2xl:px-32 z-40">
             <div>
                 <h2 class="text-2xl font-bold leading-tight"
                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
@@ -14,25 +14,26 @@
                 </h2>
 
                 <div class="text-gray-700 my-4">
+
+
                     Hate forms? Send us an <span class="underline">email</span> instead.
                 </div>
 
-                <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
+                <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
                     <a href="mailto:contact@litcan.tech" class="flex items-center">
                         <img :src="mail" class="w-6 h-6 mr-2" alt="">
                         contact@litcan.tech
                     </a>
                 </div>
 
-                <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
-
+                <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
                     <a href="tel:+40773800815" class="flex items-center">
                         <img :src="telephone" class="w-6 h-6 mr-2" alt="">
                         +40 773 800 815
                     </a>
                 </div>
 
-                <div class="mb-1 flex items-center text-gray-700 text-2xl font-bold">
+                <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
                     <a href="https://litcan.tech/" class="flex items-center">
                         <img :src="website" class="w-6 h-6 mr-2" alt="">
                         www.litcan.tech
@@ -65,7 +66,7 @@
         </div>
 
 
-        <div class="">
+        <div class="z-40">
             <div>
                 <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
                 <input

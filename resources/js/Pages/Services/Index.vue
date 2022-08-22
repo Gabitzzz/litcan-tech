@@ -635,11 +635,10 @@
 
         <div>
             <!--        DESKTOP TECH STALK  -->
-            <div class="hidden sm:flex justify-center md:mt-16 mx-10 lg:mx-48 ">
+            <div class="hidden sm:flex justify-center md:mt-16 mx-10 lg:mx-24 xl:mx-48 ">
                 <div class="grid max-w-full  grid-cols-2  lg:grid-cols-4 gap-y-8 content-center">
                     <!--LARAVEL -->
-                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
-
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
                             <img :src="laravel" alt="" class="mt-8 w-16 h-16">
 
@@ -653,9 +652,8 @@
                         </div>
                     </div>
 
-                    <!--    VUE.JS   -->
-                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
-
+                    <!--    VUE      -->
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
                             <img :src="vue" alt="" class="mt-8 w-16 h-16">
 
@@ -670,8 +668,7 @@
                     </div>
 
                     <!--    FLUTTER      -->
-                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
-
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
                             <img :src="flutter" alt="" class="mt-8 w-16 h-16">
 
@@ -686,7 +683,7 @@
                     </div>
 
                     <!--    PYTHON   -->
-                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
+                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
                         <div class="flex justify-center">
                             <img :src="python" alt="" class="mt-8 w-16 h-16">
 

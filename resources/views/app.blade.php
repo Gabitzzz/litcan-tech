@@ -3,8 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta title="Lițcan Technologies">
+
+        <meta description="Web & App Development, Product Design">
+
         <title inertia>{{ config('app.name', 'Lițcan Technologies') }}</title>
 
+        <meta property="og:title" content="Lițcan Technologies" />
+        <meta property="og:url" content="https://litcan.tech/" />
+        <meta property="og:image" content="https://litcan.tech/img/logo/logo_only.png" />
 
         <link rel="icon" type="image/png" href="{{ asset('img/logo/logo_only.png') }}">
         <!-- Fonts -->
