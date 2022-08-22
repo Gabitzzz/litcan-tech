@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta title="Lițcan Technologies">
 
-    <meta description="Web & App Development, Product Design">
+    <meta name="description" content="B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
 
-{{--    <title inertia>{{ config('app.name', 'Lițcan Technologies') }}</title>--}}
 
-    <title>Lițcan Technologies</title>
+    {{--    <title inertia>{{ config('app.name', 'Lițcan Technologies') }}</title>--}}
+
+    <title>Lițcan Technologies </title>
     <meta property="og:title" content="Lițcan Technologies"/>
     <meta property="og:description"
           content="Lițcan International Technologies is a B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
