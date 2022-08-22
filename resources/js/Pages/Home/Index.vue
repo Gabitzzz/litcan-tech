@@ -1,4 +1,9 @@
 <template>
+    <Head>
+        <title>
+            Lițcan Technologies
+        </title>
+    </Head>
     <div class="bg-white">
         <Navbar></Navbar>
 
@@ -151,7 +156,6 @@ Product Design
             </div>
         </div>
 
-
         <!--WEB DEV -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
@@ -203,6 +207,7 @@ Product Design
 
             <img :src="web_dev" class="hidden md:block md:w-1/2 2xl:w-1/3" alt="">
         </div>
+
 
         <!--        AUDIT    -->
         <div class="my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
@@ -444,6 +449,7 @@ import BlogComponent from "@/Components/BlogComponent";
 import LatestPartners from "@/Components/LatestPartners";
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 import ContactComponent from "@/Components/ContactComponent";
+import {Head} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -484,6 +490,7 @@ export default {
         InertiaLink,
         LatestPartners,
         ContactComponent,
+        Head,
     },
     data() {
         return {
@@ -533,7 +540,7 @@ export default {
         ]
 
         return {attendants}
-    }
+    },
 }
 </script>
 

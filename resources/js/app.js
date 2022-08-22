@@ -5,11 +5,11 @@ import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import 'tw-elements';
 import 'animate.css';
+import 'vue-social-chat/dist/style.css';
+import VueAnimateOnScroll from 'vue-animate-onscroll';
+
+
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
-
-
-import VueSocialChat from 'vue-social-chat'
-import 'vue-social-chat/dist/style.css'
 
 
 
@@ -22,6 +22,9 @@ createInertiaApp({
             .mixin({ methods: { route } })
             .mount(el);
     },
+
+
+
 });
 
 

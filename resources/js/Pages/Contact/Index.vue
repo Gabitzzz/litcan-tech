@@ -1,4 +1,10 @@
 <template>
+    <Head>
+        <title>
+            Contact | Lițcan Technologies
+        </title>
+    </Head>
+
     <div class="bg-white">
         <Navbar></Navbar>
 
@@ -54,6 +60,7 @@ import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
 import ContactComponent from "@/Components/ContactComponent";
+import {Head} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -73,6 +80,7 @@ export default {
         Footer,
         BlogComponent,
         ContactComponent,
+        Head,
     },
     data() {
         return {

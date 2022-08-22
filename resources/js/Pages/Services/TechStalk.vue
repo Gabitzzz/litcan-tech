@@ -1,4 +1,10 @@
 <template>
+    <Head>
+        <title>
+            Tech Stalk | Lițcan Technologies
+        </title>
+    </Head>
+
     <Navbar></Navbar>
 
 
@@ -938,6 +944,7 @@
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
+import {Head} from "@inertiajs/inertia-vue3";
 
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
@@ -969,6 +976,7 @@ export default {
         Navbar,
         Footer,
         BlogComponent,
+        Head,
     },
     data() {
         return {

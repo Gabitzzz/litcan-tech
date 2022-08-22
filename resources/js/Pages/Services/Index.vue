@@ -1,4 +1,10 @@
 <template>
+    <Head>
+        <title>
+            Services | Lițcan Technologies
+        </title>
+    </Head>
+
     <div class="bg-white">
         <Navbar></Navbar>
 
@@ -632,7 +638,8 @@
             <div class="hidden sm:flex justify-center md:mt-16 mx-10 lg:mx-48 ">
                 <div class="grid max-w-full  grid-cols-2  lg:grid-cols-4 gap-y-8 content-center">
                     <!--LARAVEL -->
-                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
+
                         <div class="flex justify-center">
                             <img :src="laravel" alt="" class="mt-8 w-16 h-16">
 
@@ -646,8 +653,9 @@
                         </div>
                     </div>
 
-                    <!--LARAVEL -->
-                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                    <!--    VUE.JS   -->
+                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
+
                         <div class="flex justify-center">
                             <img :src="vue" alt="" class="mt-8 w-16 h-16">
 
@@ -661,8 +669,9 @@
                         </div>
                     </div>
 
-                    <!--LARAVEL -->
-                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                    <!--    FLUTTER      -->
+                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
+
                         <div class="flex justify-center">
                             <img :src="flutter" alt="" class="mt-8 w-16 h-16">
 
@@ -676,8 +685,8 @@
                         </div>
                     </div>
 
-                    <!--LARAVEL -->
-                    <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                    <!--    PYTHON   -->
+                    <div class="px-4 mx-8 shadow-lg bg-white z-10">
                         <div class="flex justify-center">
                             <img :src="python" alt="" class="mt-8 w-16 h-16">
 
@@ -833,6 +842,7 @@
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
+import {Head} from "@inertiajs/inertia-vue3";
 
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 
@@ -865,6 +875,7 @@ export default {
         Footer,
         BlogComponent,
         InertiaLink,
+        Head,
     },
     data() {
         return {
