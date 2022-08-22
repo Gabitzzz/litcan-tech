@@ -319,7 +319,7 @@ Product Design
         <!--       DIGITAL MARKETING    -->
         <div class="md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
-                <img :src="digital_marketing" alt="" class="w-full md:w-1/2 md:pr-24">
+                <img :src="digital_marketing" alt="Digital Marketing" class="w-full md:w-1/2 md:pr-24">
 
                 <div>
                     <div>

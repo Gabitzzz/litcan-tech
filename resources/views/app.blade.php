@@ -14,7 +14,7 @@
           content="B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
     <meta property="og:url" content="https://litcan.tech/"/>
     <meta property="og:image" content="https://litcan.tech/img/logo/logo_only.png"/>
-
+    <meta property="og:type" content="website" />
 
     <link rel="icon" type="image/png" href="{{ asset('img/logo/logo_only.png') }}">
     <!-- Fonts -->
