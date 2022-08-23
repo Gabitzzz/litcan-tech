@@ -1,17 +1,19 @@
 <template>
 <div>
     <div class="bg-gray-100 py-5">
-        <div class="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+        <div class="max-w-screen-lg px-4 text-gray-800 mx-auto
+                    sm:px-6 sm:grid sm:grid-cols-2
+                    md:grid-cols-4">
             <div class="p-5">
 <!--                <h3 class="font-bold text-xl text-red-600">LITCAN TECHNOLOGIES</h3>-->
                 <img :src="logo_text_2" alt="" class="w-1/3 md:w-2/3">
             </div>
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Resources</div>
-                <a class="my-3 block" href="/#">Home <span class="text-teal-600 text-xs p-1"></span></a>
-                <a class="my-3 block" href="/#">Blog <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/blog">Blog <span class="text-teal-600 text-xs p-1"></span></a>
 
-                <a class="my-3 block" href="/#">Portfolio <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/portfolio">Portfolio <span class="text-teal-600 text-xs p-1"></span></a>
             </div>
 
             <div class="p-5">
@@ -32,22 +34,41 @@
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Contact us</div>
 
-                <a class="my-3 block" href="/#">
+                <a class="my-3 block" href="tel:+40773800815">
                     +40 773 800 815
                     <span class="text-teal-600 text-xs p-1">
                 </span>
                 </a>
 
-                <a class="my-3 block" href="/#">contact@litcan-tech.com
+                <a class="my-3 block" href="mailto:contact@litcan.tech">contact@litcan-tech.com
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="/#">Brănești, Ilfov, Romania
+                <a class="my-3 block" href="https://goo.gl/maps/EEPbGtre78XufAicA">
+                    Brănești, Ilfov, Romania
                     <span class="text-teal-600 text-xs p-1">
                 </span>
                 </a>
             </div>
 
+        </div>
+
+        <hr class=" mx-10 lg:mx-48">
+
+
+        <div class="md:flex justify-between mx-6 md:mx-64 mt-8 text-sm">
+            <p>
+                Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved.
+            </p>
+
+            <div class="md:flex mt-4 md:mt-0">
+                    <p class="md:mx-2">
+                        Privacy Policy
+                    </p>
+                    <p class="md:mx-2">
+                        Cookie Policy
+                    </p>
+            </div>
         </div>
     </div>
 

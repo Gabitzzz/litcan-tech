@@ -617,13 +617,13 @@
         </div>
 
 
-        <!--        TECH STALK      -->
+        <!--        TECH STACK      -->
         <div class="mx-6 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
 
             <div class="">
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="tracking-wider text-red-600">
-                    Tech <span class="text-black">Stalk</span> <br>
+                    Tech <span class="text-black">Stack</span> <br>
                 </h1>
             </div>
 
@@ -639,18 +639,21 @@
                 <div class="grid max-w-full  grid-cols-2  lg:grid-cols-4 gap-y-8 content-center">
                     <!--LARAVEL -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                        <div class="flex justify-center">
-                            <img :src="laravel" alt="" class="mt-8 w-16 h-16">
+                        <a href="https://laravel.com/" class="pb-8">
+                            <div class="flex justify-center">
+                                <img :src="laravel" alt="" class="mt-8 w-16 h-16">
+                            </div>
 
-                        </div>
+                            <div class="flex justify-center mt-8">
+                                <p class="text-xl text-center"
+                                   style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                    Laravel <br> Development
+                                </p>
+                            </div>
+                        </a>
 
-                        <div class="flex justify-center my-8">
-                            <p class="text-xl text-center"
-                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                                Laravel <br> Development
-                            </p>
-                        </div>
                     </div>
+
 
                     <!--    VUE      -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
@@ -669,34 +672,38 @@
 
                     <!--    FLUTTER      -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                        <div class="flex justify-center">
-                            <img :src="flutter" alt="" class="mt-8 w-16 h-16">
+                        <a href="https://flutter.dev/">
+                            <div class="flex justify-center">
+                                <img :src="flutter"
+                                     alt="Flutter Development"
+                                     title="Flutter Development"
+                                     class="mt-8 w-16 h-16">
+                            </div>
 
-                        </div>
-
-                        <div class="flex justify-center my-8">
-                            <p class="text-xl text-center"
-                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                                Flutter <br> Development
-                            </p>
-                        </div>
+                            <div class="flex justify-center my-8">
+                                <p class="text-xl text-center"
+                                   style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                    Flutter <br> Development
+                                </p>
+                            </div>
+                        </a>
                     </div>
 
                     <!--    PYTHON   -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                        <div class="flex justify-center">
-                            <img :src="python" alt="" class="mt-8 w-16 h-16">
+                        <a href="https://www.python.org/">
+                            <div class="flex justify-center">
+                                <img :src="python" alt="" class="mt-8 w-16 h-16">
+                            </div>
 
-                        </div>
-
-                        <div class="flex justify-center my-8">
-                            <p class="text-xl text-center"
-                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                                Python <br> Development
-                            </p>
-                        </div>
+                            <div class="flex justify-center my-8">
+                                <p class="text-xl text-center"
+                                   style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                    Python <br> Development
+                                </p>
+                            </div>
+                        </a>
                     </div>
-
                 </div>
 
 
@@ -721,11 +728,12 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://leap.essex.ac.uk/student" class="">
+                            <a href="https://laravel.com/">
                                 <div class="pt-2 px-2 flex justify-center">
                                     <img :src="laravel"
                                          class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                         alt="plus">
+                                         alt="Laravel Development"
+                                         title="Laravel Development">
                                 </div>
                             </a>
 
@@ -743,21 +751,23 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://leap.essex.ac.uk/student" class="">
+                            <a href="https://vuejs.org/" class="">
                                 <div class="pt-2 px-2 flex justify-center">
                                     <img :src="vue"
                                          class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                         alt="plus">
+                                         alt="Vue.js Development"
+                                         title="Vue.js Development"
+                                    >
+                                </div>
+
+                                <div class="flex justify-center mb-2">
+                                    <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                        Vue.js
+                                        <br>
+                                        Development
+                                    </h2>
                                 </div>
                             </a>
-
-                            <div class="flex justify-center mb-2">
-                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
-                                    Vue.js
-                                    <br>
-                                    Development
-                                </h2>
-                            </div>
                         </div>
                     </div>
 
@@ -765,21 +775,22 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
+                            <a href="https://flutter.dev/">
                                 <div class="pt-2 px-2 flex justify-center">
                                     <img :src="flutter"
                                          class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
-                                         alt="plus">
+                                         alt="Flutter Development"
+                                         title="Flutter Development">
+                                </div>
+
+                                <div class="flex justify-center mb-8">
+                                    <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                                        Flutter
+                                        <br>
+                                        Development
+                                    </h2>
                                 </div>
                             </a>
-
-                            <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
-                                    Flutter
-                                    <br>
-                                    Development
-                                </h2>
-                            </div>
                         </div>
                     </div>
 
@@ -787,22 +798,21 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
+                            <a href="https://www.python.org/">
                                 <div class="pt-2 px-2 flex justify-center">
                                     <img :src="python"
                                          class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
+
+                                <div class="flex justify-center mb-8">
+                                    <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                        Python
+                                        <br>
+                                        Development
+                                    </h2>
+                                </div>
                             </a>
-
-                            <div class="flex justify-center mb-8">
-                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
-                                    Python
-                                    <br>
-                                    Development
-                                </h2>
-                            </div>
-
                         </div>
                     </div>
 
@@ -815,10 +825,9 @@
 
                             style="font-family: Poppins,serif"
                         >
-
-                            <InertiaLink :href="route('tech-stack')">
+                            <a href="tech-stack">
                                 SEE ALL
-                            </InertiaLink>
+                            </a>
 
                         </div>
                     </div>
