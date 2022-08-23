@@ -41,10 +41,10 @@
 
 
         <div class="flex justify-center my-4">
-            <InertiaLink :href="route('contact')"
-                         class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+            <a href="/contact"
+               class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-10 py-2">
                 CONTACT US
-            </InertiaLink>
+            </a>
         </div>
 
 
@@ -52,7 +52,7 @@
         <div class="flex flex-wrap justify-center space-x-2 mt-8 hidden md:flex">
           <span
               class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
-            Web Development
+              Web Development
           </span>
 
 
@@ -82,21 +82,21 @@ Product Design
                 <div class="inline-block px-4">
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://moodle.essex.ac.uk/">
-                            <div class="pt-12 px-12 ">
+                        <a href="/services/web-development">
+                            <div class="pt-12 px-12">
                                 <img :src="web_dev_services"
                                      class="inline-block px-2 py-2 lg:px-4 lg:py-4"
                                      alt="Web Development"
                                      title="Web Development">
                             </div>
-                        </a>
 
-                        <div class="flex justify-center">
-                            <h2 class="flex text-center text-xl font-bold" style="font-family: Poppins,serif">
-                                Web <br>
-                                Development
-                            </h2>
-                        </div>
+                            <div class="flex justify-center">
+                                <h2 class="flex text-center text-xl font-bold" style="font-family: Poppins,serif">
+                                    Web <br>
+                                    Development
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@ Product Design
                 <div class="inline-block px-2">
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://leap.essex.ac.uk/student" class="">
+                        <a href="/services/app-development" class="">
                             <div class="pt-12 px-12 ">
                                 <img :src="app_dev_services"
                                      class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
@@ -127,7 +127,7 @@ Product Design
                 <div class="inline-block px-2">
                     <div
                         class="w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://faser.essex.ac.uk/">
+                        <a href="services/product-design">
                             <div class="pt-12 px-12 ">
                                 <img :src="product_design_services"
                                      class="inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
@@ -147,7 +147,7 @@ Product Design
                 </div>
 
                 <a href="/services">
-                    <div class=" px-2">
+                    <div class="px-2">
                         <div
                             class="w-48 h-56 max-w-xs font-bold overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out flex justify-center items-center font-bold">
                             SEE ALL
@@ -202,11 +202,13 @@ Product Design
                 </p>
 
 
-                <div class="flex justify-center md:justify-start  mt-5">
-                    <InertiaLink :href="route('web-dev')"
-                                 class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
-                        CONTACT US
-                    </InertiaLink>
+                <div class="flex justify-center md:justify-start mt-5">
+                    <a href="/services/web-development"
+                       class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                        SEE MORE
+                    </a>
                 </div>
             </div>
 
@@ -252,10 +254,12 @@ Product Design
                     </p>
 
                     <div class="flex justify-center md:justify-start  mt-5">
-                        <InertiaLink :href="route('web-dev')"
-                                     class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
+                        <a href="/contact"
+                           class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
                             CONTACT US
-                        </InertiaLink>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -308,23 +312,25 @@ Product Design
                     </p>
 
                     <div class="flex justify-center md:justify-start  mt-5">
-                        <a href="/services/web-development"
-                           class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
-                            CONTACT US
+                        <a href="/services/app-development"
+                           class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                            SEE MORE
                         </a>
                     </div>
                 </div>
 
                 <img :src="app_dev" class="w-full md:w-1/2  hidden md:block"
                      alt="Application Development"
-                     title="App Development">>
+                     title="App Development">
             </div>
 
 
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing"
                      alt="Digital Marketing"
@@ -363,7 +369,17 @@ Product Design
                         An online presence
                         offers businesses a better opportunity to sustain, compete, and grow.
                     </p>
+
+                    <div class="flex justify-center md:justify-start  mt-5">
+                        <a href="/services/app-development"
+                           class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                            CHECK OUT OUR SERVICES
+                        </a>
+                    </div>
                 </div>
+
 
             </div>
 
@@ -413,8 +429,10 @@ Product Design
 
                 <div class="flex justify-center md:justify-start  mt-5">
                     <a href="/services/product-design"
-                       class="text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2">
-                        CONTACT US
+                       class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                        SEE MORE
                     </a>
                 </div>
             </div>
@@ -455,6 +473,15 @@ Product Design
                     Can't find what you're looking for? <br>
                     Tell us about your idea and we will develop it.
                 </p>
+
+                <div class="flex justify-center md:justify-start  mt-5">
+                    <a href="/contact"
+                       class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                        CONTACT US
+                    </a>
+                </div>
             </div>
         </div>
 

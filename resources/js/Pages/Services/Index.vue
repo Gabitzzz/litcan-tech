@@ -27,13 +27,11 @@
                     for your business
                 </h1>
             </div>
-
         </div>
 
         <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
             <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 "
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-
                 Browse through our services and find the one that is suited for your business.
             </p>
         </div>
@@ -62,9 +60,9 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+                        Build an online presence
+                        of your business by creating
+                        an unique website.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -100,9 +98,13 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+<!--                        Product development at any-->
+<!--                        stage and ongoing support-->
+<!--                        after you launch-->
+
+                        Maximize performance with
+                        our custom Software suited
+                        to your needs.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -244,15 +246,14 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+                        Can't find what you are looking for?
+                        Send us a message with your enquiry.
                     </p>
 
                     <div class="flex justify-center mb-8">
 
                         <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
-                            CONTACT
+                            CONTACT US
                         </button>
                     </div>
 

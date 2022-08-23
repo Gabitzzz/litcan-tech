@@ -56,7 +56,7 @@
         <hr class=" mx-10 lg:mx-48">
 
 
-        <div class="md:flex justify-between mx-6 md:mx-64 mt-8 text-sm">
+        <div class="md:flex justify-between mx-8 md:mx-64 mt-8 text-sm">
             <p>
                 Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved.
             </p>

@@ -108,6 +108,8 @@
 </template>
 
 <script>
+
+
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 import {Link} from "@inertiajs/inertia-vue3";
 import logo from "/img/logo/logo_250.png";

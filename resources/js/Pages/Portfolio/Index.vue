@@ -27,14 +27,21 @@
                     See our <span class="text-red-500">portfolio</span>
                 </h1>
             </div>
-
         </div>
 
-        <div class=" grid mx-8 md:mx-32 mb-16   grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 gap-y-8 content-center ">
+        <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
+            <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 "
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Check out the products we built for our clients or public use.
+            </p>
+        </div>
+
+
+        <div class=" grid mx-8 md:mx-32 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 gap-y-8 content-center ">
             <!--    Adopet-->
             <a href="http://adopet.gabilitcan.com/" class="z-10  shadow-lg bg-white mx-4 ">
                 <div class="flex justify-center items-center h-40">
-                    <img :src="adopet_mockup" alt="" class="mt-8 w-32">
+                    <img :src="adopet_mockup" alt="" class="mt-8 w-48 md:w-32">
                 </div>
 
                 <div class="flex justify-center mt-2">
@@ -64,7 +71,7 @@
             <!--    DREAM WINE SPECIAL  -->
             <a href="https://vin-cadou.ro/" class="z-10  shadow-lg bg-white mx-4 ">
                 <div class="flex justify-center items-center h-40">
-                    <img :src="dws_mockup" alt="" class="mt-8 w-32">
+                    <img :src="dws_mockup" alt="" class="mt-8 w-48 md:w-32">
                 </div>
 
                 <div class="flex justify-center mt-2">
@@ -97,7 +104,7 @@
             <!--     ARHIQUE     -->
             <a href="https://arhique.ro/" class="z-10  shadow-lg bg-white mx-4 ">
                 <div class="flex justify-center items-center h-40">
-                    <img :src="arhique_mockup" alt="" class="mt-8 w-32">
+                    <img :src="arhique_mockup" alt="" class="mt-8 w-48 md:w-32">
                 </div>
 
                 <div class="flex justify-center mt-2">

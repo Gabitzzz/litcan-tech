@@ -25462,7 +25462,7 @@ var _hoisted_4 = ["src"];
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Resources</div><a class=\"my-3 block\" href=\"/\">Home <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/blog\">Blog <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/portfolio\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Services</div><a class=\"my-3 block\" href=\"/#\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/#\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Contact us</div><a class=\"my-3 block\" href=\"tel:+40773800815\"> +40 773 800 815 <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"mailto:contact@litcan.tech\">contact@litcan-tech.com <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"https://goo.gl/maps/EEPbGtre78XufAicA\"> Brănești, Ilfov, Romania <span class=\"text-teal-600 text-xs p-1\"></span></a></div>", 3);
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<hr class=\"mx-10 lg:mx-48\"><div class=\"md:flex justify-between mx-6 md:mx-64 mt-8 text-sm\"><p> Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved. </p><div class=\"md:flex mt-4 md:mt-0\"><p class=\"md:mx-2\"> Privacy Policy </p><p class=\"md:mx-2\"> Cookie Policy </p></div></div>", 2);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<hr class=\"mx-10 lg:mx-48\"><div class=\"md:flex justify-between mx-8 md:mx-64 mt-8 text-sm\"><p> Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved. </p><div class=\"md:flex mt-4 md:mt-0\"><p class=\"md:mx-2\"> Privacy Policy </p><p class=\"md:mx-2\"> Cookie Policy </p></div></div>", 2);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <h3 class=\"font-bold text-xl text-red-600\">LITCAN TECHNOLOGIES</h3>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -27164,13 +27164,16 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_12 = {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center my-4"
-};
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/contact",
+  "class": "z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-10 py-2"
+}, " CONTACT US ")], -1
+/* HOISTED */
+);
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACT US ");
-
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex flex-wrap justify-center space-x-2 mt-8 hidden md:flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease"
@@ -27182,7 +27185,7 @@ var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center my-8 hidden sm:flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
   width: "75%",
@@ -27191,28 +27194,28 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_15 = {
   "class": "sm:hidden"
 };
-var _hoisted_17 = {
+var _hoisted_16 = {
   id: "scrollContainer",
   "class": "flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 scrollbar-hide"
 };
-var _hoisted_18 = {
+var _hoisted_17 = {
   "class": "inline-block px-4"
 };
-var _hoisted_19 = {
+var _hoisted_18 = {
   "class": "w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_20 = {
-  href: "https://moodle.essex.ac.uk/"
+var _hoisted_19 = {
+  href: "/services/web-development"
 };
-var _hoisted_21 = {
+var _hoisted_20 = {
   "class": "pt-12 px-12"
 };
-var _hoisted_22 = ["src"];
+var _hoisted_21 = ["src"];
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center text-xl font-bold",
@@ -27223,22 +27226,22 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_24 = {
+var _hoisted_23 = {
   "class": "inline-block px-2"
 };
-var _hoisted_25 = {
+var _hoisted_24 = {
   "class": "w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_26 = {
-  href: "https://leap.essex.ac.uk/student",
+var _hoisted_25 = {
+  href: "/services/app-development",
   "class": ""
 };
-var _hoisted_27 = {
+var _hoisted_26 = {
   "class": "pt-12 px-12"
 };
-var _hoisted_28 = ["src"];
+var _hoisted_27 = ["src"];
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27249,21 +27252,21 @@ var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_30 = {
+var _hoisted_29 = {
   "class": "inline-block px-2"
 };
-var _hoisted_31 = {
+var _hoisted_30 = {
   "class": "w-48 h-56 max-w-xs overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
-var _hoisted_32 = {
-  href: "https://faser.essex.ac.uk/"
+var _hoisted_31 = {
+  href: "services/product-design"
 };
-var _hoisted_33 = {
+var _hoisted_32 = {
   "class": "pt-12 px-12"
 };
-var _hoisted_34 = ["src"];
+var _hoisted_33 = ["src"];
 
-var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "flex text-center font-bold text-xl",
@@ -27274,7 +27277,7 @@ var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "/services"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "px-2"
@@ -27284,102 +27287,85 @@ var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_37 = {
+var _hoisted_36 = {
   "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
 };
-var _hoisted_38 = {
+var _hoisted_37 = {
   "class": ""
 };
-var _hoisted_39 = {
+var _hoisted_38 = {
   "class": "flex justify-center"
 };
-var _hoisted_40 = ["src"];
+var _hoisted_39 = ["src"];
 
-var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center text-2xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong><span class=\"text-red-600\">Websites</span> that create <br class=\"hidden lg:block\"> more conversions </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-4 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on <br class=\"hidden 2xl:block\">User Experience and deliver fast performance. </p>", 3);
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center text-2xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong><span class=\"text-red-600\">Websites</span> that create <br class=\"hidden lg:block\"> more conversions </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Newest Technologies <br> Creative Storytelling <br> Bespoke Design </p><p class=\"mt-4 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Based on this 3 essential layers, we build websites that focus on <br class=\"hidden 2xl:block\">User Experience and deliver fast performance. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/web-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
 
-var _hoisted_44 = {
-  "class": "flex justify-center md:justify-start mt-5"
-};
-
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACT US ");
-
-var _hoisted_46 = ["src"];
-var _hoisted_47 = {
+var _hoisted_44 = ["src"];
+var _hoisted_45 = {
   "class": "my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
-var _hoisted_48 = {
+var _hoisted_46 = {
   "class": "md:flex items-center"
 };
-var _hoisted_49 = ["src"];
+var _hoisted_47 = ["src"];
 
-var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong> Request a free <span class=\"text-red-600\">audit</span> of your website </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p>", 3);
+var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong> Request a free <span class=\"text-red-600\">audit</span> of your website </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
-var _hoisted_53 = {
-  "class": "flex justify-center md:justify-start mt-5"
-};
-
-var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CONTACT US ");
-
-var _hoisted_55 = {
+var _hoisted_49 = {
   "class": "mt-8"
 };
-var _hoisted_56 = {
+var _hoisted_50 = {
   "class": "md:flex items-center mx-6 my-32 lg:ml-32 2xl:mx-72"
 };
-var _hoisted_57 = {
+var _hoisted_51 = {
   "class": "md:flex items-center"
 };
-var _hoisted_58 = {
+var _hoisted_52 = {
   "class": ""
 };
-var _hoisted_59 = ["src"];
+var _hoisted_53 = ["src"];
 
-var _hoisted_60 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong><span class=\"text-red-600\"> Apps </span> that increase business&#39; performance. </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/web-development\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
+var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong><span class=\"text-red-600\"> Apps </span> that increase business&#39; performance. </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
 
-var _hoisted_64 = ["src"];
-
-var _hoisted_65 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("> ");
-
-var _hoisted_66 = {
-  "class": "md:flex items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
+var _hoisted_58 = ["src"];
+var _hoisted_59 = {
+  "class": "items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
-var _hoisted_67 = {
+var _hoisted_60 = {
   "class": "md:flex items-center"
 };
-var _hoisted_68 = ["src"];
+var _hoisted_61 = ["src"];
 
-var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p></div>", 1);
+var _hoisted_62 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CHECK OUT OUR SERVICES </a></div></div>", 1);
 
-var _hoisted_70 = {
+var _hoisted_63 = {
   "class": "md:my-32"
 };
-var _hoisted_71 = {
+var _hoisted_64 = {
   "class": "my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72"
 };
-var _hoisted_72 = {
+var _hoisted_65 = {
   "class": ""
 };
-var _hoisted_73 = {
+var _hoisted_66 = {
   "class": "flex justify-center"
+};
+var _hoisted_67 = ["src"];
+
+var _hoisted_68 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
+
+var _hoisted_72 = ["src"];
+var _hoisted_73 = {
+  "class": "my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
 };
 var _hoisted_74 = ["src"];
 
-var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2\"> CONTACT US </a></div>", 4);
-
-var _hoisted_79 = ["src"];
-var _hoisted_80 = {
-  "class": "my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72"
-};
-var _hoisted_81 = ["src"];
-
-var _hoisted_82 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p></div>", 1);
+var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
-
-  var _component_InertiaLink = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("InertiaLink");
 
   var _component_LatestPartners = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("LatestPartners");
 
@@ -27430,127 +27416,91 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_10)]), _hoisted_11])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_InertiaLink, {
-    href: _ctx.route('contact'),
-    "class": "z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_13];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LINE    "), _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MOBILE SERVICES     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MOBILE WEB DEV  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_10)]), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LINE    "), _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MOBILE SERVICES     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MOBILE WEB DEV  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_dev_services,
     "class": "inline-block px-2 py-2 lg:px-4 lg:py-4",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_22)])]), _hoisted_23])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                MOBILE APP DEV      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_21)]), _hoisted_22])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                MOBILE APP DEV      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev_services,
     "class": "inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "Application Development",
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_28)])]), _hoisted_29])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                MOBILE PRODUCT DESIGN       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_27)])]), _hoisted_28])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                MOBILE PRODUCT DESIGN       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_services,
     "class": "inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_34)])]), _hoisted_35])]), _hoisted_36])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("WEB DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_33)])]), _hoisted_34])]), _hoisted_35])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("WEB DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_dev_mobile,
     "class": "md:w-1/3 md:hidden",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_40)]), _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_InertiaLink, {
-    href: _ctx.route('web-dev'),
-    "class": "text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_45];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_39)]), _hoisted_40]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_dev,
     "class": "hidden md:block md:w-1/2 2xl:w-1/3",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_46)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        AUDIT    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_44)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        AUDIT    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.audit_mobile,
     alt: "Website Audit",
     title: "Website Audit",
     "class": "w-full lg:w-2/3 md:pr-16"
   }, null, 8
   /* PROPS */
-  , _hoisted_49), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_50, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_InertiaLink, {
-    href: _ctx.route('web-dev'),
-    "class": "text-white text-sm md:text-md bg-red-600 rounded-full px-6 py-2"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_54];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href"])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_55, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_47), _hoisted_48])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev_mobile,
     "class": "w-full md:w-1/2 md:hidden",
     alt: "Application Development",
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_59), _hoisted_60]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_53), _hoisted_54]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev,
     "class": "w-full md:w-1/2 hidden md:block",
     alt: "Application Development",
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_64), _hoisted_65])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_58)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.digital_marketing,
     alt: "Digital Marketing",
     title: "Digital Marketing",
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_68), _hoisted_69])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_61), _hoisted_62])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_mobile,
     "class": "w-full md:hidden",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_74)]), _hoisted_75]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_67)]), _hoisted_68]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design,
     "class": "hidden md:block w-1/2",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_79)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_80, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_72)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_2,
     alt: "Custom Development",
     title: "Custom Development",
     "class": "w-full md:w-1/2"
   }, null, 8
   /* PROPS */
-  , _hoisted_81), _hoisted_82]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
+  , _hoisted_74), _hoisted_75]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -27584,57 +27534,43 @@ var _hoisted_3 = {
 var _hoisted_4 = ["src"];
 var _hoisted_5 = ["src"];
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "-mt-48 lg:-mt-80 flex flex-col items-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  style: {
-    "font-family": "'Poppins', sans-serif",
-    "font-weight": "700"
-  },
-  "class": "tracking-wider text-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" See our "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-red-500"
-}, "portfolio")])])], -1
-/* HOISTED */
-);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl\"><div class=\"-mt-48 lg:-mt-80 flex flex-col items-center\"><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider text-center\"> See our <span class=\"text-red-500\">portfolio</span></h1></div></div><div class=\"mx-10 mb-8 flex flex-col items-center 2xl:mx-80\"><p class=\"-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Check out the products we built for our clients or public use. </p></div>", 2);
 
-var _hoisted_7 = {
+var _hoisted_8 = {
   "class": "grid mx-8 md:mx-32 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 gap-y-8 content-center"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   href: "http://adopet.gabilitcan.com/",
   "class": "z-10 shadow-lg bg-white mx-4"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "flex justify-center items-center h-40"
 };
-var _hoisted_10 = ["src"];
+var _hoisted_11 = ["src"];
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
-var _hoisted_15 = {
+var _hoisted_16 = {
   href: "https://vin-cadou.ro/",
   "class": "z-10 shadow-lg bg-white mx-4"
 };
-var _hoisted_16 = {
+var _hoisted_17 = {
   "class": "flex justify-center items-center h-40"
 };
-var _hoisted_17 = ["src"];
+var _hoisted_18 = ["src"];
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center mx-2\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Ecommerce <br> Platform <br class=\"hidden sm:block\"> built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center mx-2\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Ecommerce <br> Platform <br class=\"hidden sm:block\"> built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
-var _hoisted_22 = {
+var _hoisted_23 = {
   href: "https://arhique.ro/",
   "class": "z-10 shadow-lg bg-white mx-4"
 };
-var _hoisted_23 = {
+var _hoisted_24 = {
   "class": "flex justify-center items-center h-40"
 };
-var _hoisted_24 = ["src"];
+var _hoisted_25 = ["src"];
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://arhique.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://arhique.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -27674,25 +27610,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, null, 8
   /* PROPS */
-  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Adopet"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Adopet"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.adopet_mockup,
     alt: "",
-    "class": "mt-8 w-32"
+    "class": "mt-8 w-48 md:w-32"
   }, null, 8
   /* PROPS */
-  , _hoisted_10)]), _hoisted_11]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DREAM WINE SPECIAL  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_11)]), _hoisted_12]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DREAM WINE SPECIAL  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.dws_mockup,
     alt: "",
-    "class": "mt-8 w-32"
+    "class": "mt-8 w-48 md:w-32"
   }, null, 8
   /* PROPS */
-  , _hoisted_17)]), _hoisted_18]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     ARHIQUE     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_18)]), _hoisted_19]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     ARHIQUE     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.arhique_mockup,
     alt: "",
-    "class": "mt-8 w-32"
+    "class": "mt-8 w-48 md:w-32"
   }, null, 8
   /* PROPS */
-  , _hoisted_24)]), _hoisted_25])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
+  , _hoisted_25)]), _hoisted_26])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -28028,7 +27964,7 @@ var _hoisted_11 = {
 };
 var _hoisted_12 = ["src"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Web <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><a href=\"/services/web-development\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Web <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Build an online presence of your business by creating an unique website. </p><div class=\"flex justify-center mb-8\"><a href=\"/services/web-development\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_17 = {
   href: "/services/app-development",
@@ -28039,7 +27975,7 @@ var _hoisted_18 = {
 };
 var _hoisted_19 = ["src"];
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Application <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><a href=\"/services/app-development\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Application <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"><!--                        Product development at any--><!--                        stage and ongoing support--><!--                        after you launch--> Maximize performance with our custom Software suited to your needs. </p><div class=\"flex justify-center mb-8\"><a href=\"/services/app-development\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_24 = {
   href: "/services/product-design",
@@ -28083,7 +28019,7 @@ var _hoisted_46 = {
 };
 var _hoisted_47 = ["src"];
 
-var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Custom <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Product development at any stage and ongoing support after you launch </p><div class=\"flex justify-center mb-8\"><button class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> CONTACT </button></div>", 4);
+var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-8\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Custom <br> Development </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Can&#39;t find what you are looking for? Send us a message with your enquiry. </p><div class=\"flex justify-center mb-8\"><button class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> CONTACT US </button></div>", 4);
 
 var _hoisted_52 = {
   "class": "my-32 bg-red-600 py-24"
