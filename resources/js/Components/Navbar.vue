@@ -1,7 +1,7 @@
 <template>
 
 
-    <div class="bg-white navbar top-0 fixed sticky  mb-40 shadow-xl  fixed mb-32" style="z-index: 20000">
+    <div class="bg-white navbar top-0 fixed sticky mb-40 shadow-xl fixed mb-32" style="z-index: 20000">
         <div class="w-full px-2 sm:px-8 md:px-16 lg:px-24 xl:px-40 2xl:px-80">
             <div class="flex-1">
 
@@ -57,7 +57,7 @@
             <div class="flex-none">
                 <div class="dropdown dropdown-end ">
                     <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
-                        <div class="indicator">
+                        <div>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  class="h-5 w-5 hamburger"
                                  fill="none"

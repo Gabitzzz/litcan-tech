@@ -29,7 +29,9 @@
     </div>
 
     <div class="mx-10 mb-8 flex flex-col items-center 2xl:mx-80 ">
-        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 2xl:mx-24">
+        <p class="-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24 2xl:mx-24"
+           style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+        >
             Newest and most popular programming languages, frameworks, prototyping and development tools that
             we use for our projects.
         </p>

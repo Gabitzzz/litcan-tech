@@ -87,8 +87,7 @@
                 </div>
 
                 <p class="mb-4 mx-8 text-center text-md">
-                    Ecommerce <br> Platform
-                    <br class="hidden sm:block">
+                    Ecommerce Platform
                     built in Wordpress
                 </p>
 

@@ -21,7 +21,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://leap.essex.ac.uk/student" class="">
+                        <a href="http://adopet.gabilitcan.com/" class="">
                             <div class="pt-2 px-2 flex justify-center">
                                 <img :src="adopet"
                                      class="inline-block p-6 md:p-6rounded-3xl "
@@ -35,7 +35,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40  flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://leap.essex.ac.uk/student" class="">
+                        <a href="https://essex.social/" class="">
                             <div class="pt-2 px-2 flex justify-center">
                                 <img :src="esn"
                                      class="inline-block p-6 md:p-4 rounded-3xl "
@@ -49,7 +49,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://faser.essex.ac.uk/">
+                        <a href="https://www.tedxuniversityofessex.com///">
                             <div class="pt-2 px-2  justify-center">
                                 <img :src="ted"
                                      class=" inline-block p-6 md:p-4 rounded-3xl "
@@ -62,7 +62,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://faser.essex.ac.uk/">
+                        <a href="https://vin-cadou.ro/">
                             <div class="pt-2 px-2  justify-center">
                                 <img :src="dws"
                                      class=" inline-block p-6 md:p-4 rounded-3xl "
@@ -76,7 +76,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://faser.essex.ac.uk/">
+                        <a href="https://arhique.ro//">
                             <div class="pt-2 px-2  justify-center">
                                 <img :src="arhique"
                                      class=" inline-block p-6 md:p-4 rounded-3xl "

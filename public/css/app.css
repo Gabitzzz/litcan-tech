@@ -6914,13 +6914,17 @@ body[dir="rtl"] .checkbox:checked,
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 .my-8 {
   margin-top: 2rem;
@@ -6933,10 +6937,6 @@ body[dir="rtl"] .checkbox:checked,
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 .mx-4 {
   margin-left: 1rem;
@@ -7054,6 +7054,18 @@ body[dir="rtl"] .checkbox:checked,
 }
 .mb-24 {
   margin-bottom: 6rem;
+}
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+.mt-40 {
+  margin-top: 10rem;
+}
+.mt-24 {
+  margin-top: 6rem;
+}
+.mt-20 {
+  margin-top: 5rem;
 }
 .block {
   display: block;
@@ -7177,11 +7189,11 @@ body[dir="rtl"] .checkbox:checked,
   width: -moz-max-content;
   width: max-content;
 }
-.w-32 {
-  width: 8rem;
-}
 .w-72 {
   width: 18rem;
+}
+.w-32 {
+  width: 8rem;
 }
 .w-16 {
   width: 4rem;
@@ -7522,6 +7534,10 @@ body[dir="rtl"] .checkbox:checked,
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -7530,9 +7546,9 @@ body[dir="rtl"] .checkbox:checked,
   padding-left: 6rem;
   padding-right: 6rem;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -7566,6 +7582,12 @@ body[dir="rtl"] .checkbox:checked,
 }
 .pt-12 {
   padding-top: 3rem;
+}
+.pt-32 {
+  padding-top: 8rem;
+}
+.pb-16 {
+  padding-bottom: 4rem;
 }
 .text-left {
   text-align: left;
@@ -8139,14 +8161,19 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 12rem;
   }
 
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
   .md\:mx-64 {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .md\:my-32 {
@@ -8159,9 +8186,8 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 8rem;
   }
 
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:mt-16 {
@@ -8186,10 +8212,6 @@ body[dir="rtl"] .checkbox:checked,
 
   .md\:mb-16 {
     margin-bottom: 4rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
   }
 
   .md\:-mt-0 {
@@ -8402,16 +8424,6 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 6rem;
   }
 
-  .lg\:mx-80 {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-
-  .lg\:mx-72 {
-    margin-left: 18rem;
-    margin-right: 18rem;
-  }
-
   .lg\:-mt-80 {
     margin-top: -20rem;
   }
@@ -8511,14 +8523,14 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 8rem;
   }
 
-  .xl\:mx-64 {
-    margin-left: 16rem;
-    margin-right: 16rem;
-  }
-
   .xl\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .xl\:mx-64 {
+    margin-left: 16rem;
+    margin-right: 16rem;
   }
 
   .xl\:mx-48 {

@@ -61,8 +61,8 @@
 
                     <p class="mb-4 mx-8 text-center text-md">
                         Build an online presence
-                        of your business by creating
-                        an unique website.
+                        of your business with our
+                        Web Development services.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -98,13 +98,12 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-<!--                        Product development at any-->
-<!--                        stage and ongoing support-->
-<!--                        after you launch-->
+                        <!--                        Product development at any-->
+                        <!--                        stage and ongoing support-->
+                        <!--                        after you launch-->
 
-                        Maximize performance with
-                        our custom Software suited
-                        to your needs.
+                        Maximize your business performance with
+                        our App Development services.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -114,8 +113,6 @@
                             SEE MORE
                         </a>
                     </div>
-
-
                 </a>
 
                 <!-- PRODUCT DESIGN     -->
@@ -139,9 +136,12 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+                        Design your business idea with
+                        the help of our
+                        Product Design Services
+
+<!--                        Banners, Mockups and Wireframes to design-->
+<!--                        your business idea.-->
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -174,9 +174,9 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+                        Grow your online business
+                        presence with our Digital
+                        Marketing tools.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -209,9 +209,9 @@
                     </div>
 
                     <p class="mb-4 mx-8 text-center text-md">
-                        Product development at any
-                        stage and ongoing support
-                        after you launch
+                        Different approaches of
+                        machine learning to solve your
+                        business problems.
                     </p>
 
                     <div class="flex justify-center mb-8">
@@ -299,9 +299,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            Fintech Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
 
@@ -327,9 +327,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            Ecommerce Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
 
@@ -355,9 +355,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            Medtech Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
 
@@ -384,9 +384,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            Edtech Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
 
@@ -412,9 +412,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            IoT Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
 
@@ -441,9 +441,9 @@
                         </div>
 
                         <p class="mb-8 mx-8 text-center text-md">
-                            Product development at any
+                            Agritech Development at any
                             stage and ongoing support
-                            after you launch
+                            after you launch.
                         </p>
                     </div>
                 </div>
@@ -473,10 +473,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                Fintech Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -500,10 +500,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                Ecommerce Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -527,10 +527,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                Medtech Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -553,10 +553,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                Edtech Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -579,10 +579,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                IoT Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -605,10 +605,10 @@
                                     Development
                                 </h2>
                             </div>
-                            <p class="text-center mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet aut
-                                consequatur
-                                dolore eligendi, est eveniet exercitationem
+                            <p class="text-center mt-2 mx-4 mb-4">
+                                Agritech Development at any
+                                stage and ongoing support
+                                after you launch.
                             </p>
                         </div>
                     </div>
@@ -630,8 +630,10 @@
 
         </div>
 
-        <p class="text-md mx-6 lg:mx-48 2xl:mx-80">
-            Here is my favourite Tech Stack, languages and frameworks that I use every day in most of my projects.
+        <p class="text-lg mt-4 mx-6 lg:mx-48 2xl:mx-80"
+           style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+        >
+            Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day development.
         </p>
 
         <div>
@@ -658,17 +660,19 @@
 
                     <!--    VUE      -->
                     <div class="w-48 shadow-lg bg-white mx-8 z-10">
-                        <div class="flex justify-center">
-                            <img :src="vue" alt="" class="mt-8 w-16 h-16">
+                        <a href="https://vuejs.org/">
+                            <div class="flex justify-center">
+                                <img :src="vue" alt="" class="mt-8 w-16 h-16">
 
-                        </div>
+                            </div>
 
-                        <div class="flex justify-center my-8">
-                            <p class="text-xl text-center"
-                               style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                                Vue.js <br> Development
-                            </p>
-                        </div>
+                            <div class="flex justify-center my-8">
+                                <p class="text-xl text-center"
+                                   style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                                    Vue.js <br> Development
+                                </p>
+                            </div>
+                        </a>
                     </div>
 
                     <!--    FLUTTER      -->
@@ -839,7 +843,12 @@
         </div>
 
 
+
+
         <BlogComponent></BlogComponent>
+
+
+        <ContactComponent></ContactComponent>
 
         <Footer></Footer>
     </div>
@@ -850,6 +859,7 @@ import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
 import {Head} from "@inertiajs/inertia-vue3";
+import ContactComponent from "@/Components/ContactComponent";
 
 import {InertiaLink} from "@inertiajs/inertia-vue3";
 
@@ -883,6 +893,7 @@ export default {
         BlogComponent,
         InertiaLink,
         Head,
+        ContactComponent
     },
     data() {
         return {

@@ -1,7 +1,7 @@
 <template>
     <div
         class=" grid gap-8 grid-cols-1 md:grid-cols-2
-                md:px-12 lg:px-32 xl:px-80 py-32
+                md:px-12 lg:px-32 xl:px-80 pt-32 pb-16
                 mx-auto px-8
                 bg-gray-100 text-gray-900 rounded-lg shadow-lg">
 
@@ -48,8 +48,14 @@
 
 
                 <div class="font-bold mt-4">
+
+                    <a href="https://www.linkedin.com/company/li%C8%9Bcan-technologies/"
+                       class="flex items-center ">
+                        <img :src="linkedin" class="w-8 h-8  mr-2" alt="">
+                        Lițcan Technologies
+                    </a>
                     <a href="https://www.facebook.com/litcan.tech"
-                       class="flex items-center">
+                       class="flex items-center mt-4">
                         <img :src="facebook" class="w-8 h-8 mr-2" alt="">
                         Lițcan Technologies
                     </a>
@@ -59,11 +65,13 @@
                         <img :src="instagram" class="w-8 h-8  mr-2" alt="">
                         litcan.tech
                     </a>
+
                 </div>
             </div>
 
 
         </div>
+
 
 
         <div class="z-40">
@@ -91,6 +99,8 @@
                 </button>
             </div>
         </div>
+
+
     </div>
 
 </template>
@@ -101,6 +111,7 @@ import telephone from "/img/contact/telephone.png";
 import website from "/img/contact/website.png";
 import facebook from "/img/contact/facebook.png";
 import instagram from "/img/contact/instagram.png";
+import linkedin from "/img/contact/linkedin.png";
 
 export default {
     name: "ContactComponent",
@@ -112,6 +123,7 @@ export default {
             website: website,
             facebook: facebook,
             instagram: instagram,
+            linkedin: linkedin,
         }
     }
 }
