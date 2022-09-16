@@ -8187,6 +8187,11 @@ body[dir="rtl"] .checkbox:checked,
     margin-right: 8rem;
   }
 
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -8440,6 +8445,11 @@ body[dir="rtl"] .checkbox:checked,
   .lg\:my-32 {
     margin-top: 8rem;
     margin-bottom: 8rem;
+  }
+
+  .lg\:mx-64 {
+    margin-left: 16rem;
+    margin-right: 16rem;
   }
 
   .lg\:-mt-80 {

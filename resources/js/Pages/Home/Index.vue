@@ -26,7 +26,7 @@
                 </div>
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                    class="tracking-wider text-center leading-tight"
+                    class="lg:tracking-wider text-4xl text-center leading-tight"
                 >
                     Empowering
                     <br class="sm:hidden">
@@ -169,7 +169,7 @@ Product Design
 
                 <div>
                     <p
-                        class="text-center text-2xl font-bold
+                        class="text-center text-3xl font-bold
                                 md:text-left md:text-4xl
                                 lg:text-5xl  "
                         style="font-family: Poppins,serif;">
@@ -228,7 +228,7 @@ Product Design
                 <div>
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+                           class="text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
                             <strong>
                                 Request a free <span class="text-red-600">audit</span> of your
                                 website
@@ -281,7 +281,7 @@ Product Design
 
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl font-bold text-center
+                           class="text-3xl font-bold text-center
                                     md:text-4xl md:mt-0 md:text-left
                                     lg:text-5xl"
                         >
@@ -289,7 +289,7 @@ Product Design
                                 <span class="text-red-600">
                                 Apps
                             </span>
-                                that increase business' performance.
+                                that increase business performance.
                             </strong>
                         </p>
 
@@ -339,7 +339,7 @@ Product Design
                 <div>
                     <div>
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-2xl font-bold text-center
+                           class="text-3xl font-bold text-center
                                     md:text-4xl md:mt-0  md:text-left
                                     lg:text-5xl">
                             <strong>
@@ -401,7 +401,7 @@ Product Design
 
 
                 <p style="font-family: 'Poppins', sans-serif;"
-                   class="text-2xl font-bold text-center
+                   class="text-3xl font-bold text-center
                                 md:text-4xl md:mt-0 md:text-left
                                 lg:text-5xl">
                     <strong>
@@ -451,7 +451,7 @@ Product Design
             <div>
                 <div class="">
                     <p style="font-family: 'Poppins', sans-serif;"
-                       class="text-2xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
+                       class="text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left">
                         <strong>
                                 <span class="text-red-600">
                                 Custom

@@ -15,7 +15,7 @@
             <div class="flex items-center justify-between xl:mx-32">
                 <div>
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                        class="text-4xl lg:tracking-wider text-center md:text-left">
+                        class="text-4xl lg:text-5xl lg:tracking-wider text-center md:text-left">
                     <span class="text-red-500">
                     Web
                     </span>
@@ -54,13 +54,13 @@
     <div class="mx-6 mt-16">
         <div>
             <h1
-                class="md:mx-32 text-3xl lg:text-5xl text-center
+                class="md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center
                     md:text-left md:flex md:justify-center"
                 style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                 Industry-focused Web Development
             </h1>
 
-            <p class="text-center text-md lg:text-xl mt-6 md:mx-64"
+            <p class="text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64"
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                 Develop a web application tailored to your industry needs. To help your digital product succeed, we
                 commit to comprehensively research your market and build an innovative solution that’s customized to
@@ -144,11 +144,11 @@
                     Planning
                 </p>
 
-                <p class="text-md md:text-xl mt-4"
+                <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    Understand the project's requirement,
-                    analyze de current market and provide
-                    the development stages.
+                    Understand the project's requirements <br>
+                    Analyze de current market <br>
+                    Provide the development stages
                 </p>
             </div>
 
@@ -179,6 +179,13 @@
                     2.
                 </span>
                     Design
+                </p>
+
+                <p class="text-xl md:text-2xl mt-4"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Design requirements <br>
+                    Concept Generation  <br>
+                    Production Planning
                 </p>
 
                 <p class="text-md md:text-xl mt-4"
@@ -212,6 +219,11 @@
                     3.
                 </span>
                     Development
+                </p>
+
+                <p class="text-xl md:text-2xl mt-4"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Interactive elements <br>
                 </p>
 
                 <p class="text-md md:text-xl mt-4"
@@ -283,6 +295,13 @@
                     Launch
                 </p>
 
+                <p class="text-xl md:text-2xl mt-4"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Performance Reports <br>
+                    Server Side Development <br>
+                </p>
+
+
                 <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
@@ -298,7 +317,7 @@
         </div>
 
 
-        <hr class="mx-32">
+        <hr class="md:mx-32">
 
         <!--        6. MAINTENANCE  -->
         <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
