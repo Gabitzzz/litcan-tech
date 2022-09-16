@@ -8,14 +8,14 @@
              style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
     </div>
 
-    <div class="mx-10 -mt-48 md:-mt-64 xl:-mt-80  flex justify-center items-center text-3xl md:text-5xl">
+    <div class="mx-10 -mt-48 lg:-mt-64 xl:-mt-80  flex justify-center items-center text-3xl md:text-5xl">
         <div class="-mt-80 lg:-mt-80 flex flex-col items-center">
             <img :src="banner_mobile" class="mt-6 w-full md:hidden" alt="">
 
             <div class="flex items-center justify-between xl:mx-32">
                 <div>
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                        class="tracking-wider text-center md:text-left">
+                        class="text-4xl lg:tracking-wider text-center md:text-left">
                     <span class="text-red-500">
                     Web
                     </span>
@@ -28,13 +28,14 @@
 
                     <div
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                        class="text-xl mr-16 mt-8">
-                        Trust your product to a team with 11+ years experience building 360+ projects worldwide.
+                        class="text-xl md:mr-16 mt-8">
+                        Develop your product with the latest available technologies and a custom minimalistic interface.
+                        <!--                        Trust your product to a team with 11+ years experience building 360+ projects worldwide.-->
                     </div>
 
-                    <div class="flex justify-center md:justify-start  mt-5">
+                    <div class="flex justify-center md:justify-start  mt-16 md:mt-10">
                         <a href="/contact"
-                           class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                           class="z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
                                   md:text-md
                                   hover:text-white hover:bg-red-600 ease-in duration-150 ">
                             CONTACT US
@@ -50,10 +51,82 @@
 
     </div>
 
+    <div class="mx-6 mt-16">
+        <div>
+            <h1
+                class="md:mx-32 text-3xl lg:text-5xl text-center
+                    md:text-left md:flex md:justify-center"
+                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Industry-focused Web Development
+            </h1>
 
-    <div class="mx-10">
+            <p class="text-center text-md lg:text-xl mt-6 md:mx-64"
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Develop a web application tailored to your industry needs. To help your digital product succeed, we
+                commit to comprehensively research your market and build an innovative solution that’s customized to
+                your business, speaks your values and targets the right audience.
+            </p>
+        </div>
+
+        <div class="hidden mt-8 md:mx-64 md:flex justify-between">
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="fintech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Fintech
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="fintech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Fintech
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="fintech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Fintech
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="fintech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Fintech
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <LatestPartners></LatestPartners>
+
+    <div class="mx-6">
+
+        <h1
+            class="md:mx-32 text-5xl mt-16 lg:mt-32 text-center
+                    md:text-left md:flex md:justify-center"
+            style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+            The Process
+        </h1>
+
         <!--        1. PLANNING-->
-        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
                 <img :src="planning" class=""
                      alt="">
@@ -88,7 +161,7 @@
 
 
         <!--        2. DESIGN -->
-        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
                 <img :src="design" class=" "
                      alt="">
@@ -117,15 +190,6 @@
                     and ready to be developed
                 </p>
 
-
-                <p class="text-xl mt-4"
-                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    Together with the client,
-                    we create the initial wireframes.
-                    Using the best prototyping tools,
-                    the User Interface (UI) is created
-                    and ready to be developed
-                </p>
             </div>
         </div>
 
@@ -133,7 +197,7 @@
 
 
         <!--        3. DEVELOPMENT  -->
-        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
                 <img :src="development" class="  "
                      alt="">
@@ -169,7 +233,7 @@
 
 
         <!--        4. TESTING  -->
-        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
                 <img :src="testing" class=" "
                      alt="">
@@ -202,7 +266,7 @@
 
 
         <!--        5. LAUNCH-->
-        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
                 <img :src="launch" class=""
                      alt="">
@@ -237,7 +301,7 @@
         <hr class="mx-32">
 
         <!--        6. MAINTENANCE  -->
-            <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 lg:my-32 md:flex justify-between items-center">
 
             <div class="flex justify-center md:hidden">
                 <img :src="maintenance" class=""
@@ -270,6 +334,8 @@
 
     </div>
 
+    <ContactComponent></ContactComponent>
+
     <BlogComponent></BlogComponent>
 
     <Footer></Footer>
@@ -280,7 +346,8 @@ import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import BlogComponent from "@/Components/BlogComponent";
 import {InertiaLink} from "@inertiajs/inertia-vue3";
-
+import LatestPartners from "@/Components/LatestPartners";
+import ContactComponent from "@/Components/ContactComponent";
 
 import banner from "/img/banner.webp";
 import banner_mobile from "/img/mobile/banner-mobile.webp";
@@ -293,6 +360,13 @@ import testing from "/img/services/testing.png";
 import launch from "/img/services/launch.png";
 import maintenance from "/img/services/maintenance.png";
 
+import fintech from "/img/services/fintech.png";
+import medtech from "/img/services/medtech.png";
+import edtech from "/img/services/edtech.png";
+import iot_dev from "/img/services/iot.png";
+import ecommerce from "/img/services/ecommerce.png";
+import agritech from "/img/services/agritech.png";
+
 export default {
     name: "WebDev",
     components: {
@@ -300,6 +374,8 @@ export default {
         Footer,
         BlogComponent,
         InertiaLink,
+        LatestPartners,
+        ContactComponent,
     },
     data() {
         return {
@@ -307,12 +383,20 @@ export default {
             logo_bg_mobile: logo_bg_mobile,
             banner: banner,
             banner_mobile: banner_mobile,
+
             planning: planning,
             design: design,
             development: development,
             testing: testing,
             launch: launch,
             maintenance: maintenance,
+
+            fintech: fintech,
+            ecommerce: ecommerce,
+            medtech: medtech,
+            agritech: agritech,
+            edtech: edtech,
+            iot_dev: iot_dev,
         }
     }
 }
