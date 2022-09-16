@@ -25042,6 +25042,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_mobile_banner_mobile_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../img/mobile/banner-mobile.webp */ "./public/img/mobile/banner-mobile.webp");
 /* harmony import */ var _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../img/logo/logo_banner.png */ "./public/img/logo/logo_banner.png");
 /* harmony import */ var _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../img/logo/logo_banner_mobile.png */ "./public/img/logo/logo_banner_mobile.png");
+/* harmony import */ var _img_services_planning_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/services/planning.png */ "./public/img/services/planning.png");
+/* harmony import */ var _img_services_design_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../img/services/design.png */ "./public/img/services/design.png");
+/* harmony import */ var _img_services_development_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../img/services/development.png */ "./public/img/services/development.png");
+/* harmony import */ var _img_services_testing_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../img/services/testing.png */ "./public/img/services/testing.png");
+/* harmony import */ var _img_services_launch_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../img/services/launch.png */ "./public/img/services/launch.png");
+/* harmony import */ var _img_services_maintenance_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/services/maintenance.png */ "./public/img/services/maintenance.png");
+
+
+
+
+
+
 
 
 
@@ -25063,7 +25075,13 @@ __webpack_require__.r(__webpack_exports__);
       logo_bg: _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_6__["default"],
       logo_bg_mobile: _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_7__["default"],
       banner: _img_banner_webp__WEBPACK_IMPORTED_MODULE_4__["default"],
-      banner_mobile: _img_mobile_banner_mobile_webp__WEBPACK_IMPORTED_MODULE_5__["default"]
+      banner_mobile: _img_mobile_banner_mobile_webp__WEBPACK_IMPORTED_MODULE_5__["default"],
+      planning: _img_services_planning_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+      design: _img_services_design_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+      development: _img_services_development_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+      testing: _img_services_testing_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+      launch: _img_services_launch_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+      maintenance: _img_services_maintenance_png__WEBPACK_IMPORTED_MODULE_13__["default"]
     };
   }
 });
@@ -30389,39 +30407,246 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "md:mx-10 mt-80 md:mt-32 2xl:mt-48 flex justify-center"
+  "class": "mt-80 md:mt-32 2xl:mt-48 flex justify-center"
 };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = ["src"];
 var _hoisted_4 = {
-  "class": "mx-10 -mt-80 flex justify-center items-center text-3xl md:text-5xl"
+  "class": "mx-10 -mt-48 md:-mt-64 xl:-mt-80 flex justify-center items-center text-3xl md:text-5xl"
 };
 var _hoisted_5 = {
-  "class": "-mt-56 lg:-mt-80 flex flex-col items-center"
+  "class": "-mt-80 lg:-mt-80 flex flex-col items-center"
 };
 var _hoisted_6 = ["src"];
 var _hoisted_7 = {
-  "class": "flex items-center justify-between md:mx-48"
+  "class": "flex items-center justify-between xl:mx-32"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider\"><span class=\"text-red-500\"> Web </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mr-16 mt-8\"> Trust your product to a team with 11+ years experience building 360+ projects worldwide. </div><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+
+var _hoisted_9 = ["src"];
+var _hoisted_10 = {
+  "class": "mx-10"
+};
+var _hoisted_11 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_12 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_13 = ["src"];
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "700"
-  },
-  "class": "tracking-wider"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-red-500"
-}, " Web "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Services ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "md:w-1/2 my-4 bg-red-500 rounded-full",
-  style: {
-    "height": "6px"
   }
-})], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 1. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Planning ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Understand the project's requirement, analyze de current market and provide the development stages. ")], -1
 /* HOISTED */
 );
 
-var _hoisted_9 = ["src"];
+var _hoisted_15 = ["src"];
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "md:mx-32"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_18 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_19 = ["src"];
+var _hoisted_20 = ["src"];
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 2. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Design ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Together with the client, we create the initial wireframes. Using the best prototyping tools, the User Interface (UI) is created and ready to be developed "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Together with the client, we create the initial wireframes. Using the best prototyping tools, the User Interface (UI) is created and ready to be developed ")], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "md:mx-32"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_23 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_24 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_25 = ["src"];
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 3. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Implement the design with the required functionality, resulting a flawless User Experience (UX). ")], -1
+/* HOISTED */
+);
+
+var _hoisted_27 = ["src"];
+
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "md:mx-32"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_29 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_30 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_31 = ["src"];
+var _hoisted_32 = ["src"];
+
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 4. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Testing ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " With the help of different technologies and tools, we assure that are no bugs left in the functionality, while the design meets the pixel perfect requirements. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "md:mx-32"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_35 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_36 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_37 = ["src"];
+
+var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 5. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Launch ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Everything is provided in order to launch a great product, ready to bring value to your business. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_39 = ["src"];
+
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-32"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_41 = {
+  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+};
+var _hoisted_42 = {
+  "class": "flex justify-center md:hidden"
+};
+var _hoisted_43 = ["src"];
+var _hoisted_44 = ["src"];
+
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center md:text-left text-4xl md:text-5xl",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "700"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " 6. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Maintenance ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl mt-4",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " With the help of different technologies and tools, we assure that are no bugs left in the functionality, while the design meets the pixel perfect requirements. ")], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
 
@@ -30459,11 +30684,83 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.banner,
-    "class": "hidden md:block w-full md:w-1/3 4xl:w-1/2",
+    "class": "hidden md:block w-full md:w-1/2",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_9)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  , _hoisted_9)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        1. PLANNING"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.planning,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_13)]), _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.planning,
+    "class": "hidden md:block w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_15)]), _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        2. DESIGN "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.design,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_19)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.design,
+    "class": "hidden md:block w-2/3 md:w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_20), _hoisted_21]), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        3. DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.development,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_25)]), _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.development,
+    "class": "hidden md:block w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_27)]), _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        4. TESTING  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.testing,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_31)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.testing,
+    "class": "hidden md:block w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_32), _hoisted_33]), _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        5. LAUNCH"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.launch,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_37)]), _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.launch,
+    "class": "hidden md:block w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_39)]), _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.maintenance,
+    "class": "w-2/3",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_43)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.maintenance,
+    "class": "hidden md:block w-1/2",
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , _hoisted_44), _hoisted_45])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -31664,6 +31961,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/img/services/design.png":
+/*!****************************************!*\
+  !*** ./public/img/services/design.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/design.png?02e17b445d9fcfd104a08388b87dedd9");
+
+/***/ }),
+
+/***/ "./public/img/services/development.png":
+/*!*********************************************!*\
+  !*** ./public/img/services/development.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/development.png?cb57818d62245c7bc29d462196a0eabc");
+
+/***/ }),
+
 /***/ "./public/img/services/digital-marketing.svg":
 /*!***************************************************!*\
   !*** ./public/img/services/digital-marketing.svg ***!
@@ -31889,6 +32216,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/img/services/launch.png":
+/*!****************************************!*\
+  !*** ./public/img/services/launch.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/launch.png?3b83b2e4da4b7356a62a92edbf554230");
+
+/***/ }),
+
+/***/ "./public/img/services/maintenance.png":
+/*!*********************************************!*\
+  !*** ./public/img/services/maintenance.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/maintenance.png?2f3bc17063e44f5f542121c3fc847167");
+
+/***/ }),
+
 /***/ "./public/img/services/medtech.png":
 /*!*****************************************!*\
   !*** ./public/img/services/medtech.png ***!
@@ -31901,6 +32258,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/medtech.png?a1895c60cf45182b2590f3eab0bdb764");
+
+/***/ }),
+
+/***/ "./public/img/services/planning.png":
+/*!******************************************!*\
+  !*** ./public/img/services/planning.png ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/planning.png?40bec796a71bfff6a76130f90f727332");
 
 /***/ }),
 
@@ -31976,6 +32348,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/tailwind.png?36b2728bf0d14b7b75766fbbe64d15a1");
+
+/***/ }),
+
+/***/ "./public/img/services/testing.png":
+/*!*****************************************!*\
+  !*** ./public/img/services/testing.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/testing.png?93fc9c782da1160bb5de09b27b7aabaf");
 
 /***/ }),
 
