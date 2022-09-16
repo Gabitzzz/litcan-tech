@@ -15,7 +15,7 @@
             <div class="flex items-center justify-between xl:mx-32">
                 <div>
                     <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                        class="tracking-wider ">
+                        class="tracking-wider text-center md:text-left">
                     <span class="text-red-500">
                     Web
                     </span>
@@ -53,9 +53,9 @@
 
     <div class="mx-10">
         <!--        1. PLANNING-->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
-                <img :src="planning" class=" w-2/3 "
+                <img :src="planning" class=""
                      alt="">
             </div>
 
@@ -71,7 +71,7 @@
                     Planning
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Understand the project's requirement,
                     analyze de current market and provide
@@ -88,9 +88,9 @@
 
 
         <!--        2. DESIGN -->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
-                <img :src="design" class=" w-2/3 "
+                <img :src="design" class=" "
                      alt="">
             </div>
 
@@ -108,7 +108,7 @@
                     Design
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Together with the client,
                     we create the initial wireframes.
@@ -133,9 +133,9 @@
 
 
         <!--        3. DEVELOPMENT  -->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
-                <img :src="development" class=" w-2/3 "
+                <img :src="development" class="  "
                      alt="">
             </div>
 
@@ -150,7 +150,7 @@
                     Development
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
 
@@ -168,11 +168,10 @@
         <hr class="md:mx-32">
 
 
-
         <!--        4. TESTING  -->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
-                <img :src="testing" class=" w-2/3 "
+                <img :src="testing" class=" "
                      alt="">
             </div>
 
@@ -190,7 +189,7 @@
                     Testing
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     With the help of different technologies and tools,
                     we assure that are no bugs left in the functionality,
@@ -202,12 +201,10 @@
         <hr class="md:mx-32">
 
 
-
-
         <!--        5. LAUNCH-->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+        <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
             <div class="flex justify-center md:hidden">
-                <img :src="launch" class=" w-2/3 "
+                <img :src="launch" class=""
                      alt="">
             </div>
 
@@ -222,7 +219,7 @@
                     Launch
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                     Everything is provided in order to launch
@@ -236,12 +233,14 @@
 
         </div>
 
+
         <hr class="mx-32">
 
         <!--        6. MAINTENANCE  -->
-        <div class="lg:mx-32 my-32 md:flex justify-between items-center">
+            <div class="lg:mx-32 my-16 md:my-32 md:flex justify-between items-center">
+
             <div class="flex justify-center md:hidden">
-                <img :src="maintenance" class=" w-2/3 "
+                <img :src="maintenance" class=""
                      alt="">
             </div>
 
@@ -259,7 +258,7 @@
                     Maintenance
                 </p>
 
-                <p class="text-xl mt-4"
+                <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     With the help of different technologies and tools,
                     we assure that are no bugs left in the functionality,

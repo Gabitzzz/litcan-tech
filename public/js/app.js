@@ -30422,14 +30422,14 @@ var _hoisted_7 = {
   "class": "flex items-center justify-between xl:mx-32"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider\"><span class=\"text-red-500\"> Web </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mr-16 mt-8\"> Trust your product to a team with 11+ years experience building 360+ projects worldwide. </div><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider text-center md:text-left\"><span class=\"text-red-500\"> Web </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mr-16 mt-8\"> Trust your product to a team with 11+ years experience building 360+ projects worldwide. </div><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 var _hoisted_9 = ["src"];
 var _hoisted_10 = {
   "class": "mx-10"
 };
 var _hoisted_11 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_12 = {
   "class": "flex justify-center md:hidden"
@@ -30448,7 +30448,7 @@ var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 1. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Planning ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30466,7 +30466,7 @@ var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_17 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_18 = {
   "class": "flex justify-center md:hidden"
@@ -30486,7 +30486,7 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 2. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Design ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30508,7 +30508,7 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_23 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_24 = {
   "class": "flex justify-center md:hidden"
@@ -30527,7 +30527,7 @@ var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 3. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30545,7 +30545,7 @@ var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_29 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_30 = {
   "class": "flex justify-center md:hidden"
@@ -30565,7 +30565,7 @@ var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 4. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Testing ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30581,7 +30581,7 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_35 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_36 = {
   "class": "flex justify-center md:hidden"
@@ -30600,7 +30600,7 @@ var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 5. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Launch ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30618,7 +30618,7 @@ var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_41 = {
-  "class": "lg:mx-32 my-32 md:flex justify-between items-center"
+  "class": "lg:mx-32 my-16 md:my-32 md:flex justify-between items-center"
 };
 var _hoisted_42 = {
   "class": "flex justify-center md:hidden"
@@ -30638,7 +30638,7 @@ var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
     "font-weight": "300"
   }
 }, " 6. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Maintenance ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-xl mt-4",
+  "class": "text-md md:text-xl mt-4",
   style: {
     "font-family": "'Poppins', sans-serif",
     "font-weight": "300"
@@ -30690,7 +30690,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_9)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        1. PLANNING"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.planning,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -30702,7 +30702,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_15)]), _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        2. DESIGN "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.design,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -30714,7 +30714,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_20), _hoisted_21]), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        3. DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.development,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -30726,7 +30726,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_27)]), _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        4. TESTING  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.testing,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -30738,7 +30738,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_32), _hoisted_33]), _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        5. LAUNCH"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.launch,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
@@ -30750,7 +30750,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , _hoisted_39)]), _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.maintenance,
-    "class": "w-2/3",
+    "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
