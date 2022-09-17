@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 py-24 sm:py-10 my-24">
+    <div class="bg-gray-100 py-24 sm:pt-16 my-24">
         <h2 class="text-4xl font-bold text-center" style="font-family: Poppins,serif;">
             Our latest
             <span class="text-red-600">Partners</span>
@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="justify-center mt-8 md:mt-16">
+        <div class="justify-center mt-8">
             <div
                 id="scrollContainer2"
                 class="flex md:justify-center flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
