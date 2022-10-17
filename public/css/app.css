@@ -6341,6 +6341,10 @@ body[dir="rtl"] .checkbox:checked,
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .fill-current {
   fill: currentColor;
 }
@@ -6524,6 +6528,9 @@ body[dir="rtl"] .checkbox:checked,
 }
 .font-bold {
   font-weight: 700;
+}
+.font-black {
+  font-weight: 900;
 }
 .uppercase {
   text-transform: uppercase;
@@ -6733,7 +6740,7 @@ body[dir="rtl"] .checkbox:checked,
   display: none;
 }
 
-html{
+*{
     background-color: white;
 }
 
