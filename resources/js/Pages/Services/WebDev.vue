@@ -737,7 +737,7 @@
 
 
         <!--        6. MAINTENANCE  -->
-        <div class="lg:mx-32 my-16 md:flex justify-between items-center">
+        <div class="lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center">
 
             <div class="flex justify-center md:hidden">
                 <img :src="maintenance" class=""
