@@ -9,12 +9,16 @@ module.exports = {
         './src/**/*.{html,js}',
         './node_modules/tw-elements/dist/js/**/*.js',
     ],
+    daisyui: {
+        themes: false,
+    },
 
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+
         },
     },
 
