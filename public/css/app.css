@@ -6733,6 +6733,10 @@ body[dir="rtl"] .checkbox:checked,
   display: none;
 }
 
+html{
+    background-color: white;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -7543,5 +7547,4 @@ body[dir="rtl"] .checkbox:checked,
     padding-right: 20rem;
   }
 }
-
 
