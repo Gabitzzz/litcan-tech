@@ -12,13 +12,12 @@
                 <div class="text-sm uppercase text-red-600 font-bold">Resources</div>
                 <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a>
                 <a class="my-3 block" href="/blog">Blog <span class="text-teal-600 text-xs p-1"></span></a>
-
                 <a class="my-3 block" href="/portfolio">Portfolio <span class="text-teal-600 text-xs p-1"></span></a>
             </div>
 
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Services</div>
-                <a class="my-3 block" href="/#">Web Development
+                <a class="my-3 block" href="/services/web-development">Web Development
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 

@@ -30,7 +30,6 @@
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;"
                         class="text-xl md:mr-16 mt-8">
                         Develop your product with the latest available technologies and a custom minimalistic interface.
-                        <!--                        Trust your product to a team with 11+ years experience building 360+ projects worldwide.-->
                     </div>
 
                     <div class="flex justify-center md:justify-start  mt-16 md:mt-10">
@@ -80,6 +79,11 @@
                     Planning
                 </p>
 
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
+
                 <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Understand the project's requirements <br>
@@ -95,7 +99,7 @@
 
     </div>
 
-            <hr class="mx-12 md:mx-32 2xl:mx-72">
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
 
 
     <!--        TECH STACK      -->
@@ -109,13 +113,13 @@
                 </h1>
             </div>
 
-            <p class="text-center text-lg mt-4 lg:mx-48 "
+            <p class="text-center text-xl md:text-2xl mt-4 lg:mx-48 "
                style="font-family: 'Poppins', sans-serif; font-weight: 300;"
             >
-                Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day development.
+                Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day
+                development.
             </p>
         </div>
-
 
 
         <div>
@@ -328,7 +332,6 @@
     <hr class="mx-12 md:mx-32 2xl:mx-72">
 
 
-
     <!--        <hr class="md:mx-32">-->
 
 
@@ -354,6 +357,11 @@
                     Design
                 </p>
 
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
+
                 <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Design requirements <br>
@@ -376,8 +384,6 @@
     </div>
     <!--    <hr class="md:mx-32">-->
 
-    <LatestPartners></LatestPartners>
-
 
     <div class="mx-6">
         <!--        3. DEVELOPMENT  -->
@@ -397,6 +403,11 @@
                 </span>
                     Development
                 </p>
+
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
 
                 <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
@@ -444,7 +455,7 @@
             </p>
         </div>
 
-        <div class="hidden mt-8 md:mx-64 md:flex justify-between">
+        <div class="hidden mt-8 md:mx-16 xl:mx-64 md:flex justify-between">
             <div>
                 <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
                     <img :src="fintech" alt="" class="p-6">
@@ -623,11 +634,23 @@
                     Testing
                 </p>
 
-                <p class="text-md md:text-xl mt-4"
+
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
+
+                <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
-                    performance testing tools
+                    Performance Testing Tools <br>
+                    Debugging <br>
 
+                    <span class="text-md md:text-xl "></span>
+                </p>
+
+                <p class=" text-md lg:text-xl mt-4"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     With the help of different technologies and tools,
                     we assure that are no bugs left in the functionality,
                     while the design meets the pixel perfect requirements.
@@ -638,13 +661,15 @@
         <!--        <hr class="md:mx-32">-->
         <hr class="mx-12 md:mx-32 2xl:mx-72">
 
-        <!--        AUDIT       -->
-        <div class="my-16 md:flex items-center mx-6  2xl:mx-72">
-            <div class=" md:flex items-center">
+        <!--        AUDIT    -->
+        <div class="my-8 md:my-32  mx-6 xl:mx-32  2xl:mx-72">
+            <div class=" md:flex justify-between items-center">
+
                 <img :src="audit_mobile"
                      alt="Website Audit"
                      title="Website Audit"
-                     class=" sm:hidden w-full lg:w-2/3">
+                     class="w-full lg:w-2/3 2xl:w-1/3 md:pr-16">
+
                 <div>
                     <div class="">
                         <p style="font-family: 'Poppins', sans-serif;"
@@ -656,7 +681,7 @@
                         </p>
 
                         <div class="flex sm:block justify-center">
-                            <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                            <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
                             </div>
                         </div>
                     </div>
@@ -682,13 +707,6 @@
                         </a>
                     </div>
                 </div>
-
-
-                <img :src="audit_mobile"
-                     alt="Website Audit"
-                     title="Website Audit"
-                     class="hidden sm:block w-full lg:w-2/3">
-
             </div>
         </div>
 
@@ -712,6 +730,12 @@
                     Launch
                 </p>
 
+
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
+
                 <p class="text-xl md:text-2xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Performance Reports <br>
@@ -733,8 +757,10 @@
 
         </div>
 
-        <hr class="mx-12 md:mx-32 2xl:mx-72">
+<!--        <hr class="mx-12 md:mx-32 2xl:mx-72">-->
 
+        <!--        LATEST PARTNERS     -->
+        <LatestPartners></LatestPartners>
 
         <!--        6. MAINTENANCE  -->
         <div class="lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center">
@@ -757,6 +783,11 @@
                 </span>
                     Maintenance
                 </p>
+
+                <div class="flex sm:block justify-center">
+                    <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
+                    </div>
+                </div>
 
                 <p class="text-md md:text-xl mt-4"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">

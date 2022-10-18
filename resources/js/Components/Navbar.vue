@@ -17,33 +17,28 @@
                      style="font-family: 'Nunito', sans-serif; font-weight: 300;">
 
 
-                    <a href="/" class=" px-6 text-sm rounded-full underline-opening"
+                    <a href="/" class=" px-4 text-sm rounded-full underline-opening"
                     >
                         HOME
                     </a>
 
-                    <a href="/services" class="px-6 text-sm rounded-full underline-opening">
+                    <a href="/services" class="px-4 text-sm rounded-full underline-opening">
                         SERVICES
                     </a>
 
-                    <a href="/portfolio" class="px-6 text-sm rounded-full underline-opening">
+                    <a href="/portfolio" class="px-4 text-sm rounded-full underline-opening">
                         PORTFOLIO
                     </a>
 
-                    <a href="/blog" class="px-6 text-sm rounded-full underline-opening">
-                        BLOG
-                    </a>
-
-<!--                    <a href="/contact"-->
-<!--                       class="ml-4 px-6 border border-red-500 rounded full py-1 text-sm rounded-full "-->
-<!--                    >-->
-<!--                        CONTACT-->
+<!--                    <a href="/blog" class="px-6 text-sm rounded-full underline-opening">-->
+<!--                        BLOG-->
 <!--                    </a>-->
+
 
 
                 </div>
 
-                <div
+                <div class="flex items-center"
                     style="font-family: 'Nunito', sans-serif; font-weight: 300;">
                     <a href="/contact"
                        class="ml-4 px-6 rounded-full py-1 text-sm
@@ -51,7 +46,21 @@
                                 hover:bg-red-500 ease-in duration-150">
                         CONTACT US
                     </a>
+
+                    <div class="ml-2">
+                        <a href="https://www.facebook.com/litcan.tech">
+                            <img :src="facebook_round" alt="" class="w-8">
+                        </a>
+                    </div>
+
+                    <div class="ml-2">
+                        <a href="https://www.linkedin.com/company/li%C8%9Bcan-technologies">
+                            <img :src="linkedin_round" alt="" class="w-8">
+                        </a>
+                    </div>
                 </div>
+
+
             </div>
 
             <div class="flex-none">
@@ -114,6 +123,8 @@ import {InertiaLink} from "@inertiajs/inertia-vue3";
 import {Link} from "@inertiajs/inertia-vue3";
 import logo from "/img/logo/logo_250.png";
 import logo_text from "/img/logo/logo_text.png";
+import facebook_round from "/img/desktop/facebook_round.png";
+import linkedin_round from "/img/desktop/linkedin_round.png";
 
 export default {
     name: "Navbar",
@@ -121,6 +132,9 @@ export default {
         return {
             logo: logo,
             logo_text: logo_text,
+            facebook_round: facebook_round,
+            linkedin_round: linkedin_round,
+
         }
     },
     components: {

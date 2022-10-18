@@ -158,7 +158,7 @@ Product Design
             </div>
         </div>
 
-        <!--WEB DEV -->
+        <!--    WEB DEV -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
@@ -218,12 +218,13 @@ Product Design
         </div>
 
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32 md:flex items-center mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
-            <div class=" md:flex items-center">
+        <div class="my-8 md:my-32  mx-6 xl:mx-32  2xl:mx-72">
+            <div class=" md:flex justify-between items-center">
+
                 <img :src="audit_mobile"
                      alt="Website Audit"
                      title="Website Audit"
-                     class="w-full lg:w-2/3 md:pr-16">
+                     class="w-full lg:w-2/3 2xl:w-1/3 md:pr-16">
 
                 <div>
                     <div class="">
@@ -272,7 +273,7 @@ Product Design
         </div>
 
         <!--        APP DEV -->
-        <div class="md:flex items-center mx-6 my-32 lg:ml-32 2xl:mx-72">
+        <div class="md:flex items-center mx-6 my-32 xl:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <div class="">
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden"
@@ -330,7 +331,7 @@ Product Design
         </div>
 
         <!--       DIGITAL MARKETING    -->
-        <div class="items-center my-32 mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="items-center my-32 mx-6 xl:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <img :src="digital_marketing"
                      alt="Digital Marketing"
@@ -443,7 +444,7 @@ Product Design
         </div>
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="my-32 md:flex items-center justify-between mx-6 lg:ml-8 lg:mr-24 2xl:mx-72">
+        <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-32 2xl:mx-72">
             <img :src="product_design_2"
                  alt="Custom Development"
                  title="Custom Development"
