@@ -662,7 +662,7 @@
         <hr class="mx-12 md:mx-32 2xl:mx-72">
 
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32  mx-6 xl:mx-32  2xl:mx-72">
+        <div class="my-8 md:my-32   xl:mx-32  2xl:mx-72">
             <div class=" md:flex justify-between items-center">
 
                 <img :src="audit_mobile"
@@ -727,7 +727,7 @@
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Stage 5. <br>
                 </span>
-                    Launch
+                    Launching
                 </p>
 
 

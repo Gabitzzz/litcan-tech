@@ -246,9 +246,9 @@
 
             <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
-                Experience and deliver
-                fast performance.
+                Open-source software development kit which enables smooth and easy cross-platform mobile app
+                development. You can build high quality natively compiled apps for iOS and Android quickly, without
+                having to write the code for the two apps separately. All you need is one codebase for both platforms.
             </p>
 
             <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
@@ -301,41 +301,44 @@
             </div>
 
 
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-               class=" text-xl xl:text-2xl mt-6">
-                NO NEED FOR DOWNLOAD
-            </p>
+           <div class="lg:pr-40">
+               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                  class=" text-xl xl:text-2xl mt-6">
+                   BROWSER COMPATIBILITY
+               </p>
 
-            <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
-                Experience and deliver
-                fast performance.
-            </p>
+               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                   A web application runs on the device’s
+                   browser using an accessible URL. Modern web applications are compatible with all browsers, such as
+                   Google Chrome, Internet Explorer, Firefox, and Bing. Hence, software compatibility challenges are never
+                   roadblocks.
+               </p>
 
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-               class=" text-xl xl:text-2xl mt-6">
-                APP BEHAVIOUR ON WEB
-            </p>
+               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                  class=" text-xl xl:text-2xl mt-6">
+                   REDUCED OPERATING COSTS
+               </p>
 
-            <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
-                Experience and deliver
-                fast performance.
-            </p>
+               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                   Web application development is a great way to cut down operating costs. It drives to eliminate
+                   unnecessary expenses such as hardware purchases, frequent device updates, and maintenance of numerous
+                   systems.
+               </p>
 
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-               class=" text-xl xl:text-2xl mt-6">
-                BEST USED FOR
-            </p>
+               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                  class=" text-xl xl:text-2xl mt-6">
+                   BEST USED FOR
+               </p>
 
-            <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                Based on this 3 essential layers, we build websites that focus on <br class="hidden 2xl:block">User
-                Experience and deliver
-                fast performance.
-            </p>
+               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                   Web application development is faster and more economical than building native apps. Therefore, if the
+                   primary goal is to accelerate time-to-market, web application development is the best choice for
+                   businesses.
+               </p>
+           </div>
 
         </div>
 

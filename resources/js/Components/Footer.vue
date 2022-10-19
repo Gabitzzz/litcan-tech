@@ -21,11 +21,11 @@
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="/#">App Developnent
+                <a class="my-3 block" href="/services/app-development">App Developnent
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="/#">Product Design
+                <a class="my-3 block" href="/services/product-design">Product Design
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
             </div>
@@ -55,7 +55,7 @@
         <hr class=" mx-10 lg:mx-48">
 
 
-        <div class="md:flex justify-between mx-8 md:mx-64 mt-8 text-sm">
+        <div class="md:flex justify-between mx-8 xl:mx-64 mt-8 text-sm">
             <p>
                 Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved.
             </p>

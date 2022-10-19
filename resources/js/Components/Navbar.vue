@@ -98,10 +98,10 @@
                                     PORTFOLIO
                                 </a>
 
-                                <a href="/blog"
-                                   class="px-6 py-2 text-sm rounded-full underline-opening">
-                                    BLOG
-                                </a>
+<!--                                <a href="/blog"-->
+<!--                                   class="px-6 py-2 text-sm rounded-full underline-opening">-->
+<!--                                    BLOG-->
+<!--                                </a>-->
 
                                 <a href="/contact"
                                    class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
