@@ -32,7 +32,7 @@
                         Develop your product with the latest available technologies and a custom minimalistic interface.
                     </div>
 
-                    <div class="flex justify-center md:justify-start  mt-16 md:mt-10">
+                    <div class="flex justify-center md:justify-start mt-10">
                         <a href="/contact"
                            class="z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
                                   md:text-md

@@ -5954,6 +5954,9 @@ body[dir="rtl"] .checkbox:checked,
 .mb-24 {
   margin-bottom: 6rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .block {
   display: block;
 }
