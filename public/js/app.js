@@ -24449,24 +24449,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/logo/logo_banner_mobile.png */ "./public/img/logo/logo_banner_mobile.png");
 /* harmony import */ var _img_banner_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../img/banner.webp */ "./public/img/banner.webp");
 /* harmony import */ var _img_mobile_banner_mobile_webp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../img/mobile/banner-mobile.webp */ "./public/img/mobile/banner-mobile.webp");
-/* harmony import */ var _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../img/services/app-dev-services.png */ "./public/img/services/app-dev-services.png");
-/* harmony import */ var _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../img/services/web-dev-services.png */ "./public/img/services/web-dev-services.png");
-/* harmony import */ var _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/services/product-design-services.png */ "./public/img/services/product-design-services.png");
-/* harmony import */ var _img_web_dev_webp__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../../img/web-dev.webp */ "./public/img/web-dev.webp");
-/* harmony import */ var _img_mobile_web_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../img/mobile/web-dev-mobile.webp */ "./public/img/mobile/web-dev-mobile.webp");
-/* harmony import */ var _img_app_dev_webp__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/app-dev.webp */ "./public/img/app-dev.webp");
-/* harmony import */ var _img_mobile_app_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../../img/mobile/app-dev-mobile.webp */ "./public/img/mobile/app-dev-mobile.webp");
-/* harmony import */ var _img_product_design_webp__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/product-design.webp */ "./public/img/product-design.webp");
-/* harmony import */ var _img_mobile_product_design_mobile_webp__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/mobile/product-design-mobile.webp */ "./public/img/mobile/product-design-mobile.webp");
-/* harmony import */ var _img_desktop_product_design_2_webp__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/desktop/product-design-2.webp */ "./public/img/desktop/product-design-2.webp");
-/* harmony import */ var _img_services_digital_marketing_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/services/digital-marketing.svg */ "./public/img/services/digital-marketing.svg");
-/* harmony import */ var _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/mobile/audit-mobile.webp */ "./public/img/mobile/audit-mobile.webp");
-/* harmony import */ var _img_mobile_app_icon_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/mobile/app-icon.png */ "./public/img/mobile/app-icon.png");
-/* harmony import */ var _img_mobile_web_icon_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/mobile/web-icon.png */ "./public/img/mobile/web-icon.png");
-/* harmony import */ var _img_mobile_product_icon_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../../img/mobile/product-icon.png */ "./public/img/mobile/product-icon.png");
-/* harmony import */ var _img_desktop_3steps_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../../img/desktop/3steps.png */ "./public/img/desktop/3steps.png");
-/* harmony import */ var tw_elements__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! tw-elements */ "./node_modules/tw-elements/dist/js/index.min.js");
-/* harmony import */ var tw_elements__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(tw_elements__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
+/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
+/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
+/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
+/* harmony import */ var _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../img/services/app-dev-services.png */ "./public/img/services/app-dev-services.png");
+/* harmony import */ var _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/services/web-dev-services.png */ "./public/img/services/web-dev-services.png");
+/* harmony import */ var _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../../img/services/product-design-services.png */ "./public/img/services/product-design-services.png");
+/* harmony import */ var _img_web_dev_webp__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/web-dev.webp */ "./public/img/web-dev.webp");
+/* harmony import */ var _img_mobile_web_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/mobile/web-dev-mobile.webp */ "./public/img/mobile/web-dev-mobile.webp");
+/* harmony import */ var _img_app_dev_webp__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/app-dev.webp */ "./public/img/app-dev.webp");
+/* harmony import */ var _img_mobile_app_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/mobile/app-dev-mobile.webp */ "./public/img/mobile/app-dev-mobile.webp");
+/* harmony import */ var _img_product_design_webp__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/product-design.webp */ "./public/img/product-design.webp");
+/* harmony import */ var _img_mobile_product_design_mobile_webp__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/mobile/product-design-mobile.webp */ "./public/img/mobile/product-design-mobile.webp");
+/* harmony import */ var _img_desktop_product_design_2_webp__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/desktop/product-design-2.webp */ "./public/img/desktop/product-design-2.webp");
+/* harmony import */ var _img_services_digital_marketing_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../../img/services/digital-marketing.svg */ "./public/img/services/digital-marketing.svg");
+/* harmony import */ var _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../../img/mobile/audit-mobile.webp */ "./public/img/mobile/audit-mobile.webp");
+/* harmony import */ var _img_mobile_app_icon_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../../img/mobile/app-icon.png */ "./public/img/mobile/app-icon.png");
+/* harmony import */ var _img_mobile_web_icon_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../../img/mobile/web-icon.png */ "./public/img/mobile/web-icon.png");
+/* harmony import */ var _img_mobile_product_icon_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../../../img/mobile/product-icon.png */ "./public/img/mobile/product-icon.png");
+/* harmony import */ var _img_desktop_3steps_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../../../img/desktop/3steps.png */ "./public/img/desktop/3steps.png");
+/* harmony import */ var tw_elements__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! tw-elements */ "./node_modules/tw-elements/dist/js/index.min.js");
+/* harmony import */ var tw_elements__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(tw_elements__WEBPACK_IMPORTED_MODULE_31__);
+
+
+
+
 
 
 
@@ -24513,23 +24521,27 @@ __webpack_require__.r(__webpack_exports__);
       logo_bg: _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_7__["default"],
       banner: _img_banner_webp__WEBPACK_IMPORTED_MODULE_9__["default"],
       banner_mobile: _img_mobile_banner_mobile_webp__WEBPACK_IMPORTED_MODULE_10__["default"],
-      web_dev: _img_web_dev_webp__WEBPACK_IMPORTED_MODULE_14__["default"],
-      web_dev_mobile: _img_mobile_web_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_15__["default"],
-      audit_mobile: _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_22__["default"],
-      app_dev: _img_app_dev_webp__WEBPACK_IMPORTED_MODULE_16__["default"],
-      app_dev_mobile: _img_mobile_app_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_17__["default"],
-      product_design: _img_product_design_webp__WEBPACK_IMPORTED_MODULE_18__["default"],
-      product_design_2: _img_desktop_product_design_2_webp__WEBPACK_IMPORTED_MODULE_20__["default"],
-      product_design_mobile: _img_mobile_product_design_mobile_webp__WEBPACK_IMPORTED_MODULE_19__["default"],
+      fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_13__["default"],
+      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_14__["default"],
+      web_dev: _img_web_dev_webp__WEBPACK_IMPORTED_MODULE_18__["default"],
+      web_dev_mobile: _img_mobile_web_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_19__["default"],
+      audit_mobile: _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_26__["default"],
+      app_dev: _img_app_dev_webp__WEBPACK_IMPORTED_MODULE_20__["default"],
+      app_dev_mobile: _img_mobile_app_dev_mobile_webp__WEBPACK_IMPORTED_MODULE_21__["default"],
+      product_design: _img_product_design_webp__WEBPACK_IMPORTED_MODULE_22__["default"],
+      product_design_2: _img_desktop_product_design_2_webp__WEBPACK_IMPORTED_MODULE_24__["default"],
+      product_design_mobile: _img_mobile_product_design_mobile_webp__WEBPACK_IMPORTED_MODULE_23__["default"],
       logo_bg_mobile: _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_8__["default"],
-      product_icon: _img_mobile_product_icon_png__WEBPACK_IMPORTED_MODULE_25__["default"],
-      app_icon: _img_mobile_app_icon_png__WEBPACK_IMPORTED_MODULE_23__["default"],
-      web_icon: _img_mobile_web_icon_png__WEBPACK_IMPORTED_MODULE_24__["default"],
-      app_dev_services: _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_11__["default"],
-      web_dev_services: _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_12__["default"],
-      product_design_services: _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_13__["default"],
-      steps: _img_desktop_3steps_png__WEBPACK_IMPORTED_MODULE_26__["default"],
-      digital_marketing: _img_services_digital_marketing_svg__WEBPACK_IMPORTED_MODULE_21__["default"]
+      product_icon: _img_mobile_product_icon_png__WEBPACK_IMPORTED_MODULE_29__["default"],
+      app_icon: _img_mobile_app_icon_png__WEBPACK_IMPORTED_MODULE_27__["default"],
+      web_icon: _img_mobile_web_icon_png__WEBPACK_IMPORTED_MODULE_28__["default"],
+      app_dev_services: _img_services_app_dev_services_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+      web_dev_services: _img_services_web_dev_services_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+      product_design_services: _img_services_product_design_services_png__WEBPACK_IMPORTED_MODULE_17__["default"],
+      steps: _img_desktop_3steps_png__WEBPACK_IMPORTED_MODULE_30__["default"],
+      digital_marketing: _img_services_digital_marketing_svg__WEBPACK_IMPORTED_MODULE_25__["default"]
     };
   },
   setup: function setup() {
@@ -24629,16 +24641,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_app_development_web_apps_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../img/app_development/web-apps.png */ "./public/img/app_development/web-apps.png");
 /* harmony import */ var _img_app_development_hybrid_apps_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../../img/app_development/hybrid-apps.png */ "./public/img/app_development/hybrid-apps.png");
 /* harmony import */ var _img_app_development_native_apps_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../img/app_development/native-apps.png */ "./public/img/app_development/native-apps.png");
-/* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
-/* harmony import */ var _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../../img/services/medtech.png */ "./public/img/services/medtech.png");
-/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
-/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
-/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
-/* harmony import */ var _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/services/agritech.png */ "./public/img/services/agritech.png");
-/* harmony import */ var _img_services_vue_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/services/vue.png */ "./public/img/services/vue.png");
-/* harmony import */ var _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/services/laravel.png */ "./public/img/services/laravel.png");
-/* harmony import */ var _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/services/tailwind.png */ "./public/img/services/tailwind.png");
-/* harmony import */ var _img_services_react_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../../img/services/react.svg */ "./public/img/services/react.svg");
+/* harmony import */ var _img_services_flutter_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/services/flutter.png */ "./public/img/services/flutter.png");
+/* harmony import */ var _img_services_inertia_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../../img/services/inertia.png */ "./public/img/services/inertia.png");
+/* harmony import */ var _img_services_firebase_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/services/firebase.svg */ "./public/img/services/firebase.svg");
+/* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
+/* harmony import */ var _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/services/medtech.png */ "./public/img/services/medtech.png");
+/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
+/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
+/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
+/* harmony import */ var _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/services/agritech.png */ "./public/img/services/agritech.png");
+/* harmony import */ var _img_services_vue_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../../img/services/vue.png */ "./public/img/services/vue.png");
+/* harmony import */ var _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../../img/services/laravel.png */ "./public/img/services/laravel.png");
+/* harmony import */ var _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../../img/services/tailwind.png */ "./public/img/services/tailwind.png");
+/* harmony import */ var _img_services_react_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../../img/services/react.svg */ "./public/img/services/react.svg");
+
+
+
 
 
 
@@ -24687,16 +24705,16 @@ __webpack_require__.r(__webpack_exports__);
       web_apps: _img_app_development_web_apps_png__WEBPACK_IMPORTED_MODULE_13__["default"],
       hybrid_apps: _img_app_development_hybrid_apps_png__WEBPACK_IMPORTED_MODULE_14__["default"],
       native_apps: _img_app_development_native_apps_png__WEBPACK_IMPORTED_MODULE_15__["default"],
-      fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_16__["default"],
-      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_20__["default"],
-      medtech: _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_17__["default"],
-      agritech: _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_21__["default"],
-      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_18__["default"],
-      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_19__["default"],
-      laravel: _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_23__["default"],
-      vue: _img_services_vue_png__WEBPACK_IMPORTED_MODULE_22__["default"],
-      tailwind: _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_24__["default"],
-      react: _img_services_react_svg__WEBPACK_IMPORTED_MODULE_25__["default"]
+      fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_19__["default"],
+      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_23__["default"],
+      medtech: _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_20__["default"],
+      agritech: _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_24__["default"],
+      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_21__["default"],
+      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_22__["default"],
+      flutter: _img_services_flutter_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+      firebase: _img_services_firebase_svg__WEBPACK_IMPORTED_MODULE_18__["default"],
+      inertia: _img_services_inertia_png__WEBPACK_IMPORTED_MODULE_17__["default"],
+      react: _img_services_react_svg__WEBPACK_IMPORTED_MODULE_28__["default"]
     };
   }
 });
@@ -25112,17 +25130,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_services_maintenance_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../img/services/maintenance.png */ "./public/img/services/maintenance.png");
 /* harmony import */ var _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../../img/mobile/audit-mobile.webp */ "./public/img/mobile/audit-mobile.webp");
 /* harmony import */ var _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../../img/services/fintech.png */ "./public/img/services/fintech.png");
-/* harmony import */ var _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/services/medtech.png */ "./public/img/services/medtech.png");
-/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
-/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
-/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
-/* harmony import */ var _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/services/agritech.png */ "./public/img/services/agritech.png");
-/* harmony import */ var _img_services_vue_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/services/vue.png */ "./public/img/services/vue.png");
-/* harmony import */ var _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/services/laravel.png */ "./public/img/services/laravel.png");
-/* harmony import */ var _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../../img/services/tailwind.png */ "./public/img/services/tailwind.png");
-/* harmony import */ var _img_services_react_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../../img/services/react.svg */ "./public/img/services/react.svg");
-
-
+/* harmony import */ var _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../../img/services/edtech.png */ "./public/img/services/edtech.png");
+/* harmony import */ var _img_services_iot_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../../img/services/iot.png */ "./public/img/services/iot.png");
+/* harmony import */ var _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../../img/services/ecommerce.png */ "./public/img/services/ecommerce.png");
+/* harmony import */ var _img_services_vue_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../../img/services/vue.png */ "./public/img/services/vue.png");
+/* harmony import */ var _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../../img/services/laravel.png */ "./public/img/services/laravel.png");
+/* harmony import */ var _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../../img/services/tailwind.png */ "./public/img/services/tailwind.png");
+/* harmony import */ var _img_services_react_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../../img/services/react.svg */ "./public/img/services/react.svg");
 
 
 
@@ -25172,15 +25186,13 @@ __webpack_require__.r(__webpack_exports__);
       maintenance: _img_services_maintenance_png__WEBPACK_IMPORTED_MODULE_15__["default"],
       audit_mobile: _img_mobile_audit_mobile_webp__WEBPACK_IMPORTED_MODULE_16__["default"],
       fintech: _img_services_fintech_png__WEBPACK_IMPORTED_MODULE_17__["default"],
-      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_21__["default"],
-      medtech: _img_services_medtech_png__WEBPACK_IMPORTED_MODULE_18__["default"],
-      agritech: _img_services_agritech_png__WEBPACK_IMPORTED_MODULE_22__["default"],
-      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_19__["default"],
-      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_20__["default"],
-      laravel: _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_24__["default"],
-      vue: _img_services_vue_png__WEBPACK_IMPORTED_MODULE_23__["default"],
-      tailwind: _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_25__["default"],
-      react: _img_services_react_svg__WEBPACK_IMPORTED_MODULE_26__["default"]
+      ecommerce: _img_services_ecommerce_png__WEBPACK_IMPORTED_MODULE_20__["default"],
+      edtech: _img_services_edtech_png__WEBPACK_IMPORTED_MODULE_18__["default"],
+      iot_dev: _img_services_iot_png__WEBPACK_IMPORTED_MODULE_19__["default"],
+      laravel: _img_services_laravel_png__WEBPACK_IMPORTED_MODULE_22__["default"],
+      vue: _img_services_vue_png__WEBPACK_IMPORTED_MODULE_21__["default"],
+      tailwind: _img_services_tailwind_png__WEBPACK_IMPORTED_MODULE_23__["default"],
+      react: _img_services_react_svg__WEBPACK_IMPORTED_MODULE_24__["default"]
     };
   }
 });
@@ -25929,7 +25941,7 @@ var _hoisted_7 = {
 var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "/contact",
-    "class": "ml-4 px-6 rounded-full py-1 text-sm border border-red-500 hover:text-white hover:bg-red-500 ease-in duration-150"
+    "class": "ml-2 px-6 rounded-full py-1 text-sm border border-red-500 hover:text-white hover:bg-red-500 ease-in duration-150"
   }, " CONTACT US ", -1
   /* HOISTED */
   );
@@ -27519,56 +27531,269 @@ var _hoisted_47 = ["src"];
 
 var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong> Request a free <span class=\"text-red-600\">audit</span> of your website </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
-var _hoisted_49 = {
-  "class": "mt-8"
-};
+var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
 var _hoisted_50 = {
-  "class": "md:flex items-center mx-6 my-32 xl:mx-32 2xl:mx-72"
+  "class": "mx-6 2xl:mx-72 mb-16 mt-16 lg:mt-32"
 };
-var _hoisted_51 = {
-  "class": "md:flex items-center"
-};
+
+var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center md:text-left md:flex md:justify-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Industry-focused App Development "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Develop a mobile or web application tailored to your industry needs. To help your digital product succeed, we commit to comprehensively research your market and build an innovative solution that’s customized to your business, speaks your values and targets the right audience. ")], -1
+/* HOISTED */
+);
+
 var _hoisted_52 = {
-  "class": ""
+  "class": "hidden mt-8 md:mx-16 xl:mx-64 md:flex justify-between"
 };
-var _hoisted_53 = ["src"];
+var _hoisted_53 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_54 = ["src"];
 
-var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong><span class=\"text-red-600\"> Apps </span> that increase business performance. </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
+var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " FINTECH ", -1
+/* HOISTED */
+);
 
-var _hoisted_58 = ["src"];
+var _hoisted_56 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_57 = ["src"];
+
+var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " ECOMMERCE ", -1
+/* HOISTED */
+);
+
 var _hoisted_59 = {
-  "class": "items-center my-32 mx-6 xl:mx-32 2xl:mx-72"
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
 };
-var _hoisted_60 = {
-  "class": "md:flex items-center"
-};
-var _hoisted_61 = ["src"];
+var _hoisted_60 = ["src"];
 
-var _hoisted_62 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CHECK OUT OUR SERVICES </a></div></div>", 1);
+var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " IoT ", -1
+/* HOISTED */
+);
 
-var _hoisted_63 = {
-  "class": "md:my-32"
+var _hoisted_62 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
 };
-var _hoisted_64 = {
-  "class": "my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72"
-};
+var _hoisted_63 = ["src"];
+
+var _hoisted_64 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " EDTECH ", -1
+/* HOISTED */
+);
+
 var _hoisted_65 = {
-  "class": ""
+  "class": "sm:hidden mt-8 mb-16"
 };
 var _hoisted_66 = {
+  id: "scrollContainer2",
+  "class": "flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 scrollbar-hide"
+};
+var _hoisted_67 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_68 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_69 = {
+  href: "https://laravel.com/"
+};
+var _hoisted_70 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_71 = ["src"];
+
+var _hoisted_72 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " FINTECH ")], -1
+/* HOISTED */
+);
+
+var _hoisted_73 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_74 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_75 = {
+  href: "https://vuejs.org/",
+  "class": ""
+};
+var _hoisted_76 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_77 = ["src"];
+
+var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " ECOMMERCE ")], -1
+/* HOISTED */
+);
+
+var _hoisted_79 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_80 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_81 = {
+  href: "https://flutter.dev/"
+};
+var _hoisted_82 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_83 = ["src"];
+
+var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " IoT ")], -1
+/* HOISTED */
+);
+
+var _hoisted_85 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_86 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_87 = {
+  href: "https://www.python.org/"
+};
+var _hoisted_88 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_89 = ["src"];
+
+var _hoisted_90 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " EDTECH ")], -1
+/* HOISTED */
+);
+
+var _hoisted_91 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-block px-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out font-bold text-xl",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/services"
+}, " SEE ALL ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_92 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_93 = {
+  "class": "md:flex items-center mx-6 my-32 xl:mx-32 2xl:mx-72"
+};
+var _hoisted_94 = {
+  "class": "md:flex items-center"
+};
+var _hoisted_95 = {
+  "class": ""
+};
+var _hoisted_96 = ["src"];
+
+var _hoisted_97 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong><span class=\"text-red-600\"> Apps </span> that increase business performance. </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Web Apps<br> Native Apps <br> Hybrid Apps </p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let us create you an effective Business Performance Management Software. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
+
+var _hoisted_101 = ["src"];
+var _hoisted_102 = {
+  "class": "items-center my-32 mx-6 xl:mx-32 2xl:mx-72"
+};
+var _hoisted_103 = {
+  "class": "md:flex items-center"
+};
+var _hoisted_104 = ["src"];
+
+var _hoisted_105 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CHECK OUT OUR SERVICES </a></div></div>", 1);
+
+var _hoisted_106 = {
+  "class": "md:my-32"
+};
+var _hoisted_107 = {
+  "class": "my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72"
+};
+var _hoisted_108 = {
+  "class": ""
+};
+var _hoisted_109 = {
   "class": "flex justify-center"
 };
-var _hoisted_67 = ["src"];
+var _hoisted_110 = ["src"];
 
-var _hoisted_68 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
+var _hoisted_111 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
 
-var _hoisted_72 = ["src"];
-var _hoisted_73 = {
+var _hoisted_115 = ["src"];
+var _hoisted_116 = {
   "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-32 2xl:mx-72"
 };
-var _hoisted_74 = ["src"];
+var _hoisted_117 = ["src"];
 
-var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -27666,49 +27891,100 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "w-full lg:w-2/3 2xl:w-1/3 md:pr-16"
   }, null, 8
   /* PROPS */
-  , _hoisted_47), _hoisted_48])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_47), _hoisted_48])]), _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    INDSUTRY FOCUSED DEVELOPMENT    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [_hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.fintech,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_54)]), _hoisted_55]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.ecommerce,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_57)]), _hoisted_58]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.iot_dev,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_60)]), _hoisted_61]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.edtech,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_63)]), _hoisted_64])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH DEVELOPMENT     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_69, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.fintech,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "Laravel Development",
+    title: "Laravel Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_71)])]), _hoisted_72])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ECOMMERCE DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_75, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_76, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.ecommerce,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "Vue.js Development",
+    title: "Vue.js Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_77)]), _hoisted_78])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                IoT Development       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_79, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_80, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_81, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.iot_dev,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "React Development",
+    title: "React Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_83)]), _hoisted_84])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    EDTECH DEV      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_85, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.edtech,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "plus"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_89)]), _hoisted_90])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    SEE ALL     "), _hoisted_91])])]), _hoisted_92, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        APP DEV "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_95, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev_mobile,
     "class": "w-full md:w-1/2 md:hidden",
     alt: "Application Development",
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_53), _hoisted_54]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_96), _hoisted_97]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.app_dev,
     "class": "w-full md:w-1/2 hidden md:block",
     alt: "Application Development",
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_58)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_101)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.digital_marketing,
     alt: "Digital Marketing",
     title: "Digital Marketing",
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_61), _hoisted_62])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_104), _hoisted_105])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_108, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_mobile,
     "class": "w-full md:hidden",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_67)]), _hoisted_68]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_110)]), _hoisted_111]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design,
     "class": "hidden md:block w-1/2",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_72)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_115)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_2,
     alt: "Custom Development",
     title: "Custom Development",
     "class": "w-full md:w-1/2"
   }, null, 8
   /* PROPS */
-  , _hoisted_74), _hoisted_75]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
+  , _hoisted_117), _hoisted_118]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -27872,7 +28148,7 @@ var _hoisted_7 = {
   "class": "flex items-center justify-between xl:mx-32 2xl:mx-64"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-4xl lg:text-5xl lg:tracking-wider text-center md:text-left\"><span class=\"text-red-500\"> App </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl md:mr-16 mt-8\"> Develop your product with the latest available technologies and a custom minimalistic interface. </div><div class=\"flex justify-center md:justify-start mt-10\"><a href=\"/contact\" class=\"z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-4xl lg:text-5xl lg:tracking-wider text-center md:text-left\"><span class=\"text-red-500\"> App </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\" class=\"text-xl text-center md:text-left md:text-2xl md:mr-16 mt-8\"> Develop a Mobile or Web App that will increase your business performance. </div><div class=\"flex justify-center md:justify-start mt-10\"><a href=\"/contact\" class=\"z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 var _hoisted_9 = ["src"];
 var _hoisted_10 = {
@@ -27882,7 +28158,7 @@ var _hoisted_10 = {
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 class=\"md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center md:text-left md:flex md:justify-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Three Development Paths </h1><div class=\"flex justify-center\"><div class=\"w-1/3 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><h1 class=\"md:mx-16 lg:mx-32 text-2xl text-center md:text-left md:flex md:justify-center text-gray-600\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:500;\"> Native, Hybrid or Web </h1><p class=\"text-center text-md lg:text-xl mt-6 md:mx-32 xl:mx-64\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> When building a mobile app, you can use three types of development: native, hybrid or web. All three development paths have their best uses and unique strengths </p></div>", 1);
 
 var _hoisted_12 = {
-  "class": "mt-8 md:mx-32 lg:mx-40 xl:mx-96 grid grid-cols-2 place-items-center gap-4 md:grid-cols-4"
+  "class": "mt-8 md:mx-32 lg:mx-40 xl:mx-96 grid grid-cols-2 place-items-center gap-8 md:grid-cols-4"
 };
 var _hoisted_13 = {
   "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-24 h-24"
@@ -27925,27 +28201,487 @@ var _hoisted_25 = ["src"];
 var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-center md:text-left text-xl xl:text-2xl my-2\"> NATIVE APPS </p><p class=\"text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong> Using a device at its <span class=\"text-red-600\">best</span></strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/4 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><div class=\"lg:pr-40\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> HIGHLY CUSTOMIZABLE </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Building a native app allows you to hook into unique functionalities of a device. Gaining high elasticity in development, and the ability to easily implement existing native libraries are the core characteristics of native development. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> REACT NATIVE </p><p class=\"mt-2 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> For creating native apps, we recommend React Native. It provides great responsiveness and performance for both iOS and Android, and has a huge community of developers with a mountain of ready-made features and libraries. It is a tried and trusted framework, able to handle multimedia, ads and even traffic-heavy social and messaging apps </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BEST USED FOR </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> When you need to build a complex, engaging app that uses a lot of device’s resources but stays perfectly performant, native development will be the best option. </p></div>", 2);
 
 var _hoisted_28 = ["src"];
-var _hoisted_29 = {
-  "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
+
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mt-16 mx-6 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl\"><div class=\"\"><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-center text-red-600\"> Tech <span class=\"text-black\">Stack</span> <br></h1></div><p class=\"text-center text-xl md:text-2xl mt-4 lg:mx-48\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day development. </p></div>", 1);
+
+var _hoisted_31 = {
+  "class": "hidden sm:flex justify-center md:mt-8"
 };
-var _hoisted_30 = ["src"];
-
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"lg:ml-24\"><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-center md:text-left text-xl xl:text-2xl my-2\"> HYBRID APPS </p><p class=\"text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong> Everything in <span class=\"text-red-600\">one</span> place </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/4 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> CROSS-PLATFORM DEVELOPMENT </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Creating a hybrid app means that you’re building components for various platforms in one go (Android, iOS). Hybrid mobile applications accelerate businesses from startups to large enterprises and offer great optimization for your company. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> FLUTTER DEVELOPMENT </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Open-source software development kit which enables smooth and easy cross-platform mobile app development. You can build high quality natively compiled apps for iOS and Android quickly, without having to write the code for the two apps separately. All you need is one codebase for both platforms. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BEST USED FOR </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> If you’re creating an app that you want to release quickly and it doesn’t need access to the whole native development environment, hybrid development might be for you. </p></div>", 1);
-
 var _hoisted_32 = {
-  "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
+  "class": "grid max-w-full grid-cols-2 lg:grid-cols-4 gap-y-8 content-center"
 };
 var _hoisted_33 = {
-  "class": ""
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
 };
 var _hoisted_34 = {
+  href: "https://flutter.dev/"
+};
+var _hoisted_35 = {
   "class": "flex justify-center"
 };
-var _hoisted_35 = ["src"];
+var _hoisted_36 = ["src"];
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-center md:text-left text-xl xl:text-2xl my-2\"> WEB APPS </p><p class=\"text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong> The <span class=\"text-red-600\">future</span> of apps is here </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/4 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><div class=\"lg:pr-40\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BROWSER COMPATIBILITY </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> A web application runs on the device’s browser using an accessible URL. Modern web applications are compatible with all browsers, such as Google Chrome, Internet Explorer, Firefox, and Bing. Hence, software compatibility challenges are never roadblocks. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> REDUCED OPERATING COSTS </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Web application development is a great way to cut down operating costs. It drives to eliminate unnecessary expenses such as hardware purchases, frequent device updates, and maintenance of numerous systems. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BEST USED FOR </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Web application development is faster and more economical than building native apps. Therefore, if the primary goal is to accelerate time-to-market, web application development is the best choice for businesses. </p></div>", 2);
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Flutter"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
 
-var _hoisted_38 = ["src"];
+var _hoisted_38 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_39 = {
+  href: "https://reactnative.dev/"
+};
+var _hoisted_40 = {
+  "class": "flex justify-center"
+};
+var _hoisted_41 = ["src"];
+
+var _hoisted_42 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" React Native "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_43 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_44 = {
+  href: "https://firebase.google.com/"
+};
+var _hoisted_45 = {
+  "class": "flex justify-center"
+};
+var _hoisted_46 = ["src"];
+
+var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Firebase "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_48 = {
+  "class": "w-48 shadow-lg bg-white mx-8 z-10"
+};
+var _hoisted_49 = {
+  href: "https://inertiajs.com/"
+};
+var _hoisted_50 = {
+  "class": "flex justify-center"
+};
+var _hoisted_51 = ["src"];
+
+var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center my-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl text-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "400"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Inertia.js "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "hidden sm:flex justify-center my-16"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/tech-stack",
+  "class": "text-red-600 border border-red-500 text-sm md:text-md border rounded-full px-24 py-2"
+}, " SEE OUR FULL TECH STACK ")], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  "class": "sm:hidden mt-4 mb-16"
+};
+var _hoisted_55 = {
+  id: "scrollContainer5",
+  "class": "flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 scrollbar-hide"
+};
+var _hoisted_56 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_57 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_58 = {
+  href: "https://flutter.dev/",
+  "class": ""
+};
+var _hoisted_59 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_60 = ["src"];
+
+var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Flutter "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_62 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_63 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_64 = {
+  href: "https://reactnative.dev/",
+  "class": ""
+};
+var _hoisted_65 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_66 = ["src"];
+
+var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" React Native "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_68 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_69 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_70 = {
+  href: "https://firebase.google.com/"
+};
+var _hoisted_71 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_72 = ["src"];
+
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Firebase "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_74 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_75 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_76 = {
+  href: "https://inertiajs.com/"
+};
+var _hoisted_77 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_78 = ["src"];
+
+var _hoisted_79 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Inertia.js "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Development ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_80 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-block px-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out font-bold text-xl",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/tech-stack"
+}, " SEE ALL ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_81 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_82 = {
+  "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
+};
+var _hoisted_83 = ["src"];
+
+var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"lg:ml-24\"><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-center md:text-left text-xl xl:text-2xl my-2\"> HYBRID APPS </p><p class=\"text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong> Everything in <span class=\"text-red-600\">one</span> place </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/4 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> CROSS-PLATFORM DEVELOPMENT </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Creating a hybrid app means that you’re building components for various platforms in one go (Android, iOS). Hybrid mobile applications accelerate businesses from startups to large enterprises and offer great optimization for your company. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> FLUTTER DEVELOPMENT </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Open-source software development kit which enables smooth and easy cross-platform mobile app development. You can build high quality natively compiled apps for iOS and Android quickly, without having to write the code for the two apps separately. All you need is one codebase for both platforms. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BEST USED FOR </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> If you’re creating an app that you want to release quickly and it doesn’t need access to the whole native development environment, hybrid development might be for you. </p></div>", 1);
+
+var _hoisted_85 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_86 = {
+  "class": "mx-6 2xl:mx-72 mb-16 mt-16 lg:mt-32"
+};
+
+var _hoisted_87 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center md:text-left md:flex md:justify-center",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Industry-focused App Development "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " Develop a mobile or web application tailored to your industry needs. To help your digital product succeed, we commit to comprehensively research your market and build an innovative solution that’s customized to your business, speaks your values and targets the right audience. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_88 = {
+  "class": "hidden mt-8 md:mx-16 xl:mx-64 md:flex justify-between"
+};
+var _hoisted_89 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_90 = ["src"];
+
+var _hoisted_91 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " FINTECH ", -1
+/* HOISTED */
+);
+
+var _hoisted_92 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_93 = ["src"];
+
+var _hoisted_94 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " ECOMMERCE ", -1
+/* HOISTED */
+);
+
+var _hoisted_95 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_96 = ["src"];
+
+var _hoisted_97 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " IoT ", -1
+/* HOISTED */
+);
+
+var _hoisted_98 = {
+  "class": "flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32"
+};
+var _hoisted_99 = ["src"];
+
+var _hoisted_100 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mt-2 text-lg",
+  style: {
+    "font-family": "'Poppins', sans-serif",
+    "font-weight": "300"
+  }
+}, " EDTECH ", -1
+/* HOISTED */
+);
+
+var _hoisted_101 = {
+  "class": "sm:hidden mt-8 mb-16"
+};
+var _hoisted_102 = {
+  id: "scrollContainer",
+  "class": "flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8 scrollbar-hide"
+};
+var _hoisted_103 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_104 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_105 = {
+  href: "https://laravel.com/"
+};
+var _hoisted_106 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_107 = ["src"];
+
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " FINTECH ")], -1
+/* HOISTED */
+);
+
+var _hoisted_109 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_110 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_111 = {
+  href: "https://vuejs.org/",
+  "class": ""
+};
+var _hoisted_112 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_113 = ["src"];
+
+var _hoisted_114 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " ECOMMERCE ")], -1
+/* HOISTED */
+);
+
+var _hoisted_115 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_116 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_117 = {
+  href: "https://flutter.dev/"
+};
+var _hoisted_118 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_119 = ["src"];
+
+var _hoisted_120 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " IoT ")], -1
+/* HOISTED */
+);
+
+var _hoisted_121 = {
+  "class": "inline-block px-2"
+};
+var _hoisted_122 = {
+  "class": "w-40 h-40 max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+};
+var _hoisted_123 = {
+  href: "https://www.python.org/"
+};
+var _hoisted_124 = {
+  "class": "pt-2 px-2 flex justify-center"
+};
+var _hoisted_125 = ["src"];
+
+var _hoisted_126 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center mb-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "flex text-center text-md",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, " EDTECH ")], -1
+/* HOISTED */
+);
+
+var _hoisted_127 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-block px-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out font-bold text-xl",
+  style: {
+    "font-family": "Poppins,serif"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/services"
+}, " SEE ALL ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-12 md:mx-32 2xl:mx-72"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_129 = {
+  "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32 2xl:mx-72"
+};
+var _hoisted_130 = {
+  "class": ""
+};
+var _hoisted_131 = {
+  "class": "flex justify-center"
+};
+var _hoisted_132 = ["src"];
+
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-center md:text-left text-xl xl:text-2xl my-2\"> WEB APPS </p><p class=\"text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl\" style=\"font-family:Poppins,serif;\"><strong> The <span class=\"text-red-600\">future</span> of apps is here </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/4 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><div class=\"lg:pr-40\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BROWSER COMPATIBILITY </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> A web application runs on the device’s browser using an accessible URL. Modern web applications are compatible with all browsers, such as Google Chrome, Internet Explorer, Firefox, and Bing. Hence, software compatibility challenges are never roadblocks. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> REDUCED OPERATING COSTS </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Web application development is a great way to cut down operating costs. It drives to eliminate unnecessary expenses such as hardware purchases, frequent device updates, and maintenance of numerous systems. </p><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-xl xl:text-2xl mt-6\"> BEST USED FOR </p><p class=\"mt-2 md:pr-12 text-md md:text-left md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Web application development is faster and more economical than building native apps. Therefore, if the primary goal is to accelerate time-to-market, web application development is the best choice for businesses. </p></div>", 2);
+
+var _hoisted_135 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
 
@@ -28027,28 +28763,130 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_28)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    HYBRID APPS      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_28)]), _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        TECH STACK      "), _hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP TECH STACK  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Flutter "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.flutter,
+    alt: "Flutter Development",
+    title: "Flutter Development",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_36)]), _hoisted_37])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    REACT NATIVE     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.react,
+    alt: "React Native Development",
+    title: "React Native Development",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_41)]), _hoisted_42])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    firebase "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.firebase,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_46)]), _hoisted_47])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Inertia.js "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_49, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.inertia,
+    alt: "",
+    "class": "mt-8 w-24 h-24"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_51)]), _hoisted_52])])])]), _hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    END OF DESKTOP TECH STACK    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    MOBILE TECH STACK     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_55, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FLUTTER DEVELOPMENT     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.flutter,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "Flutter Development",
+    title: "Flutter Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_60)]), _hoisted_61])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                REACT NATIVE DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.react,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "plus"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_66)]), _hoisted_67])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                FIREBASE DEVELOPMENT       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_69, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.firebase,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "plus"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_72)]), _hoisted_73])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                INERTIA.JS DEVELOPMENT       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_75, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_76, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.inertia,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "plus"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_78)]), _hoisted_79])])]), _hoisted_80])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    END OF MOBILE TECH STACK  "), _hoisted_81, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    HYBRID APPS      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.hybrid_apps,
     "class": "md:w-1/3 2xl:w-1/3",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_30), _hoisted_31]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    WEB APPS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_83), _hoisted_84]), _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    INDUSTRY FOCUSED WEB DEV    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, [_hoisted_87, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_89, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.fintech,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_90)]), _hoisted_91]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_92, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.ecommerce,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_93)]), _hoisted_94]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_95, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.iot_dev,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_96)]), _hoisted_97]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.edtech,
+    alt: "",
+    "class": "p-6"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_99)]), _hoisted_100])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_101, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    FINTECH DEVELOPMENT     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_104, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_105, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.fintech,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "Laravel Development",
+    title: "Laravel Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_107)])]), _hoisted_108])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                ECOMMERCE DEVELOPMENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_110, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_111, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.ecommerce,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "Vue.js Development",
+    title: "Vue.js Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_113)]), _hoisted_114])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                IoT Development       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_115, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_117, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_118, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.iot_dev,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "React Development",
+    title: "React Development"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_119)]), _hoisted_120])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    EDTECH DEV      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_124, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.edtech,
+    "class": "w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl",
+    alt: "plus"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_125)]), _hoisted_126])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    SEE ALL     "), _hoisted_127])])]), _hoisted_128, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    WEB APPS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_129, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_130, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_131, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_apps,
     "class": "md:w-1/3 md:hidden",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_35)]), _hoisted_36]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_132)]), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.web_apps,
     "class": "hidden md:block md:w-1/3 2xl:w-1/3",
     alt: "Web Development",
     title: "Web Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_38)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  , _hoisted_135)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -30709,7 +31547,7 @@ var _hoisted_7 = {
   "class": "flex items-center justify-between xl:mx-32 2xl:mx-64"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-4xl lg:text-5xl lg:tracking-wider text-center md:text-left\"><span class=\"text-red-500\"> Web </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl md:mr-16 mt-8\"> Develop your product with the latest available technologies and a custom minimalistic interface. </div><div class=\"flex justify-center md:justify-start mt-16 md:mt-10\"><a href=\"/contact\" class=\"z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"text-4xl lg:text-5xl lg:tracking-wider text-center md:text-left\"><span class=\"text-red-500\"> Web </span> Development <br> Services </h1><div class=\"md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:6px;\"></div><div style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\" class=\"text-xl text-center md:text-left md:text-2xl md:mr-16 mt-8\"> Develop your product with the latest available technologies and a custom minimalistic interface. </div><div class=\"flex justify-center md:justify-start mt-16 md:mt-10\"><a href=\"/contact\" class=\"z-10 text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 var _hoisted_9 = ["src"];
 var _hoisted_10 = {

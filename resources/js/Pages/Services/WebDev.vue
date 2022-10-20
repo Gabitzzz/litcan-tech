@@ -27,8 +27,8 @@
                     </div>
 
                     <div
-                        style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                        class="text-xl md:mr-16 mt-8">
+                        style="font-family: 'Poppins', sans-serif; font-weight: 400;"
+                        class="text-xl text-center md:text-left md:text-2xl md:mr-16 mt-8">
                         Develop your product with the latest available technologies and a custom minimalistic interface.
                     </div>
 
@@ -612,6 +612,7 @@
 
     <hr class="mx-12 md:mx-32 2xl:mx-72">
 
+
     <div class="mx-6">
         <!--        4. TESTING  -->
         <div class="lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center">
@@ -831,11 +832,9 @@ import audit_mobile from "/img/mobile/audit-mobile.webp";
 
 
 import fintech from "/img/services/fintech.png";
-import medtech from "/img/services/medtech.png";
 import edtech from "/img/services/edtech.png";
 import iot_dev from "/img/services/iot.png";
 import ecommerce from "/img/services/ecommerce.png";
-import agritech from "/img/services/agritech.png";
 
 import vue from "/img/services/vue.png";
 import laravel from "/img/services/laravel.png";
@@ -869,8 +868,6 @@ export default {
 
             fintech: fintech,
             ecommerce: ecommerce,
-            medtech: medtech,
-            agritech: agritech,
             edtech: edtech,
             iot_dev: iot_dev,
 

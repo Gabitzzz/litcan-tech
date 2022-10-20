@@ -41,7 +41,7 @@
                 <div class="flex items-center"
                     style="font-family: 'Nunito', sans-serif; font-weight: 300;">
                     <a href="/contact"
-                       class="ml-4 px-6 rounded-full py-1 text-sm
+                       class="ml-2 px-6 rounded-full py-1 text-sm
                                 border border-red-500 hover:text-white
                                 hover:bg-red-500 ease-in duration-150">
                         CONTACT US

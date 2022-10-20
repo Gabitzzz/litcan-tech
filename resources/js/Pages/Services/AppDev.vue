@@ -27,9 +27,9 @@
                     </div>
 
                     <div
-                        style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                        class="text-xl md:mr-16 mt-8">
-                        Develop your product with the latest available technologies and a custom minimalistic interface.
+                        style="font-family: 'Poppins', sans-serif; font-weight: 400;"
+                        class="text-xl text-center md:text-left md:text-2xl md:mr-16 mt-8">
+                        Develop a Mobile or Web App that will increase your business performance.
                     </div>
 
                     <div class="flex justify-center md:justify-start mt-10">
@@ -80,7 +80,7 @@
             </p>
         </div>
 
-        <div class=" mt-8 md:mx-32 lg:mx-40 xl:mx-96 grid grid-cols-2 place-items-center gap-4 md:grid-cols-4">
+        <div class=" mt-8 md:mx-32 lg:mx-40 xl:mx-96 grid grid-cols-2 place-items-center gap-8 md:grid-cols-4">
             <div>
                 <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-24 h-24">
                     <img :src="apple" alt="" class="p-6">
@@ -194,6 +194,232 @@
              title="Web Development">
     </div>
 
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
+
+
+    <!--        TECH STACK      -->
+    <div class="mt-16 mx-6 lg:mx-48 2xl:mx-80 items-center text-3xl md:text-5xl">
+
+        <div class="">
+            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                class="text-center text-red-600">
+                Tech <span class="text-black">Stack</span> <br>
+            </h1>
+        </div>
+
+        <p class="text-center text-xl md:text-2xl mt-4 lg:mx-48 "
+           style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+        >
+            Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day
+            development.
+        </p>
+    </div>
+
+
+    <!--    DESKTOP TECH STACK  -->
+    <div class="hidden sm:flex justify-center md:mt-8 ">
+        <div class="grid max-w-full  grid-cols-2 lg:grid-cols-4 gap-y-8 content-center">
+            <!--    Flutter -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <a href="https://flutter.dev/">
+                    <div class="flex justify-center">
+                        <img :src="flutter"
+                             alt="Flutter Development"
+                             title="Flutter Development"
+                             class="mt-8 w-24 h-24">
+                    </div>
+
+                    <div class="flex justify-center my-8">
+                        <p class="text-xl text-center"
+                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                            Flutter<br> Development
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--    REACT NATIVE     -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <a href="https://reactnative.dev/">
+                    <div class="flex justify-center">
+                        <img :src="react"
+                             alt="React Native Development"
+                             title="React Native Development"
+                             class="mt-8 w-24 h-24">
+                    </div>
+
+                    <div class="flex justify-center my-8">
+                        <p class="text-xl text-center"
+                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                            React Native <br> Development
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--    firebase -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <a href="https://firebase.google.com/">
+                    <div class="flex justify-center">
+                        <img :src="firebase" alt="" class="mt-8 w-24 h-24">
+                    </div>
+
+                    <div class="flex justify-center my-8">
+                        <p class="text-xl text-center"
+                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                            Firebase <br> Development
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+
+            <!--    Inertia.js -->
+            <div class="w-48 shadow-lg bg-white mx-8 z-10">
+                <a href="https://inertiajs.com/">
+                    <div class="flex justify-center">
+                        <img :src="inertia" alt="" class="mt-8 w-24 h-24">
+
+                    </div>
+
+                    <div class="flex justify-center my-8">
+                        <p class="text-xl text-center"
+                           style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                            Inertia.js <br> Development
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="hidden sm:flex justify-center my-16">
+        <a href="/tech-stack"
+           class="text-red-600 border border-red-500 text-sm md:text-md border  rounded-full px-24 py-2">
+            SEE OUR FULL TECH STACK
+        </a>
+    </div>
+    <!--    END OF DESKTOP TECH STACK    -->
+
+    <!--    MOBILE TECH STACK     -->
+    <div class="sm:hidden mt-4 mb-16">
+        <div
+            id="scrollContainer5"
+            class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
+            <!--    FLUTTER DEVELOPMENT     -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://flutter.dev/" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="flutter"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="Flutter Development"
+                                 title="Flutter Development">
+                        </div>
+
+                        <div class="flex justify-center mb-4">
+                            <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                Flutter
+                                <br>
+                                Development
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--                REACT NATIVE DEVELOPMENT      -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://reactnative.dev/" class="">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="react"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+
+                        <div class="flex justify-center mb-4">
+                            <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                React Native
+                                <br>
+                                Development
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--                FIREBASE DEVELOPMENT       -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://firebase.google.com/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="firebase"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+
+                        <div class="flex justify-center mb-4">
+                            <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                Firebase
+                                <br>
+                                Development
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--                INERTIA.JS DEVELOPMENT       -->
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <a href="https://inertiajs.com/">
+                        <div class="pt-2 px-2 flex justify-center">
+                            <img :src="inertia"
+                                 class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                 alt="plus">
+                        </div>
+
+                        <div class="flex justify-center mb-4">
+                            <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                Inertia.js
+                                <br>
+                                Development
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="inline-block px-2">
+                <div
+                    class="w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden
+                                    shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out
+                                    font-bold text-xl"
+
+                    style="font-family: Poppins,serif"
+                >
+                    <a href="/tech-stack">
+                        SEE ALL
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    END OF MOBILE TECH STACK  -->
+
+
+
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
+
     <!--    HYBRID APPS      -->
     <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
         <img :src="hybrid_apps" class="md:w-1/3 2xl:w-1/3"
@@ -266,6 +492,184 @@
 
     </div>
 
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
+
+
+    <!--    INDUSTRY FOCUSED WEB DEV    -->
+    <div class="mx-6 2xl:mx-72 mb-16 mt-16 lg:mt-32">
+        <div>
+            <h1
+                class="md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center
+                    md:text-left md:flex md:justify-center"
+                style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Industry-focused App Development
+            </h1>
+
+            <p class="text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64"
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                Develop a mobile or web application tailored to your industry needs. To help your digital product succeed, we
+                commit to comprehensively research your market and build an innovative solution that’s customized to
+                your business, speaks your values and targets the right audience.
+            </p>
+        </div>
+
+        <div class="hidden mt-8 md:mx-16 xl:mx-64 md:flex justify-between">
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="fintech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    FINTECH
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="ecommerce" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    ECOMMERCE
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="iot_dev" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    IoT
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
+                    <img :src="edtech" alt="" class="p-6">
+                </div>
+                <div class="text-center mt-2 text-lg"
+                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    EDTECH
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="sm:hidden mt-8 mb-16">
+            <div
+                id="scrollContainer"
+                class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
+                <!--    FINTECH DEVELOPMENT     -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://laravel.com/">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="fintech"
+                                     class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="Laravel Development"
+                                     title="Laravel Development">
+                            </div>
+                        </a>
+
+                        <div class="flex justify-center mb-4">
+                            <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                                FINTECH
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                ECOMMERCE DEVELOPMENT      -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://vuejs.org/" class="">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="ecommerce"
+                                     class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="Vue.js Development"
+                                     title="Vue.js Development"
+                                >
+                            </div>
+
+                            <div class="flex justify-center mb-2">
+                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                    ECOMMERCE
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--                IoT Development       -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://flutter.dev/">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="iot_dev"
+                                     class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="React Development"
+                                     title="React Development">
+                            </div>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center  text-md" style="font-family: Poppins,serif">
+                                    IoT
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--                    EDTECH DEV      -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://www.python.org/">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="edtech"
+                                     class="w-24 h-24 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
+                                     alt="plus">
+                            </div>
+
+                            <div class="flex justify-center mb-8">
+                                <h2 class="flex text-center text-md" style="font-family: Poppins,serif">
+                                    EDTECH
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--                    SEE ALL     -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex justify-center items-center max-w-xs overflow-hidden
+                                    shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out
+                                    font-bold text-xl"
+
+                        style="font-family: Poppins,serif"
+                    >
+                        <a href="/services">
+                            SEE ALL
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
+
     <!--    WEB APPS    -->
     <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
         <div class="">
@@ -301,44 +705,47 @@
             </div>
 
 
-           <div class="lg:pr-40">
-               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                  class=" text-xl xl:text-2xl mt-6">
-                   BROWSER COMPATIBILITY
-               </p>
+            <div class="lg:pr-40">
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                   class=" text-xl xl:text-2xl mt-6">
+                    BROWSER COMPATIBILITY
+                </p>
 
-               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                   A web application runs on the device’s
-                   browser using an accessible URL. Modern web applications are compatible with all browsers, such as
-                   Google Chrome, Internet Explorer, Firefox, and Bing. Hence, software compatibility challenges are never
-                   roadblocks.
-               </p>
+                <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    A web application runs on the device’s
+                    browser using an accessible URL. Modern web applications are compatible with all browsers, such as
+                    Google Chrome, Internet Explorer, Firefox, and Bing. Hence, software compatibility challenges are
+                    never
+                    roadblocks.
+                </p>
 
-               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                  class=" text-xl xl:text-2xl mt-6">
-                   REDUCED OPERATING COSTS
-               </p>
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                   class=" text-xl xl:text-2xl mt-6">
+                    REDUCED OPERATING COSTS
+                </p>
 
-               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                   Web application development is a great way to cut down operating costs. It drives to eliminate
-                   unnecessary expenses such as hardware purchases, frequent device updates, and maintenance of numerous
-                   systems.
-               </p>
+                <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Web application development is a great way to cut down operating costs. It drives to eliminate
+                    unnecessary expenses such as hardware purchases, frequent device updates, and maintenance of
+                    numerous
+                    systems.
+                </p>
 
-               <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
-                  class=" text-xl xl:text-2xl mt-6">
-                   BEST USED FOR
-               </p>
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 700;"
+                   class=" text-xl xl:text-2xl mt-6">
+                    BEST USED FOR
+                </p>
 
-               <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
-                  style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                   Web application development is faster and more economical than building native apps. Therefore, if the
-                   primary goal is to accelerate time-to-market, web application development is the best choice for
-                   businesses.
-               </p>
-           </div>
+                <p class="mt-2 md:pr-12 text-md md:text-left md:text-xl"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    Web application development is faster and more economical than building native apps. Therefore, if
+                    the
+                    primary goal is to accelerate time-to-market, web application development is the best choice for
+                    businesses.
+                </p>
+            </div>
 
         </div>
 
@@ -378,6 +785,10 @@ import web from "/img/app_development/web.png";
 import web_apps from "/img/app_development/web-apps.png";
 import hybrid_apps from "/img/app_development/hybrid-apps.png";
 import native_apps from "/img/app_development/native-apps.png";
+
+import flutter from "/img/services/flutter.png";
+import inertia from "/img/services/inertia.png";
+import firebase from "/img/services/firebase.svg";
 
 
 import fintech from "/img/services/fintech.png";
@@ -425,9 +836,9 @@ export default {
             edtech: edtech,
             iot_dev: iot_dev,
 
-            laravel: laravel,
-            vue: vue,
-            tailwind: tailwind,
+            flutter: flutter,
+            firebase: firebase,
+            inertia:inertia,
             react: react,
         }
     }
