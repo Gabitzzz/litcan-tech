@@ -2,7 +2,7 @@
     <div class="2xl:px-48 bg-gray-100">
         <div
             class="grid gap-8 grid-cols-1 md:grid-cols-2
-                md:px-12 lg:px-32 xl:px-80 2xl:px-96 pt-32 pb-16
+                md:px-12 2xl:px-32 pt-32 pb-16
                 mx-auto px-8
                  text-gray-900 rounded-lg shadow-lg">
 

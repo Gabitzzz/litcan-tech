@@ -758,11 +758,14 @@
 
         </div>
 
+        </div>
+
 <!--        <hr class="mx-12 md:mx-32 2xl:mx-72">-->
 
         <!--        LATEST PARTNERS     -->
         <LatestPartners></LatestPartners>
 
+    <div class="mx-6">
         <!--        6. MAINTENANCE  -->
         <div class="lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center">
 

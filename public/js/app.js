@@ -25360,7 +25360,7 @@ var _hoisted_1 = {
   "class": "2xl:px-48 bg-gray-100"
 };
 var _hoisted_2 = {
-  "class": "grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-32 xl:px-80 2xl:px-96 pt-32 pb-16 mx-auto px-8 text-gray-900 rounded-lg shadow-lg"
+  "class": "grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 2xl:px-32 pt-32 pb-16 mx-auto px-8 text-gray-900 rounded-lg shadow-lg"
 };
 var _hoisted_3 = {
   "class": "flex flex-col justify-between 2xl:px-32 z-40"
@@ -32115,15 +32115,18 @@ var _hoisted_142 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStatic
 
 var _hoisted_143 = ["src"];
 var _hoisted_144 = {
-  "class": "lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center"
+  "class": "mx-6"
 };
 var _hoisted_145 = {
+  "class": "lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center"
+};
+var _hoisted_146 = {
   "class": "flex justify-center md:hidden"
 };
-var _hoisted_146 = ["src"];
 var _hoisted_147 = ["src"];
+var _hoisted_148 = ["src"];
 
-var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center md:text-left text-4xl md:text-5xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\"><span class=\"text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Stage 6. <br></span> Maintenance </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> With the help of different technologies and tools, we assure that are no bugs left in the functionality, while the design meets the pixel perfect requirements. </p></div>", 1);
+var _hoisted_149 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center md:text-left text-4xl md:text-5xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\"><span class=\"text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Stage 6. <br></span> Maintenance </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> With the help of different technologies and tools, we assure that are no bugs left in the functionality, while the design meets the pixel perfect requirements. </p></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
@@ -32340,19 +32343,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_143)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"mx-12 md:mx-32 2xl:mx-72\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LATEST PARTNERS     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_143)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"mx-12 md:mx-32 2xl:mx-72\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LATEST PARTNERS     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.maintenance,
     "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_146)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_147)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.maintenance,
     "class": "hidden md:block w-1/2",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_147), _hoisted_148])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  , _hoisted_148), _hoisted_149])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
