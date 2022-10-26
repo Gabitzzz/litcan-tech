@@ -2,11 +2,11 @@
     <div class="2xl:px-48 bg-gray-100">
         <div
             class="grid gap-8 grid-cols-1 md:grid-cols-2
-                md:px-12 2xl:px-32 pt-32 pb-16
+                md:px-12 xl:px-32 2xl:px-32 pt-32 pb-16
                 mx-auto px-8
                  text-gray-900 rounded-lg shadow-lg">
 
-            <div class="flex flex-col justify-between 2xl:px-32 z-40">
+            <div class="flex flex-col justify-between xl:px-16 z-40">
                 <div>
                     <h2 class="text-2xl font-bold leading-tight"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
@@ -75,7 +75,7 @@
 
 
 
-            <div class="z-40">
+            <div class="z-40 xl:px-16">
                 <div>
                     <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
                     <input

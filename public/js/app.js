@@ -25360,10 +25360,10 @@ var _hoisted_1 = {
   "class": "2xl:px-48 bg-gray-100"
 };
 var _hoisted_2 = {
-  "class": "grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 2xl:px-32 pt-32 pb-16 mx-auto px-8 text-gray-900 rounded-lg shadow-lg"
+  "class": "grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 xl:px-32 2xl:px-32 pt-32 pb-16 mx-auto px-8 text-gray-900 rounded-lg shadow-lg"
 };
 var _hoisted_3 = {
-  "class": "flex flex-col justify-between 2xl:px-32 z-40"
+  "class": "flex flex-col justify-between xl:px-16 z-40"
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
@@ -25454,7 +25454,7 @@ var _hoisted_27 = ["src"];
 
 var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" litcan.tech ");
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"z-40\"><div><span class=\"uppercase text-sm text-gray-600 font-bold\">Full Name</span><input class=\"w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\" type=\"text\" placeholder=\"\"></div><div class=\"mt-8\"><span class=\"uppercase text-sm text-gray-600 font-bold\">Email</span><input class=\"w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\" type=\"text\"></div><div class=\"mt-8\"><span class=\"uppercase text-sm text-gray-600 font-bold\">Message</span><textarea class=\"w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\"></textarea></div><div class=\"mt-8\"><button class=\"uppercase text-sm font-bold tracking-wide bg-red-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline\"> Send Message </button></div></div>", 1);
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"z-40 xl:px-16\"><div><span class=\"uppercase text-sm text-gray-600 font-bold\">Full Name</span><input class=\"w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\" type=\"text\" placeholder=\"\"></div><div class=\"mt-8\"><span class=\"uppercase text-sm text-gray-600 font-bold\">Email</span><input class=\"w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\" type=\"text\"></div><div class=\"mt-8\"><span class=\"uppercase text-sm text-gray-600 font-bold\">Message</span><textarea class=\"w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline\"></textarea></div><div class=\"mt-8\"><button class=\"uppercase text-sm font-bold tracking-wide bg-red-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline\"> Send Message </button></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_4, _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {

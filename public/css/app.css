@@ -7521,6 +7521,16 @@ body[dir="rtl"] .checkbox:checked,
     padding-right: 10rem;
   }
 
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -7579,6 +7589,11 @@ body[dir="rtl"] .checkbox:checked,
   .\32xl\:px-64 {
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+
+  .\32xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
