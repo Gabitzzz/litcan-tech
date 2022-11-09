@@ -269,7 +269,7 @@ Product Design
         <hr class="mx-12 md:mx-32 2xl:mx-72">
 
         <!--    INDSUTRY FOCUSED DEVELOPMENT    -->
-        <div class="mx-6 2xl:mx-72 mb-16 mt-16 lg:mt-32">
+        <div class="mx-6 2xl:mx-72 my-32">
             <div>
                 <h1
                     class="md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center
@@ -502,6 +502,10 @@ Product Design
 
         </div>
 
+        <hr class="mx-12 md:mx-32 2xl:mx-72">
+
+
+
         <!--       DIGITAL MARKETING    -->
         <div class="items-center my-32 mx-6 xl:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
@@ -614,6 +618,9 @@ Product Design
                  alt="Product Design"
                  title="Product Design">
         </div>
+
+        <hr class="mx-12 md:mx-32 2xl:mx-72">
+
 
         <!--    CUSTOM DEVELOPMENT  -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-32 2xl:mx-72">

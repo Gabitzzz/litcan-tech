@@ -39,7 +39,7 @@
                 </span>
                 </a>
 
-                <a class="my-3 block" href="mailto:contact@litcan.tech">contact@litcan-tech.com
+                <a class="my-3 block" href="mailto:contact@litcan.tech">contact@litcan.tech
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
