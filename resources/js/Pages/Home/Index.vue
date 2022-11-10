@@ -217,8 +217,10 @@ Product Design
                  title="Web Development">
         </div>
 
+        <hr class="mx-4 md:mx-32 2xl:mx-72">
+
         <!--        AUDIT    -->
-        <div class="my-8 md:my-32  mx-6 xl:mx-32  2xl:mx-72">
+        <div class="my-32  mx-6 xl:mx-32  2xl:mx-72">
             <div class=" md:flex justify-between items-center">
 
                 <img :src="audit_mobile"
@@ -266,7 +268,7 @@ Product Design
             </div>
         </div>
 
-        <hr class="mx-12 md:mx-32 2xl:mx-72">
+        <hr class="mx-4 md:mx-32 2xl:mx-72">
 
         <!--    INDSUTRY FOCUSED DEVELOPMENT    -->
         <div class="mx-6 2xl:mx-72 my-32">
@@ -441,7 +443,7 @@ Product Design
 
         </div>
 
-        <hr class="mx-12 md:mx-32 2xl:mx-72">
+        <hr class="mx-4 md:mx-32 2xl:mx-72">
 
 
         <!--        APP DEV -->
@@ -502,7 +504,7 @@ Product Design
 
         </div>
 
-        <hr class="mx-12 md:mx-32 2xl:mx-72">
+        <hr class="mx-4 md:mx-32 2xl:mx-72">
 
 
 
@@ -619,7 +621,7 @@ Product Design
                  title="Product Design">
         </div>
 
-        <hr class="mx-12 md:mx-32 2xl:mx-72">
+        <hr class="mx-4 md:mx-32 2xl:mx-72">
 
 
         <!--    CUSTOM DEVELOPMENT  -->
