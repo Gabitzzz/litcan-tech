@@ -16,6 +16,22 @@
                 id="scrollContainer2"
                 class="flex md:justify-center flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
 
+
+
+                <!--                EDIDACTIC       -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://edidactic.ro//" class="">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="nortra"
+                                     class="inline-block p-10 md:p-6rounded-3xl "
+                                     alt="nortra management">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
                 <!--                EDIDACTIC       -->
                 <div class="inline-block px-2">
                     <div
@@ -59,32 +75,21 @@
                 </div>
 
                 <!--                ESSEX SOCIAL     -->
-                <div class="inline-block px-2">
-                    <div
-                        class="w-40 h-40  flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://essex.social/" class="">
-                            <div class="pt-2 px-2 flex justify-center">
-                                <img :src="esn"
-                                     class="inline-block p-6 md:p-4 rounded-3xl "
-                                     alt="esn">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!--                TED       -->
 <!--                <div class="inline-block px-2">-->
 <!--                    <div-->
-<!--                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">-->
-<!--                        <a href="https://www.tedxuniversityofessex.com///">-->
-<!--                            <div class="pt-2 px-2  justify-center">-->
-<!--                                <img :src="ted"-->
-<!--                                     class=" inline-block p-6 md:p-4 rounded-3xl "-->
-<!--                                     alt="ted">-->
+<!--                        class="w-40 h-40  flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">-->
+<!--                        <a href="https://essex.social/" class="">-->
+<!--                            <div class="pt-2 px-2 flex justify-center">-->
+<!--                                <img :src="esn"-->
+<!--                                     class="inline-block p-6 md:p-4 rounded-3xl "-->
+<!--                                     alt="esn">-->
 <!--                            </div>-->
 <!--                        </a>-->
 <!--                    </div>-->
 <!--                </div>-->
+
+
+
 
 <!--                                DREAM WINE SPECIAL-->
                 <div class="inline-block px-2">
@@ -101,19 +106,19 @@
                 </div>
 
 
-                <!--                ARHIQUE         -->
-<!--                <div class="inline-block px-2">-->
-<!--                    <div-->
-<!--                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">-->
-<!--                        <a href="https://arhique.ro//">-->
-<!--                            <div class="pt-2 px-2  justify-center">-->
-<!--                                <img :src="arhique"-->
-<!--                                     class=" inline-block p-6 md:p-4 rounded-3xl "-->
-<!--                                     alt="arhique">-->
-<!--                            </div>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
+<!--                                ARHIQUE-->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://arhique.ro//">
+                            <div class="pt-2 px-2  justify-center">
+                                <img :src="arhique"
+                                     class=" inline-block p-6 md:p-4 rounded-3xl "
+                                     alt="arhique">
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
             </div>
 
@@ -138,6 +143,7 @@ import ted from "/img/partners/ted.png";
 import esn from "/img/partners/esn.png";
 import teoretic from "/img/partners/teoretic.png";
 import edidactic from "/img/partners/edidactic.png";
+import nortra from "/img/partners/nortra.png";
 
 export default {
     name: "LatestPartners",
@@ -150,6 +156,7 @@ export default {
             dws: dws,
             teoretic: teoretic,
             edidactic: edidactic,
+            nortra: nortra,
         }
     }
 }

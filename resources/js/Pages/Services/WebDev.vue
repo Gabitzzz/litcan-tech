@@ -28,7 +28,7 @@
 
                     <div
                         style="font-family: 'Poppins', sans-serif; font-weight: 400;"
-                        class="text-xl text-center md:text-left md:text-2xl md:mr-16 mt-8">
+                        class="text-xl text-center md:text-left xl:text-2xl md:mr-16 mt-8">
                         Develop your product with the latest available technologies and a custom minimalistic interface.
                     </div>
 
@@ -53,12 +53,20 @@
 
     <div class="mx-6">
 
-        <h1
-            class="md:mx-32 text-4xl lg:text-5xl mt-16 lg:mt-32 text-center
-                    md:text-left md:flex md:justify-center"
-            style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+<!--        <h1-->
+<!--            class="md:mx-32 text-4xl lg:text-5xl mt-16 lg:mt-32 text-center-->
+<!--                    md:text-left md:flex md:justify-center"-->
+<!--            style="font-family: 'Poppins', sans-serif; font-weight: 300;">-->
+<!--            Web Development Process-->
+<!--        </h1>-->
+
+        <div class="flex justify-center mt-16">
+            <p class="text-4xl lg:text-5xl"
+                        style="font-family: 'Poppins', sans-serif; font-weight: 300;">
             Web Development Process
-        </h1>
+
+            </p>
+        </div>
 
         <!--        1. PLANNING-->
         <div class="lg:mx-32 2xl:mx-72 my-16  md:flex justify-between items-center">
@@ -79,7 +87,7 @@
                     Planning
                 </p>
 
-                <div class="flex sm:block justify-center">
+                <div class="flex sm:block justify-between">
                     <div class="w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5">
                     </div>
                 </div>
@@ -92,7 +100,7 @@
                 </p>
             </div>
 
-            <img :src="planning" class="hidden md:block w-1/2 "
+            <img :src="planning" class="hidden md:block w-1/3 "
                  alt="">
 
         </div>
@@ -113,9 +121,9 @@
                 </h1>
             </div>
 
-            <p class="text-center text-xl md:text-2xl mt-4 lg:mx-48 "
-               style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-            >
+            <p class="text-center text-xl md:text-2xl mt-4  "
+               style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+
                 Here is a part of our favorite Tech Stack, languages and frameworks that we use in day to day
                 development.
             </p>
@@ -343,10 +351,10 @@
                      alt="">
             </div>
 
-            <img :src="design" class="hidden md:block w-2/3 md:w-1/2 "
+            <img :src="design" class="hidden md:block w-1/3 "
                  alt="">
 
-            <div>
+            <div class="md:pl-32">
                 <p class="text-center md:text-left text-4xl md:text-5xl"
                    style="font-family: 'Poppins', sans-serif; font-weight: 700;">
 
@@ -383,6 +391,8 @@
 
     </div>
     <!--    <hr class="md:mx-32">-->
+
+    <hr class="mx-12 md:mx-32 2xl:mx-72">
 
 
     <div class="mx-6">
@@ -425,7 +435,7 @@
                 </p>
             </div>
 
-            <img :src="development" class="hidden md:block w-1/2 "
+            <img :src="development" class="hidden md:block w-1/3 "
                  alt="">
 
         </div>

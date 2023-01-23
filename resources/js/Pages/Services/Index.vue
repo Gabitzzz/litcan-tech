@@ -42,7 +42,8 @@
         <div class="flex justify-center lg:mx-48 -mt-16 md:-mt-16 md:mb-32">
             <div class="grid max-w-full  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-8 content-center mt-16">
                 <!--    WEB DEV     -->
-                <a href="/services/web-development" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/web-development"
+                   class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in">
                     <div class="flex justify-center">
                         <img :src="web_dev_services" alt="" class="mt-8 w-24 h-24">
                     </div>
@@ -66,18 +67,18 @@
                     </p>
 
                     <div class="flex justify-center mb-8">
-
                         <a href="/services/web-development"
-                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                           class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             SEE MORE
                         </a>
                     </div>
-
-
                 </a>
 
                 <!--   APP DEV     -->
-                <a href="/services/app-development" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/app-development"
+                   class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in  ">
+
 
                     <div class="flex justify-center">
                         <img :src="app_dev_services" alt="" class="mt-8 w-24 h-24">
@@ -107,16 +108,19 @@
                     </p>
 
                     <div class="flex justify-center mb-8">
-
                         <a href="/services/app-development"
-                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                           class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             SEE MORE
                         </a>
+
                     </div>
                 </a>
 
                 <!-- PRODUCT DESIGN     -->
-                <a href="/services/product-design" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/product-design"
+                   class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in  ">
+
 
                     <div class="flex justify-center">
                         <img :src="product_design_services" alt="" class="mt-8 w-24 h-24">
@@ -140,21 +144,23 @@
                         the help of our
                         Product Design Services
 
-<!--                        Banners, Mockups and Wireframes to design-->
-<!--                        your business idea.-->
+                        <!--                        Banners, Mockups and Wireframes to design-->
+                        <!--                        your business idea.-->
                     </p>
 
                     <div class="flex justify-center mb-8">
 
                         <a href="/services/product-design"
-                           class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                           class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             SEE MORE
                         </a>
                     </div>
                 </a>
 
                 <!--    DIGITAL MARKETING     -->
-                <a href="/services/digital-marketing" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/services/digital-marketing"
+                   class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in  ">
 
                     <div class="flex justify-center">
                         <img :src="digital_services" alt="" class="mt-8 w-24 h-24">
@@ -181,7 +187,9 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button
+                            class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             SEE MORE
                         </button>
                     </div>
@@ -190,7 +198,8 @@
                 </a>
 
                 <!-- MACHINE LEARNING    -->
-                <a href="/services/machine-learning" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a
+                    class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in  ">
 
                     <div class="flex justify-center">
                         <img :src="ml_services" alt="" class="mt-8 w-24 h-24">
@@ -216,7 +225,9 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button
+                            class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             SEE MORE
                         </button>
                     </div>
@@ -225,7 +236,8 @@
                 </a>
 
                 <!--   CUSTOM DEV     -->
-                <a href="/contact" class="z-10 w-72 shadow-lg bg-white mx-8 ">
+                <a href="/contact"
+                   class="z-10 w-72 shadow-md mx-8 bg-white hover:shadow-xl transition duration-200 ease-in  ">
 
                     <div class="flex justify-center">
                         <img :src="custom_services" alt="" class="mt-8 w-24 h-24">
@@ -252,7 +264,9 @@
 
                     <div class="flex justify-center mb-8">
 
-                        <button class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        <button
+                            class="font-bold border bg-white text-red-500 border-red-500 px-8 py-1 rounded-full
+                                    hover:bg-red-500 hover:text-white transition duration-200 ease-in">
                             CONTACT US
                         </button>
                     </div>
@@ -841,8 +855,6 @@
                 </div>
             </div>
         </div>
-
-
 
 
         <BlogComponent></BlogComponent>

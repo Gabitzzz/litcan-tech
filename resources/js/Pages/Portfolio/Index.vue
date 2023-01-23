@@ -37,7 +37,7 @@
         </div>
 
 
-        <div class=" grid mx-8 md:mx-32 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 gap-y-8 content-center ">
+        <div class=" grid mx-8 md:mx-32 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 2xl:mx-96 gap-y-8 2xl:gap-12 content-center ">
             <!--    Adopet-->
             <a href="http://adopet.gabilitcan.com/" class="z-10  shadow-lg bg-white mx-4 ">
                 <div class="flex justify-center items-center h-40">
@@ -87,7 +87,7 @@
                 </div>
 
                 <p class="mb-4 mx-8 text-center text-md">
-                    Ecommerce Platform
+                    Wine Ecommerce Platform
                     built in Wordpress
                 </p>
 

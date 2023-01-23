@@ -17,15 +17,15 @@
 
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Services</div>
-                <a class="my-3 block" href="/services/web-development">Web Development
+                <a class="my-3 block hover:underline" href="/services/web-development">Web Development
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="/services/app-development">App Developnent
+                <a class="my-3 block hover:underline" href="/services/app-development">App Developnent
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="/services/product-design">Product Design
+                <a class="my-3 block hover:underline" href="/services/product-design">Product Design
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
             </div>
@@ -33,17 +33,18 @@
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Contact us</div>
 
-                <a class="my-3 block" href="tel:+40773800815">
+                <a class="my-3 block  hover:underline" href="tel:+40773800815">
                     +40 773 800 815
                     <span class="text-teal-600 text-xs p-1">
                 </span>
                 </a>
 
-                <a class="my-3 block" href="mailto:contact@litcan.tech">contact@litcan.tech
+                <a class="my-3 block  hover:underline"
+                   href="mailto:contact@litcan.tech">contact@litcan.tech
                     <span class="text-teal-600 text-xs p-1"></span>
                 </a>
 
-                <a class="my-3 block" href="https://goo.gl/maps/EEPbGtre78XufAicA">
+                <a class="my-3 block  hover:underline " href="https://goo.gl/maps/EEPbGtre78XufAicA">
                     Brănești, Ilfov, Romania
                     <span class="text-teal-600 text-xs p-1">
                 </span>
@@ -57,7 +58,7 @@
 
         <div class="md:flex justify-between mx-8 xl:mx-64 mt-8 text-sm">
             <p>
-                Copyright © 2022 Lițcan Inernational Technologies SRL. All rights are reserved.
+                Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved.
             </p>
 
             <div class="md:flex mt-4 md:mt-0">

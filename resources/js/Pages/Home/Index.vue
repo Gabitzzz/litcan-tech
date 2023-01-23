@@ -42,7 +42,8 @@
 
         <div class="flex justify-center my-4">
             <a href="/contact"
-               class="z-40 text-white text-sm md:text-md bg-red-600 rounded-full px-10 py-2">
+               class="z-40 text-sm md:text-md text-white bg-red-500 border border-red-500
+               hover:bg-white  hover:text-white hover:text-red-500 transition ease-in duration-200 rounded-full px-16 md:px-32 py-2">
                 CONTACT US
             </a>
         </div>
@@ -50,10 +51,10 @@
 
         <!--    DESKTOP SERVICES    -->
         <div class="flex flex-wrap justify-center space-x-2 mt-8 hidden md:flex">
-          <span
+          <a :href="route('web-dev')"
               class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
               Web Development
-          </span>
+          </a>
 
 
             <span
@@ -63,7 +64,7 @@
 
             <span
                 class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
-Product Design
+                Product Design
           </span>
         </div>
 
@@ -158,6 +159,10 @@ Product Design
             </div>
         </div>
 
+        <!--        LINE    -->
+        <hr class="sm:hidden mx-4 md:mx-32 mt-16 2xl:mx-72">
+
+
         <!--    WEB DEV -->
         <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-16 xl:mx-32  2xl:mx-72">
             <div class="">
@@ -226,7 +231,7 @@ Product Design
                 <img :src="audit_mobile"
                      alt="Website Audit"
                      title="Website Audit"
-                     class="w-full lg:w-2/3 2xl:w-1/3 md:pr-16">
+                     class="w-full lg:w-2/3 2xl:w-1/2 md:pr-16">
 
                 <div>
                     <div class="">
@@ -282,7 +287,8 @@ Product Design
 
                 <p class="text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    Develop a mobile or web application tailored to your industry needs. To help your digital product succeed, we
+                    Develop a mobile or web application tailored to your industry needs. To help your digital product
+                    succeed, we
                     commit to comprehensively research your market and build an innovative solution that’s customized to
                     your business, speaks your values and targets the right audience.
                 </p>
@@ -505,7 +511,6 @@ Product Design
         </div>
 
         <hr class="mx-4 md:mx-32 2xl:mx-72">
-
 
 
         <!--       DIGITAL MARKETING    -->

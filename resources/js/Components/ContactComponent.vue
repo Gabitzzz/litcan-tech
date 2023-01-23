@@ -4,11 +4,11 @@
             class="grid gap-8 grid-cols-1 md:grid-cols-2
                 md:px-12 xl:px-32 2xl:px-32 pt-32 pb-16
                 mx-auto px-8
-                 text-gray-900 rounded-lg shadow-lg">
+                 text-gray-900 rounded-lg ">
 
             <div class="flex flex-col justify-between xl:px-16 z-40">
                 <div>
-                    <h2 class="text-2xl font-bold leading-tight"
+                    <h2 class="text-2xl xl:text-3xl  font-bold leading-tight"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                         Let's Get in Touch
@@ -17,14 +17,7 @@
                     <div class="text-gray-700 my-4">
 
 
-                        Hate forms? Send us an <span class="underline">email</span> instead.
-                    </div>
 
-                    <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
-                        <a href="mailto:contact@litcan.tech" class="flex items-center hover:text-red-600">
-                            <img :src="mail" class="w-6 h-6 mr-2" alt="">
-                            contact@litcan.tech
-                        </a>
                     </div>
 
                     <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
@@ -35,13 +28,22 @@
                     </div>
 
                     <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
+                        <a href="mailto:contact@litcan.tech" class="flex items-center hover:text-red-600">
+                            <img :src="mail" class="w-6 h-6 mr-2" alt="">
+                            contact@litcan.tech
+                        </a>
+                    </div>
+
+
+
+                    <div class="mb-1.5 flex items-center text-gray-700 text-2xl font-bold">
                         <a href="https://litcan.tech/" class="flex items-center hover:text-red-600">
                             <img :src="website" class="w-6 h-6 mr-2" alt="">
                             www.litcan.tech
                         </a>
                     </div>
 
-                    <h2 class="text-2xl font-bold leading-tight mt-8"
+                    <h2 class="text-2xl xl:text-3xl font-bold leading-tight mt-8"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">
 
                         Follow us on Social Media
