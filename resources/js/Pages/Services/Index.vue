@@ -526,13 +526,11 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="medtech"
                                          class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
-                            </a>
 
                             <div class="flex justify-center">
                                 <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
@@ -552,13 +550,11 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="edtech"
                                          class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
-                            </a>
 
                             <div class="flex justify-center">
                                 <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
@@ -578,13 +574,11 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="iot_dev"
                                          class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
-                            </a>
 
                             <div class="flex justify-center">
                                 <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">
@@ -604,13 +598,11 @@
                     <div class="inline-block px-2">
                         <div
                             class="w-64  max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <a href="https://faser.essex.ac.uk/">
                                 <div class="pt-8 px-8 flex justify-center">
                                     <img :src="agritech"
                                          class="w-32 h-32 inline-block px-4 py-4 lg:px-8 lg:py-8 rounded-3xl "
                                          alt="plus">
                                 </div>
-                            </a>
 
                             <div class="flex justify-center">
                                 <h2 class="flex text-center font-bold text-xl" style="font-family: Poppins,serif">

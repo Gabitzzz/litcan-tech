@@ -32,9 +32,12 @@
                         PORTFOLIO
                     </a>
 
-<!--                    <a href="/blog" class="px-6 text-sm rounded-full underline-opening">-->
-<!--                        BLOG-->
-<!--                    </a>-->
+                    <a href="/portfolio" class="px-4 text-sm rounded-full underline-opening">
+                        BLOG
+                    </a>
+
+
+
 
 
 
@@ -51,19 +54,22 @@
 
                     <div class="ml-2">
                         <a href="https://www.facebook.com/litcan.tech">
-                            <img :src="facebook_round" alt="" class="w-8 transition duration-150 ease-in-out hover:rotate-180">
+                            <img :src="facebook_round" alt=""
+                                 class="w-8 hover:animate-pulse">
                         </a>
                     </div>
 
                     <div class="ml-2">
                         <a href="https://www.linkedin.com/company/li%C8%9Bcan-technologies">
-                            <img :src="linkedin_round" alt="" class="w-8 transition duration-150 ease-in-out hover:rotate-180">
+                            <img :src="linkedin_round" alt=""
+                                 class="w-8 hover:animate-pulse">
                         </a>
                     </div>
 
                     <div class="ml-2">
                         <a href="https://www.instagram.com/litcan.tech/">
-                            <img :src="instagram_round" alt="" class="w-8 transition duration-150 ease-in-out hover:rotate-180">
+                            <img :src="instagram_round" alt=""
+                                 class="w-8 hover:animate-pulse">
                         </a>
                     </div>
                 </div>

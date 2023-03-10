@@ -15,6 +15,8 @@ use Inertia\Inertia;
 |
 */
 
+
+
 Route::get('/', function () {
     return Inertia::render('Home/Index', [
         'canLogin' => Route::has('login'),
