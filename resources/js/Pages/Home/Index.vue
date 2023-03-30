@@ -1,7 +1,7 @@
 <template>
     <Head>
         <title>
-            Lițcan Technologies
+            Home | Lițcan Technologies
         </title>
     </Head>
     <div class="bg-white">

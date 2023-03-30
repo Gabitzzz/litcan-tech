@@ -18,7 +18,21 @@
 
 
 
-                <!--                EDIDACTIC       -->
+                <!--                NORTRA       -->
+                <div class="inline-block px-2">
+                    <div
+                        class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                        <a href="https://edidactic.ro//" class="">
+                            <div class="pt-2 px-2 flex justify-center">
+                                <img :src="supremeworks"
+                                     class="inline-block p-10 md:p-6rounded-3xl "
+                                     alt="Supreme Works GW">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--                NORTRA       -->
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -144,6 +158,7 @@ import esn from "/img/partners/esn.png";
 import teoretic from "/img/partners/teoretic.png";
 import edidactic from "/img/partners/edidactic.png";
 import nortra from "/img/partners/nortra.png";
+import supremeworks from "/img/partners/supremeworks.webp";
 
 export default {
     name: "LatestPartners",
@@ -157,6 +172,7 @@ export default {
             teoretic: teoretic,
             edidactic: edidactic,
             nortra: nortra,
+            supremeworks: supremeworks,
         }
     }
 }
