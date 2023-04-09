@@ -16,13 +16,11 @@
                 id="scrollContainer2"
                 class="flex md:justify-center flex-no-wrap overflow-x-scroll scrolling-touch items-start pb-8  scrollbar-hide">
 
-
-
                 <!--                NORTRA       -->
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://edidactic.ro//" class="">
+                        <a href="https://supremeworks.co.uk/" class="">
                             <div class="pt-2 px-2 flex justify-center">
                                 <img :src="supremeworks"
                                      class="inline-block p-10 md:p-6rounded-3xl "
@@ -36,7 +34,7 @@
                 <div class="inline-block px-2">
                     <div
                         class="w-40 h-40 flex items-center max-w-xs overflow-hidden  shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <a href="https://edidactic.ro//" class="">
+                        <a href="https://nortra.ro" class="">
                             <div class="pt-2 px-2 flex justify-center">
                                 <img :src="nortra"
                                      class="inline-block p-10 md:p-6rounded-3xl "

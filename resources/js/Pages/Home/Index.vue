@@ -7,6 +7,8 @@
     <div class="bg-white">
         <Navbar></Navbar>
 
+
+
         <!--        BANNER      -->
         <div class="md:mx-10 mt-80 md:mt-32 2xl:mt-48 flex justify-center">
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"

@@ -26037,7 +26037,7 @@ var _hoisted_3 = {
 };
 var _hoisted_4 = ["src"];
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Resources</div><a class=\"my-3 block\" href=\"/\">Home <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/blog\">Blog <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block\" href=\"/portfolio\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Services</div><a class=\"my-3 block hover:underline\" href=\"/services/web-development\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/app-development\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/product-design\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Contact us</div><a class=\"my-3 block hover:underline\" href=\"tel:+40773800815\"> +40 773 800 815 <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"mailto:contact@litcan.tech\">contact@litcan.tech <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"https://goo.gl/maps/EEPbGtre78XufAicA\"> Brănești, Ilfov, Romania <span class=\"text-teal-600 text-xs p-1\"></span></a></div>", 3);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Resources</div><a class=\"my-3 block hover:underline\" href=\"/\">Home <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/blog\">Blog <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/portfolio\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Services</div><a class=\"my-3 block hover:underline\" href=\"/services/web-development\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/app-development\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/product-design\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Contact us</div><a class=\"my-3 block hover:underline\" href=\"tel:+40773800815\"> +40 773 800 815 <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"mailto:contact@litcan.tech\">contact@litcan.tech <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"https://goo.gl/maps/EEPbGtre78XufAicA\"> Brănești, Ilfov, Romania <span class=\"text-teal-600 text-xs p-1\"></span></a></div>", 3);
 
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<hr class=\"mx-10 lg:mx-48\"><div class=\"md:flex justify-between mx-8 xl:mx-64 mt-8 text-sm\"><p> Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved. </p><div class=\"md:flex mt-4 md:mt-0\"><p class=\"md:mx-2\"> Privacy Policy </p><p class=\"md:mx-2\"> Cookie Policy </p></div></div>", 2);
 
@@ -26162,7 +26162,7 @@ var _hoisted_7 = {
   "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_8 = {
-  href: "https://edidactic.ro//",
+  href: "https://supremeworks.co.uk/",
   "class": ""
 };
 var _hoisted_9 = {
@@ -26176,7 +26176,7 @@ var _hoisted_12 = {
   "class": "w-40 h-40 flex items-center max-w-xs overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
 };
 var _hoisted_13 = {
-  href: "https://edidactic.ro//",
+  href: "https://nortra.ro",
   "class": ""
 };
 var _hoisted_14 = {

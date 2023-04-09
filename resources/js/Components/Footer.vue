@@ -10,9 +10,9 @@
             </div>
             <div class="p-5">
                 <div class="text-sm uppercase text-red-600 font-bold">Resources</div>
-                <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a>
-                <a class="my-3 block" href="/blog">Blog <span class="text-teal-600 text-xs p-1"></span></a>
-                <a class="my-3 block" href="/portfolio">Portfolio <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block hover:underline" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block hover:underline" href="/blog">Blog <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block hover:underline" href="/portfolio">Portfolio <span class="text-teal-600 text-xs p-1"></span></a>
             </div>
 
             <div class="p-5">

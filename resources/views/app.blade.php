@@ -8,7 +8,7 @@
     <meta name="description" content="Lițcan Technologies is a B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
     {{--    <title inertia>{{ config('app.name', 'Lițcan Technologies') }}</title>--}}
 
-{{--    <title>Lițcan Technologies </title>--}}
+    <title>Lițcan Technologies</title>
     <meta property="og:title" content="Lițcan Technologies"/>
     <meta property="og:description"
           content="B2B Software Company focused on Web & App Development, Product Design and Digital Marketing.">
