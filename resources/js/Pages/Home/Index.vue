@@ -700,7 +700,7 @@ import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
 import banner from "/img/banner.webp";
-import banner_mobile from "/img/mobile/banner-mobile.webp";
+import banner_mobile from "/img/banner.webp";
 
 import fintech from "/img/services/fintech.png";
 import edtech from "/img/services/edtech.png";
