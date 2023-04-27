@@ -25008,8 +25008,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../img/logo/logo_banner.png */ "./public/img/logo/logo_banner.png");
 /* harmony import */ var _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../img/logo/logo_banner_mobile.png */ "./public/img/logo/logo_banner_mobile.png");
 /* harmony import */ var _img_partners_adopet_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../img/partners/adopet.webp */ "./public/img/partners/adopet.webp");
-/* harmony import */ var _img_portfolio_dws_mockup_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../img/portfolio/dws_mockup.png */ "./public/img/portfolio/dws_mockup.png");
-/* harmony import */ var _img_portfolio_arhique_mockup_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/portfolio/arhique_mockup.png */ "./public/img/portfolio/arhique_mockup.png");
+/* harmony import */ var _img_portfolio_dws_mockup_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../img/portfolio/dws-mockup.webp */ "./public/img/portfolio/dws-mockup.webp");
+/* harmony import */ var _img_portfolio_arhique_mockup_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/portfolio/arhique_mockup.webp */ "./public/img/portfolio/arhique_mockup.webp");
 
 
 
@@ -25032,8 +25032,8 @@ __webpack_require__.r(__webpack_exports__);
       logo_bg: _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_4__["default"],
       logo_bg_mobile: _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_5__["default"],
       adopet_mockup: _img_partners_adopet_webp__WEBPACK_IMPORTED_MODULE_6__["default"],
-      dws_mockup: _img_portfolio_dws_mockup_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-      arhique_mockup: _img_portfolio_arhique_mockup_png__WEBPACK_IMPORTED_MODULE_8__["default"]
+      dws_mockup: _img_portfolio_dws_mockup_webp__WEBPACK_IMPORTED_MODULE_7__["default"],
+      arhique_mockup: _img_portfolio_arhique_mockup_webp__WEBPACK_IMPORTED_MODULE_8__["default"]
     };
   }
 });
@@ -28519,7 +28519,7 @@ var _hoisted_5 = ["src"];
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mx-10 md:-mt-80 flex justify-center items-center text-3xl md:text-5xl\"><div class=\"-mt-48 lg:-mt-80 flex flex-col items-center\"><h1 style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\" class=\"tracking-wider text-center\"> See our <span class=\"text-red-500\">portfolio</span></h1></div></div><div class=\"mx-10 mb-8 flex flex-col items-center 2xl:mx-80\"><p class=\"-mt-8 md:-mt-0 lg:-mt-24 xl:-mt-16 text-center text-xl md:px-24 lg:px-32 xl:mx-24\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Check out the products we built for our clients or public use. </p></div>", 2);
 
 var _hoisted_8 = {
-  "class": "grid mx-8 md:mx-32 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mx-64 2xl:mx-96 gap-y-8 2xl:gap-12 content-center"
+  "class": "grid mx-8 mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mx-16 xl:mx-64 2xl:mx-96 gap-y-8 2xl:gap-12 content-center"
 };
 var _hoisted_9 = {
   href: "http://adopet.gabilitcan.com/",
@@ -28530,7 +28530,7 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = ["src"];
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopets </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_16 = {
   href: "https://vin-cadou.ro/",
@@ -28541,7 +28541,7 @@ var _hoisted_17 = {
 };
 var _hoisted_18 = ["src"];
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center mx-2\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Wine Ecommerce Platform built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Wine Ecommerce Platform built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_23 = {
   href: "https://arhique.ro/",
@@ -28552,7 +28552,7 @@ var _hoisted_24 = {
 };
 var _hoisted_25 = ["src"];
 
-var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://arhique.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -28592,22 +28592,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, null, 8
   /* PROPS */
-  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    Adopet"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ADOPET      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.adopet_mockup,
     alt: "",
-    "class": "mt-8 w-48 md:w-32"
+    "class": "mt-8 w-48 md:w-40"
   }, null, 8
   /* PROPS */
   , _hoisted_11)]), _hoisted_12]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DREAM WINE SPECIAL  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.dws_mockup,
     alt: "",
-    "class": "mt-8 w-48 md:w-32"
+    "class": "mt-8 w-48 md:w-40"
   }, null, 8
   /* PROPS */
   , _hoisted_18)]), _hoisted_19]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     ARHIQUE     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.arhique_mockup,
     alt: "",
-    "class": "mt-8 w-48 md:w-32"
+    "class": "mt-8 w-48 md:w-40"
   }, null, 8
   /* PROPS */
   , _hoisted_25)]), _hoisted_26])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
@@ -34124,10 +34124,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./public/img/portfolio/arhique_mockup.png":
-/*!*************************************************!*\
-  !*** ./public/img/portfolio/arhique_mockup.png ***!
-  \*************************************************/
+/***/ "./public/img/portfolio/arhique_mockup.webp":
+/*!**************************************************!*\
+  !*** ./public/img/portfolio/arhique_mockup.webp ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -34135,14 +34135,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/arhique_mockup.png?e167dc9f85d481a68daba906ab42dcaa");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/arhique_mockup.webp?1b05c7e79b5219e21946af04500fafd3");
 
 /***/ }),
 
-/***/ "./public/img/portfolio/dws_mockup.png":
-/*!*********************************************!*\
-  !*** ./public/img/portfolio/dws_mockup.png ***!
-  \*********************************************/
+/***/ "./public/img/portfolio/dws-mockup.webp":
+/*!**********************************************!*\
+  !*** ./public/img/portfolio/dws-mockup.webp ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -34150,7 +34150,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/dws_mockup.png?f944f057e313a69a47e53048930e7623");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/dws-mockup.webp?0b0b89880e43e291d66226c487391899");
 
 /***/ }),
 
