@@ -40,8 +40,97 @@
         <div
             class=" grid mx-8  mb-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mx-16 xl:mx-64 2xl:mx-96 gap-y-8 2xl:gap-12 content-center ">
 
+            <!--    SUPREME WORKS      -->
+            <a href="http://adopet.gabilitcan.com/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
+                <div class="flex justify-center items-center h-40">
+                    <img :src="adopet_mockup" alt="" class="mt-8 w-48 md:w-40">
+                </div>
+
+                <div class="flex justify-center mt-2">
+                    <p class="text-xl text-center" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                        Supreme Works
+                    </p>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 2px;">
+                    </div>
+                </div>
+
+                <p class="mb-8 mx-8 text-center text-md">
+                    Custom Built Platform for Pet Adoptions in Romania.
+                </p>
+
+                <div class="flex justify-center mb-8">
+                    <a href="http://adopet.gabilitcan.com/"
+                       class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        SEE MORE
+                    </a>
+                </div>
+            </a>
+
+            <!--    NORTRA       -->
+            <a href="https://vin-cadou.ro/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
+                <div class="flex justify-center items-center h-40">
+                    <img :src="dws_mockup" alt="" class="mt-8 w-48 md:w-40">
+                </div>
+
+                <div class="flex justify-center mt-2">
+                    <p class="text-xl text-center" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                     Nortra Management
+                    </p>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 2px;">
+                    </div>
+                </div>
+
+                <p class="mb-8 mx-8 text-center text-md">
+                    Wine Ecommerce Platform
+                    built in Wordpress
+                </p>
+
+                <div class="flex justify-center mb-8">
+                    <a href="https://vin-cadou.ro/"
+                       class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        SEE MORE
+                    </a>
+                </div>
+            </a>
+
+            <!--     ARHIQUE     -->
+            <a href="https://arhique.ro/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
+                <div class="flex justify-center items-center h-40">
+                    <img :src="arhique_mockup" alt="" class="mt-8 w-48 md:w-40">
+                </div>
+
+                <div class="flex justify-center mt-2">
+                    <p class="text-xl text-center" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                        Arhique
+                    </p>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full" style="height: 2px;">
+                    </div>
+                </div>
+
+                <p class="mb-8 mx-8 text-center text-md">
+                    Digital Catalogue <br>
+                    of an Architecture Company
+                </p>
+
+                <div class="flex justify-center mb-8">
+                    <a href="https://vin-cadou.ro/"
+                       class="font-bold border text-red-500 border-red-500 rounded-full px-4 py-1">
+                        SEE MORE
+                    </a>
+                </div>
+            </a>
+
             <!--    ADOPET      -->
-            <a href="http://adopet.gabilitcan.com/" class="z-10  shadow-lg bg-white mx-4 ">
+            <a href="http://adopet.gabilitcan.com/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
                 <div class="flex justify-center items-center h-40">
                     <img :src="adopet_mockup" alt="" class="mt-8 w-48 md:w-40">
                 </div>
@@ -70,7 +159,7 @@
             </a>
 
             <!--    DREAM WINE SPECIAL  -->
-            <a href="https://vin-cadou.ro/" class="z-10  shadow-lg bg-white mx-4 ">
+            <a href="https://vin-cadou.ro/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
                 <div class="flex justify-center items-center h-40">
                     <img :src="dws_mockup" alt="" class="mt-8 w-48 md:w-40">
                 </div>
@@ -100,7 +189,7 @@
             </a>
 
             <!--     ARHIQUE     -->
-            <a href="https://arhique.ro/" class="z-10  shadow-lg bg-white mx-4 ">
+            <a href="https://arhique.ro/" class="z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4">
                 <div class="flex justify-center items-center h-40">
                     <img :src="arhique_mockup" alt="" class="mt-8 w-48 md:w-40">
                 </div>
@@ -128,7 +217,6 @@
                     </a>
                 </div>
             </a>
-
 
         </div>
 

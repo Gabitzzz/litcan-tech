@@ -28523,29 +28523,29 @@ var _hoisted_8 = {
 };
 var _hoisted_9 = {
   href: "http://adopet.gabilitcan.com/",
-  "class": "z-10 shadow-lg bg-white mx-4"
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
 };
 var _hoisted_10 = {
   "class": "flex justify-center items-center h-40"
 };
 var _hoisted_11 = ["src"];
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Supreme Works </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_16 = {
   href: "https://vin-cadou.ro/",
-  "class": "z-10 shadow-lg bg-white mx-4"
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
 };
 var _hoisted_17 = {
   "class": "flex justify-center items-center h-40"
 };
 var _hoisted_18 = ["src"];
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Wine Ecommerce Platform built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Nortra Management </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Wine Ecommerce Platform built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_23 = {
   href: "https://arhique.ro/",
-  "class": "z-10 shadow-lg bg-white mx-4"
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
 };
 var _hoisted_24 = {
   "class": "flex justify-center items-center h-40"
@@ -28553,6 +28553,39 @@ var _hoisted_24 = {
 var _hoisted_25 = ["src"];
 
 var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+
+var _hoisted_30 = {
+  href: "http://adopet.gabilitcan.com/",
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
+};
+var _hoisted_31 = {
+  "class": "flex justify-center items-center h-40"
+};
+var _hoisted_32 = ["src"];
+
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+
+var _hoisted_37 = {
+  href: "https://vin-cadou.ro/",
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
+};
+var _hoisted_38 = {
+  "class": "flex justify-center items-center h-40"
+};
+var _hoisted_39 = ["src"];
+
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Dream Wine Special </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Wine Ecommerce Platform built in Wordpress </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+
+var _hoisted_44 = {
+  href: "https://arhique.ro/",
+  "class": "z-10 shadow-lg hover:shadow-xl transition duration-250 ease-in bg-white mx-4"
+};
+var _hoisted_45 = {
+  "class": "flex justify-center items-center h-40"
+};
+var _hoisted_46 = ["src"];
+
+var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Arhique </p></div><div class=\"flex justify-center\"><div class=\"w-1/3 md:w-1/2 my-4 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-8 mx-8 text-center text-md\"> Digital Catalogue <br> of an Architecture Company </p><div class=\"flex justify-center mb-8\"><a href=\"https://vin-cadou.ro/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -28592,13 +28625,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, null, 8
   /* PROPS */
-  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ADOPET      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_5)]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    SUPREME WORKS      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.adopet_mockup,
     alt: "",
     "class": "mt-8 w-48 md:w-40"
   }, null, 8
   /* PROPS */
-  , _hoisted_11)]), _hoisted_12]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DREAM WINE SPECIAL  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_11)]), _hoisted_12]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    NORTRA       "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.dws_mockup,
     alt: "",
     "class": "mt-8 w-48 md:w-40"
@@ -28610,7 +28643,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "mt-8 w-48 md:w-40"
   }, null, 8
   /* PROPS */
-  , _hoisted_25)]), _hoisted_26])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
+  , _hoisted_25)]), _hoisted_26]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    ADOPET      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.adopet_mockup,
+    alt: "",
+    "class": "mt-8 w-48 md:w-40"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_32)]), _hoisted_33]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DREAM WINE SPECIAL  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.dws_mockup,
+    alt: "",
+    "class": "mt-8 w-48 md:w-40"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_39)]), _hoisted_40]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     ARHIQUE     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $data.arhique_mockup,
+    alt: "",
+    "class": "mt-8 w-48 md:w-40"
+  }, null, 8
+  /* PROPS */
+  , _hoisted_46)]), _hoisted_47])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
   /* STABLE_FRAGMENT */
   );
 }
