@@ -8,7 +8,6 @@
         <Navbar></Navbar>
 
 
-
         <!--        BANNER      -->
         <div class="md:mx-10 mt-80 md:mt-32 2xl:mt-48 flex justify-center">
             <img :src="logo_bg_mobile" alt="" class="object-fit sm:hidden"
@@ -16,6 +15,7 @@
 
             <img :src="logo_bg" alt="" class="object-fit hidden sm:flex z-0"
                  style="filter: blur(0.2rem); min-width: 400px; max-width: 1000px;">
+
         </div>
 
         <!--        BANNER      -->
@@ -26,6 +26,16 @@
                 <div class=" hidden md:flex justify-center lg:-mt-8 xl:-mt-16">
                     <img :src="banner" class="w-1/2 lg:w-1/3  " alt="">
                 </div>
+
+
+                <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+<!--                <link rel="preload"-->
+<!--                      fetchpriority="high" as="image"-->
+<!--                      :href="banner" type="image/webp">-->
+
+<!--                <link rel="preload"-->
+<!--                      fetchpriority="high" as="image"-->
+<!--                      :href="banner_mobile" type="image/webp">-->
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="lg:tracking-wider text-4xl text-center leading-tight"
@@ -53,10 +63,10 @@
 
         <!--    DESKTOP SERVICES    -->
         <div class="flex flex-wrap justify-center space-x-2 mt-8 hidden md:flex">
-          <a :href="route('web-dev')"
-              class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
-              Web Development
-          </a>
+            <a :href="route('web-dev')"
+               class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                Web Development
+            </a>
 
 
             <span
@@ -516,8 +526,7 @@
 
 
         <!--       DIGITAL MARKETING    -->
-        <div class="items-center my-32 mx-6 xl:mx-32 2xl:mx-72">
-            <div class=" md:flex items-center">
+        <div class="md:flex items-center justify-between my-32 mx-6 xl:mx-32 2xl:mx-72">
                 <img :src="digital_marketing"
                      alt="Digital Marketing"
                      title="Digital Marketing"
@@ -525,7 +534,7 @@
                 <div>
                     <div>
                         <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-3xl font-bold text-center
+                           class="text-3xl  text-center
                                     md:text-4xl md:mt-0  md:text-left
                                     lg:text-5xl">
                             <strong>
@@ -567,7 +576,6 @@
                 </div>
 
 
-            </div>
 
 
         </div>

@@ -25007,7 +25007,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
 /* harmony import */ var _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../img/logo/logo_banner.png */ "./public/img/logo/logo_banner.png");
 /* harmony import */ var _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../img/logo/logo_banner_mobile.png */ "./public/img/logo/logo_banner_mobile.png");
-/* harmony import */ var _img_portfolio_adopet_mockup_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../img/portfolio/adopet_mockup.png */ "./public/img/portfolio/adopet_mockup.png");
+/* harmony import */ var _img_partners_adopet_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../img/partners/adopet.webp */ "./public/img/partners/adopet.webp");
 /* harmony import */ var _img_portfolio_dws_mockup_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../img/portfolio/dws_mockup.png */ "./public/img/portfolio/dws_mockup.png");
 /* harmony import */ var _img_portfolio_arhique_mockup_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../img/portfolio/arhique_mockup.png */ "./public/img/portfolio/arhique_mockup.png");
 
@@ -25031,7 +25031,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       logo_bg: _img_logo_logo_banner_png__WEBPACK_IMPORTED_MODULE_4__["default"],
       logo_bg_mobile: _img_logo_logo_banner_mobile_png__WEBPACK_IMPORTED_MODULE_5__["default"],
-      adopet_mockup: _img_portfolio_adopet_mockup_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+      adopet_mockup: _img_partners_adopet_webp__WEBPACK_IMPORTED_MODULE_6__["default"],
       dws_mockup: _img_portfolio_dws_mockup_png__WEBPACK_IMPORTED_MODULE_7__["default"],
       arhique_mockup: _img_portfolio_arhique_mockup_png__WEBPACK_IMPORTED_MODULE_8__["default"]
     };
@@ -28251,45 +28251,42 @@ var _hoisted_107 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 );
 
 var _hoisted_108 = {
-  "class": "items-center my-32 mx-6 xl:mx-32 2xl:mx-72"
+  "class": "md:flex items-center justify-between my-32 mx-6 xl:mx-32 2xl:mx-72"
 };
-var _hoisted_109 = {
-  "class": "md:flex items-center"
-};
-var _hoisted_110 = ["src"];
+var _hoisted_109 = ["src"];
 
-var _hoisted_111 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CHECK OUT OUR SERVICES </a></div></div>", 1);
+var _hoisted_110 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Grow your brand with our Digital <span class=\"text-red-600\"> Marketing </span> services </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl mt-4 xl:text-2xl\"> Search Engine Optimization<br> Social Media Marketing <br></p><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"><!--                        Any growing and upcoming business can benefit from a strong online presence. --> An online presence offers businesses a better opportunity to sustain, compete, and grow. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/app-development\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CHECK OUT OUR SERVICES </a></div></div>", 1);
 
-var _hoisted_112 = {
+var _hoisted_111 = {
   "class": "md:my-32"
 };
-var _hoisted_113 = {
+var _hoisted_112 = {
   "class": "my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72"
 };
-var _hoisted_114 = {
+var _hoisted_113 = {
   "class": ""
 };
-var _hoisted_115 = {
+var _hoisted_114 = {
   "class": "flex justify-center"
 };
-var _hoisted_116 = ["src"];
+var _hoisted_115 = ["src"];
 
-var _hoisted_117 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
+var _hoisted_116 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl font-bold text-center md:text-4xl md:mt-0 md:text-left lg:text-5xl\"><strong> Product <span class=\"text-red-600\"> Design </span> for <br class=\"hidden xl:block\"> multiple industries </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Let&#39;s collaborate to design a staggering product that will remain in people&#39;s minds for a loooong time. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/services/product-design\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> SEE MORE </a></div>", 4);
 
-var _hoisted_121 = ["src"];
+var _hoisted_120 = ["src"];
 
-var _hoisted_122 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+var _hoisted_121 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
   "class": "mx-4 md:mx-32 2xl:mx-72"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_123 = {
+var _hoisted_122 = {
   "class": "my-32 md:flex items-center justify-between mx-6 lg:mx-32 2xl:mx-72"
 };
-var _hoisted_124 = ["src"];
+var _hoisted_123 = ["src"];
 
-var _hoisted_125 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_124 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong><span class=\"text-red-600\"> Custom </span> Development <br class=\"hidden xl:block\"> suited to your needs </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p class=\"mt-4 md:pr-12 text-md md:text-xl md:text-left\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Can&#39;t find what you&#39;re looking for? <br> Tell us about your idea and we will develop it. </p><div class=\"flex justify-center md:justify-start mt-5\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -28345,7 +28342,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_10)]), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  , _hoisted_10)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <link rel=\"preload\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      fetchpriority=\"high\" as=\"image\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      :href=\"banner\" type=\"image/webp\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <link rel=\"preload\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      fetchpriority=\"high\" as=\"image\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      :href=\"banner_mobile\" type=\"image/webp\">"), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('web-dev'),
     "class": "px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease"
   }, " Web Development ", 8
@@ -28457,35 +28454,35 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "App Development"
   }, null, 8
   /* PROPS */
-  , _hoisted_106)])]), _hoisted_107, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_108, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_106)])]), _hoisted_107, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       DIGITAL MARKETING    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_108, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.digital_marketing,
     alt: "Digital Marketing",
     title: "Digital Marketing",
     "class": "w-full md:w-1/2 md:pr-24"
   }, null, 8
   /* PROPS */
-  , _hoisted_110), _hoisted_111])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_113, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_114, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_115, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_109), _hoisted_110]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    PARTNERS    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        PRODUCT DESIGN"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_113, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_114, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_mobile,
     "class": "w-full md:hidden",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_116)]), _hoisted_117]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_115)]), _hoisted_116]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design,
     "class": "hidden md:block w-1/2",
     alt: "Product Design",
     title: "Product Design"
   }, null, 8
   /* PROPS */
-  , _hoisted_121)]), _hoisted_122, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_120)]), _hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    CUSTOM DEVELOPMENT  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.product_design_2,
     alt: "Custom Development",
     title: "Custom Development",
     "class": "w-full md:w-1/2"
   }, null, 8
   /* PROPS */
-  , _hoisted_124), _hoisted_125]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
+  , _hoisted_123), _hoisted_124]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        CONTACT COMPONENT   "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        BLOG COMPONENT      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BlogComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        FOOTER      "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -28533,7 +28530,7 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = ["src"];
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopet </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-center mt-2\"><p class=\"text-xl text-center\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:400;\"> Adopets </p></div><div class=\"flex justify-center\"><div class=\"flex justify-center md:w-1/2 my-2 bg-red-500 rounded-full\" style=\"height:2px;\"></div></div><p class=\"mb-4 mx-8 text-center text-md\"> Custom Built Platform for Pet Adoptions in Romania. </p><div class=\"flex justify-center mb-8\"><a href=\"http://adopet.gabilitcan.com/\" class=\"font-bold border text-red-500 border-red-500 rounded-full px-4 py-1\"> SEE MORE </a></div>", 4);
 
 var _hoisted_16 = {
   href: "https://vin-cadou.ro/",
@@ -33201,7 +33198,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.indicator[data-v-4a80dbca] {\n    -webkit-animation: crescendo-4a80dbca 2s alternate infinite ease-in;\n            animation: crescendo-4a80dbca 2s alternate infinite ease-in;\n}\n@-webkit-keyframes crescendo-4a80dbca {\n0% {\n        transform: scale(1);\n}\n100% {\n        transform: scale(1.8);\n}\n}\n@keyframes crescendo-4a80dbca {\n0% {\n        transform: scale(1);\n}\n100% {\n        transform: scale(1.8);\n}\n}\nbody[data-v-4a80dbca], html[data-v-4a80dbca] {\n    margin: 0;\n}\nul[data-v-4a80dbca] {\n    padding: 0;\n    list-style: none;\n    text-align: center;\n}\n.menu-horizontal li[data-v-4a80dbca] {\n    display: table-cell;\n    position: relative;\n}\n.menu-horizontal a[data-v-4a80dbca] {\n    color: black;\n    text-transform: uppercase;\n    text-decoration: none;\n    letter-spacing: 0.15em;\n\n    display: inline-block;\n    position: relative;\n}\n.menu-horizontal a[data-v-4a80dbca]:after {\n    bottom: -10px;\n    content: \"\";\n    display: block;\n\n    height: 2px;\n    left: 50%;\n    position: absolute;\n    background: red;\n    transition: width 0.3s ease 0s, left 0.3s ease 0s;\n    width: 0;\n}\n.menu-horizontal a[data-v-4a80dbca]:hover:after {\n    width: 100%;\n    left: 0;\n}\n@media screen and (max-height: 300px) {\nul[data-v-4a80dbca] {\n        margin-top: 40px;\n}\n}\n@-webkit-keyframes rotateOnY-4a80dbca {\n5% {\n        transform: rotateY(90deg);\n}\n10% {\n        transform: rotateY(0deg);\n}\n}\n@keyframes rotateOnY-4a80dbca {\n5% {\n        transform: rotateY(90deg);\n}\n10% {\n        transform: rotateY(0deg);\n}\n}\n\n/*#axesY:checked ~ .grid > .skill > .grid > .logo {*/\n/*    -webkit-animation: rotateOnY 20s infinite linear;*/\n/*    animation: rotateOnY 20s infinite linear;*/\n/*    animation-delay: 4s;*/\n/*}*/\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.indicator[data-v-4a80dbca] {\n    -webkit-animation: crescendo-4a80dbca 2s alternate infinite ease-in;\n            animation: crescendo-4a80dbca 2s alternate infinite ease-in;\n}\n@-webkit-keyframes crescendo-4a80dbca {\n0% {\n        transform: scale(1);\n}\n100% {\n        transform: scale(1.8);\n}\n}\n@keyframes crescendo-4a80dbca {\n0% {\n        transform: scale(1);\n}\n100% {\n        transform: scale(1.8);\n}\n}\nbody[data-v-4a80dbca], html[data-v-4a80dbca] {\n    margin: 0;\n}\nul[data-v-4a80dbca] {\n    padding: 0;\n    list-style: none;\n    text-align: center;\n}\n.menu-horizontal li[data-v-4a80dbca] {\n    display: table-cell;\n    position: relative;\n}\n.menu-horizontal a[data-v-4a80dbca] {\n    color: black;\n    text-transform: uppercase;\n    text-decoration: none;\n    letter-spacing: 0.15em;\n\n    display: inline-block;\n    position: relative;\n}\n.menu-horizontal a[data-v-4a80dbca]:after {\n    bottom: -10px;\n    content: \"\";\n    display: block;\n\n    height: 2px;\n    left: 50%;\n    position: absolute;\n    background: red;\n    transition: width 0.3s ease 0s, left 0.3s ease 0s;\n    width: 0;\n}\n.menu-horizontal a[data-v-4a80dbca]:hover:after {\n    width: 100%;\n    left: 0;\n}\n@media screen and (max-height: 300px) {\nul[data-v-4a80dbca] {\n        margin-top: 40px;\n}\n}\n@-webkit-keyframes rotateOnY-4a80dbca {\n5% {\n        transform: rotateY(90deg);\n}\n10% {\n        transform: rotateY(0deg);\n}\n}\n@keyframes rotateOnY-4a80dbca {\n5% {\n        transform: rotateY(90deg);\n}\n10% {\n        transform: rotateY(0deg);\n}\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -33992,6 +33989,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/img/partners/adopet.webp":
+/*!*****************************************!*\
+  !*** ./public/img/partners/adopet.webp ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/adopet.webp?e2da333e2f3fee7a6b1b724c575815b0");
+
+/***/ }),
+
 /***/ "./public/img/partners/arhique2.png":
 /*!******************************************!*\
   !*** ./public/img/partners/arhique2.png ***!
@@ -34109,21 +34121,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/teoretic.png?16878552b4dc98d977b0ed0728c4c23b");
-
-/***/ }),
-
-/***/ "./public/img/portfolio/adopet_mockup.png":
-/*!************************************************!*\
-  !*** ./public/img/portfolio/adopet_mockup.png ***!
-  \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/adopet_mockup.png?c68c71cf077722fa377dee321be1058c");
 
 /***/ }),
 

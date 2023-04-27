@@ -46,7 +46,7 @@
 
                 <div class="flex justify-center mt-2">
                     <p class="text-xl text-center" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-                        Adopet
+                        Adopets
                     </p>
                 </div>
 
@@ -150,7 +150,7 @@ import {Head} from "@inertiajs/inertia-vue3";
 import logo_bg from "/img/logo/logo_banner.png";
 import logo_bg_mobile from "/img/logo/logo_banner_mobile.png";
 
-import adopet_mockup from "/img/portfolio/adopet_mockup.png";
+import adopet_mockup from "/img/partners/adopet.webp";
 import dws_mockup from "/img/portfolio/dws_mockup.png";
 import arhique_mockup from "/img/portfolio/arhique_mockup.png";
 
