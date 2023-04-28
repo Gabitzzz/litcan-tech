@@ -59,18 +59,18 @@
                 Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved.
             </p>
 
-            <div class="md:flex mt-4 md:mt-0">
-                <a href="/privacy-policy" class="hover:underline">
-                    <p class="md:mx-2 my-3">
-                        Privacy Policy
-                    </p>
-                </a>
-                <a href="/cookies-policy" class="hover:underline">
-                    <p class="md:mx-2 my-3">
-                        Cookie Policy
-                    </p>
-                </a>
-            </div>
+<!--            <div class="md:flex mt-4 md:mt-0">-->
+<!--                <a href="/privacy-policy" class="hover:underline">-->
+<!--                    <p class="md:mx-2 my-3">-->
+<!--                        Privacy Policy-->
+<!--                    </p>-->
+<!--                </a>-->
+<!--                <a href="/cookies-policy" class="hover:underline">-->
+<!--                    <p class="md:mx-2 my-3">-->
+<!--                        Cookie Policy-->
+<!--                    </p>-->
+<!--                </a>-->
+<!--            </div>-->
         </div>
     </div>
 
