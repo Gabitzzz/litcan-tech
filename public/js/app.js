@@ -26123,7 +26123,17 @@ var _hoisted_4 = ["src"];
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Resources</div><a class=\"my-3 block hover:underline\" href=\"/\">Home <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/blog\">Blog <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/portfolio\">Portfolio <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Services</div><a class=\"my-3 block hover:underline\" href=\"/services/web-development\">Web Development <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/app-development\">App Developnent <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"/services/product-design\">Product Design <span class=\"text-teal-600 text-xs p-1\"></span></a></div><div class=\"p-5\"><div class=\"text-sm uppercase text-red-600 font-bold\">Contact us</div><a class=\"my-3 block hover:underline\" href=\"tel:+40773800815\"> +40 773 800 815 <span class=\"text-teal-600 text-xs p-1\"></span></a><a class=\"my-3 block hover:underline\" href=\"mailto:contact@litcan.tech\"> contact@litcan.tech </a><a class=\"my-3 block hover:underline\" href=\"https://goo.gl/maps/EEPbGtre78XufAicA\"> Brănești, Ilfov, Romania </a></div>", 3);
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<hr class=\"mx-10 lg:mx-48\"><div class=\"md:flex justify-between mx-8 xl:mx-64 mt-8 text-gray-800\"><p> Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved. </p><div class=\"md:flex mt-4 md:mt-0\"><a href=\"/privacy-policy\" class=\"hover:underline\"><p class=\"md:mx-2 my-3\"> Privacy Policy </p></a><a href=\"/cookies-policy\" class=\"hover:underline\"><p class=\"md:mx-2 my-3\"> Cookies Policy </p></a></div></div>", 2);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-10 lg:mx-48"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "md:flex justify-between mx-8 xl:mx-64 mt-8 text-gray-800"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            <div class=\"md:flex mt-4 md:mt-0\">"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <a href=\"/privacy-policy\" class=\"hover:underline\">"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    <p class=\"md:mx-2 my-3\">"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                        Privacy Policy"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    </p>"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                </a>"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <a href=\"/cookies-policy\" class=\"hover:underline\">"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    <p class=\"md:mx-2 my-3\">"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                        Cookies Policy"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                    </p>"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                </a>"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("            </div>")], -1
+/* HOISTED */
+);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <h3 class=\"font-bold text-xl text-red-600\">LITCAN TECHNOLOGIES</h3>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -26132,7 +26142,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "w-1/3 md:w-2/3"
   }, null, 8
   /* PROPS */
-  , _hoisted_4)]), _hoisted_5]), _hoisted_8])]);
+  , _hoisted_4)]), _hoisted_5]), _hoisted_8, _hoisted_9])]);
 }
 
 /***/ }),
