@@ -60,14 +60,14 @@
             </p>
 
             <div class="md:flex mt-4 md:mt-0">
-                <a :href="route('privacy.policy')" class="hover:underline">
+                <a href="/privacy-policy" class="hover:underline">
                     <p class="md:mx-2 my-3">
                         Privacy Policy
                     </p>
                 </a>
-                <a :href="route('cookies.policy')" class="hover:underline">
+                <a href="/cookies-policy" class="hover:underline">
                     <p class="md:mx-2 my-3">
-                        Cookie Policy
+                        Cookies Policy
                     </p>
                 </a>
             </div>
