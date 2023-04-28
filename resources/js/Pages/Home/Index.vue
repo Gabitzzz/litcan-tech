@@ -24,18 +24,18 @@
                 <img :src="banner_mobile" class=" w-full md:hidden" alt="">
 
                 <div class=" hidden md:flex justify-center lg:-mt-8 xl:-mt-16">
-                    <img :src="banner" class="w-1/2 lg:w-1/3  " alt="">
+                    <img :src="banner" class="w-full  " alt="">
                 </div>
 
 
                 <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-<!--                <link rel="preload"-->
-<!--                      fetchpriority="high" as="image"-->
-<!--                      :href="banner" type="image/webp">-->
+                <!--                <link rel="preload"-->
+                <!--                      fetchpriority="high" as="image"-->
+                <!--                      :href="banner" type="image/webp">-->
 
-<!--                <link rel="preload"-->
-<!--                      fetchpriority="high" as="image"-->
-<!--                      :href="banner_mobile" type="image/webp">-->
+                <!--                <link rel="preload"-->
+                <!--                      fetchpriority="high" as="image"-->
+                <!--                      :href="banner_mobile" type="image/webp">-->
 
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="lg:tracking-wider text-4xl text-center leading-tight"
@@ -237,7 +237,7 @@
         <hr class="mx-4 md:mx-32 2xl:mx-72">
 
         <!--        AUDIT    -->
-        <div class="my-32  mx-6 xl:mx-32  2xl:mx-72">
+        <div class="my-32  mx-6 xl:mx-32 2xl:mx-72">
             <div class=" md:flex justify-between items-center">
 
                 <img :src="audit_mobile"
@@ -292,21 +292,19 @@
             <div>
                 <h1
                     class="md:mx-16 lg:mx-32 text-3xl lg:text-5xl text-center
-                    md:text-left md:flex md:justify-center"
+                    md:flex md:justify-center"
                     style="font-family: 'Poppins', sans-serif; font-weight: 300;">
                     Industry-focused App Development
                 </h1>
 
                 <p class="text-center text-md lg:text-xl mt-6 md:mx-32 lg:mx-64"
                    style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                    Develop a mobile or web application tailored to your industry needs. To help your digital product
-                    succeed, we
-                    commit to comprehensively research your market and build an innovative solution that’s customized to
-                    your business, speaks your values and targets the right audience.
+                    By developing industry-focused apps, businesses can improve their efficiency, reduce costs, and gain
+                    a competitive advantage in the market.
                 </p>
             </div>
 
-            <div class="hidden mt-8 md:mx-16 xl:mx-64 md:flex justify-between">
+            <div class="hidden mt-16 md:mx-24 xl:mx-64 md:flex justify-between">
                 <div>
                     <div class="flex justify-center items-center rounded-full bg-white shadow-xl w-32 h-32">
                         <img :src="fintech" alt="" class="p-6">
@@ -465,7 +463,7 @@
 
 
         <!--        APP DEV -->
-        <div class="md:flex items-center mx-6 my-32 xl:mx-32 2xl:mx-72">
+        <div class="md:flex items-center mx-6 my-32 lg:mx-16 xl:mx-32 2xl:mx-72">
             <div class=" md:flex items-center">
                 <div class="">
                     <img :src="app_dev_mobile" class="w-full md:w-1/2 md:hidden"
@@ -527,55 +525,53 @@
 
         <!--       DIGITAL MARKETING    -->
         <div class="md:flex items-center justify-between my-32 mx-6 xl:mx-32 2xl:mx-72">
-                <img :src="digital_marketing"
-                     alt="Digital Marketing"
-                     title="Digital Marketing"
-                     class="w-full md:w-1/2 md:pr-24">
+            <img :src="digital_marketing"
+                 alt="Digital Marketing"
+                 title="Digital Marketing"
+                 class="w-full md:w-1/2 md:pr-24">
+            <div>
                 <div>
-                    <div>
-                        <p style="font-family: 'Poppins', sans-serif;"
-                           class="text-3xl  text-center
+                    <p style="font-family: 'Poppins', sans-serif;"
+                       class="text-3xl  text-center
                                     md:text-4xl md:mt-0  md:text-left
                                     lg:text-5xl">
-                            <strong>
-                                Grow your brand with our Digital
-                                <span class="text-red-600">
+                        <strong>
+                            Grow your brand with our Digital
+                            <span class="text-red-600">
                                 Marketing
                             </span>
-                                services
-                            </strong>
-                        </p>
+                            services
+                        </strong>
+                    </p>
 
-                        <div class="flex sm:block justify-center">
-                            <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
-                            </div>
+                    <div class="flex sm:block justify-center">
+                        <div class="w-1/2 mt-2 mb-4 bg-red-600 rounded-full h-1 md:h-1.5">
                         </div>
-                    </div>
-
-                    <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
-                       class=" text-xl mt-4 xl:text-2xl">
-                        Search Engine Optimization<br>
-                        Social Media Marketing <br>
-                    </p>
-
-                    <p class="mt-4 md:pr-12 text-md md:text-xl  md:text-left"
-                       style="font-family: 'Poppins', sans-serif; font-weight: 300;">
-                        <!--                        Any growing and upcoming business can benefit from a strong online presence. -->
-                        An online presence
-                        offers businesses a better opportunity to sustain, compete, and grow.
-                    </p>
-
-                    <div class="flex justify-center md:justify-start  mt-5">
-                        <a href="/services/app-development"
-                           class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
-                                  md:text-md
-                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
-                            CHECK OUT OUR SERVICES
-                        </a>
                     </div>
                 </div>
 
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 300;"
+                   class=" text-xl mt-4 xl:text-2xl">
+                    Search Engine Optimization<br>
+                    Social Media Marketing <br>
+                </p>
 
+                <p class="mt-4 md:pr-12 text-md md:text-xl  md:text-left"
+                   style="font-family: 'Poppins', sans-serif; font-weight: 300;">
+                    <!--                        Any growing and upcoming business can benefit from a strong online presence. -->
+                    An online presence
+                    offers businesses a better opportunity to sustain, compete, and grow.
+                </p>
+
+                <div class="flex justify-center md:justify-start  mt-5">
+                    <a href="/services/app-development"
+                       class="text-red-600 text-sm rounded-full px-10 py-2 border border-red-600
+                                  md:text-md
+                                  hover:text-white hover:bg-red-600 ease-in duration-150 ">
+                        CHECK OUT OUR SERVICES
+                    </a>
+                </div>
+            </div>
 
 
         </div>
@@ -585,7 +581,7 @@
             <LatestPartners></LatestPartners>
         </div>
         <!--        PRODUCT DESIGN-->
-        <div class="my-32 md:flex items-center mx-6 lg:mx-32 2xl:mx-72">
+        <div class="my-32 md:flex items-center mx-6 lg:mx-16 xl:mx-32 2xl:mx-72">
             <div class="">
                 <div class="flex justify-center">
                     <img :src="product_design_mobile" class="w-full md:hidden"
@@ -640,7 +636,7 @@
 
 
         <!--    CUSTOM DEVELOPMENT  -->
-        <div class="my-32 md:flex items-center justify-between mx-6 lg:mx-32 2xl:mx-72">
+        <div class="my-32 md:flex items-center mx-6 lg:mx-16 xl:mx-32 2xl:mx-72">
             <img :src="product_design_2"
                  alt="Custom Development"
                  title="Custom Development"
