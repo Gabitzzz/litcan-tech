@@ -60,7 +60,7 @@
             </p>
 
             <div class="md:flex mt-4 md:mt-0">
-                <a :href="route('privacy')" class="hover:underline">
+                <a href="/privacy-policy" class="hover:underline">
                     <p class="md:mx-2 my-3">
                         Privacy Policy
                     </p>
