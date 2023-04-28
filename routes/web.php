@@ -28,11 +28,11 @@ Route::get('/', function () {
 
 Route::get('/cookies-policy', function () {
     return Inertia::render('Legal/Cookies');
-})->name('cookies');
+})->name('cookies.policy');
 
 Route::get('/privacy-policy', function () {
     return Inertia::render('Legal/Privacy');
-})->name('privacy');
+})->name('privacy.policy');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
