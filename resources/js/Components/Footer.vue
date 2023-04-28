@@ -65,7 +65,7 @@
                         Privacy Policy
                     </p>
                 </a>
-                <a :href="route('cookies')" class="hover:underline">
+                <a href="/cookies-policy" class="hover:underline">
                     <p class="md:mx-2 my-3">
                         Cookie Policy
                     </p>
