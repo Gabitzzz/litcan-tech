@@ -53,13 +53,6 @@
 
     <div class="mx-6">
 
-<!--        <h1-->
-<!--            class="md:mx-32 text-4xl lg:text-5xl mt-16 lg:mt-32 text-center-->
-<!--                    md:text-left md:flex md:justify-center"-->
-<!--            style="font-family: 'Poppins', sans-serif; font-weight: 300;">-->
-<!--            Web Development Process-->
-<!--        </h1>-->
-
         <div class="flex justify-center mt-16">
             <p class="text-4xl lg:text-5xl"
                         style="font-family: 'Poppins', sans-serif; font-weight: 300;">

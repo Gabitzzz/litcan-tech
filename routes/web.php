@@ -26,6 +26,10 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
+Route::get('/cookies-policy', function () {
+    return Inertia::render('Legal/Cookies');
+})->name('cookies');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -65,9 +69,15 @@ Route::get('/services/custom-development', function () {
 
 
 
+
 Route::get('/portfolio', function () {
     return Inertia::render('Portfolio/Index');
 })->name('portfolio');
+
+Route::get('/privacy-policy', function () {
+    return Inertia::render('Legal/Privacy');
+})->name('privacy');
+
 
 Route::get('/blog', function () {
     return Inertia::render('Blog/Index');

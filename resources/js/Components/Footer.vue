@@ -40,14 +40,12 @@
                 </a>
 
                 <a class="my-3 block  hover:underline"
-                   href="mailto:contact@litcan.tech">contact@litcan.tech
-                    <span class="text-teal-600 text-xs p-1"></span>
+                   href="mailto:contact@litcan.tech">
+                    contact@litcan.tech
                 </a>
 
                 <a class="my-3 block  hover:underline " href="https://goo.gl/maps/EEPbGtre78XufAicA">
                     Brănești, Ilfov, Romania
-                    <span class="text-teal-600 text-xs p-1">
-                </span>
                 </a>
             </div>
 
@@ -56,18 +54,22 @@
         <hr class=" mx-10 lg:mx-48">
 
 
-        <div class="md:flex justify-between mx-8 xl:mx-64 mt-8 text-sm">
+        <div class="md:flex justify-between mx-8 xl:mx-64 mt-8 text-gray-800">
             <p>
                 Copyright © 2023 Lițcan Inernational Technologies SRL. All rights are reserved.
             </p>
 
             <div class="md:flex mt-4 md:mt-0">
-                    <p class="md:mx-2">
+                <a :href="route('privacy')" class="hover:underline">
+                    <p class="md:mx-2 my-3">
                         Privacy Policy
                     </p>
-                    <p class="md:mx-2">
+                </a>
+                <a :href="route('cookies')" class="hover:underline">
+                    <p class="md:mx-2 my-3">
                         Cookie Policy
                     </p>
+                </a>
             </div>
         </div>
     </div>
