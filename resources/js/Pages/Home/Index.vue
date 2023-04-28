@@ -28,15 +28,6 @@
                 </div>
 
 
-                <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-                <!--                <link rel="preload"-->
-                <!--                      fetchpriority="high" as="image"-->
-                <!--                      :href="banner" type="image/webp">-->
-
-                <!--                <link rel="preload"-->
-                <!--                      fetchpriority="high" as="image"-->
-                <!--                      :href="banner_mobile" type="image/webp">-->
-
                 <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;"
                     class="lg:tracking-wider text-4xl text-center leading-tight"
                 >

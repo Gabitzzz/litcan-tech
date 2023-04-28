@@ -676,10 +676,7 @@
         <div class="my-8 md:my-32   xl:mx-32  2xl:mx-72">
             <div class=" md:flex justify-between items-center">
 
-                <img :src="audit_mobile"
-                     alt="Website Audit"
-                     title="Website Audit"
-                     class="w-full lg:w-2/3 2xl:w-1/3 md:pr-16">
+
 
                 <div>
                     <div class="">
@@ -718,6 +715,11 @@
                         </a>
                     </div>
                 </div>
+
+                <img :src="audit_mobile"
+                     alt="Website Audit"
+                     title="Website Audit"
+                     class="w-full lg:w-1/2  md:pr-16">
             </div>
         </div>
 
@@ -725,10 +727,16 @@
 
         <!--        5. LAUNCH-->
         <div class="lg:mx-32 2xl:mx-72 my-16 md:flex justify-between items-center">
+
+
+
             <div class="flex justify-center md:hidden">
                 <img :src="launch" class=""
                      alt="">
             </div>
+
+            <img :src="launch" class="hidden md:block w-1/2 "
+                 alt="">
 
             <div>
                 <p class="text-center md:text-left text-4xl md:text-5xl"
@@ -763,8 +771,8 @@
                 </p>
             </div>
 
-            <img :src="launch" class="hidden md:block w-1/2 "
-                 alt="">
+
+
 
         </div>
 

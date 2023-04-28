@@ -15,24 +15,24 @@
             <div class="navbar-center hidden lg:flex">
 
 
-                <div class="text-red-500 menu-horizontal text-black flex items-center "
+                <div class="text-red-500 menu-horizontal text-black flex items-center text-sm "
                      style="font-family: 'Nunito', sans-serif; font-weight: 300;">
 
 
-                    <a href="/" class=" px-4 text-sm rounded-full underline-opening"
+                    <a href="/" class=" px-4  rounded-full underline-opening"
                     >
                         HOME
                     </a>
 
-                    <a href="/services" class="px-4 text-sm rounded-full underline-opening">
+                    <a href="/services" class="px-4  rounded-full underline-opening">
                         SERVICES
                     </a>
 
-                    <a href="/portfolio" class="px-4 text-sm rounded-full underline-opening">
+                    <a href="/portfolio" class="px-4  rounded-full underline-opening">
                         PORTFOLIO
                     </a>
 
-                    <a href="/portfolio" class="px-4 text-sm rounded-full underline-opening">
+                    <a href="/portfolio" class="px-4  rounded-full underline-opening">
                         BLOG
                     </a>
 
@@ -95,30 +95,30 @@
 
                     <!--                    PHONE   MENU    -->
                     <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-white shadow">
-                        <div class="card-body ">
+                        <div class="card-body text-2xl">
                             <div class="menu menu-vertical lg:menu-horizontal bg-white rounded-box">
                                 <a href="/"
-                                   class=" px-6 py-2 text-sm rounded-full underline-opening">
+                                   class=" px-6 py-2  rounded-full underline-opening">
                                     HOME
                                 </a>
 
                                 <a href="/services"
-                                   class="px-6 py-2 text-sm rounded-full underline-opening">
+                                   class="px-6 py-2  rounded-full underline-opening">
                                     SERVICES
                                 </a>
 
                                 <a href="/portfolio"
-                                   class="px-6 py-2 text-sm rounded-full underline-opening">
+                                   class="px-6 py-2  rounded-full underline-opening">
                                     PORTFOLIO
                                 </a>
 
-<!--                                <a href="/blog"-->
-<!--                                   class="px-6 py-2 text-sm rounded-full underline-opening">-->
-<!--                                    BLOG-->
-<!--                                </a>-->
+                                <a href="/blog"
+                                   class="px-6 py-2  rounded-full underline-opening">
+                                    BLOG
+                                </a>
 
                                 <a href="/contact"
-                                   class="text-red-500 px-6 py-2 text-sm  rounded full px-4 py-1 text-sm rounded-full underline-opening">
+                                   class="text-red-500 px-6 py-2   rounded full px-4 py-1 text-sm rounded-full underline-opening">
                                     CONTACT
                                 </a>
                             </div>

@@ -5832,6 +5832,9 @@ body[dir="rtl"] .checkbox:checked,
 .max-w-full {
   max-width: 100%;
 }
+.max-w-screen-xl {
+  max-width: 1280px;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -6966,12 +6969,24 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  @media (min-width: 768px) {
+
+    .md\:md\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
   }
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-x-8 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 
   .md\:border-t-0 {
@@ -7177,6 +7192,10 @@ body {
 
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {

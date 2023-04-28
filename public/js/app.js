@@ -26384,7 +26384,7 @@ var _hoisted_6 = {
   "class": "navbar-center hidden lg:flex"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-red-500 menu-horizontal text-black flex items-center\" style=\"font-family:&#39;Nunito&#39;, sans-serif;font-weight:300;\" data-v-4a80dbca><a href=\"/\" class=\"px-4 text-sm rounded-full underline-opening\" data-v-4a80dbca> HOME </a><a href=\"/services\" class=\"px-4 text-sm rounded-full underline-opening\" data-v-4a80dbca> SERVICES </a><a href=\"/portfolio\" class=\"px-4 text-sm rounded-full underline-opening\" data-v-4a80dbca> PORTFOLIO </a><a href=\"/portfolio\" class=\"px-4 text-sm rounded-full underline-opening\" data-v-4a80dbca> BLOG </a></div>", 1);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-red-500 menu-horizontal text-black flex items-center text-sm\" style=\"font-family:&#39;Nunito&#39;, sans-serif;font-weight:300;\" data-v-4a80dbca><a href=\"/\" class=\"px-4 rounded-full underline-opening\" data-v-4a80dbca> HOME </a><a href=\"/services\" class=\"px-4 rounded-full underline-opening\" data-v-4a80dbca> SERVICES </a><a href=\"/portfolio\" class=\"px-4 rounded-full underline-opening\" data-v-4a80dbca> PORTFOLIO </a><a href=\"/portfolio\" class=\"px-4 rounded-full underline-opening\" data-v-4a80dbca> BLOG </a></div>", 1);
 
 var _hoisted_8 = {
   "class": "flex items-center",
@@ -26425,7 +26425,7 @@ var _hoisted_17 = {
 };
 var _hoisted_18 = ["src"];
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex-none\" data-v-4a80dbca><div class=\"dropdown dropdown-end\" data-v-4a80dbca><label tabindex=\"0\" class=\"btn btn-ghost btn-circle lg:hidden\" data-v-4a80dbca><div data-v-4a80dbca><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 hamburger\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" data-v-4a80dbca><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h7\" data-v-4a80dbca></path></svg></div></label><!--                    PHONE   MENU    --><div tabindex=\"0\" class=\"mt-3 card card-compact dropdown-content w-52 bg-white shadow\" data-v-4a80dbca><div class=\"card-body\" data-v-4a80dbca><div class=\"menu menu-vertical lg:menu-horizontal bg-white rounded-box\" data-v-4a80dbca><a href=\"/\" class=\"px-6 py-2 text-sm rounded-full underline-opening\" data-v-4a80dbca> HOME </a><a href=\"/services\" class=\"px-6 py-2 text-sm rounded-full underline-opening\" data-v-4a80dbca> SERVICES </a><a href=\"/portfolio\" class=\"px-6 py-2 text-sm rounded-full underline-opening\" data-v-4a80dbca> PORTFOLIO </a><!--                                &lt;a href=&quot;/blog&quot;--><!--                                   class=&quot;px-6 py-2 text-sm rounded-full underline-opening&quot;&gt;--><!--                                    BLOG--><!--                                &lt;/a&gt;--><a href=\"/contact\" class=\"text-red-500 px-6 py-2 text-sm rounded full px-4 py-1 text-sm rounded-full underline-opening\" data-v-4a80dbca> CONTACT </a></div></div></div></div></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex-none\" data-v-4a80dbca><div class=\"dropdown dropdown-end\" data-v-4a80dbca><label tabindex=\"0\" class=\"btn btn-ghost btn-circle lg:hidden\" data-v-4a80dbca><div data-v-4a80dbca><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 hamburger\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" data-v-4a80dbca><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h7\" data-v-4a80dbca></path></svg></div></label><!--                    PHONE   MENU    --><div tabindex=\"0\" class=\"mt-3 card card-compact dropdown-content w-52 bg-white shadow\" data-v-4a80dbca><div class=\"card-body text-2xl\" data-v-4a80dbca><div class=\"menu menu-vertical lg:menu-horizontal bg-white rounded-box\" data-v-4a80dbca><a href=\"/\" class=\"px-6 py-2 rounded-full underline-opening\" data-v-4a80dbca> HOME </a><a href=\"/services\" class=\"px-6 py-2 rounded-full underline-opening\" data-v-4a80dbca> SERVICES </a><a href=\"/portfolio\" class=\"px-6 py-2 rounded-full underline-opening\" data-v-4a80dbca> PORTFOLIO </a><a href=\"/blog\" class=\"px-6 py-2 rounded-full underline-opening\" data-v-4a80dbca> BLOG </a><a href=\"/contact\" class=\"text-red-500 px-6 py-2 rounded full px-4 py-1 text-sm rounded-full underline-opening\" data-v-4a80dbca> CONTACT </a></div></div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
@@ -28351,7 +28351,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_10)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <link rel=\"preload\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      fetchpriority=\"high\" as=\"image\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      :href=\"banner\" type=\"image/webp\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                <link rel=\"preload\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      fetchpriority=\"high\" as=\"image\""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                      :href=\"banner_mobile\" type=\"image/webp\">"), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  , _hoisted_10)]), _hoisted_11])]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    DESKTOP SERVICES    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('web-dev'),
     "class": "px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease"
   }, " Web Development ", 8
@@ -32638,9 +32638,10 @@ var _hoisted_135 = {
 var _hoisted_136 = {
   "class": "md:flex justify-between items-center"
 };
-var _hoisted_137 = ["src"];
 
-var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong> Request a free <span class=\"text-red-600\">audit</span> of your website </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p><div class=\"flex justify-center md:justify-start mt-8\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+var _hoisted_137 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><div class=\"\"><p style=\"font-family:&#39;Poppins&#39;, sans-serif;\" class=\"text-3xl md:text-4xl lg:text-5xl md:mt-0 font-bold text-center md:text-left\"><strong> Request a free <span class=\"text-red-600\">audit</span> of your website </strong></p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div></div><p style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\" class=\"text-xl xl:text-2xl mt-4\"> Website Performance Optimization<br> Website Redesign <br> Conversion Rate Optimization </p><p class=\"mt-4 text-md md:text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> See how we can improve your website and reach maximum potential. </p><div class=\"flex justify-center md:justify-start mt-8\"><a href=\"/contact\" class=\"text-red-600 text-sm rounded-full px-10 py-2 border border-red-600 md:text-md hover:text-white hover:bg-red-600 ease-in duration-150\"> CONTACT US </a></div></div>", 1);
+
+var _hoisted_138 = ["src"];
 
 var _hoisted_139 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
   "class": "mx-12 md:mx-32 2xl:mx-72"
@@ -32655,10 +32656,10 @@ var _hoisted_141 = {
   "class": "flex justify-center md:hidden"
 };
 var _hoisted_142 = ["src"];
+var _hoisted_143 = ["src"];
 
-var _hoisted_143 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center md:text-left text-4xl md:text-5xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\"><span class=\"text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Stage 5. <br></span> Launching </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"text-xl md:text-2xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Performance Reports <br> Server Side Development <br></p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Everything is provided in order to launch a great product, ready to bring value to your business. </p></div>", 1);
+var _hoisted_144 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><p class=\"text-center md:text-left text-4xl md:text-5xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:700;\"><span class=\"text-xl\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Stage 5. <br></span> Launching </p><div class=\"flex sm:block justify-center\"><div class=\"w-1/2 my-4 bg-red-600 rounded-full h-1 md:h-1.5\"></div></div><p class=\"text-xl md:text-2xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Performance Reports <br> Server Side Development <br></p><p class=\"text-md md:text-xl mt-4\" style=\"font-family:&#39;Poppins&#39;, sans-serif;font-weight:300;\"> Everything is provided in order to launch a great product, ready to bring value to your business. </p></div>", 1);
 
-var _hoisted_144 = ["src"];
 var _hoisted_145 = {
   "class": "mx-6"
 };
@@ -32869,26 +32870,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_132), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"md:mx-32\">"), _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        AUDIT    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_135, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_132), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"md:mx-32\">"), _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        AUDIT    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_135, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, [_hoisted_137, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.audit_mobile,
     alt: "Website Audit",
     title: "Website Audit",
-    "class": "w-full lg:w-2/3 2xl:w-1/3 md:pr-16"
+    "class": "w-full lg:w-1/2 md:pr-16"
   }, null, 8
   /* PROPS */
-  , _hoisted_137), _hoisted_138])]), _hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        5. LAUNCH"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_140, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_138)])]), _hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        5. LAUNCH"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_140, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.launch,
     "class": "",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_142)]), _hoisted_143, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_142)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.launch,
     "class": "hidden md:block w-1/2",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_144)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"mx-12 md:mx-32 2xl:mx-72\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LATEST PARTNERS     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_147, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  , _hoisted_143), _hoisted_144])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <hr class=\"mx-12 md:mx-32 2xl:mx-72\">"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        LATEST PARTNERS     "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_LatestPartners), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        6. MAINTENANCE  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_147, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: $data.maintenance,
     "class": "",
     alt: ""
